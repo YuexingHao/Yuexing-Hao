@@ -16,6 +16,7 @@ I hold Computer Science degrees from Rutgers University (B.A.) and Tufts Univers
 ## News
 
 - **[Oct. 2023]** Our poster paper about shared decision-making (SDM) for aging populations in chronic disease is accepted to CSCW 2023.
+- **[Aug. 2023]** Our department graduate student association received $2500 service funding for Fall 2023!
 - **[Jun. 2023]** I was accepted to 2023 WHO/Cochrane/Cornell University Summer Institute and received fellowship from Human Centered Design Department ($1500).
 - **[Apr. 2023]** I received fundings from Cornell Institute for Healthy Futures (CIHF) Research Grant ($500) and will be in Mexico City for EDRA 2023!
 
