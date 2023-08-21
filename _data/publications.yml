@@ -7,7 +7,7 @@ main:
     pdf: https://dl.acm.org/doi/10.1145/3544548.3581393
     news: https://news.cornell.edu/stories/2023/04/ai-tool-gains-doctors-trust-giving-advice-colleague
     image: ./assets/img/Post_Design.jpg
-    notes: Early Accept
+    notes: * equal contributions
 
   - title: "An Exploratory Study of Shared Decision-Making (SDM) for Older Adult Patients with Chronic Diseases"
     authors: <strong>Yuexing Hao</strong>, Zeyu Liu, Dr. Monika Safford, Dr. Rulla Tamimi, Dr. Saleh Kalantari.
