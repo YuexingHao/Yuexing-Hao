@@ -1,16 +1,16 @@
 main:
 
-  - title: Continual Learning for Abdominal Multi-Organ and Tumor Segmentation
-    authors: Yixiao Zhang, Xinyi Li, Huimiao Chen, Alan Yuille, <strong>Yaoyao Liu*</strong>, Zongwei Zhou* (*Corresponding authors)
-    conference_short: MICCAI
-    conference: International Conference on Medical Image Computing and Computer-Assisted Intervention <strong>(MICCAI)</strong>, 2023.
-    pdf: https://arxiv.org/pdf/2306.00988.pdf
+  - title: Harnessing Biomedical Literature to Calibrate Clinicians’ Trust in AI Decision Support Systems
+    authors: Yang Qian, <strong>Yuexing Hao*</strong>, Kexin Quan*, Stephen Yang*, Yiran Zhao*, Volodymyr Kuleshov, Fei Wang. 
+    conference_short: CHI
+    conference: 2023 CHI Conference on Human Factors in Computing Systems <strong>(CHI)</strong>, 2023.
+    pdf: https://dl.acm.org/doi/10.1145/3544548.3581393
     code: https://github.com/MrGiovanni/ContinualLearning
     bibtex: https://bib.yliu.me/MICCAI23.txt
-    image: ./assets/img/teaser_example_2.png
+    image: ./assets/img/Post_Design.jpg
     notes: Early Accept
 
-  - title: "Mnemonics Training: Multi-Class Incremental Learning without Forgetting"
+  - title: "An Exploratory Study of Shared Decision-Making (SDM) for Older Adult Patients with Chronic Diseases"
     authors: <strong>Yuexing Hao</strong>, Zeyu Liu, Dr. Monika Safford, Dr. Rulla Tamimi, Dr. Saleh Kalantari.
     conference_short: CSCW
     conference: 26th ACM Conference On Computer-Supported Cooperative Work And Social Computing <strong>(CSCW)</strong>, 2023.
