@@ -5,8 +5,6 @@ main:
     conference_short: CHI
     conference: 2023 CHI Conference on Human Factors in Computing Systems <strong>(CHI)</strong>, 2023.
     pdf: https://dl.acm.org/doi/10.1145/3544548.3581393
-    code: https://github.com/MrGiovanni/ContinualLearning
-    bibtex: https://bib.yliu.me/MICCAI23.txt
     image: ./assets/img/Post_Design.jpg
     notes: Early Accept
 
@@ -14,7 +12,7 @@ main:
     authors: <strong>Yuexing Hao</strong>, Zeyu Liu, Dr. Monika Safford, Dr. Rulla Tamimi, Dr. Saleh Kalantari.
     conference_short: CSCW
     conference: 26th ACM Conference On Computer-Supported Cooperative Work And Social Computing <strong>(CSCW)</strong>, 2023.
-    pdf: https://arxiv.org/pdf/2002.10211.pdf
+    pdf: https://doi.org/10.1145/3584931.3607023
     notes: In-Person Presentation
     image: ./assets/img/table final.png
 
