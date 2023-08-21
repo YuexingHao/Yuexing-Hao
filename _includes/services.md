@@ -7,3 +7,12 @@
   <li><a href="https://amia.org/education-events/amia-2023-annual-symposium"><autocolor>AMIA 2023 Annual Symposium Abstract Reviewer</autocolor></a></li>
 </ul>
 
+
+<h4 style="margin:0 10px 0;">Professional Services</h4>
+
+<ul style="margin:0 0 5px;">
+  <li><autocolor>Cornell University Human-Centered Design Graduate Student Association (HCD GSA) 2023-2024 President</autocolor></li>
+  <li><a href="https://drive.google.com/file/d/13JPG9TOPWGBt2XnPA8GSLzz7mStgAqJy/view?usp=sharing"><autocolor>2023 Colman Inclusive Leadership Program </autocolor></a></li>
+  <li><autocolor>ACM Special Interest Group on Computer-Human Interaction (SIGCHI) Student Member</autocolor></li>
+  <li><a href="https://drive.google.com/file/d/1q-RHn8hr2-0vR5QsuxmIW7WqVL0ACubU/view?usp=sharing"><autocolor>Organizer of 2022 Cornell + Miller Knoll Innovation Challenge for Future Healthcare Solutions</autocolor></a></li>
+</ul>
