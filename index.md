@@ -4,7 +4,9 @@ layout: homepage
 
 ## About Me
 
-I am currently pursuing my Ph.D. at Cornell University. I hold Computer Science degrees from Rutgers University (B.A.) and Tufts University (M.S). My Ph.D. study's interests are mainly span in Human-Computer Interaction research and entrepreneurship. Presently, I am based in the beautiful Ithaca, NY. In my spare time, I love to do many outdoor activities, such as ice hockey, squash, and water skiing.
+I am currently pursuing my Ph.D. at Cornell University. My name means "happy walking is good", and the pronunciation is "You-Sing."
+
+I hold Computer Science degrees from Rutgers University (B.A.) and Tufts University (M.S). My Ph.D. pursuits predominantly embrace the realms of Human-Computer Interaction research and the dynamic realm of entrepreneurship. Presently, I am based in the beautiful Ithaca, NY. In my spare time, I love to do many outdoor activities, such as ice hockey, squash, and water skiing.
 
 ## Research Interests
 
