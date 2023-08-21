@@ -1,7 +1,7 @@
 main:
 
   - title: Harnessing Biomedical Literature to Calibrate Clinicians’ Trust in AI Decision Support Systems
-    authors: Yang Qian, <strong>Yuexing Hao*</strong>, Kexin Quan*, Stephen Yang*, Yiran Zhao*, Volodymyr Kuleshov, Fei Wang. 
+    authors: Dr. Yang Qian, <strong>Yuexing Hao*</strong>, Kexin Quan*, Stephen Yang*, Yiran Zhao*, Dr. Volodymyr Kuleshov, Dr. Fei Wang. 
     conference_short: CHI
     conference: 2023 CHI Conference on Human Factors in Computing Systems <strong>(CHI)</strong>, 2023.
     pdf: https://dl.acm.org/doi/10.1145/3544548.3581393
@@ -17,3 +17,11 @@ main:
     pdf: https://arxiv.org/pdf/2002.10211.pdf
     notes: In-Person Presentation
     image: ./assets/img/table final.png
+
+  - title: "Dynamic Strategies and Opponent Hands Estimation for Reinforcement Learning in Gin Rummy Game"
+    authors: <strong>Yuexing Hao</strong>, Mark Vaysiberg.
+    conference_short: IntelliSys
+    conference: Intelligent Systems and Applications <strong>(IntelliSys)</strong>, 2021.
+    pdf: https://link.springer.com/chapter/10.1007/978-3-030-82193-7_36
+    notes: Virtual Presentation
+    image: ./assets/img/Intelli Presentation.jpg
