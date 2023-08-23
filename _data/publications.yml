@@ -1,7 +1,7 @@
 main:
 
   - title: Harnessing Biomedical Literature to Calibrate Clinicians’ Trust in AI Decision Support Systems
-    authors: Dr. Yang Qian, <strong>Yuexing Hao*</strong>, Kexin Quan*, Stephen Yang*, Yiran Zhao*, Dr. Volodymyr Kuleshov, Dr. Fei Wang. 
+    authors: Dr. Qian Yang, <strong>Yuexing Hao*</strong>, Kexin Quan*, Stephen Yang*, Yiran Zhao*, Dr. Volodymyr Kuleshov, Dr. Fei Wang. 
     conference_short: CHI
     conference: 2023 CHI Conference on Human Factors in Computing Systems <strong>(CHI)</strong>, 2023.
     pdf: https://dl.acm.org/doi/10.1145/3544548.3581393
