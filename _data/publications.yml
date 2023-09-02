@@ -5,7 +5,8 @@ main:
     conference_short: CHI
     conference: 2023 CHI Conference on Human Factors in Computing Systems <strong>(CHI)</strong>, 2023.
     pdf: https://dl.acm.org/doi/10.1145/3544548.3581393
-    code: https://news.cornell.edu/stories/2023/04/ai-tool-gains-doctors-trust-giving-advice-colleague
+    news: https://news.cornell.edu/stories/2023/04/ai-tool-gains-doctors-trust-giving-advice-colleague
+    page: https://yuexinghao.github.io/BLR_demo_site/main_page.html
     image: ./assets/img/Post_Design.jpg
     notes: "* equal contributions"
 
