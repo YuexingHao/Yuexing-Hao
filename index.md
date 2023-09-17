@@ -10,7 +10,7 @@ I hold Computer Science degrees from Rutgers University (B.A.) and Tufts Univers
 
 My [old personal website](https://1135100136.wixsite.com/yuexinghao) with some interesting posts. Stop using it from Aug 2022.
 
-<span style="color:red;">I am actively seeking a research internship for Summer 2024. Please feel free to contact me at yh727@cornell.edu. </span>
+<span style="color:red;">I am looking for a research internship in HCI and AI for Summer 2024. Please contact me at yh727@cornell.edu. </span>
 
 ## Research Interests
 
