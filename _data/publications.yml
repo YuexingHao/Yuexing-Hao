@@ -1,5 +1,13 @@
 main:
 
+  - title: "Digital Twin-Driven Teat Localization and Shape Identification for Dairy Cow"
+    authors: Aarushi Gupta *, <strong>Yuexing Hao*</strong>, Yuting Yan *, Tiancheng Yuan *, Dr. Matthias Wieland, Dr. Parminder S. Basran, Dr. Ken Birman.
+    conference_short: AAAI
+    conference: The 38th AAAI Conference on Artificial Intelligence <strong>(AAAI)</strong>, 2024.
+    pdf: ./assets/files/AAAI 24_CIDA.pdf
+    notes: Under Review
+    image: ./assets/img/AAAI 24.png
+
   - title: Harnessing Biomedical Literature to Calibrate Clinicians’ Trust in AI Decision Support Systems
     authors: Dr. Qian Yang, <strong>Yuexing Hao*</strong>, Kexin Quan*, Stephen Yang*, Yiran Zhao*, Dr. Volodymyr Kuleshov, Dr. Fei Wang. 
     conference_short: CHI
