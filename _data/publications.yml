@@ -1,5 +1,13 @@
 main:
 
+  - title: "Personalized AIoT-Based Medication/Dietary Supplement Management Intervention"
+    authors: Yuexing Hao, Zeyu Liu.
+    conference_short: CSCW
+    conference: 27th ACM Conference On Computer-Supported Cooperative Work And Social Computing <strong>(CSCW)</strong>, 2024.
+    pdf: ./assets/files/HUG_Draft.pdf
+    notes: Under Review
+    image: ./assets/img/HUG YH.jpg
+
   - title: "Digital Twin-Driven Teat Localization and Shape Identification for Dairy Cow"
     authors: Aarushi Gupta *, <strong>Yuexing Hao*</strong>, Yuting Yan *, Tiancheng Yuan *, Dr. Matthias Wieland, Dr. Parminder S. Basran, Dr. Ken Birman.
     conference_short: AAAI
