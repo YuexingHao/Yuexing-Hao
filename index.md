@@ -15,7 +15,8 @@ My [old personal website](https://1135100136.wixsite.com/yuexinghao) with some i
 ## Research Interests
 
 - **Human-Computer Interaction (HCI):** Human-AI Interaction, Artificial Intelligence of Things (AIoT)
-- **Health Intelligence:** Clinical Decision Science, Metaverse Outpatient Clinics, Patient-centered Framework
+- **Health Intelligence:** Clinical Decision Science, Patient-centered Framework, Decision Support Tool (DST)
+- **One Health:** Veterinary Precision Health
 
 ## News
 
