@@ -1,6 +1,6 @@
 <h1 id="Selected Awards and Grants"></h1>
 
-<h2 style="margin: 60px 0px 10px;">Awards</h2>
+<h2 style="margin: 20px 0px 10px;">Awards</h2>
 
 <ul>
   <li>2023 Life Sciences Technology Innovation Fellowship (LSTIF)</li>
