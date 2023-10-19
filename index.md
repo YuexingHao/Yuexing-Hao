@@ -33,6 +33,8 @@ My [old personal website](https://1135100136.wixsite.com/yuexinghao) with some i
   
 </details>
 
+{% include_relative _includes/news.md %}
+
 ## Selected Awards and Grants
 
 - 2023 Life Sciences Technology Innovation Fellowship (LSTIF)
