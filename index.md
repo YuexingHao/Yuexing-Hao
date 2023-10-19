@@ -28,10 +28,10 @@ My [old personal website](https://1135100136.wixsite.com/yuexinghao) with some i
   <li><strong>[Aug. 2023]</strong> Our department graduate student association received $2500 service funding for Fall 2023!</li>
   <li><strong>[Jun. 2023]</strong> I was accepted to 2023 WHO/Cochrane/Cornell University Summer Institute and received fellowship from Human Centered Design Department ($1500).</li>
   <li><strong>[Apr. 2023]</strong> I received fundings from Cornell Institute for Healthy Futures (CIHF) Research Grant ($500) and will be in Mexico City for EDRA 2023!</li>
+
+
   
 </details>
-
-
 
 ## Selected Awards and Grants
 
