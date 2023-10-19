@@ -1,4 +1,4 @@
-<h2 style="margin: 60px 0px 10px;">News</h2>
+<h2 style="margin: 20px 0px 10px;">News</h2>
 
 <li><strong>[Feb. 2024]</strong> I will become a keynote speaker at 2024 Greg Smith Palliative Care Summit, Hyde Park, NY, discussing 'Advancing Palliative Care with AI.' #AIinHealthcare.</li>
 <li><strong>[Oct. 2023]</strong> Our poster paper about shared decision-making (SDM) for aging populations in chronic disease is accepted to CSCW 2023.</li>
