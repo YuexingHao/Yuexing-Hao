@@ -20,14 +20,7 @@ My [old personal website](https://1135100136.wixsite.com/yuexinghao) with some i
 
 {% include_relative _includes/news.md %}
 
-## Selected Awards and Grants
-
-- 2023 Life Sciences Technology Innovation Fellowship (LSTIF)
-- Cornell Tech XR Access Symposium Scholarship
-- Women Entrepreneurs in STEM (W.E.) Cornell Summer Fund
-- Cornell Institute for Healthy Futures (CIHF) Research Grant
-- ACM SIGCHI 2023 Gary Marsden Travel Award
-- Cornell University Career Beyond Academia 2023 Professional Development Funding
+{% include_relative _includes/awards.md %}
 
 {% include_relative _includes/publications.md %}
 
