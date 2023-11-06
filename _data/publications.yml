@@ -12,8 +12,8 @@ main:
     authors: Aarushi Gupta *, <strong>Yuexing Hao*</strong>, Yuting Yang *, Tiancheng Yuan *, Dr. Matthias Wieland, Dr. Parminder S. Basran, Dr. Ken Birman.
     conference_short: AAAI
     conference: The 38th AAAI Conference on Artificial Intelligence <strong>(AAAI)</strong>, 2024.
-    pdf: ./assets/files/AAAI_24_CIDA (2).pdf
-    notes: Under Review
+    pdf: ./assets/files/AAAI_24_CIDA.pdf
+    notes: "* equal contributions"
     image: ./assets/img/AAAI 24.png
 
   - title: Harnessing Biomedical Literature to Calibrate Clinicians’ Trust in AI Decision Support Systems
