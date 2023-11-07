@@ -1,5 +1,7 @@
 <h2 style="margin: 20px 0px 10px;">News</h2>
 
+{% for link in site.data.news.main %}
+
 <ul>
 <li><strong>[Feb. 2024]</strong> Our poster paper "Digital Twin-Driven Teat Localization and Shape Identification for Dairy Cow" has been accepted to AAAI 24' student poster program, with amazing coauthors Aarushi, Yuting, Tiancheng, Dr. Matthias Wieland, Dr. Parminder Basran, and Dr. Ken Birman!</li>
 <li><strong>[Feb. 2024]</strong> I will become a keynote speaker at 2024 Greg Smith Palliative Care Summit, Hyde Park, NY, discussing 'Advancing Palliative Care with AI.' #AIinHealthcare.</li>
