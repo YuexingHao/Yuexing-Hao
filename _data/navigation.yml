@@ -1,20 +1,17 @@
 main:
 
+  - title: "Awards"
+    url: ./#awards
+    right: true 
+
   - title: "Publications"
     url: ./#publications
-    right: true 
 
   #- title: "Services"
   #  url: ./#services
 
   #- title: "Teaching"
   #  url: ./#teaching
-
-  - title: "Awards"
-    url: ./#awards
-
-  #- title: "News"
-  #  url: ./#news
-
-  - title: "Services"
-    url: ./#services
+  
+  - title: "News"
+    url: ./#news
