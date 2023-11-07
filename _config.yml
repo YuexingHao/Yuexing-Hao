@@ -32,6 +32,9 @@ enable_footnote: true
 # You may use the option to disable the automatic dark theme
 auto_dark_mode: true
 
+# The option is used to show the last update time.
+enable_last_update: true
+
 # Font
 # You can use this option to choose between Serif or Sans Serif fonts.
 font: "Serif" # or "Sans Serif"
