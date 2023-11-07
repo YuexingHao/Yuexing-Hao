@@ -1,5 +1,4 @@
-<h2 id="awards" style="margin: 20px 0px 10px;">News</h2>
-
+<h2 id="news" style="margin: 20px 0px 10px;">News</h2>
 
 <ul>
 <li><strong>[Feb. 2024]</strong> Our poster paper "Digital Twin-Driven Teat Localization and Shape Identification for Dairy Cow" has been accepted to AAAI 24' student poster program, with amazing coauthors Aarushi, Yuting, Tiancheng, Dr. Matthias Wieland, Dr. Parminder Basran, and Dr. Ken Birman!</li>
