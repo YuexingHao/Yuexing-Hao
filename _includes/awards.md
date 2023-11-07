@@ -1,6 +1,6 @@
-<h1 id="Selected Awards and Grants"></h1>
-
 {% for link in site.data.awards.main %}
+
+<h1 id="Selected Awards and Grants"></h1>
 
 <h2 style="margin: 20px 0px 10px;">Awards</h2>
 
@@ -12,3 +12,5 @@
   <li>ACM SIGCHI 2023 Gary Marsden Travel Award</li>  
   <li>Cornell University Career Beyond Academia 2023 Professional Development Funding</li>
 </ul>
+
+{% endfor %}
