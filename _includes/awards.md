@@ -1,4 +1,4 @@
-<h1 id="Selected Awards and Grants"></h1>
+<h1 id="awards"></h1>
 
 <h2 style="margin: 20px 0px 10px;">Awards</h2>
 
