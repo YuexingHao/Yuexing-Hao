@@ -8,7 +8,7 @@ I am currently pursuing my Ph.D. at Cornell University. My name means "happy wal
 
 I hold Computer Science degrees from Rutgers University (B.A.) and Tufts University (M.S). My Ph.D. pursuits predominantly embrace the realms of Human-Computer Interaction research and the dynamic realm of entrepreneurship. Presently, I am based in the beautiful Ithaca, NY. In my spare time, I love to do many outdoor activities, such as ice hockey, squash, and water skiing.
 
-My [old personal website](https://1135100136.wixsite.com/yuexinghao) with some interesting posts. Stop using it from Aug 2022.
+My [old personal website](https://1135100136.wixsite.com/yuexinghao/blog) with some interesting posts. Stop using it from Aug 2022.
 
 <span style="color:red;">I am actively looking for a research internship in HCI and AI for Summer 2024. </span>
 
