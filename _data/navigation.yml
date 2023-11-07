@@ -1,23 +1,20 @@
 main:
 
-  - title: "Contact"
-    url: ./#contact 
+  - title: "Publications"
+    url: ./#publications
     right: true 
 
   #- title: "Services"
   #  url: ./#services
 
-  #- title: "Awards"
-  #  url: ./#awards
-
   #- title: "Teaching"
   #  url: ./#teaching
 
-  - title: "Publications"
-    url: ./#publications
+  - title: "Awards"
+    url: ./#award
 
   #- title: "News"
   #  url: ./#news
 
-  - title: "Bio"
-    url: ./#about-me
+  - title: "Services"
+    url: ./#services
