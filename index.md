@@ -14,9 +14,9 @@ My [old personal website](https://1135100136.wixsite.com/yuexinghao/blog) with s
 
 ## Research Interests
 
-- **Human-Computer Interaction (HCI):** Human-AI Interaction, Artificial Intelligence of Things (AIoT)
-- **Health Intelligence:** Clinical Decision Science, Patient-centered Framework, Decision Support Tool (DST)
-- **One Health:** Veterinary Precision Health
+- **Human-Computer Interaction (HCI):** Human-AI Interaction [IntelliSys 21', CHI 23'], Artificial Intelligence of Things (AIoT) [CSCW 24'], Explainable LLM
+- **Health Intelligence:** Clinical Decision Science [CSCW 23'], Patient-centered Framework [CHI 24'], Decision Support Tool (DST) [CHI 23']
+- **One Health:** Veterinary Precision Health [AAAI 24']
 
 {% include_relative _includes/news.md %}
 
