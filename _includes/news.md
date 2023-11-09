@@ -1,7 +1,7 @@
 <h2 id="news" style="margin: 20px 0px 10px;">News</h2>
 
 <ul>
-<li><strong>[Nov. 2023]</strong> I am super selected as the <a href="https://onereach.ai/academic-fellowship/"> OneReach.ai Academic Fellow</a>, with my proposal 'Explain and Enhance: Patient-Centered Learning With LLM from the Public Online Cancer Forum.' </li>
+<li><strong>[Nov. 2023]</strong> I am super excited to be selected as the <a href="https://onereach.ai/academic-fellowship/">2023-24 OneReach.ai Academic Fellow</a>, with my proposal 'Explain and Enhance: Patient-Centered Learning With LLM from the Public Online Cancer Forum.' </li>
 <li><strong>[Feb. 2024]</strong> Our poster paper "Digital Twin-Driven Teat Localization and Shape Identification for Dairy Cow" has been accepted to AAAI 24' student poster program, with amazing coauthors Aarushi, Yuting, Tiancheng, Dr. Matthias Wieland, Dr. Parminder Basran, and Dr. Ken Birman!</li>
 <li><strong>[Feb. 2024]</strong> I will become a keynote speaker at 2024 Greg Smith Palliative Care Summit, Hyde Park, NY, discussing 'Advancing Palliative Care with AI.' #AIinHealthcare.</li>
   
