@@ -1,7 +1,5 @@
 <h2 style="margin: 20px 0px 10px;" id="awards">Selected Awards <temp style="font-size:15px;">[</temp><a href="https://docs.google.com/document/d/1_PcRAeo7i28OkiJQcZINxdP15UloV83ceTQg7BNokR4/edit?usp=sharing" target="_blank" style="font-size:15px;">All Awards</a><temp style="font-size:15px;">]</temp></h2>
 
-<div style="text-align: center"><iframe src="https://docs.google.com/document/d/e/2PACX-1vQHbSBmWfNZZL6E6CqinVUAZiya81hxgZ6zAwW00XNGvVVcu6s77CoAqiic94aXWnQB9_AAJNLU8a5-/pub?embedded=true"></iframe></div>
-
 <ul>
   <li>2023 Life Sciences Technology Innovation Fellowship (LSTIF)</li>
   <li>Cornell Tech XR Access Symposium Scholarship</li>
@@ -10,3 +8,7 @@
   <li>ACM SIGCHI 2023 Gary Marsden Travel Award</li>  
   <li>Cornell University Career Beyond Academia 2023 Professional Development Funding</li>
 </ul>
+
+
+
+<div style="text-align: center"><iframe src="https://docs.google.com/document/d/e/2PACX-1vQHbSBmWfNZZL6E6CqinVUAZiya81hxgZ6zAwW00XNGvVVcu6s77CoAqiic94aXWnQB9_AAJNLU8a5-/pub?embedded=true"></iframe></div>
