@@ -7,8 +7,13 @@
   <li>Cornell Institute for Healthy Futures (CIHF) Research Grant</li>
   <li>ACM SIGCHI 2023 Gary Marsden Travel Award</li>  
   <li>Cornell University Career Beyond Academia 2023 Professional Development Funding</li>
-</ul>
 
 
-
+<details>
+  <summary>Show More</summary>
+  
 <div style="text-align: center"><iframe src="https://docs.google.com/document/d/e/2PACX-1vQHbSBmWfNZZL6E6CqinVUAZiya81hxgZ6zAwW00XNGvVVcu6s77CoAqiic94aXWnQB9_AAJNLU8a5-/pub?embedded=true"></iframe></div>
+
+</details>
+
+</ul>
