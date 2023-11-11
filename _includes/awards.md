@@ -9,7 +9,7 @@
   <li>Cornell University Career Beyond Academia 2023 Professional Development Funding</li>
 
   
-  <a href="html_source_file/assets/home.html"><summary>Show All Awards</summary></a>
+  <a href="home.html"><summary>Show All Awards</summary></a>
 
 
 
