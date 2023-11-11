@@ -1,4 +1,4 @@
-<h2 style="margin: 20px 0px 10px;" id="awards">Selected Awards<a href="all_awards.html"><summary style="font-size: 13px;">Show All Awards</summary></a></h2> 
+<h2 style="margin: 20px 0px 10px;" id="awards">Selected Awards<a href="all_awards.html" style="font-size: 13px;">Show All Awards</a></h2> 
 
 <ul>
   <li>2023 Life Sciences Technology Innovation Fellowship (LSTIF)</li>
