@@ -8,13 +8,9 @@
   <li>ACM SIGCHI 2023 Gary Marsden Travel Award</li>  
   <li>Cornell University Career Beyond Academia 2023 Professional Development Funding</li>
 
-
-<details>
   
-    <a href="html_source_file/assets/home.html"><summary>Show All Awards</summary></a>
-  
-<div style="text-align: center"><iframe src="https://docs.google.com/document/d/e/2PACX-1vQHbSBmWfNZZL6E6CqinVUAZiya81hxgZ6zAwW00XNGvVVcu6s77CoAqiic94aXWnQB9_AAJNLU8a5-/pub?embedded=true"  frameborder="0" width="120%" height="300"></iframe></div>
+  <a href="html_source_file/assets/home.html"><summary>Show All Awards</summary></a>
 
-</details>
+
 
 </ul>
