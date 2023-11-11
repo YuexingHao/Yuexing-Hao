@@ -10,7 +10,8 @@
 
 
 <details>
-  <summary>Show All Awards</summary>
+  
+    <a href="farm_data.html"><summary>Show All Awards</summary></a>
   
 <div style="text-align: center"><iframe src="https://docs.google.com/document/d/e/2PACX-1vQHbSBmWfNZZL6E6CqinVUAZiya81hxgZ6zAwW00XNGvVVcu6s77CoAqiic94aXWnQB9_AAJNLU8a5-/pub?embedded=true"  frameborder="0" width="120%" height="300"></iframe></div>
 
