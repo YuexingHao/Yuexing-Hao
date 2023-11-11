@@ -1,4 +1,5 @@
-<h2 style="margin: 20px 0px 10px;" id="awards">Selected Awards</h2>
+<h2 style="margin: 20px 0px 10px;" id="awards">Selected Awards</h2> 
+  <a href="all_awards.html"><summary>Show All Awards</summary></a>
 
 <ul>
   <li>2023 Life Sciences Technology Innovation Fellowship (LSTIF)</li>
@@ -7,9 +8,6 @@
   <li>Cornell Institute for Healthy Futures (CIHF) Research Grant</li>
   <li>ACM SIGCHI 2023 Gary Marsden Travel Award</li>  
   <li>Cornell University Career Beyond Academia 2023 Professional Development Funding</li>
-
-  
-  <a href="all_awards.html"><summary>Show All Awards</summary></a>
 
 
 
