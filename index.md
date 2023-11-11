@@ -24,6 +24,6 @@ My [old personal website](https://1135100136.wixsite.com/yuexinghao/blog) with s
 
 {% include_relative _includes/publications.md %}
 
-(https://yuexinghao.github.io/Yuexing-Hao/_includes/publications.md)
+[https://yuexinghao.github.io/Yuexing-Hao/_includes/publications.md](https://yuexinghao.github.io/Yuexing-Hao/_includes/publications.md)
 
 {% include_relative _includes/services.md %}
