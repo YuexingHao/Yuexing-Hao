@@ -1,5 +1,5 @@
 <h2 style="margin: 20px 0px 10px;" id="awards">Selected Awards</h2> 
-  <a href="all_awards.html"><summary>Show All Awards</summary></a>
+  <a href="all_awards.html"><summary style="font-size: 13px;">Show All Awards</summary></a>
 
 <ul>
   <li>2023 Life Sciences Technology Innovation Fellowship (LSTIF)</li>
