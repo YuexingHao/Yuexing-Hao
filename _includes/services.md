@@ -23,5 +23,5 @@
 <h4  style="margin:5 10px 0;">My research is proudly sponsored by: </h4>
 
 <ul style="margin:0 0 5px;">
-  <img src="assets/img/Sponsor.png" alt="Sponsors">
+  <img src="assets/img/Sponsor.png" alt="Sponsors" style="width: 160px;">
 </ul>
