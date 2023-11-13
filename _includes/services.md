@@ -20,7 +20,7 @@
 
 ## Sponsors
 
-<h4  style="margin:0 10px 0;">My research is proudly sponsored by: </h4>
+<h4  style="margin:5 10px 0;">My research is proudly sponsored by: </h4>
 
 <ul style="margin:0 0 5px;">
   ![Javatpoint](https://media-exp1.licdn.com/dms/image/C4D0BAQEwg5FK93uumQ/company-logo_200_200/0/1519923012279?e=2147483647&v=beta&t=63CNoS8OTR4lHjPhHSO7eFFqwLGwYunWfyDBV3tdc0c)  
