@@ -17,3 +17,11 @@
   <li><autocolor>ACM Special Interest Group on Computer-Human Interaction (SIGCHI) Student Member</autocolor></li>
   <li><a href="https://drive.google.com/file/d/1q-RHn8hr2-0vR5QsuxmIW7WqVL0ACubU/view?usp=sharing"><autocolor>Organizer of 2022 Cornell + Miller Knoll Innovation Challenge for Future Healthcare Solutions </autocolor></a></li>
 </ul>
+
+## Sponsors
+
+<h4  style="margin:0 10px 0;">My research is proudly sponsored by: </h4>
+
+<ul style="margin:0 0 5px;">
+  ![Javatpoint](https://media-exp1.licdn.com/dms/image/C4D0BAQEwg5FK93uumQ/company-logo_200_200/0/1519923012279?e=2147483647&v=beta&t=63CNoS8OTR4lHjPhHSO7eFFqwLGwYunWfyDBV3tdc0c)  
+</ul>
