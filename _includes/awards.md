@@ -2,7 +2,7 @@
 
 <ul>
   <li>2023 Alan D. Mathios Research Grant</li>
-  <li>Second Prize of the 2023 [IEEE Prize](./assets/files/IEEE_Award.pdf) Worldwide Communication Society Student Competition</li>
+  <li>Second Prize of the 2023 <a href="https://drive.google.com/file/d/1-WKhN3tW81pWtI24MP_0_stSF6K_vHLt/view?usp=sharing">IEEE Prize Worldwide Communication Society Student Competition </a></li>
   <li>2023 Life Sciences Technology Innovation Fellowship (LSTIF)</li>
   <li>2023-24 OneReach.ai Academic Fellowship</li>
   <li>Women Entrepreneurs in STEM (W.E.) Cornell Summer Fund</li>
