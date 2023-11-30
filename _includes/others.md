@@ -1,6 +1,4 @@
-<h2 id="others" style="margin: 20px 0px 10px;">Others</h2>
-
-<h3 style="margin: 20px 0px 10px;">Talks</h3>
+<h2 id="talks" style="margin: 20px 0px 10px;">Talks</h2>
 
 <ul>
 <li><strong>[Nov 29th. 2023]</strong> Stanford HCI group about 'AI in Healthcare for Community-Dwelling Older Adults.' <a href= "https://youtu.be/0BF63qKealI">Recording</a></li>
