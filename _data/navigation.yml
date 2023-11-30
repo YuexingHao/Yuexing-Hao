@@ -2,6 +2,7 @@ main:
 
   - title: "Talks"
     url: ./#talks
+    right: true 
     
   - title: "News"
     url: ./#news
@@ -11,7 +12,6 @@ main:
     
   - title: "Awards"
     url: ./#awards
-    right: true 
 
   #- title: "Teaching"
   #  url: ./#teaching
