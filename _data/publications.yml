@@ -1,7 +1,7 @@
 main:
 
   - title: "Improving Shared Decision-Making for Older Adult Cancer Patients through the Integration of AI Systems"
-    authors: Yuexing Hao et al.
+    authors: Yuexing Hao, Zeyu Liu, Robert N. Riter, Saleh Kalantari.
     conference_short: CHI
     conference: 2024 CHI Conference on Human Factors in Computing Systems <strong>(CHI)</strong>, 2024.
     pdf: ./assets/files/CHI 24'.pdf
