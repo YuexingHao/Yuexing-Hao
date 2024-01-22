@@ -8,9 +8,9 @@ main:
     image: ./assets/img/Design Diamond Pic.png
 
   - title: "Personalized AIoT-Based Medication/Dietary Supplement Management Intervention"
-    authors: Yuexing Hao, Zeyu Liu.
+    authors: Yuexing Hao, Ryan Ries, Chandana Papudesu, Jieun Ryoo, Harry Lee, Roger Ying, Lichao Sun.
     conference_short: CSCW
-    conference: 27th ACM Conference On Computer-Supported Cooperative Work And Social Computing <strong>(CSCW)</strong>, 2024.
+    conference: 2024 CHI Conference on Human Factors in Computing Systems <strong>(CHI)</strong>, 2024.
     pdf: ./assets/files/HUG_Draft.pdf
     notes: Under Review
     image: ./assets/img/HUG YH.jpg
