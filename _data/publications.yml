@@ -8,7 +8,7 @@ main:
     image: ./assets/img/Design Diamond Pic.png
 
   - title: "Personalized AIoT-Based Medication/Dietary Supplement Management Intervention"
-    authors: Yuexing Hao, Dr. Ryan Ries, Dr. Chandana Papudesu, Jieun Ryoo, Dr. Harry Lee, Dr. Roger Ying, Dr. Lichao Sun.
+    authors: Yuexing Hao, Dr. Ryan Ries, Dr. Chandana Papudesu, Dr. Jieun Ryoo, Dr. Harry Lee, Dr. Roger Ying, Dr. Lichao Sun.
     conference_short: CSCW
     conference: 2024 CHI Conference on Human Factors in Computing Systems <strong>(CHI)</strong>, 2024.
     pdf: ./assets/files/HUG_Draft.pdf
