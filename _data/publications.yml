@@ -5,6 +5,7 @@ main:
     conference_short: CHI
     conference: 2024 CHI Conference on Human Factors in Computing Systems <strong>(CHI)</strong>, 2024.
     pdf: ./assets/files/CHI 24'.pdf
+    notes: In-Person Oral Presentation
     image: ./assets/img/Design Diamond Pic.png
 
   - title: "Personalized AIoT-Based Medication/Dietary Supplement Management Intervention"
@@ -40,7 +41,7 @@ main:
     conference: 26th ACM Conference On Computer-Supported Cooperative Work And Social Computing <strong>(CSCW)</strong>, 2023.
     pdf: http://camps.aptaracorp.com/ACM_PMS/PMS/ACM/CSCW23COMPANION/71/3b518e72-1b50-11ee-b37c-16bb50361d1f/OUT/cscw23companion-71.html
     news: https://medium.com/p/b12fc79c5b7
-    notes: In-Person Presentation
+    notes: In-Person Oral Presentation
     image: ./assets/img/table final.png
 
   - title: "Dynamic Strategies and Opponent Hands Estimation for Reinforcement Learning in Gin Rummy Game"
