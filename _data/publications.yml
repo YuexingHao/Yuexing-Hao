@@ -1,14 +1,14 @@
 main:
 
   - title: "Advancing Patient-Centered Shared Decision-Making with AI Systems for Older Adult Cancer Patients"
-    authors: Yuexing Hao, Zeyu Liu, Robert N. Riter, Saleh Kalantari.
+    authors: Yuexing Hao, Zeyu Liu, Robert N. Riter, Dr. Saleh Kalantari.
     conference_short: CHI
     conference: 2024 CHI Conference on Human Factors in Computing Systems <strong>(CHI)</strong>, 2024.
     pdf: ./assets/files/CHI 24'.pdf
     image: ./assets/img/Design Diamond Pic.png
 
   - title: "Personalized AIoT-Based Medication/Dietary Supplement Management Intervention"
-    authors: Yuexing Hao, Ryan Ries, Chandana Papudesu, Jieun Ryoo, Harry Lee, Roger Ying, Lichao Sun.
+    authors: Yuexing Hao, Dr. Ryan Ries, Dr. Chandana Papudesu, Jieun Ryoo, Dr. Harry Lee, Dr. Roger Ying, Dr. Lichao Sun.
     conference_short: CSCW
     conference: 2024 CHI Conference on Human Factors in Computing Systems <strong>(CHI)</strong>, 2024.
     pdf: ./assets/files/HUG_Draft.pdf
