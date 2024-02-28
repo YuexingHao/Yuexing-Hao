@@ -1,6 +1,8 @@
 <h2 id="news" style="margin: 20px 0px 10px;">News</h2>
 
 <ul>
+<li><strong>[May. 2024]</strong> I will be interning as an AI Research Scientist at Mayo Clinic from May to August 2024, focusing on Shared Decision-Making with LLM to enhance patient-centered health outcomes.</li>
+<li><strong>[Feb. 2024]</strong> I will present our AAAI poster paper in Vancouver Convention Center. Our booth number is 626. Welcome to talk with me!</li>
 <li><strong>[Dec. 2023]</strong> I will talk at Google Computer Science Research Mentorship Program (CSRMP) about 'Explain and Enhance: Patient-Centered Learning With LLM from the Public Online Cancer Forum.'</li>
 <li><strong>[Nov. 2023]</strong> I will talk at Stanford HCI group about 'AI in Healthcare for Community-Dwelling Older Adults.' <a href= "https://youtu.be/0BF63qKealI">Recording</a></li>
 <li><strong>[Nov. 2023]</strong> I am super excited to be selected as the <a href="https://onereach.ai/academic-fellowship/">2023-24 OneReach.ai Academic Fellow</a>, with my proposal 'Explain and Enhance: Patient-Centered Learning With LLM from the Public Online Cancer Forum.' </li>
