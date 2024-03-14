@@ -2,7 +2,7 @@
 
 <ul>
   <li><strong>[May. 2024]</strong> I am excited to become a program committee (a.k.a. registration co-chair) for <a href="https://facctconference.org/2024/committees"> ACM Conference on Fairness, Accountability, and Transparency (FAccT) 2024 at Brazil.</li>
-<li><strong>[May. 2024]</strong> I will orally present at 12th International Shared Decision Making Conference on my thesis "i-SDM: A Patient-Centered AI Clinical Shared Decision-Making System for Older Adult Cancer Patients".</li>
+<li><strong>[May. 2024]</strong> I will orally present at the 12th International Shared Decision Making Conference on my thesis research "i-SDM: A Patient-Centered AI Clinical Shared Decision-Making System for Older Adult Cancer Patients".</li>
 <li><strong>[May. 2024]</strong> I will be interning as an AI Research Scientist at Mayo Clinic from May to August 2024, focusing on Shared Decision-Making with LLM to enhance patient-centered health outcomes.</li>
 <li><strong>[Feb. 2024]</strong> I will present our AAAI poster paper in Vancouver Convention Center. Our booth number is 626. Welcome to talk with me!</li>
 <li><strong>[Dec. 2023]</strong> I will talk at Google Computer Science Research Mentorship Program (CSRMP) about 'Explain and Enhance: Patient-Centered Learning With LLM from the Public Online Cancer Forum.'</li>
