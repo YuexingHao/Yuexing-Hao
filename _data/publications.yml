@@ -5,6 +5,7 @@ main:
     conference_short: CHI
     conference: 2024 CHI Conference on Human Factors in Computing Systems <strong>(CHI)</strong>, 2024.
     pdf: ./assets/files/CHI 24'.pdf
+    video: https://www.youtube.com/watch?v=IfUcoMexZNU&ab_channel=YuexingHao
     notes: In-Person Oral Presentation
     image: ./assets/img/Design Diamond Pic.png
 
