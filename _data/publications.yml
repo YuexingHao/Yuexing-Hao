@@ -20,7 +20,7 @@ main:
     authors: Aarushi Gupta *, <strong>Yuexing Hao*</strong>, Yuting Yang *, Tiancheng Yuan *, Dr. Matthias Wieland, Dr. Parminder S. Basran, Dr. Ken Birman.
     conference_short: AAAI
     conference: The 38th AAAI Conference on Artificial Intelligence <strong>(AAAI)</strong>, 2024.
-    pdf: ./assets/files/AAAI_24_CIDA.pdf
+    pdf: https://ojs.aaai.org/index.php/AAAI/article/view/30450
     page: https://yuexinghao.github.io/Agriverse/home.html
     notes: "* equal contributions"
     image: ./assets/img/AAAI 24.png
