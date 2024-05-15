@@ -7,6 +7,7 @@ main:
     pdf: ./assets/files/CHI 24'.pdf
     videos: https://www.youtube.com/watch?v=IfUcoMexZNU&ab_channel=YuexingHao
     notes: In-Person Oral Presentation
+    news: https://news.cornell.edu/stories/2024/05/ai-may-improve-doctor-patient-interactions-older-adults-cancer
     image: ./assets/img/Design Diamond Pic.png
 
   - title: "Personalized AIoT-Based Medication/Dietary Supplement Management Intervention"
