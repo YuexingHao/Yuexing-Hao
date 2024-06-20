@@ -1,6 +1,7 @@
 <h2 id="news" style="margin: 20px 0px 10px;">News</h2>
 
 <ul>
+<li><strong>[June. 2024]</strong> I will present my thesis at the <a href="https://chilconference.org/index.html"> Conference on Health, Inference, and Learning (CHIL) </a> doctoral consortium on June 28th at Cornell Tech, NYC.</li>
 <li><strong>[June. 2024]</strong> I am honored to be selected for the IvyPlus Exchange Scholar program and to receive a full fellowship to join MIT's Laboratory for Information & Decision Systems (LIDS). I will be working with <a href="https://healthyml.org/">Dr. Marzyeh Ghassemi's Healthy ML Group </a> in Fall 2024 at Boston.</li>
 <li><strong>[May. 2024]</strong> I am excited to become a program committee (a.k.a. registration co-chair) for <a href="https://facctconference.org/2024/committees"> ACM Conference on Fairness, Accountability, and Transparency (FAccT) </a> 2024 at Brazil.</li>
 <li><strong>[May. 2024]</strong> I will orally present at the 12th International Shared Decision Making Conference on my thesis research "i-SDM: A Patient-Centered AI Clinical Shared Decision-Making System for Older Adult Cancer Patients".</li>
