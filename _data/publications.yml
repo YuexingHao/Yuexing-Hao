@@ -1,5 +1,13 @@
 main:
 
+  - title: "Drawing Borderline for LLM Applications in Healthcare: Developing an Expert-in-the-Loop LLM-Powered Chatbot for Prostate Cancer Patients"
+    authors: <strong>Yuexing Hao</strong>, Dr. Jason Holmes, Dr. Mark Waddle, Dr. Corinna Loeckenhoff, Dr. Drew Margolin, Dr. Aditya Vashistha, Dr. Saleh Kalantari, Dr. Wei Liu.
+    conference_short: CHI
+    conference: CHI Conference on Human Factors in Computing Systems <strong>(CHI)</strong>, 2025.
+    pdf: ./assets/files/CHI 25'.pdf
+    notes: Under Review
+    image: ./assets/img/MedEduChat.gif
+
   - title: "The i-SDM Framework: Developing AI-based Tools in Shared Decision-Making for Cancer Treatment with Clinical Professionals"
     authors: <strong>Yuexing Hao</strong>, Dr. Corinna Loeckenhoff, Dr. Harry Lee, Dr. Jessica Zwerling, Dr. Saleh Kalantari.
     conference_short: CSCW
