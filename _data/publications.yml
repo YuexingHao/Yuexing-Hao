@@ -1,5 +1,13 @@
 main:
 
+  - title: "The i-SDM Framework: Developing AI-based Tools in Shared Decision-Making for Cancer Treatment with Clinical Professionals"
+    authors: <strong>Yuexing Hao</strong>, Dr. Corinna Loeckenhoff, Dr. Harry Lee, Dr. Jessica Zwerling, Dr. Saleh Kalantari.
+    conference_short: CSCW
+    conference: Companion of the Computer-Supported Cooperative Work and Social Computing <strong>(CSCW)</strong>, 2024.
+    pdf: ./assets/files/CSCW 24'.pdf
+    notes: Poster Presentation
+    image: ./assets/img/EQUI-SDM Structure.png
+    
   - title: "Advancing Patient-Centered Shared Decision-Making with AI Systems for Older Adult Cancer Patients"
     authors: <strong>Yuexing Hao</strong>, Zeyu Liu, Robert N. Riter, Dr. Saleh Kalantari.
     conference_short: CHI
