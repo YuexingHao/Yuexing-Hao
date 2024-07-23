@@ -13,7 +13,7 @@ main:
     authors: <strong>Yuexing Hao</strong>
     conference_short: CSCW
     conference: Companion of the Computer-Supported Cooperative Work and Social Computing <strong>(CSCW)</strong>, 2024.
-    pdf: ./assets/files/XAI_Tool_Final.pdf
+    pdf: https://doi.org/10.1145/3678884.3681859
     notes: Poster Presentation
     image: .assets/img/Teasers.png
     
