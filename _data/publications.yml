@@ -23,7 +23,7 @@ main:
     conference: Companion of the Computer-Supported Cooperative Work and Social Computing <strong>(CSCW)</strong>, 2024.
     pdf: ./assets/files/CSCW 24'.pdf
     notes: Poster Presentation
-    image: .assets/img/EQUi-SDM Structure.png
+    image: .assets/img/EQUi-SDM_Structure.png
     
   - title: "Advancing Patient-Centered Shared Decision-Making with AI Systems for Older Adult Cancer Patients"
     authors: <strong>Yuexing Hao</strong>, Zeyu Liu, Robert N. Riter, Dr. Saleh Kalantari.
