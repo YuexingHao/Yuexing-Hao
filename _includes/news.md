@@ -1,6 +1,7 @@
 <h2 id="news" style="margin: 20px 0px 10px;">News</h2>
 
 <ul>
+<li><strong>[June. 2024]</strong> My two poster papers are accepted at ACM CSCW 2024' <a href="https://cscw.acm.org/2024/"> Computer-Supported Cooperative Work and Social Computing </a> at San José, Costa Rica.</li>
 <li><strong>[June. 2024]</strong> I will present my thesis at the <a href="https://chilconference.org/index.html"> Conference on Health, Inference, and Learning (CHIL) </a> doctoral consortium on June 28th at Cornell Tech, NYC.</li>
 <li><strong>[June. 2024]</strong> I am honored to be selected for the IvyPlus Exchange Scholar program and to receive a full fellowship to join MIT's Laboratory for Information & Decision Systems (LIDS). In Fall 2024, I will be working with <a href="https://healthyml.org/">Dr. Marzyeh Ghassemi's Healthy ML Group </a> in Boston.</li>
 <li><strong>[May. 2024]</strong> I am excited to become a program committee (a.k.a. registration co-chair) for <a href="https://facctconference.org/2024/committees"> ACM Conference on Fairness, Accountability, and Transparency (FAccT) </a> 2024 at Brazil.</li>
