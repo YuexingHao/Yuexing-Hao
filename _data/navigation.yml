@@ -1,8 +1,11 @@
 main:
-
+    
   - title: "Talks"
     url: ./#talks
     right: true 
+    
+  - title: "Press"
+    url: ./#press
     
   - title: "News"
     url: ./#news
@@ -13,7 +16,5 @@ main:
   - title: "Awards"
     url: ./#awards
 
-  - title: "Press"
-    url: ./#press
   
 
