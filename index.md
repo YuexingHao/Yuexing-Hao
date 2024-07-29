@@ -26,4 +26,6 @@ My [old personal website](https://1135100136.wixsite.com/yuexinghao/blog) with s
 
 {% include_relative _includes/services.md %}
 
+{% include_relative _includes/press.md %}
+
 {% include_relative _includes/talks.md %}
