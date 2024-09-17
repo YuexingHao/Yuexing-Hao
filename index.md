@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-I am currently an IvyPlus Ph.D. I am an Exchange Scholar at MIT [EECS](https://www.eecs.mit.edu/)& [LIDS](https://lids.mit.edu/) and am pursuing my Ph.D. at Cornell University. My name means "happy walking is good", and the pronunciation is "You-Sing."
+I am currently an IvyPlus Exchange Ph.D. Scholar at MIT [EECS](https://www.eecs.mit.edu/)& [LIDS](https://lids.mit.edu/) and am pursuing my Ph.D. at Cornell University. My name means "happy walking is good", and the pronunciation is "You-Sing."
 
 I hold Computer Science degrees from Rutgers University (B.A.) and Tufts University (M.S). My Ph.D. pursuits predominantly embrace the realms of Human-Computer Interaction research and the dynamic realm of entrepreneurship. Presently, I am based in the beautiful Cambridge, MA. In my spare time, I love to do many outdoor activities, such as ice hockey, squash, and water skiing.
 
