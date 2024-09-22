@@ -1,7 +1,7 @@
 <h2 id="news" style="margin: 20px 0px 10px;">News</h2>
 
 <ul>
-<li><strong>[Aug. 2024]</strong> I am honored to receive the <a href="https://womenintech-awards.com/america/">North America Women in Tech Most Disruptive Award powered by Amazon </a>, selected from 1000 nominees.</li>
+<li><strong>[Aug. 2024]</strong> I am honored to receive the <a href="https://womenintech-awards.com/america/">North America Women in Tech Most Disruptive Award powered by Amazon </a>.</li>
 <li><strong>[Aug. 2024]</strong> I’ve been nominated by Cornell University for the 2024 Apple Scholars in AI/ML PhD Fellowship! Only three Ph.D. students were nominated across the entire university. Nomination seals the validation :)))))</li>
 <li><strong>[Aug. 2024]</strong> Our AIoT-based Hug System received first place in the <a href="https://yuexinghao.github.io/Yuexing-Hao/assets/files/IETC_YH_24.pdf"> IEEE Student Engineering Team Challenge 2024 </a> and won $400 with my colleague Dr. Ryan Ries. </li>
   
