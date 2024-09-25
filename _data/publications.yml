@@ -3,7 +3,7 @@ main:
   - title: "Retrospective Comparative Analysis of Prostate Cancer In-Basket Messages: Responses from Closed-Domain LLM vs. Clinical Teams"
     authors: <strong>Yuexing Hao</strong>, Dr. Jason Holmes, Dr. Jared Hobson, Dr. Alexandra Bennett, Dr. Daniel K. Ebner, Dr. David M. Routman, Dr. Satomi Shiraishi, Dr. Samir H. Patel, Dr. Nathan Y. Yu, Dr. Chris Hallemeier, Brooke E. Ball, Dr. Mark Waddle, Dr. Wei Liu.
     conference_short: NPJ
-    conference: Nature Porfolio Journal Digital Medicine <strong>(NPJ)</strong>, 2025.
+    conference: Nature Digital Medicine <strong>(NPJ)</strong>, 2025.
     pdf: ./assets/files/NPJ_In_Basket_Comparison_Study_Final.pdf
     notes: Under Review
     image: ./assets/img/Radar_Chart.png
