@@ -4,7 +4,7 @@ main:
     authors: <strong>Yuexing Hao</strong>, Dr. Jason Holmes, Dr. Mark Waddle, Dr. Nathan Yu, Dr. Kristen Vickers, Heather Preston, Dr. Drew Margolin, Dr. Corinna Loeckenhoff, Dr. Aditya Vashistha, Dr. Marzyeh Ghassemi, Dr. Saleh Kalantari, Dr. Wei Liu.
     conference_short: CHI
     conference: CHI Conference on Human Factors in Computing Systems <strong>(CHI)</strong>, 2025.
-    pdf: ./assets/files/CHI 25'.pdf
+    pdf: ./assets/files/MedEduChat_CHI_25.pdf
     notes: Under Review
     image: ./assets/img/MedEduChat.gif
 
