@@ -6,7 +6,7 @@ main:
     conference: Nature Porfolio Journal Digital Medicine <strong>(NPJ)</strong>, 2025.
     pdf: ./assets/files/NPJ_In_Basket_Comparison_Study_Final.pdf
     notes: Under Review
-    image: ./assets/img/MedEduChat.gif
+    image: ./assets/img/Radar Chart.jpg
     
   - title: "Drawing Borderline for LLM Applications in Healthcare: Developing an Expert-in-the-Loop LLM-Powered Chatbot for Prostate Cancer Patients"
     authors: <strong>Yuexing Hao</strong>, Dr. Jason Holmes, Dr. Mark Waddle, Dr. Nathan Yu, Dr. Kristen Vickers, Heather Preston, Dr. Drew Margolin, Dr. Corinna Loeckenhoff, Dr. Aditya Vashistha, Dr. Marzyeh Ghassemi, Dr. Saleh Kalantari, Dr. Wei Liu.
