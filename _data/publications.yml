@@ -42,7 +42,7 @@ main:
     page: https://yuexinghao.github.io/Agriverse/home.html
     notes: "* equal contributions"
     image: ./assets/img/AAAI 24.png
-
+    
   - title: Harnessing Biomedical Literature to Calibrate Clinicians’ Trust in AI Decision Support Systems
     authors: Dr. Qian Yang, <strong>Yuexing Hao*</strong>, Kexin Quan*, Stephen Yang*, Yiran Zhao*, Dr. Volodymyr Kuleshov, Dr. Fei Wang. 
     conference_short: CHI
@@ -52,15 +52,6 @@ main:
     page: https://yuexinghao.github.io/BLR_demo_site/main_page.html
     image: ./assets/img/Post_Design.jpg
     notes: "* equal contributions"
-
-  - title: "An Exploratory Study of Shared Decision-Making (SDM) for Older Adult Patients with Chronic Diseases"
-    authors: <strong>Yuexing Hao</strong>, Zeyu Liu, Dr. Monika Safford, Dr. Rulla Tamimi, Dr. Saleh Kalantari.
-    conference_short: CSCW
-    conference: 26th ACM Conference On Computer-Supported Cooperative Work And Social Computing <strong>(CSCW)</strong>, 2023.
-    pdf: http://camps.aptaracorp.com/ACM_PMS/PMS/ACM/CSCW23COMPANION/71/3b518e72-1b50-11ee-b37c-16bb50361d1f/OUT/cscw23companion-71.html
-    news: https://medium.com/p/b12fc79c5b7
-    notes: In-Person Oral Presentation
-    image: ./assets/img/table final.png
 
   - title: "Dynamic Strategies and Opponent Hands Estimation for Reinforcement Learning in Gin Rummy Game"
     authors: <strong>Yuexing Hao</strong>, Mark Vaysiberg.
