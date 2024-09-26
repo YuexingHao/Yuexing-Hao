@@ -16,14 +16,14 @@ main:
     notes: Under Review
     image: ./assets/img/MedEduChat.gif
 
-  - title: "Digital Twin-Driven Teat Localization and Shape Identification for Dairy Cow"
+  - title: "AI-Based Teat Shape and Skin Condition Prediction for Dairy Management"
     authors: <strong>Yuexing Hao*</strong>, Tiancheng Yuan *, Yuting Yang *, Aarushi Gupta, Dr. Matthias Wieland, Dr. Ken Birman, Dr. Parminder S. Basran.
     conference_short: AAAI
     conference: The 39th IAAI - Innovative Applications of AI Conference <strong>(IAAI)</strong>, 2025.
-    pdf: AI_Based_Agriculture
+    pdf: ./assets/files/AI_Based_Agriculture.pdf
     page: https://yuexinghao.github.io/Agriverse/home.html
     notes: "* equal contributions"
-    image: ./assets/img/AAAI 24.png
+    image: ./assets/img/IAAI 25.png
     
   - title: "Advancing Patient-Centered Shared Decision-Making with AI Systems for Older Adult Cancer Patients"
     authors: <strong>Yuexing Hao</strong>, Zeyu Liu, Robert N. Riter, Dr. Saleh Kalantari.
