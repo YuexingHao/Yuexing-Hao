@@ -16,6 +16,15 @@ main:
     notes: Under Review
     image: ./assets/img/MedEduChat.gif
 
+  - title: "Digital Twin-Driven Teat Localization and Shape Identification for Dairy Cow"
+    authors: <strong>Yuexing Hao*</strong>, Tiancheng Yuan *, Yuting Yang *, Aarushi Gupta, Dr. Matthias Wieland, Dr. Ken Birman, Dr. Parminder S. Basran.
+    conference_short: AAAI
+    conference: The 39th IAAI - Innovative Applications of AI Conference <strong>(IAAI)</strong>, 2025.
+    pdf: AI_Based_Agriculture
+    page: https://yuexinghao.github.io/Agriverse/home.html
+    notes: "* equal contributions"
+    image: ./assets/img/AAAI 24.png
+    
   - title: "Advancing Patient-Centered Shared Decision-Making with AI Systems for Older Adult Cancer Patients"
     authors: <strong>Yuexing Hao</strong>, Zeyu Liu, Robert N. Riter, Dr. Saleh Kalantari.
     conference_short: CHI
@@ -33,15 +42,6 @@ main:
     pdf: ./assets/files/HUG_Draft.pdf
     notes: Under Review
     image: ./assets/img/HUG YH.jpg
-
-  - title: "Digital Twin-Driven Teat Localization and Shape Identification for Dairy Cow"
-    authors: Aarushi Gupta *, <strong>Yuexing Hao*</strong>, Yuting Yang *, Tiancheng Yuan *, Dr. Matthias Wieland, Dr. Parminder S. Basran, Dr. Ken Birman.
-    conference_short: AAAI
-    conference: The 38th AAAI Conference on Artificial Intelligence <strong>(AAAI)</strong>, 2024.
-    pdf: https://ojs.aaai.org/index.php/AAAI/article/view/30450
-    page: https://yuexinghao.github.io/Agriverse/home.html
-    notes: "* equal contributions"
-    image: ./assets/img/AAAI 24.png
     
   - title: Harnessing Biomedical Literature to Calibrate Clinicians’ Trust in AI Decision Support Systems
     authors: Dr. Qian Yang, <strong>Yuexing Hao*</strong>, Kexin Quan*, Stephen Yang*, Yiran Zhao*, Dr. Volodymyr Kuleshov, Dr. Fei Wang. 
