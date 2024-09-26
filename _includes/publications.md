@@ -27,7 +27,7 @@
       {% if link.news %} 
       <a href="{{ link.news }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">News</a>
       {% endif %}
-      {% if link.news %} 
+      {% if link.videos %} 
       <a href="{{ link.videos }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Videos</a>
       {% endif %}
       {% if link.code %} 
