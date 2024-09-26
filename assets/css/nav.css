@@ -1,7 +1,7 @@
 /* Add a background gradient to the top navigation */
 .topnav {
     background: linear-gradient(90deg, #89a3cc, #5d6f9f);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
     overflow: hidden;
     position: fixed;
     z-index: 999;
