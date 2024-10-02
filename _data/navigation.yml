@@ -5,7 +5,7 @@ main:
     right: true 
     
   - title: "About Me"
-    url: ./Yuexing-Hao/biography/
+    url: ./biography/
     
   - title: "News"
     url: ./#news
@@ -14,7 +14,7 @@ main:
     url: ./#PostersPapers
     
   - title: "Publications"
-    URL: ./Yuexing-Hao/publications/
+    URL: ./publications/
     
   - title: "Awards"
     url: ./#awards
