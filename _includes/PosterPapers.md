@@ -3,7 +3,7 @@
 <h2 style="margin: 60px 0px -15px;">Poster/Workshop Papers</h2>
 
 
-<div class="PosterPapers">
+<div class="publications">
 <ol class="bibliography">
 
 {% for link in site.data.PosterPapers.main %}
