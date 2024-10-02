@@ -5,7 +5,7 @@ main:
     right: true 
     
   - title: "About Me"
-    url: ./biography/
+    url: /biography/
     
   - title: "News"
     url: ./#news
@@ -14,7 +14,7 @@ main:
     url: ./#PostersPapers
     
   - title: "Publications"
-    URL: ./publications/
+    URL: /publications/
     
   - title: "Awards"
     url: ./#awards
