@@ -22,8 +22,6 @@ My [old personal website](https://1135100136.wixsite.com/yuexinghao/blog) with s
 
 {% include_relative _includes/awards.md %}
 
-{% include_relative _includes/publications.md %}
-
 {% include_relative _includes/PosterPapers.md %}
 
 {% include_relative _includes/services.md %}
