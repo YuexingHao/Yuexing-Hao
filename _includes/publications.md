@@ -1,6 +1,6 @@
 <h1 id="publications"></h1>
 
-<h2 id="publications" style="margin: 2px 0px -15px;">Publications</h2>
+<h2 style="margin: 2px 0px -15px;">Publications</h2>
 
 <div class="publications">
 <ol class="bibliography">
