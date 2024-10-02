@@ -14,7 +14,7 @@ main:
     url: ./#PostersPapers
     
   - title: "Publications"
-    url: ./#publications
+    url: /publications/
     
   - title: "Awards"
     url: ./#awards
