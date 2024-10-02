@@ -4,8 +4,8 @@ main:
     url: ./#talks
     right: true 
     
-  - title: "Press"
-    url: ./#press
+  - title: "About Me"
+    url: /biography/
     
   - title: "News"
     url: ./#news
