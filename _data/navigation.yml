@@ -1,7 +1,7 @@
 main:
     
   - title: "Talks"
-    url: https://yuexinghao.github.io/Yuexing-Hao/#talks
+    url: ./#talks
     right: true 
     
   - title: "About Me"
