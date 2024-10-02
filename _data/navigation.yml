@@ -4,8 +4,8 @@ main:
     url: ./#talks
     right: true 
     
-  - title: "About Me"
-    url: /biography/
+  - title: "Pres"
+    url: ./press
     
   - title: "News"
     url: ./#news
@@ -14,7 +14,7 @@ main:
     url: ./#PostersPapers
     
   - title: "Publications"
-    URL: /publications/
+    URL: ./publications
     
   - title: "Awards"
     url: ./#awards
