@@ -4,8 +4,8 @@ main:
     url: ./#talks
     right: true 
     
-  - title: "Pres"
-    url: ./press
+  - title: "Press"
+    url: ./#press
     
   - title: "News"
     url: ./#news
