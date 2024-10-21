@@ -1,4 +1,6 @@
 <h2 id="talks" style="margin: 20px 0px 10px;">Selected Talks</h2>
+<ul>
+<li><strong>[Oct 21st. 2024]</strong> Fall 2024 MIT ML Tea Seminar about <strong>'Objective Approaches in a Subjective Medical World.'</strong> <a href= "https://youtu.be/Pq7AYnPcl48">Recording</a></li>
 
 <ul>
 <li><strong>[April 20th. 2024]</strong> 2024 Symposium on Artificial Intelligence in Veterinary Medicine (SAVY) about <strong>'AI-Based Cows’ Teat Shape and Skin Condition Identification for Smart Dairy Farms.'</strong> <a href= "https://www.youtube.com/watch?v=WE1cBd3FEZM&ab_channel=YuexingHao">Recording</a></li>
