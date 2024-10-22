@@ -3,17 +3,15 @@ main:
   - title: "Retrospective Comparative Analysis of Prostate Cancer In-Basket Messages: Responses from Closed-Domain LLM vs. Clinical Teams"
     authors: <strong>Yuexing Hao</strong>, Dr. Jason Holmes, Dr. Jared Hobson, Dr. Alexandra Bennett, Dr. Daniel K. Ebner, Dr. David M. Routman, Dr. Satomi Shiraishi, Dr. Samir H. Patel, Dr. Nathan Y. Yu, Dr. Chris Hallemeier, Brooke E. Ball, Dr. Mark Waddle, Dr. Wei Liu.
     conference_short: NPJ
-    conference: Nature Digital Medicine <strong>(NPJ)</strong>, 2025.
-    pdf: ./assets/files/NPJ_In_Basket_Comparison_Study_Final.pdf
-    notes: Under Review
+    conference: Preprint
+    pdf: https://arxiv.org/abs/2409.18290
     image: ./assets/img/Radar_Chart.png
     
   - title: "Drawing Borderline for LLM Applications in Healthcare: Developing an Expert-in-the-Loop LLM-Powered Chatbot for Prostate Cancer Patients"
     authors: <strong>Yuexing Hao</strong>, Dr. Jason Holmes, Dr. Mark Waddle, Dr. Nathan Yu, Dr. Kristen Vickers, Heather Preston, Dr. Drew Margolin, Dr. Corinna Loeckenhoff, Dr. Aditya Vashistha, Dr. Marzyeh Ghassemi, Dr. Saleh Kalantari, Dr. Wei Liu.
     conference_short: CHI
-    conference: CHI Conference on Human Factors in Computing Systems <strong>(CHI)</strong>, 2025.
-    pdf: ./assets/files/MedEduChat_CHI_25.pdf
-    notes: Under Review
+    conference: Preprint
+    pdf: https://arxiv.org/abs/2409.19100
     image: ./assets/img/MedEduChat.gif
 
   - title: "AI-Based Teat Shape and Skin Condition Prediction for Dairy Management"
