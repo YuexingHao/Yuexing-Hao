@@ -16,7 +16,7 @@
   <li><a href="https://drive.google.com/file/d/1q-RHn8hr2-0vR5QsuxmIW7WqVL0ACubU/view?usp=sharing"><autocolor>Organizer of 2022 Cornell + Miller Knoll Innovation Challenge for Future Healthcare Solutions </autocolor></a></li>
 </ul>
 
-<h2  style="margin:5 10px 0;">Sponsors </h4>
+<h2  style="margin:5 10px 0;">Sponsors </h2>
 
 <h4  style="margin:5 10px 0;">My research is proudly sponsored and supported by: </h4>
 
