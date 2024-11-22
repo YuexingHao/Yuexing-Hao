@@ -1,6 +1,4 @@
-## Services
-
-<h4  id="services" style="margin:0 10px 0;">Conference Reviewers</h4>
+<h2  id="services" style="margin:0 10px 0;">Conference Reviewers</h4>
 
 <ul style="margin:0 0 5px;">
   <li><a href="https://dl.acm.org/conference/chi"><autocolor>ACM Conference on Human Factors in Computing Systems (CHI) 2024 Late-Breaking Work (LBW) Area Chair, Paper Reviewer. </autocolor></a></li>
@@ -9,7 +7,7 @@
 </ul>
 
 
-<h4 style="margin:0 10px 0;">Professional Services</h4>
+<h2 style="margin:0 10px 0;">Professional Services</h4>
 
 <ul style="margin:0 0 5px;">
   <li><autocolor>Cornell University Human-Centered Design Graduate Student Association (HCD GSA) 2023-2024 President</autocolor></li>
@@ -18,7 +16,7 @@
   <li><a href="https://drive.google.com/file/d/1q-RHn8hr2-0vR5QsuxmIW7WqVL0ACubU/view?usp=sharing"><autocolor>Organizer of 2022 Cornell + Miller Knoll Innovation Challenge for Future Healthcare Solutions </autocolor></a></li>
 </ul>
 
-## Sponsors
+<h2  style="margin:5 10px 0;">Sponsors </h4>
 
 <h4  style="margin:5 10px 0;">My research is proudly sponsored and supported by: </h4>
 
