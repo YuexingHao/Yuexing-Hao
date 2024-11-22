@@ -1,4 +1,4 @@
-<h2  id="services" style="margin:0 10px 0;">Conference Reviewers</h4>
+<h2  id="services" style="margin:0 10px 0;">Conference Reviewers</h2>
 
 <ul style="margin:0 0 5px;">
   <li><a href="https://dl.acm.org/conference/chi"><autocolor>ACM Conference on Human Factors in Computing Systems (CHI) 2024 Late-Breaking Work (LBW) Area Chair, Paper Reviewer. </autocolor></a></li>
@@ -7,7 +7,7 @@
 </ul>
 
 
-<h2 style="margin:0 10px 0;">Professional Services</h4>
+<h2 style="margin:0 10px 0;">Professional Services</h2>
 
 <ul style="margin:0 0 5px;">
   <li><autocolor>Cornell University Human-Centered Design Graduate Student Association (HCD GSA) 2023-2024 President</autocolor></li>
