@@ -1,6 +1,5 @@
 <h2 id="news" style="margin: 20px 0px 10px;">News</h2>
 
-<ul>
 <li><strong>[Nov. 2024]</strong> <a href="https://sites.mit.edu/rte25chi/">Research through Evaluation (RtE) </a> Workshop is live! Welcome to submit! 
 <li><strong>[Oct. 2024]</strong> I will give two research talks: one at <a href="https://www.csail.mit.edu/event/objective-approaches-subjective-medical-world"> MIT ML Tea Seminar</a> on October 21st, 4-5 pm EST in Room G882, Hewlett Room; and another at <a href="https://gioele.science/">Prof. Gioele Zardini's</a> lab on October 17th, 11am-12pm EST in 32-D677. Let me know if you'd like the Zoom link! (I promise the two talks will cover different topics—one on AI-based healthcare systems and the other on data collection automation in the wild. Can you guess which is which?)</li>
 <li><strong>[Sep. 2024]</strong> I am proud to share that our latest paper working with the Mayo Clinic Radiation Oncology department patient-portal messaging paper is on arXiv: <a href="https://arxiv.org/abs/2409.18290"> 
@@ -29,5 +28,3 @@ Retrospective Comparative Analysis of Prostate Cancer In-Basket Messages: Respon
   <li><strong>[Jun. 2023]</strong> I was accepted to 2023 WHO/Cochrane/Cornell University Summer Institute and received fellowship from Human Centered Design Department ($1500).</li>
   <li><strong>[Apr. 2023]</strong> I received fundings from Cornell Institute for Healthy Futures (CIHF) Research Grant ($500) and will be in Mexico City for EDRA 2023!</li>
 </details>
-
-</ul>
