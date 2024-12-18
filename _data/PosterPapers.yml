@@ -12,7 +12,7 @@ main:
     authors: <strong>Yuexing Hao</strong>, Dr. Corinna Loeckenhoff, Dr. Harry Lee, Dr. Jessica Zwerling, Dr. Saleh Kalantari.
     conference_short: CSCW
     conference: Companion of the Computer-Supported Cooperative Work and Social Computing <strong>(CSCW)</strong>, 2024.
-    pdf: ./assets/files/CSCW 24'.pdf
+    pdf: https://dl.acm.org/doi/10.1145/3678884.3681841
     notes: Poster Presentation
     image: ./assets/img/EQUi-SDM Structure.jpg
 
