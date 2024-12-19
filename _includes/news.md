@@ -1,6 +1,6 @@
 <h2 id="news" style="margin: 20px 0px 10px;">News</h2>
 
-<li><strong>[Dec. 2024]</strong> I am honored to have received the $10k 2024 American Psychological Foundation (APF) K. Anders Ericsson Dissertation Research Grant for my doctoral thesis "Objective Approaches in a Subjective Medical World". </li>
+<li><strong>[Dec. 2024]</strong> I am honored to that I received the $10k 2024 American Psychological Foundation (APF) K. Anders Ericsson Dissertation Research Grant for my doctoral thesis "Objective Approaches in a Subjective Medical World". </li>
 <li><strong>[Dec. 2024]</strong> I will be joining the Google Health AI team as a Research Intern in Summer 2025!</li>
 <details>
   <summary>Show More</summary>
