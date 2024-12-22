@@ -18,7 +18,7 @@ main:
     authors: <strong>Yuexing Hao*</strong>, Tiancheng Yuan *, Yuting Yang *, Aarushi Gupta, Dr. Matthias Wieland, Dr. Ken Birman, Dr. Parminder S. Basran.
     conference_short: AAAI
     conference: The 3rd Deployable AI Workshop at AAAI-2025 <strong>(DAI)</strong>, 2025.
-    pdf: ./assets/files/AI_Based_Agriculture.pdf
+    pdf: ./assets/files/DAI25_dairy.pdf
     page: https://yuexinghao.github.io/Agriverse/home.html
     notes: "* equal contributions"
     image: ./assets/img/IAAI 25.png
