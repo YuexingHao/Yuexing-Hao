@@ -21,15 +21,6 @@ main:
     pdf: https://arxiv.org/abs/2409.18290
     image: ./assets/img/Radar_Chart.png
 
-  - title: "AI-Based Teat Shape and Skin Condition Prediction for Dairy Management"
-    authors: <strong>Yuexing Hao*</strong>, Tiancheng Yuan *, Yuting Yang *, Aarushi Gupta, Dr. Matthias Wieland, Dr. Ken Birman, Dr. Parminder S. Basran.
-    conference_short: AAAI
-    conference: The 3rd Deployable AI Workshop at AAAI-2025 <strong>(DAI)</strong>, 2025.
-    pdf: ./assets/files/DAI25_dairy.pdf
-    page: https://yuexinghao.github.io/Agriverse/home.html
-    notes: "* equal contributions"
-    image: ./assets/img/IAAI 25.png
-    
   - title: "Advancing Patient-Centered Shared Decision-Making with AI Systems for Older Adult Cancer Patients"
     authors: <strong>Yuexing Hao</strong>, Zeyu Liu, Robert N. Riter, Dr. Saleh Kalantari.
     conference_short: CHI
