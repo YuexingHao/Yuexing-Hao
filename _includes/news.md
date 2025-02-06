@@ -1,5 +1,6 @@
 <h2 id="news" style="margin: 20px 0px 10px;">News</h2>
 
+<li><strong>[Feb. 2025]</strong> I am featured in the Cornell Graduate School's <a href="https://gradschool.cornell.edu/spotlights/student-spotlight-yuexing-hao/">Student Spotlight</a>. </li>
 <li><strong>[Dec. 2024]</strong> My doctoral thesis, "Objective Approaches in a Subjective Medical World," is awarded $10k from 2024 American Psychological Foundation (APF) K. Anders Ericsson Dissertation Research Grant. </li>
 <li><strong>[Dec. 2024]</strong> I will be joining the <a href="https://research.google/teams/health/">Google Health AI team</a> as a Research Intern in Summer 2025!</li>
 <details>
