@@ -32,10 +32,7 @@ main:
     image: ./assets/img/Design Diamond Pic.png
 
   - title: "Personalized AIoT-Based Medication/Dietary Supplement Management Intervention"
-    authors: <strong>Yuexing Hao</strong>, Dr. Ryan Ries, Dr. Chandana Papudesu, Dr. Jieun Ryoo, Dr. Harry Lee, Dr. Roger Ying, Dr. Lichao Sun.
-    conference_short: Preprint
-    conference: Preprint.
-    pdf: ./assets/files/HUG_Draft.pdf
+    authors: <strong>Yuexing Hao</strong>
     notes: Under Review
     image: ./assets/img/HUG YH.jpg
     
