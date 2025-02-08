@@ -25,6 +25,11 @@ main:
     notes: Poster Presentation
     image: ./assets/img/EQUi-SDM Structure.jpg
 
+  - title: "Personalized AIoT-Based Medication/Dietary Supplement Management Intervention"
+    authors: <strong>Yuexing Hao</strong>
+    notes: Under Review
+    image: ./assets/img/HUG YH.jpg
+    
   - title: "Digital Twin-Driven Teat Localization and Shape Identification for Dairy Cow"
     authors: Aarushi Gupta *, <strong>Yuexing Hao*</strong>, Yuting Yang *, Tiancheng Yuan *, Dr. Matthias Wieland, Dr. Parminder S. Basran, Dr. Ken Birman.
     conference_short: AAAI
