@@ -1,5 +1,12 @@
 main:
 
+  - title: "Personalized AIoT-Based Medication/Dietary Supplement Management Intervention"
+    authors: <strong>Yuexing Hao</strong>
+    conference_short: CHI_EA
+    conference: Conference on Human Factors in Computing Systems <strong>(CHI)</strong> Student Research Competition, 2025.
+    pdf: https://doi.org/10.1145/3706599.3719286
+    image: ./assets/img/HUG YH.jpg
+    
   - title: "AI-Based Teat Shape and Skin Condition Prediction for Dairy Management"
     authors: <strong>Yuexing Hao*</strong>, Tiancheng Yuan *, Yuting Yang *, Aarushi Gupta, Dr. Matthias Wieland, Dr. Ken Birman, Dr. Parminder S. Basran.
     conference_short: AAAI
@@ -24,11 +31,6 @@ main:
     pdf: https://dl.acm.org/doi/10.1145/3678884.3681841
     notes: Poster Presentation
     image: ./assets/img/EQUi-SDM Structure.jpg
-
-  - title: "Personalized AIoT-Based Medication/Dietary Supplement Management Intervention"
-    authors: <strong>Yuexing Hao</strong>
-    notes: Under Review
-    image: ./assets/img/HUG YH.jpg
     
   - title: "Digital Twin-Driven Teat Localization and Shape Identification for Dairy Cow"
     authors: Aarushi Gupta *, <strong>Yuexing Hao*</strong>, Yuting Yang *, Tiancheng Yuan *, Dr. Matthias Wieland, Dr. Parminder S. Basran, Dr. Ken Birman.
