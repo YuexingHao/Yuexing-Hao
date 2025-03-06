@@ -1,6 +1,6 @@
 <h2 id="news" style="margin: 20px 0px 10px;">News</h2>
 
-<li><strong>[Mar. 2025]</strong> I will speak at MIT <a href="https://ai4society.mit.edu/">AI For Society</a> seminar on (March 4th) [<a href="">slide</a>] and HPI-MIT Designing for Sustainability Workshop (March 25th).</li>
+<li><strong>[Mar. 2025]</strong> I will speak at MIT <a href="https://ai4society.mit.edu/">AI For Society</a> seminar on (March 4th) [<a href="https://yuexinghao.github.io/Yuexing-Hao/assets/files/Ai4Society_Talk_Mar_25.pdf">slide</a>] and HPI-MIT Designing for Sustainability Workshop (March 25th).</li>
 <li><strong>[Feb. 2025]</strong> I passed my A exam and became a Ph.D. candidate! Here is the <a href="https://www.youtube.com/watch?v=kLMpPQfK7pU&ab_channel=YuexingHao">video</a>.</li>
 <li><strong>[Feb. 2025]</strong> I am featured in the Cornell Graduate School's <a href="https://gradschool.cornell.edu/spotlights/student-spotlight-yuexing-hao/">Student Spotlight</a>. </li>
 <li><strong>[Dec. 2024]</strong> My doctoral thesis, "Objective Approaches in a Subjective Medical World," is awarded $10k from 2024 American Psychological Foundation (APF) K. Anders Ericsson Dissertation Research Grant. </li>
