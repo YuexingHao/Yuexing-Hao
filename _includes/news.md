@@ -1,5 +1,6 @@
 <h2 id="news" style="margin: 20px 0px 10px;">News</h2>
 
+<li><strong>[May. 2025]</strong> My thesis is awarded a $1,000 seed grant from the 2025-26 Cornell University Center for the Study of Inequality Graduate Student Research Competition</a>.</li>
 <li><strong>[Mar. 2025]</strong> I will speak at MIT <a href="https://ai4society.mit.edu/">AI For Society</a> seminar on (March 4th) [<a href="https://yuexinghao.github.io/Yuexing-Hao/assets/files/Ai4Society_Talk_Mar_25.pdf">slide</a>], HPI-MIT <a href="https://design.mit.edu/events/spring-2025-hpi-mit-workshop?preview=1">Designing for Sustainability Workshop </a> (March 25th), and <a href="https://sites.harvard.edu/sitn/">Science in the News - Harvard University </a> (April 8th).</li>
 <li><strong>[Feb. 2025]</strong> I passed my A exam and became a Ph.D. candidate! Here is the <a href="https://www.youtube.com/watch?v=kLMpPQfK7pU&ab_channel=YuexingHao">video</a>.</li>
 <li><strong>[Feb. 2025]</strong> I am featured in the Cornell Graduate School's <a href="https://gradschool.cornell.edu/spotlights/student-spotlight-yuexing-hao/">Student Spotlight</a>. </li>
