@@ -5,6 +5,7 @@ main:
     conference_short: NeurIPS
     conference: Under Review
     pdf: https://arxiv.org/abs/XX
+    page: https://medpair.csail.mit.edu/
     image: ./assets/img/MedPAIR_Logo.png
     
   - title: "Research through Evaluation (RtE): Iteratively Developing Evaluations for Large Language Model-Generated Outputs in Healthcare"
