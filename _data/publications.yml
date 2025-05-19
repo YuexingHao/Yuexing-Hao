@@ -1,8 +1,15 @@
 main:
 
+  - title: "MedPAIR: Measuring Physicians and AI Relevance Alignment in Medical Question Answering"
+    authors: <strong>Yuexing Hao</strong>, Kumail Alhamoud, Hyewon Jeong, Haoran Zhang, Isha Puri, Prof. Philip Torr, Dr. Mike Schaekermann, Prof. Ariel Dora Stern, Dr. Marzyeh Ghassemi.
+    conference_short: NeurIPS
+    conference: Under Review
+    pdf: https://arxiv.org/abs/XX
+    image: ./assets/img/MedPAIR_Logo.png
+    
   - title: "Research through Evaluation (RtE): Iteratively Developing Evaluations for Large Language Model-Generated Outputs in Healthcare"
     authors: <strong>Yuexing Hao</strong>, Dr. Jason Holmes, Dr. Jared Hobson, Dr. Alexandra Bennett, Dr. Elizabeth McKone, Dr. Daniel K. Ebner, Dr. David M. Routman, Dr. Satomi Shiraishi, Dr. Samir H. Patel, Dr. Nathan Y. Yu, Dr. Chris Hallemeier, Brooke E. Ball, Dr. Saleh Kalantari, Dr. Marzyeh Ghassemi, Dr. Mark Waddle, Dr. Wei Liu.
-    conference_short: FAccT
+    conference_short: Preprint
     conference: Under Review
     pdf: https://arxiv.org/abs/XX
     image: ./assets/img/RtE.gif
