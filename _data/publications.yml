@@ -26,7 +26,7 @@ main:
     authors: <strong>Yuexing Hao</strong>, Dr. Jason Holmes, Dr. Jared Hobson, Dr. Alexandra Bennett, Dr. Elizabeth McKone, Dr. Daniel K. Ebner, Dr. David M. Routman, Dr. Satomi Shiraishi, Dr. Samir H. Patel, Dr. Nathan Y. Yu, Dr. Chris Hallemeier, Brooke E. Ball, Dr. Mark Waddle, Dr. Wei Liu.
     conference_short: Preprint
     conference: Mayo Clinic Proceedings Digital Health
-    pdf: https://www.mcpdigitalhealth.org/article/S2949-7612(25)00005-7/fulltext
+    pdf: https://www.sciencedirect.com/science/article/pii/S2949761225000057
     image: ./assets/img/Radar_Chart.png
 
   - title: "Advancing Patient-Centered Shared Decision-Making with AI Systems for Older Adult Cancer Patients"
