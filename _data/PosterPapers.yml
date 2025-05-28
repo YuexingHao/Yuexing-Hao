@@ -5,6 +5,7 @@ main:
     conference_short: CHI_EA
     conference: Conference on Human Factors in Computing Systems <strong>(CHI)</strong> Student Research Competition, 2025.
     pdf: https://doi.org/10.1145/3706599.3719286
+    news: https://news.cornell.edu/stories/2025/05/students-win-summer-awards-work-startups
     image: ./assets/img/HUG YH.jpg
     
   - title: "AI-Based Teat Shape and Skin Condition Prediction for Dairy Management"
