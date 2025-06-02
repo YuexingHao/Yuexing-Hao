@@ -4,7 +4,7 @@ main:
     authors: <strong>Yuexing Hao</strong>, Kumail Alhamoud, Hyewon Jeong, Haoran Zhang, Isha Puri, Prof. Philip Torr, Dr. Mike Schaekermann, Prof. Ariel Dora Stern, Dr. Marzyeh Ghassemi.
     conference_short: NeurIPS
     conference: Under Review
-    pdf: https://arxiv.org/abs/XX
+    pdf: https://arxiv.org/abs/2505.24040
     page: https://medpair.csail.mit.edu/
     image: ./assets/img/MedPAIR_Logo.png
     
