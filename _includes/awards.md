@@ -9,7 +9,7 @@
   <li>2023 <a href="https://news.cornell.edu/stories/2023/09/life-sciences-technology-innovation-fellowship-announces-2023-24-cohort">Life Sciences Technology Innovation Fellowship (LSTIF)</a></li>
   <li>2023-24 OneReach.ai Academic Fellowship</li>
   <li>Women Entrepreneurs in STEM (W.E.) Cornell Summer Fund</li>
-  <li>Cornell Institute for Healthy Futures (CIHF) Research Grant</li>
+  <li><a href="https://ihf.cornell.edu/news/cihf-grants-funding-to-yuexing-haos-research-paper/">Cornell Institute for Healthy Futures (CIHF) Research Grant</a></li>
   <li>ACM SIGCHI 2023 Gary Marsden Travel Award</li>  
 
 
