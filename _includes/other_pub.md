@@ -6,7 +6,7 @@
 <div class="publications">
 <ol class="bibliography">
 
-{% for link in site.data.PosterPapers.main %}
+{% for link in site.data.other_pub.main %}
 
 <li>
 <div class="pub-row">
