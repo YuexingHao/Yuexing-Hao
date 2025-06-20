@@ -2,7 +2,7 @@ main:
 
   - title: "MedGUIDE: Benchmarking Clinical Decision-Making in Large Language Models"
     authors: Xiaomin Li, Mingye Gao, <strong>Yuexing Hao</strong>, Taoran Li, Guangya Wan, Zihan Wang, Yijun Wang.
-    conference_short: NeurIPS
+    conference_short: Preprint
     conference: Under Review
     pdf: https://arxiv.org/abs/2505.11613
     page: https://huggingface.co/datasets/MedGUIDE/MedGUIDE-MCQA-8K
@@ -10,7 +10,7 @@ main:
     
   - title: "The MedPerturb Dataset: What Non-Content Perturbations Reveal About Human and Clinical LLM Decision Making"
     authors: Abinitha Gourabathina, <strong>Yuexing Hao</strong>, Walter Gerych, Dr. Marzyeh Ghassemi.
-    conference_short: NeurIPS
+    conference_short: Preprint
     conference: Under Review
     pdf: https://arxiv.org/abs/XX
     page: https://medperturb.csail.mit.edu/
@@ -18,7 +18,7 @@ main:
 
   - title: "On the trustworthiness of generative foundation models: Guideline, assessment, and perspective"
     authors: Yue Huang, Chujie Gao, Siyuan Wu, Haoran Wang, Xiangqi Wang, Yujun Zhou, ... <strong>Yuexing Hao</strong>, ... Bo Li, Dawn Song, Xiangliang Zhang.
-    conference_short: NeurIPS
+    conference_short: Preprint
     conference: Under Review
     pdf: https://arxiv.org/abs/2502.14296
     page: https://trustgen.github.io/
