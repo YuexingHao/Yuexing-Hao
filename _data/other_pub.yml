@@ -8,17 +8,18 @@ main:
     page: https://huggingface.co/datasets/MedGUIDE/MedGUIDE-MCQA-8K
     image: ./assets/img/MedGuide.png
     
-  - title: "Research through Evaluation (RtE): Iteratively Developing Evaluations for Large Language Model-Generated Outputs in Healthcare"
-    authors: <strong>Yuexing Hao</strong>, Dr. Jason Holmes, Dr. Jared Hobson, Dr. Alexandra Bennett, Dr. Elizabeth McKone, Dr. Daniel K. Ebner, Dr. David M. Routman, Dr. Satomi Shiraishi, Dr. Samir H. Patel, Dr. Nathan Y. Yu, Dr. Chris Hallemeier, Brooke E. Ball, Dr. Saleh Kalantari, Dr. Marzyeh Ghassemi, Dr. Mark Waddle, Dr. Wei Liu.
-    conference_short: Preprint
+  - title: "The MedPerturb Dataset: What Non-Content Perturbations Reveal About Human and Clinical LLM Decision Making"
+    authors: Abinitha Gourabathina, <strong>Yuexing Hao</strong>, Walter Gerych, Dr. Marzyeh Ghassemi.
+    conference_short: NeurIPS
     conference: Under Review
     pdf: https://arxiv.org/abs/XX
-    image: ./assets/img/RtE.gif
+    page: https://medperturb.csail.mit.edu/
+    image: ./assets/img/MedPerturb.png
 
-  - title: "Dynamic Strategies and Opponent Hands Estimation for Reinforcement Learning in Gin Rummy Game"
-    authors: <strong>Yuexing Hao</strong>, Mark Vaysiberg.
-    conference_short: IntelliSys
-    conference: Intelligent Systems and Applications <strong>(IntelliSys)</strong>, 2021.
-    pdf: https://link.springer.com/chapter/10.1007/978-3-030-82193-7_36
-    notes: Virtual Presentation
+  - title: "On the trustworthiness of generative foundation models: Guideline, assessment, and perspective"
+    authors: Yue Huang, Chujie Gao, Siyuan Wu, Haoran Wang, Xiangqi Wang, Yujun Zhou, ... <strong>Yuexing Hao</strong>, ... Bo Li, Dawn Song, Xiangliang Zhang.
+    conference_short: NeurIPS
+    conference: Under Review
+    pdf: https://arxiv.org/abs/2502.14296
+    page: https://trustgen.github.io/
     image: ./assets/img/Intelli Presentation.jpg
