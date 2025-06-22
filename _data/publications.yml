@@ -3,7 +3,7 @@ main:
   - title: "Large Language Model Integrations in Cancer Decision-making: A Systematic Review and Meta-analysis"
     authors: <strong>Yuexing Hao</strong>, Zhiwen Qiu, Dr. Jason Holmes, Prof. Corinna E. Löckenhoff, Prof. Wei Liu, Prof. Marzyeh Ghassemi, Prof. Saleh Kalantari.
     conference_short: NPJ
-    conference: Nature Digital Medicine
+    conference: Nature Digital Medicine (2025)
     pdf: https://arxiv.org/abs/XXX
     image: ./assets/img/Review_NPJ.jpg
     
@@ -32,7 +32,7 @@ main:
   - title: "Retrospective Comparative Analysis of Prostate Cancer In-Basket Messages: Responses from Closed-Domain LLM vs. Clinical Teams"
     authors: <strong>Yuexing Hao</strong>, Dr. Jason Holmes, Dr. Jared Hobson, Dr. Alexandra Bennett, Dr. Elizabeth McKone, Dr. Daniel K. Ebner, Dr. David M. Routman, Dr. Satomi Shiraishi, Dr. Samir H. Patel, Dr. Nathan Y. Yu, Dr. Chris Hallemeier, Brooke E. Ball, Dr. Mark Waddle, Dr. Wei Liu.
     conference_short: MCP
-    conference: Mayo Clinic Proceedings Digital Health
+    conference: Mayo Clinic Proceedings Digital Health 2025
     pdf: https://www.sciencedirect.com/science/article/pii/S2949761225000057
     image: ./assets/img/Radar_Chart.png
 
