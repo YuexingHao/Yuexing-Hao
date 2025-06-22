@@ -8,12 +8,19 @@ main:
     image: ./assets/img/Review_NPJ.jpg
     
   - title: "MedPAIR: Measuring Physicians and AI Relevance Alignment in Medical Question Answering"
-    authors: <strong>Yuexing Hao</strong>, Kumail Alhamoud, Hyewon Jeong, Haoran Zhang, Isha Puri, Prof. Philip Torr, Dr. Mike Schaekermann, Prof. Ariel Dora Stern, Dr. Marzyeh Ghassemi.
+    authors: <strong>Yuexing Hao</strong>, Kumail Alhamoud, Hyewon Jeong, Haoran Zhang, Isha Puri, Prof. Philip Torr, Dr. Mike Schaekermann, Prof. Ariel Dora Stern, Prof. Marzyeh Ghassemi.
     conference_short: NeurIPS
     conference: Under Review
     pdf: https://arxiv.org/abs/2505.24040
     page: https://medpair.csail.mit.edu/
     image: ./assets/img/MedPAIR_Logo.png
+    
+  - title: "The Role of Computing Resources in Publishing Foundation Model Research"
+    authors: <strong>Yuexing Hao</strong>, Yue Huang, Haoran Zhang, Chenyang Zhao, Zhenwen Liang, Prof. Paul Pu Liang, Prof. Yue Zhao, Prof. Lichao Sun, Prof. Saleh Kalantari, Prof. Xiangliang Zhang, Prof. Marzyeh Ghassemi.
+    conference_short: Preprint
+    conference: Under Review
+    pdf: https://arxiv.org/abs/XXX
+    image: ./assets/img/CALC.png
     
   - title: "Research through Evaluation (RtE): Iteratively Developing Evaluations for Large Language Model-Generated Outputs in Healthcare"
     authors: <strong>Yuexing Hao</strong>, Dr. Jason Holmes, Dr. Jared Hobson, Dr. Alexandra Bennett, Dr. Elizabeth McKone, Dr. Daniel K. Ebner, Dr. David M. Routman, Dr. Satomi Shiraishi, Dr. Samir H. Patel, Dr. Nathan Y. Yu, Dr. Chris Hallemeier, Brooke E. Ball, Dr. Saleh Kalantari, Dr. Marzyeh Ghassemi, Dr. Mark Waddle, Dr. Wei Liu.
