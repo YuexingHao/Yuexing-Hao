@@ -1,4 +1,4 @@
-<h2 style="margin: 20px 0px 10px;" id="awards">Selected Awards<a href="all_awards.html" style="font-size: 12px;">   [Show All Awards]</a></h2> 
+<h2 style="margin: 20px 0px 10px;" id="awards">Selected Awards<a href="all_awards.html" style="font-size: 12px;">   [Show All Awards, ~$140k]</a></h2> 
 
 <ul>
   <li>2025-26 President’s Council of Cornell Women (PCCW) Frank H.T. Rhodes Leadership Grant and Mission Grant</li>
