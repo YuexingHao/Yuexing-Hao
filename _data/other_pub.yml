@@ -22,7 +22,8 @@ main:
     authors: Abinitha Gourabathina, <strong>Yuexing Hao</strong>, Walter Gerych, Dr. Marzyeh Ghassemi.
     conference_short: Preprint
     conference: Under Review
-    pdf: https://arxiv.org/abs/XX
+    pdf: https://arxiv.org/abs/2506.17163
+    news: https://quantumzeitgeist.com/medical-llms-show-bias-with-varied-clinical-input-study-reveals/
     page: https://medperturb.csail.mit.edu/
     image: ./assets/img/MedPerturb.png
 
