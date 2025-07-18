@@ -15,7 +15,7 @@ main:
     conference_short: AIES
     conference: 2025 AAAI/ACM Conference on AI, Ethics, and Society <strong>(AIES)</strong>, 2025.
     pdf: https://dl.acm.org/doi/XXX
-    image: ./assets/img/AIES.jpg
+    image: ./assets/img/AIES.png
     
   - title: "MedGUIDE: Benchmarking Clinical Decision-Making in Large Language Models"
     authors: Xiaomin Li, Mingye Gao, <strong>Yuexing Hao</strong>, Taoran Li, Guangya Wan, Zihan Wang, Yijun Wang.
