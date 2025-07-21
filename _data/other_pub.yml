@@ -10,7 +10,7 @@ main:
     image: ./assets/img/Post_Design.jpg
     notes: "* equal contributions"
     
-  - title: Codeside Manner: Evaluating Gender Differences in GPT-4 for Medical Applications
+  - title: "Codeside Manner: Evaluating Gender Differences in GPT-4 for Medical Applications"
     authors: Eileen Pan, Abinitha Gourabathina, Walter Gerych, <strong>Yuexing Hao*</strong>, Dr. Marzyeh Ghassemi 
     conference_short: AIES
     conference: 2025 AAAI/ACM Conference on AI, Ethics, and Society <strong>(AIES)</strong>, 2025.
