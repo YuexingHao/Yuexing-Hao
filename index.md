@@ -8,7 +8,7 @@ I am currently interning at Google Research ([Health AI team](https://health.goo
 
 I hold Computer Science degrees from Rutgers University (B.A., 2017-20) and Tufts University (M.S, 2020-22). My Ph.D. focuses mainly on AI-based Healthcare Technology, Human-AI interaction, and Healthcare Intelligence. Presently, I am based in the beautiful Mountain View, CA. In my spare time, I love to do many outdoor activities, such as ice hockey, squash, and water skiing.
 
-I found a (semi-successful) AI for medication management company ([Hug Medical](https://hugmed.ai/)) in 2022. 
+I founded a (semi-successful) AI for medication management company ([Hug Medical](https://hugmed.ai/)) in 2022. 
 
 My [old personal website](https://1135100136.wixsite.com/yuexinghao/blog) with some interesting posts. Stop using it from Aug 2022.
 
