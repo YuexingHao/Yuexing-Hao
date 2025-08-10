@@ -1,7 +1,9 @@
 <h2 id="press" style="margin: 20px 0px 10px;">Press</h2>
 
 <ul>
-<li><strong>[Aug. 2025] <a href="https://www.human.cornell.edu/news/imported/2025/08/review-large-language-models-cancer-care-reveals-limitations-room-improvement">Review of large language models in cancer care reveals limitations, room for improvement</a></strong>, published at <a href="https://www.human.cornell.edu/news/imported/2025/08/review-large-language-models-cancer-care-reveals-limitations-room-improvement">Cornell News</a>.</li>
+<li><strong>[Aug. 2025] <a href="https://www.human.cornell.edu/news/imported/2025/08/review-large-language-models-cancer-care-reveals-limitations-room-improvement">Medical LLMs Show Bias with Varied Clinical Input, Study Reveals</a></strong>, published at <a href="https://www.human.cornell.edu/news/imported/2025/08/review-large-language-models-cancer-care-reveals-limitations-room-improvement">Cornell News</a>.</li>
+
+<li><strong>[Aug. 2025] <a href="https://quantumzeitgeist.com/medical-llms-show-bias-with-varied-clinical-input-study-reveals/">Review of large language models in cancer care reveals limitations, room for improvement</a></strong>, published at <a href="https://quantumzeitgeist.com/medical-llms-show-bias-with-varied-clinical-input-study-reveals/">Quantum News</a>.</li>
   
 <li><strong>[May. 2025] <a href="https://news.cornell.edu/stories/2025/05/students-win-summer-awards-work-startups">Students win summer awards to work on startups</a></strong>, published at <a href="https://news.cornell.edu/stories/2025/05/students-win-summer-awards-work-startups">Cornell Chronicle</a>.</li>
   
