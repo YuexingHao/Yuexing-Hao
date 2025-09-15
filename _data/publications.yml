@@ -1,5 +1,12 @@
 main:
 
+  - title: "Towards Better Health Conversations: The Benefits of Context-seeking"
+    authors: Rory Sayres *, <strong>Yuexing Hao *</strong>, Mike Shaekermann.
+    conference_short: CHI
+    conference: CHI (2026)
+    pdf: https://www.nature.com/articles/s41746-025-01824-7
+    image: ./assets/img/SankeyDiagram.jpg
+    
   - title: "Large Language Model Integrations in Cancer Decision-making: A Systematic Review and Meta-analysis"
     authors: <strong>Yuexing Hao</strong>, Zhiwen Qiu, Dr. Jason Holmes, Prof. Corinna E. Löckenhoff, Prof. Wei Liu, Prof. Marzyeh Ghassemi, Prof. Saleh Kalantari.
     conference_short: NPJ
