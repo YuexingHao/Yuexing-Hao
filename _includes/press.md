@@ -7,7 +7,7 @@
   
 <li><strong>[May. 2025] <a href="https://news.cornell.edu/stories/2025/05/students-win-summer-awards-work-startups">Students win summer awards to work on startups</a></strong>, published at <a href="https://news.cornell.edu/stories/2025/05/students-win-summer-awards-work-startups">Cornell Chronicle</a>.</li>
   
-<li><strong>[Feb. 2025] <a href="https://gradschool.cornell.edu/spotlights/student-spotlight-yuexing-hao/">Cornell Graduate School Student Spotlight</a></strong>.</li>
+<li><strong>[Feb. 2025] <a href="https://gradschool.cornell.edu/spotlights/student-spotlight-yuexing-hao/">Cornell Graduate School Student Spotlight</a></strong>.<a href="https://www.youtube.com/watch?v=zvc9sSQP3m0&t=1s">Interview</a></li>
 
 <li><strong>[Sep. 2024] <a href="https://women-in-tech.org/north-america-celebrates-women-in-tech-at-regional-awards-ceremony/"> North America Celebrates Women in Tech at Regional Awards Ceremony </a></strong>, appeared at <a href="https://women-in-tech.org/north-america-celebrates-women-in-tech-at-regional-awards-ceremony/">Women in Tech® Global</a>, <a href="https://www.linkedin.com/posts/womenintechorg_witga24-womenintech-womeninstem-activity-7243337963449794561-PvXX?utm_source=share&utm_medium=member_desktop">LinkedIn Post</a>.</li>
 
