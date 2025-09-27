@@ -6,6 +6,7 @@ main:
     conference: Under Review
     pdf: https://storage.googleapis.com/research-media/wayfinding-ai.pdf
     image: ./assets/img/SankeyDiagram.png
+    notes: "* equal contributions"
     
   - title: "Large Language Model Integrations in Cancer Decision-making: A Systematic Review and Meta-analysis"
     authors: <strong>Yuexing Hao</strong>, Zhiwen Qiu, Dr. Jason Holmes, Prof. Corinna E. Löckenhoff, Prof. Wei Liu, Prof. Marzyeh Ghassemi, Prof. Saleh Kalantari.
