@@ -1,10 +1,10 @@
 main:
 
   - title: "Towards Better Health Conversations: The Benefits of Context-seeking"
-    authors: Rory Sayres *, <strong>Yuexing Hao *</strong>, Mike Shaekermann.
-    conference_short: CHI
-    conference: CHI (2026)
-    pdf: https://www.nature.com/articles/s41746-025-01824-7
+    authors: Rory Sayres *, <strong>Yuexing Hao *</strong>, Abbi Ward, Amy Wang, Beverly Freeman, Serena Zhan, Diego Ardila, Jimmy Li, I-Ching Lee, Anna Iurchenko, Siyi Kou, Kartikeya Badola, Jimmy Hu, Bhawesh Kumar, Keith Johnson, Supriya Vijay, Justin Krogue, Avinatan Hassidim, Yossi Matias, Dale R. Webster, Sunny Virmani, Yun Liu, Quang Duong, and Mike Schaekermann
+    conference_short: Preprint
+    conference: Under Review
+    pdf: https://storage.googleapis.com/research-media/wayfinding-ai.pdf
     image: ./assets/img/SankeyDiagram.png
     
   - title: "Large Language Model Integrations in Cancer Decision-making: A Systematic Review and Meta-analysis"
@@ -16,7 +16,7 @@ main:
     
   - title: "MedPAIR: Measuring Physicians and AI Relevance Alignment in Medical Question Answering"
     authors: <strong>Yuexing Hao</strong>, Kumail Alhamoud, Hyewon Jeong, Haoran Zhang, Isha Puri, Prof. Philip Torr, Dr. Mike Schaekermann, Prof. Ariel Dora Stern, Prof. Marzyeh Ghassemi.
-    conference_short: NeurIPS
+    conference_short: Preprint
     conference: Under Review
     pdf: https://arxiv.org/abs/2505.24040
     page: https://medpair.csail.mit.edu/
