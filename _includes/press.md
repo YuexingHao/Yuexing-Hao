@@ -1,7 +1,7 @@
 <h2 id="press" style="margin: 20px 0px 10px;">Press</h2>
 
 <ul>
-<li><strong>[Sep. 2025] <a href="https://research.google/blog/towards-better-health-conversations-research-insights-on-a-wayfinding-ai-agent-based-on-gemini/">Towards better health conversations: Research insights on a “wayfinding” AI agent based on Gemini</a></strong>, published at <a href="https://research.google/blog/towards-better-health-conversations-research-insights-on-a-wayfinding-ai-agent-based-on-gemini/">Google Research Blog</a>.</li>
+<li><strong>[Sep. 2025] <a href="https://research.google/blog/towards-better-health-conversations-research-insights-on-a-wayfinding-ai-agent-based-on-gemini/">Towards better health conversations: Research insights on a “wayfinding” AI agent based on Gemini</a></strong>, published at <a href="https://research.google/blog/towards-better-health-conversations-research-insights-on-a-wayfinding-ai-agent-based-on-gemini/">Google Research Blog</a>, <a href="https://thewillowventures.com/research-insights-on-a-wayfinding-ai-agent-based-on-gemini-insights-by-willow-ventures/">Willow Venture Blog</a>.</li>
   
 <li><strong>[Aug. 2025] <a href="https://www.human.cornell.edu/news/imported/2025/08/review-large-language-models-cancer-care-reveals-limitations-room-improvement">Review of large language models in cancer care reveals limitations, room for improvement</a></strong>, published at <a href="https://www.human.cornell.edu/news/imported/2025/08/review-large-language-models-cancer-care-reveals-limitations-room-improvement">Cornell News</a>.</li>
 
