@@ -47,6 +47,6 @@ main:
     conference_short: Preprint
     conference: Under Review
     pdf: https://www.arxiv.org/abs/2509.25540
-    image: ./assets/img/RadOnc-GPT.jpg
+    image: ./assets/img/RadOnc-GPT.jpeg
     
 
