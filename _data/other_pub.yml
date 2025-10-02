@@ -41,4 +41,12 @@ main:
     pdf: https://arxiv.org/abs/2502.14296
     page: https://trustgen.github.io/
     image: ./assets/img/TrustGen.png
+
+  - title: "RadOnc-GPT: An Autonomous LLM Agent for Real-Time Patient Outcomes Labeling at Scale"
+    authors: Jason Holmes, <strong>Yuexing Hao</strong>, Mariana Borras-Osorio, Federico Mastroleo, Santiago Romero Brufau, Valentina Carducci, Katie M Van Abel, David M Routman, Andrew Y. K. Foong, Liv M Muller, Satomi Shiraishi, Daniel K Ebner, Daniel J Ma, Sameer R Keole, Samir H Patel, Mirek Fatyga, Martin Bues, Brad J Stish, Yolanda I Garces, Michelle A Neben Wittich, Robert L Foote, Sujay A Vora, Nadia N Laack, Mark R Waddle, Wei Liu
+    conference_short: Preprint
+    conference: Under Review
+    pdf: https://www.arxiv.org/abs/2509.25540
+    image: ./assets/img/RadOnc-GPT.jpg
     
+
