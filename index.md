@@ -4,9 +4,9 @@ layout: homepage
 
 ## About Me
 
-I am currently interning at Google Research ([Health AI team](https://health.google/)) in summer 2025. I am an IvyPlus Exchange Ph.D. Scholar at MIT [EECS](https://www.eecs.mit.edu/)& [LIDS](https://lids.mit.edu/) (2024-26) and am pursuing my Ph.D. at Cornell University (2022-26). I am also affiliated with the Mayo Clinic as a Ph.D. Research Fellow. My name means "happy walking is good", and the pronunciation is "You-Sing."
+I am an IvyPlus Exchange Ph.D. Scholar at MIT [EECS](https://www.eecs.mit.edu/)& [LIDS](https://lids.mit.edu/) (2024-26) and am pursuing my Ph.D. at Cornell University (2022-26). I interned at Google Research (2025) and Mayo Clinic (2024). My name means "happy walking is good", and the pronunciation is "You-Sing."
 
-I hold Computer Science degrees from Rutgers University (B.A., 2017-20) and Tufts University (M.S, 2020-22). My Ph.D. focuses mainly on AI-based Healthcare Technology, Human-AI interaction, and Healthcare Intelligence. Presently, I am based in the beautiful Mountain View, CA. In my spare time, I love to do many outdoor activities, such as ice hockey, squash, and water skiing.
+I hold Computer Science degrees from Rutgers University (B.A., 2017-20) and Tufts University (M.S, 2020-22). My Ph.D. focuses mainly on AI-based Healthcare Technology, Human-AI interaction, and Healthcare Intelligence. Presently, I am based in the beautiful Boston, MA. In my spare time, I love to do many outdoor activities, such as ice hockey, squash, and water skiing.
 
 I founded a (semi-successful) AI for medication management company ([Hug Medical](https://hugmed.ai/)) in 2022. 
 
