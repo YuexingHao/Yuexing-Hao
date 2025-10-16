@@ -27,7 +27,7 @@ main:
     authors: <strong>Yuexing Hao *</strong>, Yue Huang *, Haoran Zhang, Chenyang Zhao, Zhenwen Liang, Prof. Paul Pu Liang, Prof. Yue Zhao, Prof. Lichao Sun, Prof. Saleh Kalantari, Prof. Xiangliang Zhang, Prof. Marzyeh Ghassemi.
     conference_short: Preprint
     conference: Under Review
-    pdf: https://arxiv.org/abs/XXX
+    pdf: https://arxiv.org/abs/2510.13621
     image: ./assets/img/CALC.png
     page: http://mit-calc.csail.mit.edu/
     notes: "* equal contributions"
