@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-I am an IvyPlus Exchange Ph.D. Scholar at MIT [EECS](https://www.eecs.mit.edu/)& [LIDS](https://lids.mit.edu/) (2024-26) and am pursuing my Ph.D. at Cornell University (2022-26). I interned at Google Research (2025) and Mayo Clinic (2024). My name means "happy walking is good", and the pronunciation is "You-Sing."
+I am an IvyPlus Exchange Ph.D. Scholar at MIT [EECS](https://www.eecs.mit.edu/)& [LIDS](https://lids.mit.edu/) (2024-25) and am pursuing my Ph.D. at Cornell University (2022-25). I interned at Google Research (2025) and Mayo Clinic (2024). My name means "happy walking is good", and the pronunciation is "You-Sing."
 
 I hold Computer Science degrees from Rutgers University (B.A., 2017-20) and Tufts University (M.S, 2020-22). My Ph.D. focuses mainly on AI-based Healthcare Technology, Human-AI interaction, and Healthcare Intelligence. Presently, I am based in the beautiful Boston, MA. In my spare time, I love to do many outdoor activities, such as ice hockey, squash, and water skiing.
 
