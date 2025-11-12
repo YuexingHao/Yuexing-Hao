@@ -8,6 +8,13 @@ main:
     image: ./assets/img/SankeyDiagram.png
     notes: "* equal contributions"
     
+  - title: "Personalizing Prostate Cancer Education for Patients Using an EHR-Integrated LLM Agent"
+    authors: <strong>Yuexing Hao</strong>, Dr. Jason Holmes, Dr. Mark Waddle, Dr. Brian J. Davis, Dr. Nathan Yu, Dr. Kristen Vickers, Heather Preston, Dr. Drew Margolin, Dr. Corinna Löckenhoff, Dr. Aditya Vashistha, Dr. Saleh Kalantari, Dr. Marzyeh Ghassemi, Dr. Wei Liu.
+    conference_short: NPJ
+    conference: Nature Digital Medicine (2025)
+    pdf: https://arxiv.org/abs/2409.19100
+    image: ./assets/img/MedEduChat.gif
+    
   - title: "Large Language Model Integrations in Cancer Decision-making: A Systematic Review and Meta-analysis"
     authors: <strong>Yuexing Hao</strong>, Zhiwen Qiu, Dr. Jason Holmes, Prof. Corinna E. Löckenhoff, Prof. Wei Liu, Prof. Marzyeh Ghassemi, Prof. Saleh Kalantari.
     conference_short: NPJ
@@ -38,13 +45,6 @@ main:
     conference: Under Review
     pdf: https://arxiv.org/abs/XX
     image: ./assets/img/RtE.gif
-
-  - title: "Drawing Borderline for LLM Applications in Healthcare: Developing an Expert-in-the-Loop LLM-Powered Chatbot for Prostate Cancer Patients"
-    authors: <strong>Yuexing Hao</strong>, Dr. Jason Holmes, Dr. Mark Waddle, Dr. Nathan Yu, Dr. Kristen Vickers, Heather Preston, Dr. Drew Margolin, Dr. Corinna Löckenhoff, Dr. Aditya Vashistha, Dr. Marzyeh Ghassemi, Dr. Saleh Kalantari, Dr. Wei Liu.
-    conference_short: Preprint
-    conference: Preprint
-    pdf: https://arxiv.org/abs/2409.19100
-    image: ./assets/img/MedEduChat.gif
 
   - title: "Retrospective Comparative Analysis of Prostate Cancer In-Basket Messages: Responses from Closed-Domain LLM vs. Clinical Teams"
     authors: <strong>Yuexing Hao</strong>, Dr. Jason Holmes, Dr. Jared Hobson, Dr. Alexandra Bennett, Dr. Elizabeth McKone, Dr. Daniel K. Ebner, Dr. David M. Routman, Dr. Satomi Shiraishi, Dr. Samir H. Patel, Dr. Nathan Y. Yu, Dr. Chris Hallemeier, Brooke E. Ball, Dr. Mark Waddle, Dr. Wei Liu.
