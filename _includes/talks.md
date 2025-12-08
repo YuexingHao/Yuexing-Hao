@@ -1,6 +1,10 @@
 <h2 id="talks" style="margin: 20px 0px 10px;">Selected Talks</h2>
 
 <ul>
+  
+<li><strong>[Sep 25th. 2025]</strong> Fall 2025 University of Maryland Human Computer Interaction Lab (HCIL) Brownbag Speaker Series about <strong>'Objective Approaches in a Subjective Medical World.'</strong> <a href= "https://www.youtube.com/watch?v=UjMmF52cz2g">Recording</a></li>
+
+
 <li><strong>[Oct 21st. 2024]</strong> Fall 2024 MIT ML Tea Seminar about <strong>'Objective Approaches in a Subjective Medical World.'</strong> <a href= "https://youtu.be/Pq7AYnPcl48">Recording</a></li>
 
 <li><strong>[April 20th. 2024]</strong> 2024 Symposium on Artificial Intelligence in Veterinary Medicine (SAVY) about <strong>'AI-Based Cows’ Teat Shape and Skin Condition Identification for Smart Dairy Farms.'</strong> <a href= "https://www.youtube.com/watch?v=WE1cBd3FEZM&ab_channel=YuexingHao">Recording</a></li>
