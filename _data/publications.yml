@@ -12,7 +12,7 @@ main:
     authors: <strong>Yuexing Hao</strong>, Dr. Jason Holmes, Dr. Mark Waddle, Dr. Brian J. Davis, Dr. Nathan Yu, Dr. Kristen Vickers, Heather Preston, Dr. Drew Margolin, Dr. Corinna Löckenhoff, Dr. Aditya Vashistha, Dr. Saleh Kalantari, Dr. Marzyeh Ghassemi, Dr. Wei Liu.
     conference_short: NPJ
     conference: Nature Digital Medicine (2025)
-    pdf: https://arxiv.org/abs/2409.19100
+    pdf: https://www.nature.com/articles/s41746-025-02166-0
     image: ./assets/img/MedEduChat.gif
     
   - title: "Large Language Model Integrations in Cancer Decision-making: A Systematic Review and Meta-analysis"
