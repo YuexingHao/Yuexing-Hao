@@ -6,9 +6,9 @@ layout: homepage
 
 I am a Postdoctoral Associate at MIT [EECS](https://www.eecs.mit.edu/) [Healthy ML Group](https://healthyml.org/people/), advised by Prof. [Marzyeh Ghassemi](https://www.csail.mit.edu/person/marzyeh-ghassemi). 
 
-I recently received my Ph.D. from Cornell University (2022-25) and was an IvyPlus Exchange Ph.D. Scholar at MIT (2024-25). I interned at Google Research (2025), Scale AI (2025), and Mayo Clinic (2024). My name means "happy walking is good", and the pronunciation is "You-Sing."
+I recently received my Ph.D. from Cornell University (2022-25) and was an IvyPlus Exchange Ph.D. Scholar at MIT (2024-25). I interned at Google Research (2025), Scale AI (2025), and Mayo Clinic (2024). I hold Computer Science degrees from Rutgers University (B.A., 2017-20) and Tufts University (M.S, 2020-22).
 
-I hold Computer Science degrees from Rutgers University (B.A., 2017-20) and Tufts University (M.S, 2020-22). My Ph.D. focuses mainly on AI-based Healthcare Technology, Human-AI interaction, and Healthcare Intelligence. Presently, I am based in the beautiful Boston, MA. In my spare time, I love to do many outdoor activities, such as ice hockey, squash, and water skiing.
+Presently, I am based in beautiful Boston, MA. In my spare time, I love to do many outdoor activities, such as ice hockey, squash, and water skiing. My name means "happy walking is good", and the pronunciation is "You-Sing."
 
 I founded a (semi-successful) AI for medication management company ([Hug Medical](https://hugmed.ai/)) in 2022. 
 
