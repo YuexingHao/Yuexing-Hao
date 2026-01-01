@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-I am a Postdoctoral Associate at MIT [EECS](https://www.eecs.mit.edu/) [Healthy ML Group](https://healthyml.org/people/). 
+I am a Postdoctoral Associate at MIT [EECS](https://www.eecs.mit.edu/) [Healthy ML Group](https://healthyml.org/people/), advised by Prof. [Marzyeh Ghassemi](https://www.csail.mit.edu/person/marzyeh-ghassemi). 
 
 I recently received my Ph.D. from Cornell University (2022-25) and was an IvyPlus Exchange Ph.D. Scholar at MIT (2024-25). I interned at Google Research (2025), Scale AI (2025), and Mayo Clinic (2024). My name means "happy walking is good", and the pronunciation is "You-Sing."
 
@@ -12,7 +12,7 @@ I hold Computer Science degrees from Rutgers University (B.A., 2017-20) and Tuft
 
 I founded a (semi-successful) AI for medication management company ([Hug Medical](https://hugmed.ai/)) in 2022. 
 
-My [old personal website](https://1135100136.wixsite.com/yuexinghao/blog) with some interesting posts. Stop using it from Aug 2022.
+My [old personal website](https://1135100136.wixsite.com/yuexinghao/blog) has some interesting posts. Stop using it from Aug 2022.
 
 <span style="color:red;"></span>
 
