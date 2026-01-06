@@ -32,8 +32,8 @@ My [old personal website](https://1135100136.wixsite.com/yuexinghao/blog) has so
 
 {% include_relative _includes/PosterPapers.md %}
 
-{% include_relative _includes/services.md %}
-
 {% include_relative _includes/talks.md %}
 
 {% include_relative _includes/press.md %}
+
+{% include_relative _includes/services.md %}
