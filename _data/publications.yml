@@ -6,6 +6,7 @@ main:
     conference: Under Review
     pdf: https://storage.googleapis.com/research-media/wayfinding-ai.pdf
     image: ./assets/img/SankeyDiagram.png
+    news: https://research.google/blog/towards-better-health-conversations-research-insights-on-a-wayfinding-ai-agent-based-on-gemini/
     notes: "* equal contributions"
     
   - title: "Personalizing Prostate Cancer Education for Patients Using an EHR-Integrated LLM Agent"
@@ -13,6 +14,7 @@ main:
     conference_short: NPJ
     conference: Nature Digital Medicine (2025)
     pdf: https://www.nature.com/articles/s41746-025-02166-0
+    news: https://newsnetwork.mayoclinic.org/discussion/new-mayo-clinic-study-advances-personalized-prostate-cancer-education-with-an-ehr-integrated-ai-agent/
     image: ./assets/img/MedEduChat.gif
     
   - title: "Large Language Model Integrations in Cancer Decision-making: A Systematic Review and Meta-analysis"
@@ -20,6 +22,7 @@ main:
     conference_short: NPJ
     conference: Nature Digital Medicine (2025)
     pdf: https://www.nature.com/articles/s41746-025-01824-7
+    news: https://human.cornell.edu/news-profiles/review-large-language-models-cancer-decision-making-limitations-improvement
     image: ./assets/img/Review_NPJ.jpg
     
   - title: "MedPAIR: Measuring Physicians and AI Relevance Alignment in Medical Question Answering"
