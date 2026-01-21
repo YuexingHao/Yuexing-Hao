@@ -2,8 +2,8 @@ main:
 
   - title: "Towards Better Health Conversations: The Benefits of Context-seeking"
     authors: Rory Sayres *, <strong>Yuexing Hao *</strong>, Abbi Ward, Amy Wang, Beverly Freeman, Serena Zhan, Diego Ardila, Jimmy Li, I-Ching Lee, Anna Iurchenko, Siyi Kou, Kartikeya Badola, Jimmy Hu, Bhawesh Kumar, Keith Johnson, Supriya Vijay, Justin Krogue, Avinatan Hassidim, Yossi Matias, Dale R. Webster, Sunny Virmani, Yun Liu, Quang Duong, and Mike Schaekermann
-    conference_short: Preprint
-    conference: Under Review
+    conference_short: CHI
+    conference: 2026 CHI Conference on Human Factors in Computing Systems <strong>(CHI)</strong>, 2026.
     pdf: https://storage.googleapis.com/research-media/wayfinding-ai.pdf
     image: ./assets/img/SankeyDiagram.png
     news: https://research.google/blog/towards-better-health-conversations-research-insights-on-a-wayfinding-ai-agent-based-on-gemini/
