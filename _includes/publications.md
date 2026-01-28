@@ -3,7 +3,8 @@
 <h2 style="margin: 2px 0px -15px;">Publications</h2>
 
 <div class="pub-filter-buttons" style="margin: 25px 0 30px 0; text-align: center;">
-  <button class="filter-btn active" data-filter="all">All Papers</button>
+  <button class="filter-btn active" data-filter="first-author">First-Author Papers</button>
+  <button class="filter-btn" data-filter="all">All Papers</button>
   <button class="filter-btn" data-filter="HCI">Human-Computer Interaction</button>
   <button class="filter-btn" data-filter="AI for Health">AI for Health</button>
   <button class="filter-btn" data-filter="LLM Reverse Engineering">LLM Reverse Engineering</button>
@@ -22,9 +23,9 @@
   padding: 10px 20px;
   font-size: 14px;
   font-weight: 500;
-  border: 2px solid #043361;
+  border: 2px solid #1a1a1a;
   background: white;
-  color: #043361;
+  color: #1a1a1a;
   border-radius: 25px;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -34,35 +35,35 @@
 }
 
 .filter-btn:hover {
-  background: #043361;
+  background: #1a1a1a;
   color: white;
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(4, 51, 97, 0.2);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
 .filter-btn.active {
-  background: linear-gradient(90deg, #89a3cc, #5d6f9f);
+  background: #000000;
   color: white;
-  border-color: #5d6f9f;
-  box-shadow: 0 4px 12px rgba(93, 111, 159, 0.3);
+  border-color: #000000;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
 }
 
 @media (prefers-color-scheme: dark) {
   .filter-btn {
-    border-color: rgb(62, 183, 240);
-    background: #20212b;
-    color: rgb(62, 183, 240);
+    border-color: #ffffff;
+    background: #1a1a1a;
+    color: #ffffff;
   }
   
   .filter-btn:hover {
-    background: rgb(62, 183, 240);
-    color: #20212b;
+    background: #ffffff;
+    color: #1a1a1a;
   }
   
   .filter-btn.active {
-    background: linear-gradient(90deg, #89a3cc, #5d6f9f);
-    color: white;
-    border-color: #5d6f9f;
+    background: #ffffff;
+    color: #1a1a1a;
+    border-color: #ffffff;
   }
 }
 
@@ -91,7 +92,7 @@
 
 {% for link in site.data.publications.main %}
 
-<li class="publication-item" data-category="{{ link.category }}">
+<li class="publication-item" data-category="{{ link.category }}" data-source="publications">
 <div class="pub-row">
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     {% if link.image %} 
@@ -149,7 +150,7 @@
 
 {% for link in site.data.other_pub.main %}
 
-<li class="publication-item" data-category="{{ link.category }}">
+<li class="publication-item" data-category="{{ link.category }}" data-source="other_pub">
 <div class="pub-row">
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     {% if link.image %} 
@@ -208,7 +209,7 @@
 
 {% for link in site.data.PosterPapers.main %}
 
-<li class="publication-item" data-category="{{ link.category }}">
+<li class="publication-item" data-category="{{ link.category }}" data-source="poster">
 <div class="pub-row">
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     {% if link.image %} 
@@ -272,6 +273,14 @@ document.addEventListener('DOMContentLoaded', function() {
   const filterBtns = document.querySelectorAll('.filter-btn');
   const publications = document.querySelectorAll('.publication-item');
   
+  // Apply first-author filter by default on page load
+  publications.forEach(pub => {
+    const source = pub.getAttribute('data-source');
+    if (source !== 'publications') {
+      pub.classList.add('hidden');
+    }
+  });
+  
   filterBtns.forEach(btn => {
     btn.addEventListener('click', function() {
       const filter = this.getAttribute('data-filter');
@@ -283,11 +292,25 @@ document.addEventListener('DOMContentLoaded', function() {
       // Filter publications
       publications.forEach(pub => {
         const category = pub.getAttribute('data-category');
+        const source = pub.getAttribute('data-source');
         
-        if (filter === 'all' || category === filter) {
+        if (filter === 'first-author') {
+          // Show only publications from publications.yml
+          if (source === 'publications') {
+            pub.classList.remove('hidden');
+          } else {
+            pub.classList.add('hidden');
+          }
+        } else if (filter === 'all') {
+          // Show all publications
           pub.classList.remove('hidden');
         } else {
-          pub.classList.add('hidden');
+          // Show by category
+          if (category === filter) {
+            pub.classList.remove('hidden');
+          } else {
+            pub.classList.add('hidden');
+          }
         }
       });
     });
