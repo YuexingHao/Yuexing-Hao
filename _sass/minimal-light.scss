@@ -64,6 +64,13 @@ body.dark-mode autocolor {
   color: #e5e5e5 !important;
 }
 
+/* Make bold dates/titles readable in dark mode */
+body.dark-mode strong,
+body.dark-mode b,
+body.dark-mode papertitle {
+  color: #e5e5e5 !important;
+}
+
 /* Keep LIGHT mode by default, even if system prefers dark */
 html:not(.dark-mode) body {
   background: #ffffff !important;
