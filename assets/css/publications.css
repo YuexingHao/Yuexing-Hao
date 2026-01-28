@@ -40,29 +40,13 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 
 .publications ol.bibliography li { 
     min-height: 110px; 
-    margin-bottom: 1.5rem;
-    padding: 1.2rem;
-    border-radius: 12px;
-    background: rgba(255, 255, 255, 0.5);
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    margin-bottom: 1rem;
+    padding: 0;
     transition: all 0.3s ease;
 }
 
 .publications ol.bibliography li:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
-    background: rgba(255, 255, 255, 0.8);
-}
-
-@media (prefers-color-scheme: dark) {
-    .publications ol.bibliography li {
-        background: rgba(32, 33, 43, 0.5);
-        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
-    }
-    .publications ol.bibliography li:hover {
-        background: rgba(32, 33, 43, 0.8);
-        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
-    }
+    transform: translateX(4px);
 }
 
 .publications ol.bibliography li .abbr { height: 8rem; margin-bottom: 0.5rem; }

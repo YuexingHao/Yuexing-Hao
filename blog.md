@@ -17,13 +17,16 @@ title: Blog
 
 .blog-header h1 {
   font-size: 3rem;
+  font-weight: 700;
   color: #043361;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
+  letter-spacing: -0.02em;
 }
 
 .blog-header p {
-  font-size: 1.2rem;
+  font-size: 1.15rem;
   color: #666;
+  font-weight: 400;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -42,17 +45,38 @@ title: Blog
 
 .blog-post-card {
   background: white;
-  border-radius: 12px;
-  padding: 30px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  border-radius: 16px;
+  padding: 35px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   transition: all 0.3s ease;
   text-decoration: none;
   display: block;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid transparent;
+}
+
+.blog-post-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(90deg, #89a3cc, #5d6f9f);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+
+.blog-post-card:hover::before {
+  transform: scaleX(1);
 }
 
 .blog-post-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transform: translateY(-6px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.15);
+  border-color: rgba(93, 111, 159, 0.1);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -67,11 +91,12 @@ title: Blog
 }
 
 .post-card-title {
-  font-size: 1.8rem;
-  font-weight: 600;
+  font-size: 1.9rem;
+  font-weight: 700;
   color: #043361;
-  margin-bottom: 10px;
+  margin-bottom: 12px;
   line-height: 1.3;
+  letter-spacing: -0.01em;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -104,18 +129,21 @@ title: Blog
 
 .post-card-tags .tag {
   display: inline-block;
-  background: #f0f0f0;
-  padding: 4px 10px;
-  border-radius: 12px;
+  background: linear-gradient(135deg, rgba(137, 163, 204, 0.15), rgba(93, 111, 159, 0.15));
+  padding: 5px 12px;
+  border-radius: 15px;
   font-size: 0.8rem;
   margin-right: 8px;
-  color: #043361;
+  color: #5d6f9f;
+  font-weight: 500;
+  border: 1px solid rgba(93, 111, 159, 0.2);
 }
 
 @media (prefers-color-scheme: dark) {
   .post-card-tags .tag {
-    background: #2a2a2a;
+    background: linear-gradient(135deg, rgba(62, 183, 240, 0.15), rgba(93, 111, 159, 0.15));
     color: rgb(62, 183, 240);
+    border-color: rgba(62, 183, 240, 0.3);
   }
 }
 

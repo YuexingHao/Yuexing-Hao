@@ -12,14 +12,15 @@
 <style>
 .pub-filter-buttons {
   display: flex;
-  flex-wrap: wrap;
-  gap: 12px;
+  flex-wrap: nowrap;
+  gap: 10px;
   justify-content: center;
+  overflow-x: auto;
 }
 
 .filter-btn {
-  padding: 10px 24px;
-  font-size: 15px;
+  padding: 10px 20px;
+  font-size: 14px;
   font-weight: 500;
   border: 2px solid #043361;
   background: white;
@@ -28,6 +29,8 @@
   cursor: pointer;
   transition: all 0.3s ease;
   font-family: inherit;
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 
 .filter-btn:hover {
