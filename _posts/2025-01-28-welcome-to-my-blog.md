@@ -5,28 +5,26 @@ date: 2025-01-28
 author: Yuexing Hao
 tags: [Welcome, Personal, AI Research]
 description: "Introduction to my new blog where I'll share insights about AI, research, and technology."
+featured_image: /Yuexing-Hao/assets/img/MedEduChat.gif
 ---
 
-Welcome to my blog! I'm excited to start sharing my thoughts and experiences in AI research, healthcare technology, and beyond.
+Welcome to 13-day-old Dr. Hao's blog! I'm excited to start sharing my thoughts and experiences in AI research, healthcare technology, and beyond. All my blogs are written without AI so bear with me on grammar errors. 
 
 ## What to Expect
 
-In this blog, I'll be writing about:
+In this blog, I'll be writing about my random thoughts in **AI Research**; my prior experience working in the **Healthcare AI** domain in community, healthcare, and industry environments; and reflecting my **Academic Life**. 
 
 <div style="display: flex; gap: 20px; margin: 30px 0; justify-content: center; flex-wrap: wrap;">
-  <img src="/Yuexing-Hao/assets/img/AIES.png" alt="AIES" style="width: 30%; min-width: 250px; height: auto; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-  <img src="/Yuexing-Hao/assets/img/HAO.png" alt="Research" style="width: 30%; min-width: 250px; height: auto; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-  <img src="/Yuexing-Hao/assets/img/HUG YH.jpg" alt="HUG Medical" style="width: 30%; min-width: 250px; height: auto; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+  <img src="/Yuexing-Hao/assets/img/PhD Commitee.jpg" alt="Commitee" style="width: 30%; min-width: 250px; height: auto; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+  <img src="/Yuexing-Hao/assets/img/PhD_Publications.jpg" alt="Research" style="width: 30%; min-width: 250px; height: auto; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+  <img src="/Yuexing-Hao/assets/img/PhD_Family.jpg" alt="HUG Medical" style="width: 30%; min-width: 250px; height: auto; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
 </div>
-
-- **AI Research**: Insights from my work on LLM agents, RLHF, and AI alignment
-- **Healthcare AI**: Experiences and learnings from developing AI systems for healthcare
-- **Academic Life**: Tips and reflections on PhD journey and postdoctoral research
-- **Technology Trends**: Thoughts on emerging technologies and their impact
 
 ## My Research Journey
 
-As a Postdoctoral Researcher at MIT's Healthy ML Group, I work on cutting-edge problems in AI and healthcare. My research spans:
+I started my Ph.D. from August 22nd, 2022, though I actually started my research assistant after graduating from Tufts University in December 2021. I graduated from my Ph.D. in 3.5 yrs, 1231 days.  
+
+During my Ph.D., I mainly worked on applied science in AI and healthcare. My research focuses on:
 
 1. **Human-AI Interaction**: Understanding how people interact with AI systems
 2. **Clinical Decision Support**: Building tools that help healthcare professionals make better decisions
@@ -34,11 +32,9 @@ As a Postdoctoral Researcher at MIT's Healthy ML Group, I work on cutting-edge p
 
 ## Why Blog?
 
-I believe in:
+I love writing and talking. Maybe sometimes too talkative. I always felt: "woah, this piece of thing is so exciting and I can't wait to share with my friends." Then I forgot. 
 
-- **Knowledge Sharing**: Making research accessible to broader audiences
-- **Community Building**: Connecting with other researchers and practitioners
-- **Reflection**: Writing helps crystallize thinking and identify new insights
+So writing down my thoughts is the only solution. Maybe not the best, but it's a absolute good way to observe what I think at that time. 
 
 ## Stay Connected
 
