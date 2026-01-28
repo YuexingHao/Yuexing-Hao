@@ -13,7 +13,7 @@ main:
     right: true 
     
   - title: "Press"
-    url: /#press
+    url: /press/
     
   - title: "News"
     url: /#news
