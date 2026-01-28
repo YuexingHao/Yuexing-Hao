@@ -28,10 +28,19 @@
   <li><a href="https://drive.google.com/file/d/1q-RHn8hr2-0vR5QsuxmIW7WqVL0ACubU/view?usp=sharing"><autocolor>Organizer of 2022 Cornell + Miller Knoll Innovation Challenge for Future Healthcare Solutions </autocolor></a></li>
 </ul>
 
-<h2  style="margin:20px 10px 0;">Sponsors </h2>
+<div style="display: flex; gap: 40px; margin-top: 40px; flex-wrap: wrap;">
+  <div style="flex: 1; min-width: 300px;">
+    <h2 style="margin:20px 10px 0;">Sponsors</h2>
+    <h4 style="margin:20px 10px 0;">My research is proudly sponsored and supported by:</h4>
+    <ul style="margin:0 0 5px;">
+      <img src="assets/img/Sponsor Logo.png" alt="Sponsors" style="width: 100%; max-width: 450px;">
+    </ul>
+  </div>
 
-<h4  style="margin:20px 10px 0;">My research is proudly sponsored and supported by: </h4>
-
-<ul style="margin:0 0 5px;">
-  <img src="assets/img/Sponsor Logo.png" alt="Sponsors" style="width: 450px;">
-</ul>
+  <div style="flex: 1; min-width: 300px;">
+    <h2 style="margin:20px 10px 0;">Visitor Statistics</h2>
+    <div style="margin: 20px 0; text-align: center;">
+      <a href="https://mapmyvisitors.com/web/1c25c" title="Visit tracker"><img src="https://mapmyvisitors.com/map.png?d=nekqMp-kTnsA5OtVy5KQX9m4ijX_if6zYQR_xKMBOOw&cl=ffffff" alt="Visitor Map" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); max-width: 100%; height: auto;" /></a>
+    </div>
+  </div>
+</div>
