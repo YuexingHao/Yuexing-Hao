@@ -6,7 +6,7 @@
     position: fixed;
     z-index: 999;
     width: 100%;
-    padding: 3px 0;
+    padding: 0;
 }
 
 /* Style the links inside the navigation bar */
@@ -14,9 +14,9 @@
     float: right;
     color: #f2f2f2;
     text-align: center;
-    padding: 8px 20px;
+    padding: 10px 20px;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 16px;
     border-radius: 4px;
     transition: background-color 0.3s, color 0.3s;
 }
@@ -29,10 +29,10 @@
 
 /* Adjust the logo and align it to the left */
 .topnav img {
-    margin-bottom: -12pt;
-    margin-top: -10pt;
+    margin-bottom: -8pt;
+    margin-top: -8pt;
     margin-left: 2%;
-    height: 38px; /* Adjust the size of the logo */
+    height: 32px; /* Adjust the size of the logo */
 }
 
 /* Mobile navigation (hamburger menu) */

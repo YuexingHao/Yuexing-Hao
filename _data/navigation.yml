@@ -11,10 +11,10 @@ main:
     url: ./#news
 
   - title: "Posters"
-    url: ./_data/#PostersPapers
+    url: ./#PosterPapers
     
   - title: "Publications"
-    url: ./_data/#publications
+    url: ./#publications
     
   - title: "Awards"
     url: ./#awards
