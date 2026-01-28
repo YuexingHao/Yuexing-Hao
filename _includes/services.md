@@ -39,11 +39,10 @@
 
   <div style="flex: 1; min-width: 300px;">
     <h2 style="margin:20px 10px 0;">Visitor Statistics</h2>
-    <div style="margin: 20px 10px; padding: 20px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 12px; box-shadow: 0 8px 16px rgba(0,0,0,0.15);">
-      <a href="https://mapmyvisitors.com/web/1c25c" title="Visit tracker" style="display: block;">
-        <img src="https://mapmyvisitors.com/map.png?d=nekqMp-kTnsA5OtVy5KQX9m4ijX_if6zYQR_xKMBOOw&cl=ffffff" alt="Visitor Map" style="border-radius: 8px; max-width: 100%; height: auto; display: block; border: 3px solid rgba(255,255,255,0.3);" />
+    <div style="margin: 20px 10px;">
+      <a href="https://mapmyvisitors.com/web/1c25c" title="Visit tracker">
+        <img src="https://mapmyvisitors.com/map.png?d=nekqMp-kTnsA5OtVy5KQX9m4ijX_if6zYQR_xKMBOOw&cl=ffffff" alt="Visitor Map" style="max-width: 100%; height: auto;" />
       </a>
-      <p style="text-align: center; color: white; margin-top: 12px; font-size: 0.9rem; font-weight: 500;">Click to view detailed visitor analytics</p>
     </div>
   </div>
 </div>
