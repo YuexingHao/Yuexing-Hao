@@ -117,22 +117,22 @@
         {% endif %}
       {% endif %}
       {% if link.pdf %} 
-      <a href="{{ link.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank"><i class="fas fa-file-pdf"></i> PDF</a>
+      <a href="{{ link.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank" title="PDF"><i class="fas fa-file-pdf"></i></a>
       {% endif %}
       {% if link.news %} 
-      <a href="{{ link.news }}" class="btn btn-sm z-depth-0" role="button" target="_blank"><i class="fas fa-newspaper"></i> News</a>
+      <a href="{{ link.news }}" class="btn btn-sm z-depth-0" role="button" target="_blank" title="News"><i class="fas fa-newspaper"></i></a>
       {% endif %}
       {% if link.videos %} 
-      <a href="{{ link.videos }}" class="btn btn-sm z-depth-0" role="button" target="_blank"><i class="fas fa-video"></i> Videos</a>
+      <a href="{{ link.videos }}" class="btn btn-sm z-depth-0" role="button" target="_blank" title="Videos"><i class="fas fa-video"></i></a>
       {% endif %}
       {% if link.code %} 
-      <a href="{{ link.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank"><i class="fas fa-code"></i> Code</a>
+      <a href="{{ link.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank" title="Code"><i class="fas fa-code"></i></a>
       {% endif %}
       {% if link.page %} 
-      <a href="{{ link.page }}" class="btn btn-sm z-depth-0" role="button" target="_blank"><i class="fas fa-globe"></i> Page</a>
+      <a href="{{ link.page }}" class="btn btn-sm z-depth-0" role="button" target="_blank" title="Project Page"><i class="fas fa-globe"></i></a>
       {% endif %}
       {% if link.bibtex %} 
-      <a href="{{ link.bibtex }}" class="btn btn-sm z-depth-0" role="button" target="_blank"><i class="fas fa-quote-left"></i> BibTeX</a>
+      <a href="{{ link.bibtex }}" class="btn btn-sm z-depth-0" role="button" target="_blank" title="BibTeX"><i class="fas fa-quote-left"></i></a>
       {% endif %}
       {% if link.notes %} 
       <strong> <i style="color:#e74d3c">{{ link.notes }}</i></strong>
@@ -175,22 +175,22 @@
         {% endif %}
       {% endif %}
       {% if link.pdf %} 
-      <a href="{{ link.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank"><i class="fas fa-file-pdf"></i> PDF</a>
+      <a href="{{ link.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank" title="PDF"><i class="fas fa-file-pdf"></i></a>
       {% endif %}
       {% if link.code %} 
-      <a href="{{ link.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank"><i class="fas fa-code"></i> Code</a>
+      <a href="{{ link.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank" title="Code"><i class="fas fa-code"></i></a>
       {% endif %}
       {% if link.page %} 
-      <a href="{{ link.page }}" class="btn btn-sm z-depth-0" role="button" target="_blank"><i class="fas fa-globe"></i> Page</a>
+      <a href="{{ link.page }}" class="btn btn-sm z-depth-0" role="button" target="_blank" title="Project Page"><i class="fas fa-globe"></i></a>
       {% endif %}
       {% if link.data %} 
-      <a href="{{ link.data }}" class="btn btn-sm z-depth-0" role="button" target="_blank"><i class="fas fa-database"></i> Dataset</a>
+      <a href="{{ link.data }}" class="btn btn-sm z-depth-0" role="button" target="_blank" title="Dataset"><i class="fas fa-database"></i></a>
       {% endif %}
       {% if link.news %} 
-      <a href="{{ link.news }}" class="btn btn-sm z-depth-0" role="button" target="_blank"><i class="fas fa-newspaper"></i> News</a>
+      <a href="{{ link.news }}" class="btn btn-sm z-depth-0" role="button" target="_blank" title="News"><i class="fas fa-newspaper"></i></a>
       {% endif %}
       {% if link.bibtex %} 
-      <a href="{{ link.bibtex }}" class="btn btn-sm z-depth-0" role="button" target="_blank"><i class="fas fa-quote-left"></i> BibTeX</a>
+      <a href="{{ link.bibtex }}" class="btn btn-sm z-depth-0" role="button" target="_blank" title="BibTeX"><i class="fas fa-quote-left"></i></a>
       {% endif %}
       {% if link.notes %} 
       <strong> <i style="color:#e74d3c">{{ link.notes }}</i></strong>
@@ -233,22 +233,22 @@
         {% endif %}
       {% endif %}
       {% if link.pdf %} 
-      <a href="{{ link.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank"><i class="fas fa-file-pdf"></i> PDF</a>
+      <a href="{{ link.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank" title="PDF"><i class="fas fa-file-pdf"></i></a>
       {% endif %}
       {% if link.code %} 
-      <a href="{{ link.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank"><i class="fas fa-code"></i> Code</a>
+      <a href="{{ link.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank" title="Code"><i class="fas fa-code"></i></a>
       {% endif %}
       {% if link.news %} 
-      <a href="{{ link.news }}" class="btn btn-sm z-depth-0" role="button" target="_blank"><i class="fas fa-newspaper"></i> News</a>
+      <a href="{{ link.news }}" class="btn btn-sm z-depth-0" role="button" target="_blank" title="News"><i class="fas fa-newspaper"></i></a>
       {% endif %}
       {% if link.page %} 
-      <a href="{{ link.page }}" class="btn btn-sm z-depth-0" role="button" target="_blank"><i class="fas fa-globe"></i> Page</a>
+      <a href="{{ link.page }}" class="btn btn-sm z-depth-0" role="button" target="_blank" title="Project Page"><i class="fas fa-globe"></i></a>
       {% endif %}
       {% if link.data %} 
-      <a href="{{ link.data }}" class="btn btn-sm z-depth-0" role="button" target="_blank"><i class="fas fa-database"></i> Dataset</a>
+      <a href="{{ link.data }}" class="btn btn-sm z-depth-0" role="button" target="_blank" title="Dataset"><i class="fas fa-database"></i></a>
       {% endif %}
       {% if link.bibtex %} 
-      <a href="{{ link.bibtex }}" class="btn btn-sm z-depth-0" role="button" target="_blank"><i class="fas fa-quote-left"></i> BibTeX</a>
+      <a href="{{ link.bibtex }}" class="btn btn-sm z-depth-0" role="button" target="_blank" title="BibTeX"><i class="fas fa-quote-left"></i></a>
       {% endif %}
       {% if link.notes %} 
       <strong> <i style="color:#e74d3c">{{ link.notes }}</i></strong>
