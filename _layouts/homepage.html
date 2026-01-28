@@ -54,6 +54,15 @@
         x.style.display = "block";
       }
       }
+      
+      function reverseLinks() {
+        var container = document.getElementById("myLinks");
+        var links = Array.from(container.getElementsByTagName('a'));
+        container.innerHTML = '';
+        for (var i = links.length - 1; i >= 0; i--) {
+          container.appendChild(links[i]);
+        }
+      }
    </script>
     
   </head>
@@ -65,7 +74,7 @@
       {% include navigation.md %}
       </div>
 
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <a href="javascript:void(0);" class="icon" onclick="myFunction();reverseLinks()">
         <i class="fa fa-bars"></i>
       </a>
       
