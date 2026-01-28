@@ -373,6 +373,9 @@
   
   <body>
     <div class="topnav">
+      <a href="{{ '/' | relative_url }}" class="nav-logo" aria-label="Home">
+        <img src="{{ site.favicon | relative_url }}" alt="{{ site.title }}">
+      </a>
       <div id="myLinks">
         {% include navigation.md %}
       </div>

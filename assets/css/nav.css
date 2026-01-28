@@ -54,12 +54,26 @@
     width: 70%;
 }
 
-/* Adjust the logo and align it to the left */
+/* Nav logo: right of dark-mode toggle so both show */
+.nav-logo {
+    float: left;
+    display: block;
+    padding: 9px 0 0 0;
+    margin-left: 60px; /* clear fixed dark-mode toggle at left 20px */
+    line-height: 0;
+}
+.nav-logo img {
+    margin: 0;
+    height: 32px;
+    width: auto;
+    vertical-align: middle;
+}
+/* Fallback for any img in topnav without .nav-logo */
 .topnav img {
     margin-bottom: -8pt;
     margin-top: -8pt;
     margin-left: 2%;
-    height: 32px; /* Adjust the size of the logo */
+    height: 32px;
 }
 
 /* Dark mode toggle button */
@@ -141,8 +155,12 @@
         visibility: visible !important;
     }
     
-    .topnav img {
-        margin-left: 5%;
+    .nav-logo {
+        margin-left: 50px;
+    }
+    
+    .nav-logo img {
+        margin-left: 0;
     }
     
     .topnav a.icon {
