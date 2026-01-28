@@ -54,12 +54,6 @@ permalink: /press/
       gap: 24px;
       text-decoration: none;
       color: inherit;
-      transition: transform 0.2s ease;
-      cursor: pointer;
-    }
-
-    .press-card:hover {
-      transform: translateY(-4px);
     }
 
     .press-card-image {
@@ -72,6 +66,8 @@ permalink: /press/
       align-items: center;
       justify-content: center;
       position: relative;
+      background-size: cover;
+      background-position: center;
     }
 
     .press-card-image.healthcare {
@@ -102,6 +98,13 @@ permalink: /press/
       font-size: 72px;
       color: rgba(255, 255, 255, 0.9);
     }
+    
+    /* When image is set, hide the icon */
+    .press-card-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
 
     .press-card-content {
       flex: 1;
@@ -116,6 +119,10 @@ permalink: /press/
       color: #000000;
       margin: 0 0 16px 0;
       line-height: 1.4;
+    }
+    
+    .press-card-title a:hover {
+      opacity: 0.7;
     }
 
     .press-card-meta {
@@ -138,18 +145,33 @@ permalink: /press/
       margin-top: 12px;
       font-size: 13px;
       color: #666666;
-      line-height: 1.6;
+      line-height: 1.8;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px 4px;
+    }
+    
+    .press-outlets-label {
+      font-weight: 500;
+      color: #1a1a1a;
+      margin-right: 4px;
     }
 
     .press-outlets a {
       color: #1a1a1a;
       text-decoration: none;
-      border-bottom: 1px solid #e5e5e5;
-      transition: border-color 0.2s;
+      border-bottom: 1px solid #1a1a1a;
+      transition: all 0.2s;
+      font-weight: 500;
     }
 
     .press-outlets a:hover {
-      border-bottom-color: #1a1a1a;
+      opacity: 0.6;
+    }
+    
+    .press-outlets .outlet-separator {
+      margin: 0 4px;
+      color: #999999;
     }
 
     @media (prefers-color-scheme: dark) {
@@ -167,14 +189,18 @@ permalink: /press/
       .press-outlets {
         color: #a0a0a0;
       }
+      
+      .press-outlets-label {
+        color: #e5e5e5;
+      }
 
       .press-outlets a {
         color: #e5e5e5;
-        border-bottom-color: #444444;
+        border-bottom-color: #e5e5e5;
       }
 
       .press-outlets a:hover {
-        border-bottom-color: #e5e5e5;
+        opacity: 0.6;
       }
     }
 
@@ -226,291 +252,207 @@ permalink: /press/
 <div class="press-hero">
   <div class="press-header">
     <h1>Press & Media</h1>
-    <a href="#all-press" class="view-all-link">View all →</a>
   </div>
 
   <div class="press-grid">
     
     <!-- Mayo Clinic AI Agent -->
-    <a href="https://newsnetwork.mayoclinic.org/discussion/new-mayo-clinic-study-advances-personalized-prostate-cancer-education-with-an-ehr-integrated-ai-agent/" class="press-card" target="_blank">
+    <div class="press-card">
       <div class="press-card-image healthcare">
         <i class="fas fa-hospital-user"></i>
       </div>
       <div class="press-card-content">
-        <h3 class="press-card-title">New Mayo Clinic study advances personalized prostate cancer education with an EHR-integrated AI agent</h3>
+        <h3 class="press-card-title"><a href="https://newsnetwork.mayoclinic.org/discussion/new-mayo-clinic-study-advances-personalized-prostate-cancer-education-with-an-ehr-integrated-ai-agent/" target="_blank" style="color: inherit; text-decoration: none;">New Mayo Clinic study advances personalized prostate cancer education with an EHR-integrated AI agent</a></h3>
         <div class="press-card-meta">
           <span class="press-card-category">Healthcare AI</span>
           <span class="press-card-date">Jan 2026</span>
         </div>
         <div class="press-outlets">
-          Featured in: Mayo Clinic News, NewsWise, Medical X Press, Cancer Research, Gene Online, Beckers Hospital Review, AAAS EurekAlert
+          <span class="press-outlets-label">Published at:</span>
+          <a href="https://newsnetwork.mayoclinic.org/discussion/new-mayo-clinic-study-advances-personalized-prostate-cancer-education-with-an-ehr-integrated-ai-agent/" target="_blank">Mayo Clinic News</a><span class="outlet-separator">·</span>
+          <a href="https://www.newswise.com/articles/new-mayo-clinic-study-advances-personalized-prostate-cancer-education-with-an-ehr-integrated-ai-agent" target="_blank">NewsWise</a><span class="outlet-separator">·</span>
+          <a href="https://medicalxpress.com/news/2026-01-electronic-health-ai-agent-advances.html" target="_blank">Medical X Press</a><span class="outlet-separator">·</span>
+          <a href="https://www.technologynetworks.com/cancer-research/news/ai-agent-advances-personalized-prostate-cancer-education-408414" target="_blank">Cancer Research</a><span class="outlet-separator">·</span>
+          <a href="https://www.geneonline.com/mayo-clinic-develops-ehr-integrated-tool-using-ai-to-provide-personalized-prostate-cancer-education/" target="_blank">Gene Online</a><span class="outlet-separator">·</span>
+          <a href="https://www.beckershospitalreview.com/healthcare-information-technology/ehrs/mayo-launches-ehr-based-ai-cancer-tool/" target="_blank">Beckers Hospital Review</a><span class="outlet-separator">·</span>
+          <a href="https://www.eurekalert.org/news-releases/1111888" target="_blank">AAAS EurekAlert</a>
         </div>
       </div>
-    </a>
+    </div>
 
     <!-- Google Research Wayfinding AI -->
-    <a href="https://research.google/blog/towards-better-health-conversations-research-insights-on-a-wayfinding-ai-agent-based-on-gemini/" class="press-card" target="_blank">
+    <div class="press-card">
       <div class="press-card-image ai">
         <i class="fas fa-brain"></i>
       </div>
       <div class="press-card-content">
-        <h3 class="press-card-title">Towards better health conversations: Research insights on a "wayfinding" AI agent based on Gemini</h3>
+        <h3 class="press-card-title"><a href="https://research.google/blog/towards-better-health-conversations-research-insights-on-a-wayfinding-ai-agent-based-on-gemini/" target="_blank" style="color: inherit; text-decoration: none;">Towards better health conversations: Research insights on a "wayfinding" AI agent based on Gemini</a></h3>
         <div class="press-card-meta">
           <span class="press-card-category">Research</span>
           <span class="press-card-date">Sep 2025</span>
         </div>
         <div class="press-outlets">
-          Featured in: Google Research Blog, Willow Venture Blog
+          <span class="press-outlets-label">Published at:</span>
+          <a href="https://research.google/blog/towards-better-health-conversations-research-insights-on-a-wayfinding-ai-agent-based-on-gemini/" target="_blank">Google Research Blog</a><span class="outlet-separator">·</span>
+          <a href="https://thewillowventures.com/research-insights-on-a-wayfinding-ai-agent-based-on-gemini-insights-by-willow-ventures/" target="_blank">Willow Venture Blog</a>
         </div>
       </div>
-    </a>
+    </div>
 
     <!-- LLM Cancer Care Review -->
-    <a href="https://www.human.cornell.edu/news/imported/2025/08/review-large-language-models-cancer-care-reveals-limitations-room-improvement" class="press-card" target="_blank">
+    <div class="press-card">
       <div class="press-card-image research">
         <i class="fas fa-microscope"></i>
       </div>
       <div class="press-card-content">
-        <h3 class="press-card-title">Review of large language models in cancer care reveals limitations, room for improvement</h3>
+        <h3 class="press-card-title"><a href="https://www.human.cornell.edu/news/imported/2025/08/review-large-language-models-cancer-care-reveals-limitations-room-improvement" target="_blank" style="color: inherit; text-decoration: none;">Review of large language models in cancer care reveals limitations, room for improvement</a></h3>
         <div class="press-card-meta">
           <span class="press-card-category">Publication</span>
           <span class="press-card-date">Aug 2025</span>
         </div>
         <div class="press-outlets">
-          Featured in: Cornell News
+          <span class="press-outlets-label">Published at:</span>
+          <a href="https://www.human.cornell.edu/news/imported/2025/08/review-large-language-models-cancer-care-reveals-limitations-room-improvement" target="_blank">Cornell News</a>
         </div>
       </div>
-    </a>
+    </div>
 
     <!-- Medical LLM Bias Study -->
-    <a href="https://news.mit.edu/2025/llms-factor-unrelated-information-when-recommending-medical-treatments-0623" class="press-card" target="_blank">
+    <div class="press-card">
       <div class="press-card-image ai">
         <i class="fas fa-stethoscope"></i>
       </div>
       <div class="press-card-content">
-        <h3 class="press-card-title">Medical LLMs Show Bias with Varied Clinical Input, Study Reveals</h3>
+        <h3 class="press-card-title"><a href="https://news.mit.edu/2025/llms-factor-unrelated-information-when-recommending-medical-treatments-0623" target="_blank" style="color: inherit; text-decoration: none;">Medical LLMs Show Bias with Varied Clinical Input, Study Reveals</a></h3>
         <div class="press-card-meta">
           <span class="press-card-category">Research</span>
           <span class="press-card-date">Aug 2025</span>
         </div>
         <div class="press-outlets">
-          Featured in: MIT News, Quantum News
+          <span class="press-outlets-label">Published at:</span>
+          <a href="https://news.mit.edu/2025/llms-factor-unrelated-information-when-recommending-medical-treatments-0623" target="_blank">MIT News</a><span class="outlet-separator">·</span>
+          <a href="https://quantumzeitgeist.com/medical-llms-show-bias-with-varied-clinical-input-study-reveals/" target="_blank">Quantum News</a>
         </div>
       </div>
-    </a>
+    </div>
 
     <!-- Summer Startup Awards -->
-    <a href="https://news.cornell.edu/stories/2025/05/students-win-summer-awards-work-startups" class="press-card" target="_blank">
+    <div class="press-card">
       <div class="press-card-image startup">
         <i class="fas fa-rocket"></i>
       </div>
       <div class="press-card-content">
-        <h3 class="press-card-title">Students win summer awards to work on startups</h3>
+        <h3 class="press-card-title"><a href="https://news.cornell.edu/stories/2025/05/students-win-summer-awards-work-startups" target="_blank" style="color: inherit; text-decoration: none;">Students win summer awards to work on startups</a></h3>
         <div class="press-card-meta">
           <span class="press-card-category">Award</span>
           <span class="press-card-date">May 2025</span>
         </div>
         <div class="press-outlets">
-          Featured in: Cornell Chronicle
+          <span class="press-outlets-label">Published at:</span>
+          <a href="https://news.cornell.edu/stories/2025/05/students-win-summer-awards-work-startups" target="_blank">Cornell Chronicle</a>
         </div>
       </div>
-    </a>
+    </div>
 
     <!-- Graduate School Spotlight -->
-    <a href="https://gradschool.cornell.edu/spotlights/student-spotlight-yuexing-hao/" class="press-card" target="_blank">
+    <div class="press-card">
       <div class="press-card-image education">
         <i class="fas fa-graduation-cap"></i>
       </div>
       <div class="press-card-content">
-        <h3 class="press-card-title">Cornell Graduate School Student Spotlight</h3>
+        <h3 class="press-card-title"><a href="https://gradschool.cornell.edu/spotlights/student-spotlight-yuexing-hao/" target="_blank" style="color: inherit; text-decoration: none;">Cornell Graduate School Student Spotlight</a></h3>
         <div class="press-card-meta">
           <span class="press-card-category">Profile</span>
           <span class="press-card-date">Feb 2025</span>
         </div>
         <div class="press-outlets">
-          Featured in: Cornell Graduate School (with <a href="https://www.youtube.com/watch?v=zvc9sSQP3m0&t=1s" target="_blank">interview video</a>)
+          <span class="press-outlets-label">Published at:</span>
+          <a href="https://gradschool.cornell.edu/spotlights/student-spotlight-yuexing-hao/" target="_blank">Cornell Graduate School</a> (with <a href="https://www.youtube.com/watch?v=zvc9sSQP3m0&t=1s" target="_blank">interview video</a>)
         </div>
       </div>
-    </a>
+    </div>
 
     <!-- Women in Tech Award -->
-    <a href="https://women-in-tech.org/north-america-celebrates-women-in-tech-at-regional-awards-ceremony/" class="press-card" target="_blank">
+    <div class="press-card">
       <div class="press-card-image award">
         <i class="fas fa-trophy"></i>
       </div>
       <div class="press-card-content">
-        <h3 class="press-card-title">North America Celebrates Women in Tech at Regional Awards Ceremony</h3>
+        <h3 class="press-card-title"><a href="https://women-in-tech.org/north-america-celebrates-women-in-tech-at-regional-awards-ceremony/" target="_blank" style="color: inherit; text-decoration: none;">North America Celebrates Women in Tech at Regional Awards Ceremony</a></h3>
         <div class="press-card-meta">
           <span class="press-card-category">Award</span>
           <span class="press-card-date">Sep 2024</span>
         </div>
         <div class="press-outlets">
-          Featured in: Women in Tech® Global, LinkedIn
+          <span class="press-outlets-label">Published at:</span>
+          <a href="https://women-in-tech.org/north-america-celebrates-women-in-tech-at-regional-awards-ceremony/" target="_blank">Women in Tech® Global</a><span class="outlet-separator">·</span>
+          <a href="https://www.linkedin.com/posts/womenintechorg_witga24-womenintech-womeninstem-activity-7243337963449794561-PvXX?utm_source=share&utm_medium=member_desktop" target="_blank">LinkedIn</a>
         </div>
       </div>
-    </a>
+    </div>
 
     <!-- AI for Older Adults -->
-    <a href="https://news.cornell.edu/stories/2024/05/ai-may-improve-doctor-patient-interactions-older-adults-cancer" class="press-card" target="_blank">
+    <div class="press-card">
       <div class="press-card-image healthcare">
         <i class="fas fa-user-md"></i>
       </div>
       <div class="press-card-content">
-        <h3 class="press-card-title">AI may improve doctor-patient interactions for older adults with cancer</h3>
+        <h3 class="press-card-title"><a href="https://news.cornell.edu/stories/2024/05/ai-may-improve-doctor-patient-interactions-older-adults-cancer" target="_blank" style="color: inherit; text-decoration: none;">AI may improve doctor-patient interactions for older adults with cancer</a></h3>
         <div class="press-card-meta">
           <span class="press-card-category">Healthcare AI</span>
           <span class="press-card-date">May 2024</span>
         </div>
         <div class="press-outlets">
-          Featured in: Cornell Chronicle, McKnight Long-Term Care News, Cornell CIHF, Medium.com, Medical Xpress
+          <span class="press-outlets-label">Published at:</span>
+          <a href="https://news.cornell.edu/stories/2024/05/ai-may-improve-doctor-patient-interactions-older-adults-cancer" target="_blank">Cornell Chronicle</a><span class="outlet-separator">·</span>
+          <a href="https://www.mcknights.com/news/report-ai-tool-could-boost-communication-for-older-adults-with-cancer/" target="_blank">McKnight Long-Term Care News</a><span class="outlet-separator">·</span>
+          <a href="https://ihf.cornell.edu/news/cihf-grants-funding-to-yuexing-haos-research-paper/" target="_blank">Cornell CIHF</a><span class="outlet-separator">·</span>
+          <a href="https://medium.com/acm-cscw/can-grandma-be-involved-in-her-next-clinical-decision-b12fc79c5b7" target="_blank">Medium.com</a><span class="outlet-separator">·</span>
+          <a href="https://medicalxpress.com/news/2024-05-ai-doctorpatient-interactions-older-adults.html" target="_blank">Medical Xpress</a>
         </div>
       </div>
-    </a>
+    </div>
 
     <!-- Life Sciences Fellowship -->
-    <a href="https://news.cornell.edu/stories/2023/09/life-sciences-technology-innovation-fellowship-announces-2023-24-cohort" class="press-card" target="_blank">
+    <div class="press-card">
       <div class="press-card-image startup">
         <i class="fas fa-lightbulb"></i>
       </div>
       <div class="press-card-content">
-        <h3 class="press-card-title">Life Sciences Technology Innovation Fellowship announces 2023-24 cohort</h3>
+        <h3 class="press-card-title"><a href="https://news.cornell.edu/stories/2023/09/life-sciences-technology-innovation-fellowship-announces-2023-24-cohort" target="_blank" style="color: inherit; text-decoration: none;">Life Sciences Technology Innovation Fellowship announces 2023-24 cohort</a></h3>
         <div class="press-card-meta">
           <span class="press-card-category">Fellowship</span>
           <span class="press-card-date">Sep 2023</span>
         </div>
         <div class="press-outlets">
-          Featured in: Cornell Chronicle, Entrepreneurship at Cornell
+          <span class="press-outlets-label">Published at:</span>
+          <a href="https://news.cornell.edu/stories/2023/09/life-sciences-technology-innovation-fellowship-announces-2023-24-cohort" target="_blank">Cornell Chronicle</a><span class="outlet-separator">·</span>
+          <a href="https://eship.cornell.edu/life-sciences-technology-innovation-fellowship-cohort-2023/" target="_blank">Entrepreneurship at Cornell</a>
         </div>
       </div>
-    </a>
+    </div>
 
     <!-- AI Tool Trust -->
-    <a href="https://tech.cornell.edu/news/ai-tool-gains-doctors-trust-by-giving-advice-like-a-colleague/" class="press-card" target="_blank">
+    <div class="press-card">
       <div class="press-card-image ai">
         <i class="fas fa-handshake"></i>
       </div>
       <div class="press-card-content">
-        <h3 class="press-card-title">AI Tool Gains Doctors' Trust by Giving Advice Like a Colleague</h3>
+        <h3 class="press-card-title"><a href="https://tech.cornell.edu/news/ai-tool-gains-doctors-trust-by-giving-advice-like-a-colleague/" target="_blank" style="color: inherit; text-decoration: none;">AI Tool Gains Doctors' Trust by Giving Advice Like a Colleague</a></h3>
         <div class="press-card-meta">
           <span class="press-card-category">Research</span>
           <span class="press-card-date">Apr 2023</span>
         </div>
         <div class="press-outlets">
-          Featured in: Cornell Chronicle, Futurism, NewsWise, Cornell Human Ecology
+          <span class="press-outlets-label">Published at:</span>
+          <a href="https://news.cornell.edu/stories/2023/04/ai-tool-gains-doctors-trust-giving-advice-colleague" target="_blank">Cornell Chronicle</a><span class="outlet-separator">·</span>
+          <a href="https://futurism.com/neoscope/ai-gives-advice-patients-doctors-trust" target="_blank">Futurism</a><span class="outlet-separator">·</span>
+          <a href="https://www.newswise.com/articles/ai-tool-gains-doctors-trust-by-giving-advice-like-a-colleague" target="_blank">NewsWise</a><span class="outlet-separator">·</span>
+          <a href="https://www.human.cornell.edu/news/imported/2023/05/human-connection-and-collaboration-are-common-threads-faculty-and-students" target="_blank">Cornell Human Ecology</a>
         </div>
       </div>
-    </a>
-
-  </div>
-
-  <div id="all-press" style="margin-top: 80px; padding-top: 40px; border-top: 1px solid #e5e7eb;">
-    <h2 style="font-size: 32px; font-weight: 400; margin-bottom: 30px;">All Press Coverage</h2>
-    
-    <div style="max-width: 900px;">
-      <ul style="list-style: none; padding: 0;">
-        
-        <li style="margin-bottom: 30px; padding-bottom: 30px; border-bottom: 1px solid #f0f0f0;">
-          <div style="font-size: 14px; color: #666; margin-bottom: 8px;">January 2026 · Healthcare AI</div>
-          <strong style="font-size: 18px;">
-            <a href="https://newsnetwork.mayoclinic.org/discussion/new-mayo-clinic-study-advances-personalized-prostate-cancer-education-with-an-ehr-integrated-ai-agent/">New Mayo Clinic study advances personalized prostate cancer education with an EHR-integrated AI agent</a>
-          </strong>
-          <div style="margin-top: 12px; font-size: 14px; color: #666; line-height: 1.6;">
-            Published at: <a href="https://newsnetwork.mayoclinic.org/discussion/new-mayo-clinic-study-advances-personalized-prostate-cancer-education-with-an-ehr-integrated-ai-agent/">Mayo Clinic News</a>, <a href="https://www.newswise.com/articles/new-mayo-clinic-study-advances-personalized-prostate-cancer-education-with-an-ehr-integrated-ai-agent">NewsWise.com</a>, <a href="https://medicalxpress.com/news/2026-01-electronic-health-ai-agent-advances.html">Medical X Press</a>, <a href="https://www.technologynetworks.com/cancer-research/news/ai-agent-advances-personalized-prostate-cancer-education-408414">Cancer Research</a>, <a href="https://www.geneonline.com/mayo-clinic-develops-ehr-integrated-tool-using-ai-to-provide-personalized-prostate-cancer-education/">Gene Online</a>, <a href="https://www.beckershospitalreview.com/healthcare-information-technology/ehrs/mayo-launches-ehr-based-ai-cancer-tool/">Beckers Hospital Review</a>, and <a href="https://www.eurekalert.org/news-releases/1111888">AAAS EurekAlert</a>.
-          </div>
-        </li>
-
-        <li style="margin-bottom: 30px; padding-bottom: 30px; border-bottom: 1px solid #f0f0f0;">
-          <div style="font-size: 14px; color: #666; margin-bottom: 8px;">September 2025 · Research</div>
-          <strong style="font-size: 18px;">
-            <a href="https://research.google/blog/towards-better-health-conversations-research-insights-on-a-wayfinding-ai-agent-based-on-gemini/">Towards better health conversations: Research insights on a "wayfinding" AI agent based on Gemini</a>
-          </strong>
-          <div style="margin-top: 12px; font-size: 14px; color: #666; line-height: 1.6;">
-            Published at: <a href="https://research.google/blog/towards-better-health-conversations-research-insights-on-a-wayfinding-ai-agent-based-on-gemini/">Google Research Blog</a>, <a href="https://thewillowventures.com/research-insights-on-a-wayfinding-ai-agent-based-on-gemini-insights-by-willow-ventures/">Willow Venture Blog</a>.
-          </div>
-        </li>
-
-        <li style="margin-bottom: 30px; padding-bottom: 30px; border-bottom: 1px solid #f0f0f0;">
-          <div style="font-size: 14px; color: #666; margin-bottom: 8px;">August 2025 · Publication</div>
-          <strong style="font-size: 18px;">
-            <a href="https://www.human.cornell.edu/news/imported/2025/08/review-large-language-models-cancer-care-reveals-limitations-room-improvement">Review of large language models in cancer care reveals limitations, room for improvement</a>
-          </strong>
-          <div style="margin-top: 12px; font-size: 14px; color: #666; line-height: 1.6;">
-            Published at: <a href="https://www.human.cornell.edu/news/imported/2025/08/review-large-language-models-cancer-care-reveals-limitations-room-improvement">Cornell News</a>.
-          </div>
-        </li>
-
-        <li style="margin-bottom: 30px; padding-bottom: 30px; border-bottom: 1px solid #f0f0f0;">
-          <div style="font-size: 14px; color: #666; margin-bottom: 8px;">August 2025 · Research</div>
-          <strong style="font-size: 18px;">
-            <a href="https://quantumzeitgeist.com/medical-llms-show-bias-with-varied-clinical-input-study-reveals/">Medical LLMs Show Bias with Varied Clinical Input, Study Reveals</a>
-          </strong>
-          <div style="margin-top: 12px; font-size: 14px; color: #666; line-height: 1.6;">
-            Published at: <a href="https://news.mit.edu/2025/llms-factor-unrelated-information-when-recommending-medical-treatments-0623">MIT News</a>, <a href="https://quantumzeitgeist.com/medical-llms-show-bias-with-varied-clinical-input-study-reveals/">Quantum News</a>.
-          </div>
-        </li>
-
-        <li style="margin-bottom: 30px; padding-bottom: 30px; border-bottom: 1px solid #f0f0f0;">
-          <div style="font-size: 14px; color: #666; margin-bottom: 8px;">May 2025 · Award</div>
-          <strong style="font-size: 18px;">
-            <a href="https://news.cornell.edu/stories/2025/05/students-win-summer-awards-work-startups">Students win summer awards to work on startups</a>
-          </strong>
-          <div style="margin-top: 12px; font-size: 14px; color: #666; line-height: 1.6;">
-            Published at: <a href="https://news.cornell.edu/stories/2025/05/students-win-summer-awards-work-startups">Cornell Chronicle</a>.
-          </div>
-        </li>
-
-        <li style="margin-bottom: 30px; padding-bottom: 30px; border-bottom: 1px solid #f0f0f0;">
-          <div style="font-size: 14px; color: #666; margin-bottom: 8px;">February 2025 · Profile</div>
-          <strong style="font-size: 18px;">
-            <a href="https://gradschool.cornell.edu/spotlights/student-spotlight-yuexing-hao/">Cornell Graduate School Student Spotlight</a>
-          </strong>
-          <div style="margin-top: 12px; font-size: 14px; color: #666; line-height: 1.6;">
-            Featured in: Cornell Graduate School (<a href="https://www.youtube.com/watch?v=zvc9sSQP3m0&t=1s">interview video</a>).
-          </div>
-        </li>
-
-        <li style="margin-bottom: 30px; padding-bottom: 30px; border-bottom: 1px solid #f0f0f0;">
-          <div style="font-size: 14px; color: #666; margin-bottom: 8px;">September 2024 · Award</div>
-          <strong style="font-size: 18px;">
-            <a href="https://women-in-tech.org/north-america-celebrates-women-in-tech-at-regional-awards-ceremony/">North America Celebrates Women in Tech at Regional Awards Ceremony</a>
-          </strong>
-          <div style="margin-top: 12px; font-size: 14px; color: #666; line-height: 1.6;">
-            Published at: <a href="https://women-in-tech.org/north-america-celebrates-women-in-tech-at-regional-awards-ceremony/">Women in Tech® Global</a>, <a href="https://www.linkedin.com/posts/womenintechorg_witga24-womenintech-womeninstem-activity-7243337963449794561-PvXX?utm_source=share&utm_medium=member_desktop">LinkedIn Post</a>.
-          </div>
-        </li>
-
-        <li style="margin-bottom: 30px; padding-bottom: 30px; border-bottom: 1px solid #f0f0f0;">
-          <div style="font-size: 14px; color: #666; margin-bottom: 8px;">May 2024 · Healthcare AI</div>
-          <strong style="font-size: 18px;">
-            <a href="https://news.cornell.edu/stories/2024/05/ai-may-improve-doctor-patient-interactions-older-adults-cancer">AI may improve doctor-patient interactions for older adults with cancer</a>
-          </strong>
-          <div style="margin-top: 12px; font-size: 14px; color: #666; line-height: 1.6;">
-            Published at: <a href="https://news.cornell.edu/stories/2024/05/ai-may-improve-doctor-patient-interactions-older-adults-cancer">Cornell Chronicle</a>, <a href="https://www.mcknights.com/news/report-ai-tool-could-boost-communication-for-older-adults-with-cancer/">McKnight Long-Term Care News</a>, <a href="https://ihf.cornell.edu/news/cihf-grants-funding-to-yuexing-haos-research-paper/">Cornell CIHF</a>, <a href="https://medium.com/acm-cscw/can-grandma-be-involved-in-her-next-clinical-decision-b12fc79c5b7">Medium.com</a>, and <a href="https://medicalxpress.com/news/2024-05-ai-doctorpatient-interactions-older-adults.html">Medical Xpress</a>.
-          </div>
-        </li>
-
-        <li style="margin-bottom: 30px; padding-bottom: 30px; border-bottom: 1px solid #f0f0f0;">
-          <div style="font-size: 14px; color: #666; margin-bottom: 8px;">September 2023 · Fellowship</div>
-          <strong style="font-size: 18px;">
-            <a href="https://news.cornell.edu/stories/2023/09/life-sciences-technology-innovation-fellowship-announces-2023-24-cohort">Life Sciences Technology Innovation Fellowship announces 2023-24 cohort</a>
-          </strong>
-          <div style="margin-top: 12px; font-size: 14px; color: #666; line-height: 1.6;">
-            Published at: <a href="https://news.cornell.edu/stories/2023/09/life-sciences-technology-innovation-fellowship-announces-2023-24-cohort">Cornell Chronicle</a>, <a href="https://eship.cornell.edu/life-sciences-technology-innovation-fellowship-cohort-2023/">Entrepreneurship at Cornell</a>.
-          </div>
-        </li>
-
-        <li style="margin-bottom: 30px; padding-bottom: 30px;">
-          <div style="font-size: 14px; color: #666; margin-bottom: 8px;">April 2023 · Research</div>
-          <strong style="font-size: 18px;">
-            <a href="https://tech.cornell.edu/news/ai-tool-gains-doctors-trust-by-giving-advice-like-a-colleague/">AI Tool Gains Doctors' Trust by Giving Advice Like a Colleague</a>
-          </strong>
-          <div style="margin-top: 12px; font-size: 14px; color: #666; line-height: 1.6;">
-            Published at: <a href="https://news.cornell.edu/stories/2023/04/ai-tool-gains-doctors-trust-giving-advice-colleague">Cornell Chronicle</a>, <a href="https://futurism.com/neoscope/ai-gives-advice-patients-doctors-trust">Futurism</a>, <a href="https://www.newswise.com/articles/ai-tool-gains-doctors-trust-by-giving-advice-like-a-colleague">NewsWise</a>, and <a href="https://www.human.cornell.edu/news/imported/2023/05/human-connection-and-collaboration-are-common-threads-faculty-and-students">Cornell Human Ecology</a>.
-          </div>
-        </li>
-
-      </ul>
     </div>
+
   </div>
 
 </div>
