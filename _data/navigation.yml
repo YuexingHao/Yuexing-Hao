@@ -5,7 +5,7 @@ main:
     right: true
     
   - title: "Bio"
-    url: /biography.html
+    url: /biography/
     right: true
     
   - title: "Talks"
