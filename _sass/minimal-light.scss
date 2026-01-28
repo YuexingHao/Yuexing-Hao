@@ -24,11 +24,44 @@ p, li {
 @media (prefers-color-scheme: dark) {
   body {
     color: #e5e5e5;
+    background: #0d1117;
   }
   
   p, li {
     color: #e5e5e5;
   }
+}
+
+/* Manual dark mode class-based styles */
+body.dark-mode {
+  color: #e5e5e5;
+  background: #0d1117;
+}
+
+body.dark-mode p,
+body.dark-mode li {
+  color: #e5e5e5;
+}
+
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3,
+body.dark-mode h4,
+body.dark-mode h5,
+body.dark-mode h6 {
+  color: rgb(62, 183, 240);
+}
+
+body.dark-mode a {
+  color: rgb(62, 183, 240);
+}
+
+body.dark-mode a:hover {
+  color: #ffffff;
+}
+
+body.dark-mode autocolor {
+  color: #dadbdf;
 }
 
 .pub-row {
