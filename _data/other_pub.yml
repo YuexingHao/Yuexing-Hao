@@ -9,6 +9,7 @@ main:
     page: https://yuexinghao.github.io/BLR_demo_site/main_page.html
     image: ./assets/img/Post_Design.jpg
     notes: "* equal contributions"
+    category: AI for Health
     
   - title: "On the trustworthiness of generative foundation models: Guideline, assessment, and perspective"
     authors: Yue Huang, Chujie Gao, Siyuan Wu, Haoran Wang, Xiangqi Wang, Yujun Zhou, ... <strong>Yuexing Hao</strong>, ... Bo Li, Dawn Song, Xiangliang Zhang.
@@ -17,6 +18,7 @@ main:
     pdf: https://arxiv.org/abs/2502.14296
     page: https://trustgen.github.io/
     image: ./assets/img/TrustGen.png
+    category: LLM Reverse Engineering
     
   - title: "Codeside Manner: Evaluating Gender Differences in GPT-4 for Medical Applications"
     authors: Eileen Pan, Abinitha Gourabathina, Walter Gerych, <strong>Yuexing Hao*</strong>, Dr. Marzyeh Ghassemi 
@@ -24,6 +26,7 @@ main:
     conference: Under Review
     pdf: https://dl.acm.org/doi/XXX
     image: ./assets/img/AIES.png
+    category: LLM Reverse Engineering
     
   - title: "MedGUIDE: Benchmarking Clinical Decision-Making in Large Language Models"
     authors: Xiaomin Li, Mingye Gao, <strong>Yuexing Hao</strong>, Taoran Li, Guangya Wan, Zihan Wang, Yijun Wang.
@@ -32,6 +35,7 @@ main:
     pdf: https://arxiv.org/abs/2505.11613
     page: https://huggingface.co/datasets/MedGUIDE/MedGUIDE-MCQA-8K
     image: ./assets/img/MedGuide.png
+    category: LLM Reverse Engineering
     
   - title: "The MedPerturb Dataset: What Non-Content Perturbations Reveal About Human and Clinical LLM Decision Making"
     authors: Abinitha Gourabathina, <strong>Yuexing Hao</strong>, Walter Gerych, Dr. Marzyeh Ghassemi.
@@ -41,6 +45,7 @@ main:
     news: https://quantumzeitgeist.com/medical-llms-show-bias-with-varied-clinical-input-study-reveals/
     page: https://medperturb.csail.mit.edu/
     image: ./assets/img/MedPerturb.png
+    category: LLM Reverse Engineering
 
   - title: "RadOnc-GPT: An Autonomous LLM Agent for Real-Time Patient Outcomes Labeling at Scale"
     authors: Jason Holmes, <strong>Yuexing Hao</strong>, Mariana Borras-Osorio, Federico Mastroleo, Santiago Romero Brufau, Valentina Carducci, Katie M Van Abel, David M Routman, Andrew Y. K. Foong, Liv M Muller, Satomi Shiraishi, Daniel K Ebner, Daniel J Ma, Sameer R Keole, Samir H Patel, Mirek Fatyga, Martin Bues, Brad J Stish, Yolanda I Garces, Michelle A Neben Wittich, Robert L Foote, Sujay A Vora, Nadia N Laack, Mark R Waddle, Wei Liu
@@ -48,5 +53,6 @@ main:
     conference: Under Review
     pdf: https://www.arxiv.org/abs/2509.25540
     image: ./assets/img/RadOnc-GPT.jpeg
+    category: AI for Health
     
 

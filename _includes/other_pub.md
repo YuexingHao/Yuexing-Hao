@@ -24,6 +24,15 @@
       <div class="periodical"><em>{{ link.conference }}</em>
       </div>
     <div class="links">
+      {% if link.category %}
+        {% if link.category == "HCI" %}
+          <span class="category-badge" style="background-color: #0066cc; color: white; padding: 3px 10px; border-radius: 4px; font-size: 11px; font-weight: 600; margin-right: 8px; display: inline-block;">Human-Computer Interaction</span>
+        {% elsif link.category == "AI for Health" %}
+          <span class="category-badge" style="background-color: #22c55e; color: white; padding: 3px 10px; border-radius: 4px; font-size: 11px; font-weight: 600; margin-right: 8px; display: inline-block;">AI for Health</span>
+        {% elsif link.category == "LLM Reverse Engineering" %}
+          <span class="category-badge" style="background-color: #a855f7; color: white; padding: 3px 10px; border-radius: 4px; font-size: 11px; font-weight: 600; margin-right: 8px; display: inline-block;">LLM Reverse Engineering</span>
+        {% endif %}
+      {% endif %}
       {% if link.pdf %} 
       <a href="{{ link.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
       {% endif %}

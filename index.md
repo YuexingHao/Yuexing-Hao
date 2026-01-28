@@ -28,10 +28,6 @@ My [old personal website](https://1135100136.wixsite.com/yuexinghao/blog) has so
 
 {% include_relative _includes/publications.md %}
 
-{% include_relative _includes/other_pub.md %}
-
-{% include_relative _includes/PosterPapers.md %}
-
 {% include_relative _includes/press.md %}
 
 {% include_relative _includes/talks.md %}

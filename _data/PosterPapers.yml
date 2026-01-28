@@ -7,6 +7,7 @@ main:
     pdf: https://doi.org/10.1145/3706599.3719286
     news: https://news.cornell.edu/stories/2025/05/students-win-summer-awards-work-startups
     image: ./assets/img/HUG YH.jpg
+    category: AI for Health
     
   - title: "AI-Based Teat Shape and Skin Condition Prediction for Dairy Management"
     authors: <strong>Yuexing Hao*</strong>, Tiancheng Yuan *, Yuting Yang *, Aarushi Gupta, Dr. Matthias Wieland, Dr. Ken Birman, Dr. Parminder S. Basran.
@@ -16,6 +17,7 @@ main:
     page: https://yuexinghao.github.io/Agriverse/home.html
     notes: "* equal contributions"
     image: ./assets/img/IAAI 25.png
+    category: HCI
     
   - title: "Outcome First or Overview First? Optimizing Patient-Oriented Framework for Evidence-Based Healthcare Treatment Selections with XAI Tools"
     authors: <strong>Yuexing Hao</strong>
@@ -24,6 +26,7 @@ main:
     pdf: https://doi.org/10.1145/3678884.3681859
     notes: Poster Presentation
     image: ./assets/img/LLM_Limit_Presentation_YH.jpg
+    category: AI for Health
     
   - title: "The i-SDM Framework: Developing AI-based Tools in Shared Decision-Making for Cancer Treatment with Clinical Professionals"
     authors: <strong>Yuexing Hao</strong>, Dr. Corinna Loeckenhoff, Dr. Harry Lee, Dr. Jessica Zwerling, Dr. Saleh Kalantari.
@@ -32,6 +35,7 @@ main:
     pdf: https://dl.acm.org/doi/10.1145/3678884.3681841
     notes: Poster Presentation
     image: ./assets/img/EQUi-SDM Structure.jpg
+    category: HCI
     
   - title: "Digital Twin-Driven Teat Localization and Shape Identification for Dairy Cow"
     authors: Aarushi Gupta *, <strong>Yuexing Hao*</strong>, Yuting Yang *, Tiancheng Yuan *, Dr. Matthias Wieland, Dr. Parminder S. Basran, Dr. Ken Birman.
@@ -41,6 +45,7 @@ main:
     page: https://yuexinghao.github.io/Agriverse/home.html
     notes: "* equal contributions"
     image: ./assets/img/AAAI 24.png
+    category: HCI
     
   - title: "An Exploratory Study of Shared Decision-Making (SDM) for Older Adult Patients with Chronic Diseases"
     authors: <strong>Yuexing Hao</strong>, Zeyu Liu, Dr. Monika Safford, Dr. Rulla Tamimi, Dr. Saleh Kalantari.
@@ -50,4 +55,5 @@ main:
     news: https://medium.com/p/b12fc79c5b7
     notes: In-Person Oral Presentation
     image: ./assets/img/table final.png
+    category: HCI
 
