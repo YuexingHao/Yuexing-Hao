@@ -1,7 +1,8 @@
-/* Add a background gradient to the top navigation */
+/* Add a background to the top navigation */
 .topnav {
-    background: linear-gradient(90deg, #89a3cc, #5d6f9f);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background: #ffffff;
+    border-bottom: 2px solid #e5e7eb;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
     overflow: hidden;
     position: fixed;
     top: 0;
@@ -9,16 +10,19 @@
     z-index: 999;
     width: 100%;
     padding: 0;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
 }
 
 /* Style the links inside the navigation bar */
 .topnav a.normal {
     float: right;
-    color: #f2f2f2;
+    color: #1a1a1a;
     text-align: center;
     padding: 10px 20px;
     text-decoration: none;
     font-size: 16px;
+    font-weight: 500;
     border-radius: 4px;
     position: relative;
     transition: all 0.3s ease;
@@ -32,14 +36,14 @@
     transform: translateX(-50%);
     width: 0;
     height: 2px;
-    background: #fff;
+    background: #1a1a1a;
     transition: width 0.3s ease;
 }
 
 /* Change the color of links on hover */
 .topnav a.normal:hover {
-    background-color: rgba(255, 255, 255, 0.2);
-    color: #ffffff;
+    background-color: #f5f5f5;
+    color: #000000;
     transform: translateY(-2px);
 }
 
@@ -71,7 +75,7 @@
         position: absolute;
         right: 10px;
         top: 10px;
-        color: white;
+        color: #1a1a1a;
     }
     .topnav a.normal, .topnav a.right {
         display: none;
@@ -97,5 +101,31 @@
     }
     .topnav a.icon {
         margin-right: 5%;
+    }
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+    .topnav {
+        background: #1a1a1a;
+        border-bottom: 2px solid #333333;
+        box-shadow: 0 2px 12px rgba(0, 0, 0, 0.3);
+    }
+    
+    .topnav a.normal {
+        color: #e5e5e5;
+    }
+    
+    .topnav a.normal::after {
+        background: #e5e5e5;
+    }
+    
+    .topnav a.normal:hover {
+        background-color: #2a2a2a;
+        color: #ffffff;
+    }
+    
+    .topnav a.icon {
+        color: #e5e5e5;
     }
 }
