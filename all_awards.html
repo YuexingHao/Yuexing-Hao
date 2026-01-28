@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Awards - Yuexing Hao</title>
+  <link rel="stylesheet" href="./assets/css/nav.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <style>
     * {
       margin: 0;
@@ -29,10 +31,11 @@
     .header {
       background: #ffffff;
       color: #000000;
-      padding: 40px 30px;
+      padding: 100px 30px 40px;
       text-align: center;
       border-bottom: 2px solid #e5e7eb;
       box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+      margin-top: 0;
     }
     
     .header h1 {
@@ -71,18 +74,22 @@
     .iframe-container {
       position: relative;
       width: 100%;
-      height: calc(100vh - 200px);
+      max-width: 100%;
+      height: calc(100vh - 260px);
       min-height: 700px;
       padding: 0;
+      margin: 0;
       background: white;
-      overflow: auto;
+      overflow: hidden;
     }
     
     .iframe-container iframe {
       width: 100%;
+      max-width: 100%;
       height: 100%;
       border: none;
       display: block;
+      overflow: auto;
     }
     
     /* Dark mode support */
@@ -123,7 +130,7 @@
     /* Tablet and Mobile responsive */
     @media (max-width: 768px) {
       .header {
-        padding: 30px 20px;
+        padding: 90px 20px 30px;
       }
       
       .header h1 {
@@ -135,7 +142,7 @@
       }
       
       .iframe-container {
-        height: calc(100vh - 180px);
+        height: calc(100vh - 240px);
         min-height: 500px;
       }
     }
@@ -143,7 +150,7 @@
     /* Small phones */
     @media (max-width: 480px) {
       .header {
-        padding: 25px 15px;
+        padding: 85px 15px 25px;
       }
       
       .header h1 {
@@ -162,7 +169,7 @@
       }
       
       .iframe-container {
-        height: calc(100vh - 160px);
+        height: calc(100vh - 220px);
         min-height: 400px;
       }
     }
@@ -170,19 +177,59 @@
 </head>
 
 <body>
+  <div class="topnav">
+    <div id="myLinks">
+      <a class="normal right" href="/Yuexing-Hao/blog.html">Blog</a>
+      <a class="normal right" href="/Yuexing-Hao/biography/">Bio</a>
+      <a class="normal right" href="/Yuexing-Hao/#talks">Talks</a>
+      <a class="normal" href="/Yuexing-Hao/press/">Press</a>
+      <a class="normal" href="/Yuexing-Hao/#news">News</a>
+      <a class="normal" href="/Yuexing-Hao/#publications">Publications</a>
+      <a class="normal" href="/Yuexing-Hao/#awards">Awards</a>
+      <a class="normal" href="/Yuexing-Hao/">Home</a>
+    </div>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction();reverseLinks()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+  <script>
+    function myFunction() {
+      var topnav = document.querySelector('.topnav');
+      var myLinks = document.getElementById("myLinks");
+      
+      if (topnav.classList.contains('responsive')) {
+        topnav.classList.remove('responsive');
+        myLinks.style.display = "none";
+      } else {
+        topnav.classList.add('responsive');
+        myLinks.style.display = "block";
+      }
+    }
+    
+    function reverseLinks() {
+      var container = document.getElementById("myLinks");
+      var links = Array.from(container.getElementsByTagName('a'));
+      container.innerHTML = '';
+      for (var i = links.length - 1; i >= 0; i--) {
+        container.appendChild(links[i]);
+      }
+    }
+  </script>
+
   <div class="container">
     <div class="header">
       <h1>Complete Awards List</h1>
       <p>Total funding: ~$430,000 | Real-time updates from Google Docs</p>
-      <a href="/" class="back-link">← Back to Homepage</a>
     </div>
     
     <div class="iframe-container">
       <iframe 
-        src="https://docs.google.com/document/d/e/2PACX-1vQHbSBmWfNZZL6E6CqinVUAZiya81hxgZ6zAwW00XNGvVVcu6s77CoAqiic94aXWnQB9_AAJNLU8a5-/pub?embedded=true"
+        src="https://docs.google.com/document/d/e/2PACX-1vQHbSBmWfNZZL6E6CqinVUAZiya81hxgZ6zAwW00XNGvVVcu6s77CoAqiic94aXWnQB9_AAJNLU8a5-/pub?embedded=true&amp;rm=minimal"
         title="Awards List"
         allowfullscreen
-        loading="eager">
+        loading="eager"
+        frameborder="0">
       </iframe>
     </div>
   </div>
