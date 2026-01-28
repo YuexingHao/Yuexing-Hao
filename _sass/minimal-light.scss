@@ -1,3 +1,8 @@
+/* Smooth scrolling for navigation links */
+html {
+  scroll-behavior: smooth;
+}
+
 .pub-row {
   display: flex; 
   align-items: center;}
