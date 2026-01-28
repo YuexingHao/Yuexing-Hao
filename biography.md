@@ -119,28 +119,20 @@ permalink: /biography/
 
 <div class="bio-container">
   <h2>Biography</h2>
-  <p>Yuexing Hao is an IvyPlus Exchange Ph.D. Scholar at MIT (2024-25) and a fourth-year Ph.D. student at Cornell University (2021-25). She earns two Computer Science degrees from Rutgers University (B.A., 2017-20) and Tufts University (M.S, 2020-21). During her study, Yuexing won the 2024 North America Women in Tech Most Disruptive Award powered by Amazon, NCWIT AIC Collegiate Award (Honorable Mention), second prize in IEEE Communication Society Student Competition, ACM SIGCHI 2023 Gary Marsden Travel Award, Meritorious Prize in the 2020 Interdisciplinary Contest in Modeling (ICM), and Graduate Student Research Competition Award at Tufts University. Yuexing also published several papers at CHI Conference on Human Factors in Computing Systems, Intelligent System Conference, AAAI, and Bioinformatics. She reviewed top-venue conferences serving as registration co-chair for FAccT, associate chair for CSCW and CHI. Currently, her research focus is on Health Intelligence, Human-Computer Interaction, and AI.</p>
   
-  <h2>Professional Headshot</h2>
-  <div style="display: flex; gap: 30px; align-items: center; margin: 30px 0; flex-wrap: wrap;">
-    <div style="flex: 0 0 250px;">
-      <img src="/Yuexing-Hao/assets/img/Look_Yuexing_Hao.jpg" alt="Yuexing Hao Professional Headshot" style="width: 100%; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+  <div style="display: flex; gap: 40px; margin: 30px 0 60px; align-items: flex-start; flex-wrap: wrap;">
+    <div style="flex: 0 0 280px;">
+      <img src="/Yuexing-Hao/assets/img/Look_Yuexing_Hao.jpg" alt="Yuexing Hao Professional Headshot" style="width: 100%; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); margin-bottom: 20px;">
+      <a href="/Yuexing-Hao/assets/img/Look_Yuexing_Hao.jpg" download="Yuexing_Hao_Professional_Photo.jpg" class="download-photo-btn" style="width: 100%; justify-content: center;">
+        <i class="fas fa-download"></i> Download High-Res Photo
+      </a>
     </div>
     <div style="flex: 1; min-width: 300px;">
-      <p style="margin-bottom: 15px; text-align: left !important;">High-resolution professional headshot available for:</p>
-      <ul style="margin-bottom: 20px; text-align: left !important; color: #374151; line-height: 1.7;">
-        <li>Conference speaker introductions</li>
-        <li>Media and press releases</li>
-        <li>Academic event promotions</li>
-        <li>Professional publications</li>
-      </ul>
-      <a href="/Yuexing-Hao/assets/img/Look_Yuexing_Hao.jpg" download="Yuexing_Hao_Professional_Photo.jpg" class="download-photo-btn">
-        <i class="fas fa-download"></i> Download High-Resolution Photo
-      </a>
+      <p>Yuexing Hao is an IvyPlus Exchange Ph.D. Scholar at MIT (2024-25) and a fourth-year Ph.D. student at Cornell University (2021-25). She earns two Computer Science degrees from Rutgers University (B.A., 2017-20) and Tufts University (M.S, 2020-21). During her study, Yuexing won the 2024 North America Women in Tech Most Disruptive Award powered by Amazon, NCWIT AIC Collegiate Award (Honorable Mention), second prize in IEEE Communication Society Student Competition, ACM SIGCHI 2023 Gary Marsden Travel Award, Meritorious Prize in the 2020 Interdisciplinary Contest in Modeling (ICM), and Graduate Student Research Competition Award at Tufts University. Yuexing also published several papers at CHI Conference on Human Factors in Computing Systems, Intelligent System Conference, AAAI, and Bioinformatics. She reviewed top-venue conferences serving as registration co-chair for FAccT, associate chair for CSCW and CHI. Currently, her research focus is on Health Intelligence, Human-Computer Interaction, and AI.</p>
     </div>
   </div>
   
-  <h2>Research Video</h2>
+  <h2>Dissertation Video</h2>
   <div class="video-container">
     <iframe src="https://www.youtube.com/embed/x2dWQr95vak" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
   </div>
