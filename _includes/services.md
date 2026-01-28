@@ -1,6 +1,15 @@
+<style>
+#reviews-list li {
+  margin-bottom: 14px;
+}
+#services-list li {
+  margin-bottom: 14px;
+}
+</style>
+
 <h2  id="services" style="margin:20px 10px 0;">Conference Reviews</h2>
 
-<ul style="margin:20px 0 5px;">
+<ul id="reviews-list" style="margin:20px 0 5px;">
   <li><a href="https://dl.acm.org/conference/chi"><autocolor>ACM Conference on Human Factors in Computing Systems (CHI) Area Chair. </autocolor></a></li>
   <li><a href="https://dl.acm.org/conference/cscw"><autocolor>ACM Conference On Computer-Supported Cooperative Work And Social Computing (CSCW) Paper Associate Chair. </autocolor></a></li>
   <li><a href="https://facctconference.org/"><autocolor>ACM Conference on Fairness, Accountability, and Transparency (FAccT) Program Committee. </autocolor></a></li>
@@ -10,7 +19,7 @@
 
 <h2 style="margin:20px 10px 0;">Professional Services</h2>
 
-<ul style="margin:20px 0 5px;">
+<ul id="services-list" style="margin:20px 0 5px;">
   <li><autocolor>American Psychological Association (APA) Member</autocolor></li>
   <li><autocolor>IEEE Graduate Student Member</autocolor></li>
   <li><autocolor>Cornell University Departmental Graduate Student Association President (2023-2024)</autocolor></li>

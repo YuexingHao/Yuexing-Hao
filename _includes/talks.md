@@ -1,6 +1,12 @@
+<style>
+#talks-list li {
+  margin-bottom: 14px;
+}
+</style>
+
 <h2 id="talks" style="margin: 20px 0px 10px;">Selected Talks</h2>
 
-<ul>
+<ul id="talks-list">
   
 <li><strong>[Sep 25th. 2025]</strong> Fall 2025 University of Maryland Human Computer Interaction Lab (HCIL) Brownbag Speaker Series about <strong>'Objective Approaches in a Subjective Medical World.'</strong> <a href= "https://www.youtube.com/watch?v=UjMmF52cz2g">Recording</a></li>
 

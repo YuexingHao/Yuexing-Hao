@@ -1,6 +1,12 @@
+<style>
+#press-list li {
+  margin-bottom: 14px;
+}
+</style>
+
 <h2 id="press" style="margin: 20px 0px 10px;">Press</h2>
 
-<ul>
+<ul id="press-list">
 
 <li><strong>[Jan. 2026] <a href="https://newsnetwork.mayoclinic.org/discussion/new-mayo-clinic-study-advances-personalized-prostate-cancer-education-with-an-ehr-integrated-ai-agent/">New Mayo Clinic study advances personalized prostate cancer education with an EHR-integrated AI agent</a></strong>, published at <a href="https://newsnetwork.mayoclinic.org/discussion/new-mayo-clinic-study-advances-personalized-prostate-cancer-education-with-an-ehr-integrated-ai-agent/">Mayo Clinic News</a>, <a href="https://www.newswise.com/articles/new-mayo-clinic-study-advances-personalized-prostate-cancer-education-with-an-ehr-integrated-ai-agent">NewsWise.com</a>, <a href="https://medicalxpress.com/news/2026-01-electronic-health-ai-agent-advances.html">Medical X Press</a>, <a href="https://www.technologynetworks.com/cancer-research/news/ai-agent-advances-personalized-prostate-cancer-education-408414">Cancer Research</a>, <a href="https://www.geneonline.com/mayo-clinic-develops-ehr-integrated-tool-using-ai-to-provide-personalized-prostate-cancer-education/">Gene Online</a>, <a href="https://www.beckershospitalreview.com/healthcare-information-technology/ehrs/mayo-launches-ehr-based-ai-cancer-tool/">Beckers Hospital Review</a>, and <a href="https://www.eurekalert.org/news-releases/1111888">American Association for the Advancement of Science EurekAlert</a>.</li>
   
