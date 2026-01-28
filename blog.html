@@ -28,6 +28,7 @@ title: Blog
   color: #1a1a1a;
   margin-bottom: 12px;
   letter-spacing: -0.03em;
+  line-height: 1.15;
 }
 
 .blog-header p {
@@ -47,7 +48,7 @@ title: Blog
 
 .blog-posts {
   display: grid;
-  gap: 30px;
+  gap: 0;
 }
 
 .blog-post-card {
@@ -196,7 +197,7 @@ title: Blog
         <a href="{{ post.url | relative_url }}" class="blog-post-card">
           <h2 class="post-card-title">{{ post.title }}</h2>
           <div class="post-card-meta">
-            <i class="far fa-calendar"></i> {{ post.date | date: "%B %d, %Y" }}
+            {{ post.date | date: "%B %d, %Y" }}
           </div>
           {% if post.excerpt %}
             <p class="post-card-excerpt">{{ post.excerpt | strip_html | truncatewords: 40 }}</p>
@@ -213,7 +214,6 @@ title: Blog
       {% endfor %}
     {% else %}
       <div class="no-posts">
-        <i class="fas fa-pencil-alt" style="font-size: 3rem; margin-bottom: 20px; opacity: 0.3;"></i>
         <p style="font-size: 1.2rem;">No blog posts yet. Stay tuned!</p>
       </div>
     {% endif %}
