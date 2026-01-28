@@ -41,3 +41,9 @@ My [old personal website](https://1135100136.wixsite.com/yuexinghao/blog) has so
 {% include_relative _includes/talks.md %}
 
 {% include_relative _includes/services.md %}
+
+<h2 style="margin:20px 10px 0;">Visitor Statistics</h2>
+
+<div style="margin: 20px 0; text-align: center;">
+  <a href="https://mapmyvisitors.com/web/1c25c" title="Visit tracker"><img src="https://mapmyvisitors.com/map.png?d=nekqMp-kTnsA5OtVy5KQX9m4ijX_if6zYQR_xKMBOOw&cl=ffffff" alt="Visitor Map" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); max-width: 100%; height: auto;" /></a>
+</div>
