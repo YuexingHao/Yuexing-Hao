@@ -60,6 +60,11 @@ body.dark-mode a:hover {
   color: #ffffff;
 }
 
+/* Publication titles: force white in dark mode (overrides publications.css cascade) */
+body.dark-mode .publications ol.bibliography li .title a {
+  color: #ffffff !important;
+}
+
 body.dark-mode autocolor {
   color: #e5e5e5 !important;
 }

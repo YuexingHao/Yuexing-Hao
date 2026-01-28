@@ -96,6 +96,7 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 }
 
 /* Manual dark mode class support */
+body.dark-mode .publications ol.bibliography li .title,
 body.dark-mode .publications ol.bibliography li .title a {
     color: #ffffff !important;
 }
