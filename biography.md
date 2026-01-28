@@ -30,7 +30,7 @@ permalink: /biography/
 }
 
 .bio-container p {
-  font-size: 1.05rem;
+  font-size: 0.95rem;
   line-height: 1.7;
   color: #374151;
   margin-bottom: 1.5rem;
@@ -39,6 +39,7 @@ permalink: /biography/
 
 .bio-container ul {
   color: #374151;
+  font-size: 0.95rem;
 }
 
 .bio-container ul li {
@@ -112,7 +113,7 @@ permalink: /biography/
   }
   
   .bio-container p {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
 }
 </style>
@@ -128,7 +129,7 @@ permalink: /biography/
       </a>
     </div>
     <div style="flex: 1; min-width: 300px;">
-      <p>Yuexing Hao is an IvyPlus Exchange Ph.D. Scholar at MIT (2024-25) and a fourth-year Ph.D. student at Cornell University (2021-25). She earns two Computer Science degrees from Rutgers University (B.A., 2017-20) and Tufts University (M.S, 2020-21). During her study, Yuexing won the 2024 North America Women in Tech Most Disruptive Award powered by Amazon, NCWIT AIC Collegiate Award (Honorable Mention), second prize in IEEE Communication Society Student Competition, ACM SIGCHI 2023 Gary Marsden Travel Award, Meritorious Prize in the 2020 Interdisciplinary Contest in Modeling (ICM), and Graduate Student Research Competition Award at Tufts University. Yuexing also published several papers at CHI Conference on Human Factors in Computing Systems, Intelligent System Conference, AAAI, and Bioinformatics. She reviewed top-venue conferences serving as registration co-chair for FAccT, associate chair for CSCW and CHI. Currently, her research focus is on Health Intelligence, Human-Computer Interaction, and AI.</p>
+      <p>Yuexing Hao is an MIT EECS PostDoc in the Healthy ML Group. She holds Computer Science degrees from Rutgers University (B.A.), Tufts University (M.S.), and Cornell University (Ph.D.). Her research focuses on AI for Healthcare and Human-Computer Interaction, with an emphasis on data-driven approaches to clinical decision-making and patient-centered technologies. Yuexing has been awarded over $152,000 in competitive funding as a principal investigator during her doctoral studies. This includes the APF K. Anders Ericsson Dissertation Grant, the PCCW Frank H.T. Rhodes Leadership and Mission Grants, 2024 North America Women in Tech Most Disruptive Award (powered by Amazon), and the NCWIT AIC Collegiate Award (Honorable Mention). She interned at Google Research, Mayo Clinic, and Scale AI.  Her work has been published at Nature Digital Medicine, CHI, AAAI, Bioinformatics, and the Intelligent Systems Conference. She actively serves the research community as Registration Co-Chair for ACM FAccT and Associate Chair for CSCW and CHI.</p>
     </div>
   </div>
   
