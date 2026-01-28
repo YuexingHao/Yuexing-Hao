@@ -280,17 +280,21 @@ h1 {
 }
 
 a {
-  color:#39c;
+  color:#0056b3;
   text-decoration:none;
 }
 
 a:hover {
-  color:#069;
+  color:#000000;
 }
 
 @media (prefers-color-scheme: dark) {
   a {
     color:rgb(62, 183, 240);
+  }
+  
+  a:hover {
+    color:#ffffff;
   }
 }
 
