@@ -1,6 +1,6 @@
 ---
 layout: blog-post
-title: "Welcome to My Blog"
+title: "I Graduated from Ph.D.!"
 date: 2025-01-28
 author: Yuexing Hao
 tags: [Welcome, Personal, AI Research]
@@ -12,6 +12,12 @@ Welcome to my blog! I'm excited to start sharing my thoughts and experiences in 
 ## What to Expect
 
 In this blog, I'll be writing about:
+
+<div style="display: flex; gap: 20px; margin: 30px 0; justify-content: center; flex-wrap: wrap;">
+  <img src="/Yuexing-Hao/assets/img/AIES.png" alt="AIES" style="width: 30%; min-width: 250px; height: auto; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+  <img src="/Yuexing-Hao/assets/img/HAO.png" alt="Research" style="width: 30%; min-width: 250px; height: auto; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+  <img src="/Yuexing-Hao/assets/img/HUG YH.jpg" alt="HUG Medical" style="width: 30%; min-width: 250px; height: auto; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+</div>
 
 - **AI Research**: Insights from my work on LLM agents, RLHF, and AI alignment
 - **Healthcare AI**: Experiences and learnings from developing AI systems for healthcare
