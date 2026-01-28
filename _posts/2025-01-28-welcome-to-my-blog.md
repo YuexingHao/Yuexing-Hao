@@ -24,6 +24,8 @@ In this blog, I'll be writing about my random thoughts in **AI Research**; my pr
 
 I started my Ph.D. from August 22nd, 2022, though I actually started my research assistant after graduating from Tufts University in December 2021. I graduated from my Ph.D. in 3.5 yrs, 1231 days.  
 
+In my third year, I received IvyPlus Exchange Ph.D. scholarship and 
+
 During my Ph.D., I mainly worked on applied science in AI and healthcare. My research focuses on:
 
 1. **Human-AI Interaction**: Understanding how people interact with AI systems

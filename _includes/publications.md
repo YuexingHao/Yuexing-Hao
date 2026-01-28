@@ -1,6 +1,6 @@
 <h1 id="publications"></h1>
 
-<h2 style="margin: 2px 0px -15px;">First Author Publications</h2>
+<h2 style="margin: 2px 0px -15px;">Publications</h2>
 
 <div class="pub-filter-buttons" style="margin: 25px 0 30px 0; text-align: center;">
   <button class="filter-btn active" data-filter="all">All Papers</button>

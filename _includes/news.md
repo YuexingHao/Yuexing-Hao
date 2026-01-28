@@ -1,6 +1,6 @@
 <style>
 #news-list li {
-  margin-bottom: 18px;
+  margin-bottom: 12px;
 }
 </style>
 
