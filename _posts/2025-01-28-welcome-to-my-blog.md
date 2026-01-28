@@ -4,8 +4,8 @@ title: "I Graduated from Ph.D.!"
 date: 2025-01-28
 author: Yuexing Hao
 tags: [Welcome, Personal, AI Research]
-description: "Introduction to my new blog where I'll share insights about AI, research, and technology."
-featured_image: /Yuexing-Hao/assets/img/PhD_Family.jpg
+description: "Introduction to my new blog where I'll share insights about AI (35%), research (35%), and life (30%)."
+featured_image: /Yuexing-Hao/assets/img/PhD_Publications.jpg
 ---
 
 Welcome to 13-day-old Dr. Hao's blog! I'm excited to start sharing my thoughts and experiences in AI research, healthcare technology, and beyond. All my blogs are written without AI so bear with me on grammar errors. 
@@ -24,7 +24,7 @@ Reflecting my Ph.D., I am very grateful for my committee member and my amazing f
 
 ## My Research Journey
 
-I started my Ph.D. in Cornell University (yes, ithaca campus not the fancy NYC one) from August 22nd, 2022, though I actually started my research assistant after graduating from Tufts University in December 2021. I graduated from my Ph.D. in 3.5 yrs, 1231 days.  
+I started my Ph.D. in Cornell University (yes, ithaca campus not the fancy NYC one) from August 22nd, 2022, though I actually started my research assistant after graduating from Tufts University in December 2021. I graduated from my Ph.D. in 3.5 yrs, 1231 days. 
 
 In my third year (June 2024), I received IvyPlus Exchange Ph.D. scholarship and exchanged to MIT. This exchange supposed to be 3 months. Then it kept on extending to be 18 months. Looking back, I felt extremely fortunate.
 
@@ -37,7 +37,7 @@ During my Ph.D., I mainly worked on applied science in AI and healthcare. My res
 My research would be impossible without my amazing academia siblings, friends, collaborators (proofs attached below). 
 
 <div style="display: flex; gap: 20px; margin: 30px 0; justify-content: center; flex-wrap: wrap;">
-  <img src="/Yuexing-Hao/assets/img/PhD_Friend1_.jpg" alt="Yuexing Hao and her academia siblings and friends (1)" style="width: 30%; min-width: 250px; height: auto; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+  <img src="/Yuexing-Hao/assets/img/PhD_Friend1.jpg" alt="Yuexing Hao and her academia siblings and friends (1)" style="width: 30%; min-width: 250px; height: auto; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
   <img src="/Yuexing-Hao/assets/img/PhD_Friend2.jpg" alt="Yuexing Hao and her academia siblings and friends (2)" style="width: 30%; min-width: 250px; height: auto; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
   <img src="/Yuexing-Hao/assets/img/PhD_Friend3.jpg" alt="Yuexing Hao and her academia siblings and friends (3)" style="width: 30%; min-width: 250px; height: auto; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
 </div>

@@ -43,7 +43,7 @@
 }
 </style>
 
-<h2 style="margin: 20px 0px 10px;" id="awards">Selected Awards<a href="all_awards.html" class="awards-btn"><i class="fas fa-trophy"></i> Show All Awards (~$140k)</a></h2> 
+<h2 style="margin: 20px 0px 10px;" id="awards">Selected Awards<a href="all_awards.html" class="awards-btn"><i class="fas fa-trophy"></i> Show All Awards (~$430k)</a></h2> 
 
 <ul id="awards-list">
   <li>2025-26 <a href="https://yuexinghao.github.io/Yuexing-Hao/assets/files/PCCW%20Letter.pdf">President’s Council of Cornell Women (PCCW) Frank H.T. Rhodes Leadership Grant and Mission Grant</a></li>
