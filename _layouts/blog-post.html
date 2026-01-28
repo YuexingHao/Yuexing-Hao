@@ -87,15 +87,17 @@
         position: relative;
         z-index: 1;
         clear: both;
+        text-align: center;
       }
       
       .article-title {
         font-size: 3rem;
         font-weight: 700;
         color: #1a1a1a;
-        margin: 0 0 24px 0;
+        margin: 0 auto 24px;
         line-height: 1.15;
         letter-spacing: -0.03em;
+        max-width: 100%;
       }
       
       @media (prefers-color-scheme: dark) {
@@ -107,6 +109,7 @@
       .article-meta {
         display: flex;
         align-items: center;
+        justify-content: center;
         gap: 16px;
         color: #6b7280;
         font-size: 0.95rem;
@@ -123,6 +126,7 @@
         gap: 8px;
         margin-top: 16px;
         flex-wrap: wrap;
+        justify-content: center;
       }
       
       .article-tags .tag {
