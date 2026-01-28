@@ -9,7 +9,7 @@ main:
     page: https://yuexinghao.github.io/BLR_demo_site/main_page.html
     image: ./assets/img/Post_Design.jpg
     notes: "* equal contributions"
-    category: AI for Health
+    category: HCI
     
   - title: "On the trustworthiness of generative foundation models: Guideline, assessment, and perspective"
     authors: Yue Huang, Chujie Gao, Siyuan Wu, Haoran Wang, Xiangqi Wang, Yujun Zhou, ... <strong>Yuexing Hao</strong>, ... Bo Li, Dawn Song, Xiangliang Zhang.

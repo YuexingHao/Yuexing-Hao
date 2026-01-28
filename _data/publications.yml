@@ -45,7 +45,7 @@ main:
     image: ./assets/img/CALC.png
     page: http://mit-calc.csail.mit.edu/
     notes: "* equal contributions"
-    category: LLM Reverse Engineering
+    category: HCI
     
   - title: "Research through Evaluation (RtE): Iteratively Developing Evaluations for Large Language Model-Generated Outputs in Healthcare"
     authors: <strong>Yuexing Hao</strong>, Dr. Jason Holmes, Dr. Jared Hobson, Dr. Alexandra Bennett, Dr. Elizabeth McKone, Dr. Daniel K. Ebner, Dr. David M. Routman, Dr. Satomi Shiraishi, Dr. Samir H. Patel, Dr. Nathan Y. Yu, Dr. Chris Hallemeier, Brooke E. Ball, Dr. Saleh Kalantari, Dr. Marzyeh Ghassemi, Dr. Mark Waddle, Dr. Wei Liu.
@@ -53,7 +53,7 @@ main:
     conference: Under Review
     pdf: https://arxiv.org/abs/XX
     image: ./assets/img/RtE.gif
-    category: AI for Health
+    category: HCI
 
   - title: "Retrospective Comparative Analysis of Prostate Cancer In-Basket Messages: Responses from Closed-Domain LLM vs. Clinical Teams"
     authors: <strong>Yuexing Hao</strong>, Dr. Jason Holmes, Dr. Jared Hobson, Dr. Alexandra Bennett, Dr. Elizabeth McKone, Dr. Daniel K. Ebner, Dr. David M. Routman, Dr. Satomi Shiraishi, Dr. Samir H. Patel, Dr. Nathan Y. Yu, Dr. Chris Hallemeier, Brooke E. Ball, Dr. Mark Waddle, Dr. Wei Liu.
