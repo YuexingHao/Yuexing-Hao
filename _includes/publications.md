@@ -145,8 +145,6 @@
 </div>
 </li>
 
-<br>
-
 {% endfor %}
 
 {% for link in site.data.PosterPapers.main %}
@@ -205,8 +203,6 @@
 </div>
 </li>
 
-<br>
-
 {% endfor %}
 
 {% for link in site.data.other_pub.main %}
@@ -264,8 +260,6 @@
   </div>
 </div>
 </li>
-
-<br>
 
 {% endfor %}
 
