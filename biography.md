@@ -34,7 +34,8 @@ permalink: /biography/
   line-height: 1.7;
   color: #374151;
   margin-bottom: 1.5rem;
-  text-align: justify;
+  text-align: left;
+  max-width: 700px;
 }
 
 .bio-container ul {
