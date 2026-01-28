@@ -8,6 +8,7 @@ main:
     image: ./assets/img/SankeyDiagram.png
     news: https://research.google/blog/towards-better-health-conversations-research-insights-on-a-wayfinding-ai-agent-based-on-gemini/
     notes: "* equal contributions"
+    category: HCI
     
   - title: "Personalizing Prostate Cancer Education for Patients Using an EHR-Integrated LLM Agent"
     authors: <strong>Yuexing Hao</strong>, Dr. Jason Holmes, Dr. Mark Waddle, Dr. Brian J. Davis, Dr. Nathan Yu, Dr. Kristen Vickers, Heather Preston, Dr. Drew Margolin, Dr. Corinna Löckenhoff, Dr. Aditya Vashistha, Dr. Saleh Kalantari, Dr. Marzyeh Ghassemi, Dr. Wei Liu.
@@ -16,6 +17,7 @@ main:
     pdf: https://www.nature.com/articles/s41746-025-02166-0
     news: https://newsnetwork.mayoclinic.org/discussion/new-mayo-clinic-study-advances-personalized-prostate-cancer-education-with-an-ehr-integrated-ai-agent/
     image: ./assets/img/MedEduChat.gif
+    category: AI for Health
     
   - title: "Large Language Model Integrations in Cancer Decision-making: A Systematic Review and Meta-analysis"
     authors: <strong>Yuexing Hao</strong>, Zhiwen Qiu, Dr. Jason Holmes, Prof. Corinna E. Löckenhoff, Prof. Wei Liu, Prof. Marzyeh Ghassemi, Prof. Saleh Kalantari.
@@ -24,6 +26,7 @@ main:
     pdf: https://www.nature.com/articles/s41746-025-01824-7
     news: https://human.cornell.edu/news-profiles/review-large-language-models-cancer-decision-making-limitations-improvement
     image: ./assets/img/Review_NPJ.jpg
+    category: AI for Health
     
   - title: "MedPAIR: Measuring Physicians and AI Relevance Alignment in Medical Question Answering"
     authors: <strong>Yuexing Hao</strong>, Kumail Alhamoud, Hyewon Jeong, Haoran Zhang, Isha Puri, Prof. Philip Torr, Dr. Mike Schaekermann, Prof. Ariel Dora Stern, Prof. Marzyeh Ghassemi.
@@ -32,6 +35,7 @@ main:
     pdf: https://arxiv.org/abs/2505.24040
     page: https://medpair.csail.mit.edu/
     image: ./assets/img/MedPAIR_Logo.png
+    category: LLM Reverse Engineering
     
   - title: "The Role of Computing Resources in Publishing Foundation Model Research"
     authors: <strong>Yuexing Hao *</strong>, Yue Huang *, Haoran Zhang, Chenyang Zhao, Zhenwen Liang, Prof. Paul Pu Liang, Prof. Yue Zhao, Prof. Lichao Sun, Prof. Saleh Kalantari, Prof. Xiangliang Zhang, Prof. Marzyeh Ghassemi.
@@ -41,6 +45,7 @@ main:
     image: ./assets/img/CALC.png
     page: http://mit-calc.csail.mit.edu/
     notes: "* equal contributions"
+    category: LLM Reverse Engineering
     
   - title: "Research through Evaluation (RtE): Iteratively Developing Evaluations for Large Language Model-Generated Outputs in Healthcare"
     authors: <strong>Yuexing Hao</strong>, Dr. Jason Holmes, Dr. Jared Hobson, Dr. Alexandra Bennett, Dr. Elizabeth McKone, Dr. Daniel K. Ebner, Dr. David M. Routman, Dr. Satomi Shiraishi, Dr. Samir H. Patel, Dr. Nathan Y. Yu, Dr. Chris Hallemeier, Brooke E. Ball, Dr. Saleh Kalantari, Dr. Marzyeh Ghassemi, Dr. Mark Waddle, Dr. Wei Liu.
@@ -48,6 +53,7 @@ main:
     conference: Under Review
     pdf: https://arxiv.org/abs/XX
     image: ./assets/img/RtE.gif
+    category: AI for Health
 
   - title: "Retrospective Comparative Analysis of Prostate Cancer In-Basket Messages: Responses from Closed-Domain LLM vs. Clinical Teams"
     authors: <strong>Yuexing Hao</strong>, Dr. Jason Holmes, Dr. Jared Hobson, Dr. Alexandra Bennett, Dr. Elizabeth McKone, Dr. Daniel K. Ebner, Dr. David M. Routman, Dr. Satomi Shiraishi, Dr. Samir H. Patel, Dr. Nathan Y. Yu, Dr. Chris Hallemeier, Brooke E. Ball, Dr. Mark Waddle, Dr. Wei Liu.
@@ -55,6 +61,7 @@ main:
     conference: Mayo Clinic Proceedings Digital Health 2025
     pdf: https://www.sciencedirect.com/science/article/pii/S2949761225000057
     image: ./assets/img/Radar_Chart.png
+    category: AI for Health
 
   - title: "Advancing Patient-Centered Shared Decision-Making with AI Systems for Older Adult Cancer Patients"
     authors: <strong>Yuexing Hao</strong>, Zeyu Liu, Robert N. Riter, Dr. Saleh Kalantari.
@@ -65,6 +72,7 @@ main:
     notes: In-Person Oral Presentation
     news: https://news.cornell.edu/stories/2024/05/ai-may-improve-doctor-patient-interactions-older-adults-cancer
     image: ./assets/img/Design Diamond Pic.png
+    category: HCI
 
   - title: "Dynamic Strategies and Opponent Hands Estimation for Reinforcement Learning in Gin Rummy Game"
     authors: <strong>Yuexing Hao</strong>, Mark Vaysiberg.
@@ -73,3 +81,4 @@ main:
     pdf: https://link.springer.com/chapter/10.1007/978-3-030-82193-7_36
     notes: Virtual Presentation
     image: ./assets/img/Intelli Presentation.jpg
+    category: LLM Reverse Engineering

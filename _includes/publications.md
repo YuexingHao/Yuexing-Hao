@@ -2,12 +2,93 @@
 
 <h2 style="margin: 2px 0px -15px;">First Author Publications</h2>
 
+<div class="pub-filter-buttons" style="margin: 25px 0 30px 0; text-align: center;">
+  <button class="filter-btn active" data-filter="all">All Papers</button>
+  <button class="filter-btn" data-filter="HCI">Human-Computer Interaction</button>
+  <button class="filter-btn" data-filter="AI for Health">AI for Health</button>
+  <button class="filter-btn" data-filter="LLM Reverse Engineering">LLM Reverse Engineering</button>
+</div>
+
+<style>
+.pub-filter-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+}
+
+.filter-btn {
+  padding: 10px 24px;
+  font-size: 15px;
+  font-weight: 500;
+  border: 2px solid #043361;
+  background: white;
+  color: #043361;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: inherit;
+}
+
+.filter-btn:hover {
+  background: #043361;
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(4, 51, 97, 0.2);
+}
+
+.filter-btn.active {
+  background: linear-gradient(90deg, #89a3cc, #5d6f9f);
+  color: white;
+  border-color: #5d6f9f;
+  box-shadow: 0 4px 12px rgba(93, 111, 159, 0.3);
+}
+
+@media (prefers-color-scheme: dark) {
+  .filter-btn {
+    border-color: rgb(62, 183, 240);
+    background: #20212b;
+    color: rgb(62, 183, 240);
+  }
+  
+  .filter-btn:hover {
+    background: rgb(62, 183, 240);
+    color: #20212b;
+  }
+  
+  .filter-btn.active {
+    background: linear-gradient(90deg, #89a3cc, #5d6f9f);
+    color: white;
+    border-color: #5d6f9f;
+  }
+}
+
+@media (max-width: 768px) {
+  .pub-filter-buttons {
+    gap: 8px;
+  }
+  
+  .filter-btn {
+    padding: 8px 16px;
+    font-size: 13px;
+  }
+}
+
+.publication-item {
+  transition: all 0.3s ease;
+}
+
+.publication-item.hidden {
+  display: none !important;
+}
+</style>
+
 <div class="publications">
 <ol class="bibliography">
 
 {% for link in site.data.publications.main %}
 
-<li>
+<li class="publication-item" data-category="{{ link.category }}">
 <div class="pub-row">
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     {% if link.image %} 
@@ -58,4 +139,32 @@
 
 </ol>
 </div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const filterBtns = document.querySelectorAll('.filter-btn');
+  const publications = document.querySelectorAll('.publication-item');
+  
+  filterBtns.forEach(btn => {
+    btn.addEventListener('click', function() {
+      const filter = this.getAttribute('data-filter');
+      
+      // Update active button
+      filterBtns.forEach(b => b.classList.remove('active'));
+      this.classList.add('active');
+      
+      // Filter publications
+      publications.forEach(pub => {
+        const category = pub.getAttribute('data-category');
+        
+        if (filter === 'all' || category === filter) {
+          pub.classList.remove('hidden');
+        } else {
+          pub.classList.add('hidden');
+        }
+      });
+    });
+  });
+});
+</script>
 
