@@ -17,9 +17,6 @@ main:
     
   - title: "News"
     url: /#news
-
-  - title: "Posters"
-    url: /#PosterPapers
     
   - title: "Publications"
     url: /#publications
