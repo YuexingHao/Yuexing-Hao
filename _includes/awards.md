@@ -39,7 +39,7 @@
 }
 
 #awards-list li {
-  margin-bottom: 18px;
+  margin-bottom: 10px;
 }
 </style>
 
