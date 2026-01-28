@@ -45,7 +45,7 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 
 .publications ol.bibliography li { 
     min-height: 110px; 
-    margin-bottom: 0.25rem;
+    margin-bottom: 1rem;
     padding: 0;
     transition: all 0.3s ease;
 }
@@ -79,6 +79,22 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
     margin-bottom: 0.3rem;
 }
 
+.publications ol.bibliography li .title a {
+    color: #000000 !important;
+}
+
+@media (prefers-color-scheme: dark) {
+    .publications ol.bibliography li .title a {
+        color: #ffffff !important;
+    }
+    
+    .category-badge {
+        background-color: #1f1f1f !important;
+        border-color: #333333 !important;
+        color: #9ca3af !important;
+    }
+}
+
 .publications ol.bibliography li .author a { border-bottom: 1px var(--global-theme-color); }
 
 .publications ol.bibliography li .author a:hover { border-bottom-style: solid; text-decoration: none; }
@@ -86,8 +102,8 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 .publications ol.bibliography li .author > em { border-bottom: 1px solid; font-style: normal; }
 
 .publications ol.bibliography li .links a.btn { 
-    color: #6b7280; 
-    background-color: #f3f4f6;
+    color: #9ca3af; 
+    background-color: #fafafa;
     border: 1px solid #e5e7eb; 
     padding: 6px 12px;
     transition: all 0.2s ease;
@@ -101,8 +117,8 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 @media (prefers-color-scheme: dark) {
 .publications ol.bibliography li .links a.btn { 
     color: #9ca3af; 
-    background-color: #2a2a2a;
-    border: 1px solid #374151;
+    background-color: #1f1f1f;
+    border: 1px solid #333333;
     padding: 6px 12px;
     transition: all 0.2s ease;
     border-radius: 6px;
@@ -117,17 +133,17 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 .publications ol.bibliography li .links a.btn:hover { 
     color: #374151; 
     border-color: #d1d5db;
-    background-color: #e5e7eb;
+    background-color: #f3f4f6;
     transform: translateY(-1px);
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
 }
 
 @media (prefers-color-scheme: dark) {
     .publications ol.bibliography li .links a.btn:hover {
         color: #d1d5db;
-        background-color: #374151;
-        border-color: #4b5563;
-        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+        background-color: #2a2a2a;
+        border-color: #404040;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
     }
 }
 
