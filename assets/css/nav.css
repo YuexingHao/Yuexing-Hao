@@ -3,7 +3,7 @@
     background: #ffffff;
     border-bottom: 2px solid #e5e7eb;
     box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
-    overflow: hidden;
+    overflow: visible;
     position: fixed;
     top: 0;
     left: 0;
@@ -13,6 +13,8 @@
     min-height: 50px;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
+    display: block;
+    visibility: visible;
 }
 
 /* Style the links inside the navigation bar */
@@ -108,11 +110,42 @@
 }
 
 @media screen and (max-width: 480px) {
+    .topnav {
+        min-height: 50px !important;
+        display: block !important;
+        visibility: visible !important;
+    }
+    
     .topnav img {
         margin-left: 5%;
     }
+    
     .topnav a.icon {
+        display: block !important;
         margin-right: 5%;
+        right: 5px;
+        top: 13px;
+        font-size: 24px;
+        visibility: visible !important;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .topnav {
+        min-height: 50px !important;
+        padding: 5px 0;
+    }
+    
+    .topnav a.icon {
+        right: 5px;
+        top: 13px;
+        padding: 8px 12px;
+        font-size: 22px;
+    }
+    
+    .topnav.responsive a.normal {
+        padding: 10px 15px;
+        font-size: 14px;
     }
 }
 
