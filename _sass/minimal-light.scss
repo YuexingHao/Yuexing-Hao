@@ -316,6 +316,13 @@ a:hover small {
   padding: 0 20px;
 }
 
+/* Add top padding on mobile to account for fixed nav bar */
+@media screen and (max-width: 960px) {
+  .wrapper {
+    padding-top: 80px;
+  }
+}
+
 /* Responsive wrapper widths */
 @media screen and (max-width: 1200px) {
   .wrapper {
@@ -327,14 +334,14 @@ a:hover small {
 @media screen and (max-width: 900px) {
   .wrapper {
     width: 95%;
-    padding: 0 15px;
+    padding: 80px 15px 0;
   }
 }
 
 @media screen and (max-width: 768px) {
   .wrapper {
     width: 100%;
-    padding: 0 20px;
+    padding: 80px 20px 0;
   }
 }
 
