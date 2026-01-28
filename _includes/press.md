@@ -1,31 +1,240 @@
 <style>
-#press-list li {
-  margin-bottom: 14px;
+/* Compact "mini press" grid that matches press.html style */
+.press-mini {
+  margin: 12px 0 6px;
+}
+
+.press-mini-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 14px;
+}
+
+.press-mini-header .press-mini-more {
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.press-mini-grid {
+  margin-top: 12px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px 18px;
+}
+
+.press-mini-card {
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+}
+
+.press-mini-thumb {
+  flex: 0 0 110px;
+  height: 78px;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #f3f4f6;
+}
+
+.press-mini-thumb a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.press-mini-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  transition: opacity 0.2s ease;
+}
+
+.press-mini-thumb a:hover img {
+  opacity: 0.85;
+}
+
+.press-mini-meta {
+  min-width: 0;
+}
+
+.press-mini-date {
+  font-size: 12px;
+  color: #6b7280;
+  margin-bottom: 4px;
+}
+
+.press-mini-title {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.35;
+  font-weight: 600;
+}
+
+.press-mini-title a {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(0,0,0,0.25);
+}
+
+.press-mini-title a:hover {
+  opacity: 0.75;
+}
+
+.press-mini-outlets {
+  margin-top: 6px;
+  font-size: 12px;
+  color: #6b7280;
+}
+
+.press-mini-outlets a {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(0,0,0,0.25);
+}
+
+.press-mini-outlets a:hover {
+  opacity: 0.75;
+}
+
+@media (max-width: 900px) {
+  .press-mini-grid {
+    grid-template-columns: 1fr;
+  }
+  .press-mini-thumb {
+    flex-basis: 120px;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .press-mini-thumb {
+    background: #111827;
+  }
+  .press-mini-date,
+  .press-mini-outlets {
+    color: #a0a0a0;
+  }
+  .press-mini-title a,
+  .press-mini-outlets a {
+    border-bottom-color: rgba(229,229,229,0.35);
+  }
+  .press-mini-thumb img {
+    border-color: #e5e5e5;
+  }
+}
+
+/* Manual dark mode toggle support */
+body.dark-mode .press-mini-thumb {
+  background: #111827;
+}
+body.dark-mode .press-mini-date,
+body.dark-mode .press-mini-outlets {
+  color: #a0a0a0;
+}
+body.dark-mode .press-mini-title a,
+body.dark-mode .press-mini-outlets a {
+  border-bottom-color: rgba(229,229,229,0.35);
+}
+body.dark-mode .press-mini-thumb img {
+  border-color: #e5e5e5;
 }
 </style>
 
-<h2 id="press" style="margin: 20px 0px 10px;">Press</h2>
+<div class="press-mini" id="press">
+  <div class="press-mini-header">
+    <h2 style="margin: 20px 0px 10px;">Press</h2>
+    <a class="press-mini-more" href="{{ '/press/' | relative_url }}">More press →</a>
+  </div>
 
-<ul id="press-list">
+  <div class="press-mini-grid">
+    <!-- 1 -->
+    <div class="press-mini-card">
+      <div class="press-mini-thumb">
+        <a href="https://newsnetwork.mayoclinic.org/discussion/new-mayo-clinic-study-advances-personalized-prostate-cancer-education-with-an-ehr-integrated-ai-agent/" target="_blank" rel="noopener">
+          <img src="{{ '/assets/img/press/Mayo_Clinic_Press.png' | relative_url }}" alt="Mayo Clinic News">
+        </a>
+      </div>
+      <div class="press-mini-meta">
+        <div class="press-mini-date">Jan 2026</div>
+        <p class="press-mini-title">
+          <a href="https://newsnetwork.mayoclinic.org/discussion/new-mayo-clinic-study-advances-personalized-prostate-cancer-education-with-an-ehr-integrated-ai-agent/" target="_blank" rel="noopener">
+            New Mayo Clinic study advances personalized prostate cancer education with an EHR-integrated AI agent
+          </a>
+        </p>
+        <div class="press-mini-outlets">
+          Published at:
+          <a href="https://newsnetwork.mayoclinic.org/discussion/new-mayo-clinic-study-advances-personalized-prostate-cancer-education-with-an-ehr-integrated-ai-agent/" target="_blank" rel="noopener">Mayo Clinic News</a>
+          · <a href="https://www.newswise.com/articles/new-mayo-clinic-study-advances-personalized-prostate-cancer-education-with-an-ehr-integrated-ai-agent" target="_blank" rel="noopener">NewsWise</a>
+        </div>
+      </div>
+    </div>
 
-<li><strong>[Jan. 2026] <a href="https://newsnetwork.mayoclinic.org/discussion/new-mayo-clinic-study-advances-personalized-prostate-cancer-education-with-an-ehr-integrated-ai-agent/">New Mayo Clinic study advances personalized prostate cancer education with an EHR-integrated AI agent</a></strong>, published at <a href="https://newsnetwork.mayoclinic.org/discussion/new-mayo-clinic-study-advances-personalized-prostate-cancer-education-with-an-ehr-integrated-ai-agent/">Mayo Clinic News</a>, <a href="https://www.newswise.com/articles/new-mayo-clinic-study-advances-personalized-prostate-cancer-education-with-an-ehr-integrated-ai-agent">NewsWise.com</a>, <a href="https://medicalxpress.com/news/2026-01-electronic-health-ai-agent-advances.html">Medical X Press</a>, <a href="https://www.technologynetworks.com/cancer-research/news/ai-agent-advances-personalized-prostate-cancer-education-408414">Cancer Research</a>, <a href="https://www.geneonline.com/mayo-clinic-develops-ehr-integrated-tool-using-ai-to-provide-personalized-prostate-cancer-education/">Gene Online</a>, <a href="https://www.beckershospitalreview.com/healthcare-information-technology/ehrs/mayo-launches-ehr-based-ai-cancer-tool/">Beckers Hospital Review</a>, and <a href="https://www.eurekalert.org/news-releases/1111888">American Association for the Advancement of Science EurekAlert</a>.</li>
-  
-<li><strong>[Sep. 2025] <a href="https://research.google/blog/towards-better-health-conversations-research-insights-on-a-wayfinding-ai-agent-based-on-gemini/">Towards better health conversations: Research insights on a “wayfinding” AI agent based on Gemini</a></strong>, published at <a href="https://research.google/blog/towards-better-health-conversations-research-insights-on-a-wayfinding-ai-agent-based-on-gemini/">Google Research Blog</a>, <a href="https://thewillowventures.com/research-insights-on-a-wayfinding-ai-agent-based-on-gemini-insights-by-willow-ventures/">Willow Venture Blog</a>.</li>
-  
-<li><strong>[Aug. 2025] <a href="https://www.human.cornell.edu/news/imported/2025/08/review-large-language-models-cancer-care-reveals-limitations-room-improvement">Review of large language models in cancer care reveals limitations, room for improvement</a></strong>, published at <a href="https://www.human.cornell.edu/news/imported/2025/08/review-large-language-models-cancer-care-reveals-limitations-room-improvement">Cornell News</a>.</li>
+    <!-- 2 -->
+    <div class="press-mini-card">
+      <div class="press-mini-thumb">
+        <a href="https://research.google/blog/towards-better-health-conversations-research-insights-on-a-wayfinding-ai-agent-based-on-gemini/" target="_blank" rel="noopener">
+          <img src="{{ '/assets/img/press/Google_Research_Blog.png' | relative_url }}" alt="Google Research Blog">
+        </a>
+      </div>
+      <div class="press-mini-meta">
+        <div class="press-mini-date">Sep 2025</div>
+        <p class="press-mini-title">
+          <a href="https://research.google/blog/towards-better-health-conversations-research-insights-on-a-wayfinding-ai-agent-based-on-gemini/" target="_blank" rel="noopener">
+            Towards better health conversations: Research insights on a “wayfinding” AI agent based on Gemini
+          </a>
+        </p>
+        <div class="press-mini-outlets">
+          Published at:
+          <a href="https://research.google/blog/towards-better-health-conversations-research-insights-on-a-wayfinding-ai-agent-based-on-gemini/" target="_blank" rel="noopener">Google Research Blog</a>
+          · <a href="https://thewillowventures.com/research-insights-on-a-wayfinding-ai-agent-based-on-gemini-insights-by-willow-ventures/" target="_blank" rel="noopener">Willow Ventures</a>
+        </div>
+      </div>
+    </div>
 
-<li><strong>[Aug. 2025] <a href="https://quantumzeitgeist.com/medical-llms-show-bias-with-varied-clinical-input-study-reveals/">Medical LLMs Show Bias with Varied Clinical Input, Study Reveals</a></strong>, published at <a href="https://news.mit.edu/2025/llms-factor-unrelated-information-when-recommending-medical-treatments-0623">MIT News</a>, <a href="https://quantumzeitgeist.com/medical-llms-show-bias-with-varied-clinical-input-study-reveals/">Quantum News</a>.</li>
-  
-<li><strong>[May. 2025] <a href="https://news.cornell.edu/stories/2025/05/students-win-summer-awards-work-startups">Students win summer awards to work on startups</a></strong>, published at <a href="https://news.cornell.edu/stories/2025/05/students-win-summer-awards-work-startups">Cornell Chronicle</a>.</li>
-  
-<li><strong>[Feb. 2025] <a href="https://gradschool.cornell.edu/spotlights/student-spotlight-yuexing-hao/">Cornell Graduate School Student Spotlight</a></strong>, <a href="https://www.youtube.com/watch?v=zvc9sSQP3m0&t=1s">interview video</a>.</li>
+    <!-- 3 -->
+    <div class="press-mini-card">
+      <div class="press-mini-thumb">
+        <a href="https://www.human.cornell.edu/news/imported/2025/08/review-large-language-models-cancer-care-reveals-limitations-room-improvement" target="_blank" rel="noopener">
+          <img src="{{ '/assets/img/press/CHE_News.png' | relative_url }}" alt="Cornell CHE News">
+        </a>
+      </div>
+      <div class="press-mini-meta">
+        <div class="press-mini-date">Aug 2025</div>
+        <p class="press-mini-title">
+          <a href="https://www.human.cornell.edu/news/imported/2025/08/review-large-language-models-cancer-care-reveals-limitations-room-improvement" target="_blank" rel="noopener">
+            Review of large language models in cancer care reveals limitations, room for improvement
+          </a>
+        </p>
+        <div class="press-mini-outlets">
+          Published at:
+          <a href="https://www.human.cornell.edu/news/imported/2025/08/review-large-language-models-cancer-care-reveals-limitations-room-improvement" target="_blank" rel="noopener">Cornell News</a>
+        </div>
+      </div>
+    </div>
 
-<li><strong>[Sep. 2024] <a href="https://women-in-tech.org/north-america-celebrates-women-in-tech-at-regional-awards-ceremony/"> North America Celebrates Women in Tech at Regional Awards Ceremony </a></strong>, appeared at <a href="https://women-in-tech.org/north-america-celebrates-women-in-tech-at-regional-awards-ceremony/">Women in Tech® Global</a>, <a href="https://www.linkedin.com/posts/womenintechorg_witga24-womenintech-womeninstem-activity-7243337963449794561-PvXX?utm_source=share&utm_medium=member_desktop">LinkedIn Post</a>.</li>
-
-<li><strong>[May. 2024] <a href="https://news.cornell.edu/stories/2024/05/ai-may-improve-doctor-patient-interactions-older-adults-cancer"> AI may improve doctor-patient interactions for older adults with cancer </a></strong>, published at <a href="https://news.cornell.edu/stories/2024/05/ai-may-improve-doctor-patient-interactions-older-adults-cancer">Cornell Chronicle</a>, <a href="https://www.mcknights.com/news/report-ai-tool-could-boost-communication-for-older-adults-with-cancer/">McKnight Long-Term Care News</a>, <a href="https://ihf.cornell.edu/news/cihf-grants-funding-to-yuexing-haos-research-paper/"> Cornell Institute for Health Future (CIHF) e-news letter </a>, <a href="https://medium.com/acm-cscw/can-grandma-be-involved-in-her-next-clinical-decision-b12fc79c5b7">Medium.com</a>, and <a href="https://medicalxpress.com/news/2024-05-ai-doctorpatient-interactions-older-adults.html">Medical Xpress.com</a>.</li>
-
-<li><strong>[Sep. 2023] <a href="https://news.cornell.edu/stories/2023/09/life-sciences-technology-innovation-fellowship-announces-2023-24-cohort"> Life Sciences Technology Innovation Fellowship announces 2023-24 cohort </a></strong>, appeared at <a href="https://news.cornell.edu/stories/2023/09/life-sciences-technology-innovation-fellowship-announces-2023-24-cohort">Cornell Chronicle</a>, <a href="https://eship.cornell.edu/life-sciences-technology-innovation-fellowship-cohort-2023/">Entrepreneurship at Cornell</a>.</li>
-
-<li><strong>[April. 2023] <a href="https://tech.cornell.edu/news/ai-tool-gains-doctors-trust-by-giving-advice-like-a-colleague/"> AI Tool Gains Doctors’ Trust by Giving Advice Like a Colleague </a></strong>, published at <a href="https://news.cornell.edu/stories/2023/04/ai-tool-gains-doctors-trust-giving-advice-colleague">Cornell Chronicle</a>, <a href="https://futurism.com/neoscope/ai-gives-advice-patients-doctors-trust">Futurism</a>, <a href="https://www.newswise.com/articles/ai-tool-gains-doctors-trust-by-giving-advice-like-a-colleague">NewsWise</a>, and <a href="https://www.human.cornell.edu/news/imported/2023/05/human-connection-and-collaboration-are-common-threads-faculty-and-students">Cornell College of Human Ecology</a>.</li>
-
-</ul>
+    <!-- 4 -->
+    <div class="press-mini-card">
+      <div class="press-mini-thumb">
+        <a href="https://news.mit.edu/2025/llms-factor-unrelated-information-when-recommending-medical-treatments-0623" target="_blank" rel="noopener">
+          <img src="{{ '/assets/img/press/MIT_News.png' | relative_url }}" alt="MIT News">
+        </a>
+      </div>
+      <div class="press-mini-meta">
+        <div class="press-mini-date">Aug 2025</div>
+        <p class="press-mini-title">
+          <a href="https://news.mit.edu/2025/llms-factor-unrelated-information-when-recommending-medical-treatments-0623" target="_blank" rel="noopener">
+            LLMs factor unrelated information when recommending medical treatments
+          </a>
+        </p>
+        <div class="press-mini-outlets">
+          Published at:
+          <a href="https://news.mit.edu/2025/llms-factor-unrelated-information-when-recommending-medical-treatments-0623" target="_blank" rel="noopener">MIT News</a>
+          · <a href="https://quantumzeitgeist.com/medical-llms-show-bias-with-varied-clinical-input-study-reveals/" target="_blank" rel="noopener">Quantum Zeitgeist</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
