@@ -105,13 +105,16 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
     color: #000000; 
     background-color: #ffffff;
     border: 1px solid #e5e7eb; 
-    padding: 6px 12px;
+    padding: 8px 10px;
     transition: all 0.2s ease;
     border-radius: 6px;
-    font-size: 13px;
+    font-size: 16px;
     display: inline-flex;
     align-items: center;
+    justify-content: center;
     gap: 6px;
+    min-width: 36px;
+    min-height: 36px;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -119,16 +122,24 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
     color: #9ca3af; 
     background-color: #1f1f1f;
     border: 1px solid #333333;
-    padding: 6px 12px;
+    padding: 8px 10px;
     transition: all 0.2s ease;
     border-radius: 6px;
-    font-size: 13px;
+    font-size: 16px;
     display: inline-flex;
     align-items: center;
+    justify-content: center;
     gap: 6px;
+    min-width: 36px;
+    min-height: 36px;
 }
 
   }
+
+.publications ol.bibliography li .links a.btn i {
+    font-size: 16px;
+    line-height: 1;
+}
 
 .publications ol.bibliography li .links a.btn:hover { 
     color: #000000; 
