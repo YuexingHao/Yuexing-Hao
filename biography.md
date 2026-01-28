@@ -124,7 +124,7 @@ permalink: /biography/
   <div style="display: flex; gap: 40px; margin: 30px 0 60px; align-items: flex-start; flex-wrap: wrap;">
     <div style="flex: 0 0 280px;">
       <img src="/Yuexing-Hao/assets/img/Look_Yuexing_Hao.jpg" alt="Yuexing Hao Professional Headshot" style="width: 100%; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); margin-bottom: 30px;">
-      <a href="/Yuexing-Hao/assets/img/Look_Yuexing_Hao.jpg" download="Yuexing_Hao_Professional_Photo.jpg" class="download-photo-btn" style="display: flex; justify-content: center; max-width: 100%;">
+      <a href="/Yuexing-Hao/assets/img/Look_Yuexing_Hao.jpg" download="Yuexing_Hao_Professional_Photo.jpg" class="download-photo-btn" style="display: flex; justify-content: left; max-width: 100%;">
         <i class="fas fa-download"></i> Download Photo
       </a>
     </div>
