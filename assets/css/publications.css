@@ -102,38 +102,28 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 .publications ol.bibliography li .author > em { border-bottom: 1px solid; font-style: normal; }
 
 .publications ol.bibliography li .links a.btn { 
-    color: #000000 !important; 
-    background-color: #ffffff;
-    border: 1px solid #000000; 
-    padding: 4px 10px;
+    color: #1a1a1a !important; 
+    background: none;
+    border: none; 
+    padding: 0 8px;
     transition: all 0.2s ease;
-    border-radius: 4px;
-    font-size: 14px !important;
+    font-size: 16px !important;
     display: inline-flex !important;
     align-items: center;
-    justify-content: center;
-    gap: 4px;
-    min-width: 32px;
-    min-height: 28px;
     text-decoration: none;
     cursor: pointer;
 }
 
 @media (prefers-color-scheme: dark) {
 .publications ol.bibliography li .links a.btn { 
-    color: #ffffff !important; 
-    background-color: #1a1a1a;
-    border: 1px solid #ffffff;
-    padding: 4px 10px;
+    color: #e5e5e5 !important; 
+    background: none;
+    border: none;
+    padding: 0 8px;
     transition: all 0.2s ease;
-    border-radius: 4px;
-    font-size: 14px !important;
+    font-size: 16px !important;
     display: inline-flex !important;
     align-items: center;
-    justify-content: center;
-    gap: 4px;
-    min-width: 32px;
-    min-height: 28px;
     text-decoration: none;
     cursor: pointer;
 }
@@ -141,7 +131,7 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
   }
 
 .publications ol.bibliography li .links a.btn i.fas {
-    font-size: 14px !important;
+    font-size: 16px !important;
     line-height: 1;
     display: inline-block !important;
     font-style: normal !important;
@@ -157,20 +147,16 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 }
 
 .publications ol.bibliography li .links a.btn:hover { 
-    color: #ffffff !important; 
-    background-color: #000000;
-    border-color: #000000;
-    transform: translateY(-2px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: #000000 !important; 
+    opacity: 0.6;
+    transform: scale(1.1);
 }
 
 @media (prefers-color-scheme: dark) {
     .publications ol.bibliography li .links a.btn:hover {
-        color: #000000 !important;
-        background-color: #ffffff;
-        border-color: #ffffff;
-        transform: translateY(-2px);
-        box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+        color: #ffffff !important;
+        opacity: 0.6;
+        transform: scale(1.1);
     }
 }
 
