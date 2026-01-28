@@ -5,7 +5,7 @@ title: Blog
 
 <style>
 .blog-container {
-  max-width: 900px;
+  max-width: 1100px;
   margin: 0 auto;
   padding: 40px 20px;
 }

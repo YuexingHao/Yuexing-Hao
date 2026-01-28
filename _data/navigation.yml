@@ -1,28 +1,28 @@
 main:
     
   - title: "Blog"
-    url: ./blog.html
+    url: /blog.html
     right: true
     
   - title: "Talks"
-    url: ./#talks
+    url: /#talks
     right: true 
     
   - title: "Press"
-    url: ./#press
+    url: /#press
     
   - title: "News"
-    url: ./#news
+    url: /#news
 
   - title: "Posters"
-    url: ./#PosterPapers
+    url: /#PosterPapers
     
   - title: "Publications"
-    url: ./#publications
+    url: /#publications
     
   - title: "Awards"
-    url: ./#awards
+    url: /#awards
 
   - title: "Home"
-    url: ./
+    url: /
 
