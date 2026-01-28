@@ -54,21 +54,7 @@
     width: 70%;
 }
 
-/* Nav logo: right of dark-mode toggle so both show */
-.nav-logo {
-    float: left;
-    display: block;
-    padding: 9px 0 0 0;
-    margin-left: 60px; /* clear fixed dark-mode toggle at left 20px */
-    line-height: 0;
-}
-.nav-logo img {
-    margin: 0;
-    height: 32px;
-    width: auto;
-    vertical-align: middle;
-}
-/* Fallback for any img in topnav without .nav-logo */
+/* Adjust the logo and align it to the left (if used) */
 .topnav img {
     margin-bottom: -8pt;
     margin-top: -8pt;
@@ -155,12 +141,8 @@
         visibility: visible !important;
     }
     
-    .nav-logo {
-        margin-left: 50px;
-    }
-    
-    .nav-logo img {
-        margin-left: 0;
+    .topnav img {
+        margin-left: 5%;
     }
     
     .topnav a.icon {
