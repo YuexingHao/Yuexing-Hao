@@ -61,7 +61,29 @@ body.dark-mode a:hover {
 }
 
 body.dark-mode autocolor {
-  color: #dadbdf;
+  color: #e5e5e5 !important;
+}
+
+/* Keep LIGHT mode by default, even if system prefers dark */
+html:not(.dark-mode) body {
+  background: #ffffff !important;
+  color: #1a1a1a !important;
+}
+
+html:not(.dark-mode) body p,
+html:not(.dark-mode) body li {
+  color: #1a1a1a !important;
+}
+
+html:not(.dark-mode) body autocolor {
+  color: #595959 !important;
+}
+
+/* Make small/meta text readable in dark mode */
+body.dark-mode small,
+body.dark-mode a small,
+body.dark-mode a:hover small {
+  color: #a0a0a0 !important;
 }
 
 .pub-row {

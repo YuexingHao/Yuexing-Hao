@@ -26,10 +26,9 @@
     }
   }
 
-  // Determine theme: stored preference > system preference
+  // Determine theme: stored preference > default light
   const stored = getStoredTheme();
-  const systemPrefersDark = !!(window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches);
-  const initialTheme = stored || (systemPrefersDark ? 'dark' : 'light');
+  const initialTheme = stored || 'light';
 
   // Apply as early as possible (no body access required)
   applyTheme(initialTheme);
