@@ -37,11 +37,15 @@
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
   }
 }
+
+#awards-list li {
+  margin-bottom: 18px;
+}
 </style>
 
 <h2 style="margin: 20px 0px 10px;" id="awards">Selected Awards<a href="all_awards.html" class="awards-btn"><i class="fas fa-trophy"></i> Show All Awards (~$140k)</a></h2> 
 
-<ul>
+<ul id="awards-list">
   <li>2025-26 <a href="https://yuexinghao.github.io/Yuexing-Hao/assets/files/PCCW%20Letter.pdf">President’s Council of Cornell Women (PCCW) Frank H.T. Rhodes Leadership Grant and Mission Grant</a></li>
   <li>2024 <a href="https://yuexinghao.github.io/Yuexing-Hao/assets/files/Yuexing%20Hao_APF_Grant.pdf">American Psychological Foundation (APF) K. Anders Ericsson Dissertation Research Grant</a></li>
   <li>2024 <a href="https://women-in-tech.org/north-america-celebrates-women-in-tech-at-regional-awards-ceremony/">Women in Tech North America Amazon Most Disruptive Award Winner</a></li>

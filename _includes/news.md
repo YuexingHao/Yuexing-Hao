@@ -1,5 +1,12 @@
+<style>
+#news-list li {
+  margin-bottom: 18px;
+}
+</style>
+
 <h2 id="news" style="margin: 20px 0px 10px;">News</h2>
 
+<ul id="news-list">
 <li><strong>[Nov 2025]</strong> I am excited to receive $12,500 funding from MIT Sandbox Innovation Fund ($7,500), <a href="https://yuexinghao.github.io/Yuexing-Hao/assets/files/Quiri%20Grad%20Award%20Letter-Hao.pdf">Cornell CCSS QuIRI Small Grant</a> ($2,000), and <a href="https://yuexinghao.github.io/Yuexing-Hao/assets/files/Racial_Graduate_Award.pdf">Cornell RJEF Graduate Student Research Grant</a> ($3,000).</li>
 <li><strong>[July. 2025]</strong> I will talk about my new paper <a href="https://medpair.csail.mit.edu/">MedPAIR</a> at Google Research (Jul 1st, 2025), <a href="https://verily.com/">Alphabet Verily Health</a> (Jul 2nd, 2025), and <a href="https://rdi.berkeley.edu/agentx/">Berkeley Agentic AI Summit</a> (Aug 2nd, 2025) (<a href="https://yuexinghao.github.io/Yuexing-Hao/assets/files/MedPAIR%20Presentation.pdf">Slide</a>).</li>
 <li><strong>[July. 2025]</strong> We received $199,000 continued funding from <a href="https://mad.mit.edu/projects/improving-human-ai-system-sustainability-in-health-via-aligned-relevance-and-evaluation">HPI-MIT Designing for Sustainability Research Program</a> (PI: Prof. Ariel Stern and Prof. Marzyeh) for our proposal "Improving Human–AI System Sustainability in Health Via Aligned Relevance and Evaluation".</li>
@@ -29,3 +36,4 @@
   <li><strong>[Jun. 2023]</strong> I was accepted to 2023 WHO/Cochrane/Cornell University Summer Institute and received fellowship from Human Centered Design Department ($1500).</li>
   <li><strong>[Apr. 2023]</strong> I received fundings from Cornell Institute for Healthy Futures (CIHF) Research Grant ($500) and will be in Mexico City for EDRA 2023!</li>
 </details>
+</ul>
