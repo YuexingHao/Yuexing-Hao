@@ -3,6 +3,11 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Modern OpenAI-style font stack */
+body, h1, h2, h3, h4, h5, h6, p, a, li, span, div, input, textarea, button {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji" !important;
+}
+
 .pub-row {
   display: flex; 
   align-items: center;}

@@ -5,6 +5,10 @@ permalink: /biography/
 ---
 
 <style>
+* {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif !important;
+}
+
 .bio-container {
   max-width: 900px;
   margin: 0 auto;

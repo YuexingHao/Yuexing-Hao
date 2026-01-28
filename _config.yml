@@ -37,7 +37,7 @@ enable_last_update: true
 
 # Font
 # You can use this option to choose between Serif or Sans Serif fonts.
-font: "Helvetica Neue"  # or "Sans Serif"
+font: "Sans Serif"  # Modern OpenAI-style sans-serif
 
 # Google Analytics ID
 # Please remove this if you don't use Google Analytics
