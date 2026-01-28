@@ -301,9 +301,32 @@ a:hover small {
 }
 
 .wrapper {
-  width:80%;
+  width:90%;
   max-width:1400px;
   margin:0 auto;
+  padding: 0 20px;
+}
+
+/* Responsive wrapper widths */
+@media screen and (max-width: 1200px) {
+  .wrapper {
+    width: 92%;
+    padding: 0 15px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .wrapper {
+    width: 95%;
+    padding: 0 15px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper {
+    width: 100%;
+    padding: 0 20px;
+  }
 }
 
 blockquote {
@@ -364,11 +387,25 @@ img {
 header {
   width:22%;
   max-width:300px;
+  min-width: 200px;
   float:left;
   position:fixed;
   -webkit-font-smoothing:subpixel-antialiased;
   padding-top:4.0em;
   text-align:center
+}
+
+/* Responsive header */
+@media screen and (max-width: 1200px) {
+  header {
+    width: 25%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  header {
+    width: 28%;
+  }
 }
 
 
@@ -443,6 +480,20 @@ section {
   float:right;
   padding-top:4.0em;
   padding-bottom:50px;
+  padding-right: 20px;
+}
+
+/* Responsive section */
+@media screen and (max-width: 1200px) {
+  section {
+    width: 72%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  section {
+    width: 68%;
+  }
 }
 
 small {

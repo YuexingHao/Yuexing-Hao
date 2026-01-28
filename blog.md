@@ -6,8 +6,16 @@ title: Blog
 <style>
 .blog-container {
   max-width: 760px;
+  width: 90%;
   margin: 80px auto 80px;
   padding: 0 30px;
+}
+
+@media (max-width: 1024px) {
+  .blog-container {
+    width: 95%;
+    padding: 0 25px;
+  }
 }
 
 .blog-header {
@@ -148,8 +156,9 @@ title: Blog
 
 @media (max-width: 768px) {
   .blog-container {
+    width: 100%;
     margin: 60px auto 60px;
-    padding: 0 24px;
+    padding: 0 20px;
   }
   
   .blog-header {

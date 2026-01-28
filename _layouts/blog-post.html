@@ -40,8 +40,16 @@
       
       .blog-article {
         max-width: 680px;
+        width: 90%;
         margin: 80px auto 80px;
         padding: 0 30px;
+      }
+
+      @media (max-width: 1024px) {
+        .blog-article {
+          width: 95%;
+          padding: 0 25px;
+        }
       }
       
       .back-nav {
@@ -260,8 +268,9 @@
       
       @media (max-width: 768px) {
         .blog-article {
+          width: 100%;
           margin: 60px auto 60px;
-          padding: 0 24px;
+          padding: 0 20px;
         }
         
         .article-title {
