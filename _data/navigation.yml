@@ -4,6 +4,10 @@ main:
     url: /blog.html
     right: true
     
+  - title: "Bio"
+    url: /biography.html
+    right: true
+    
   - title: "Talks"
     url: /#talks
     right: true 
