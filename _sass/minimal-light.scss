@@ -534,8 +534,8 @@ header {
   }
   
   section {
-    width: 58%;
-    padding-left: 48px;
+    width: 62%;
+    padding-left: 40px;
   }
 }
 
@@ -624,29 +624,29 @@ header ul a strong {
   color:#222;
 }
 
-/* Section width = 100% - header% - min gap%; never overlap left panel */
+/* Section width = 100% - header% - gap%; never overlap left panel */
 section {
-  width: 70%;
+  width: 73%;
   float: right;
   padding-top: 4.0em;
   padding-bottom: 50px;
-  padding-left: 72px;
+  padding-left: 56px;
   padding-right: 20px;
   box-sizing: border-box;
 }
 
-/* Responsive section - always leave 8–10% gap so panels never overlap */
+/* Responsive section */
 @media screen and (max-width: 1200px) {
   section {
-    width: 65%;
-    padding-left: 64px;
+    width: 68%;
+    padding-left: 52px;
   }
 }
 
 @media screen and (max-width: 900px) {
   section {
-    width: 58%;
-    padding-left: 48px;
+    width: 62%;
+    padding-left: 40px;
   }
 }
 
