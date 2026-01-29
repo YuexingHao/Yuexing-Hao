@@ -104,15 +104,15 @@ body.dark-mode a:hover small {
 
 .social-icons a{
   display:inline-block;
-  height:2.4rem;
-  width:2.4rem;
+  height:2.7rem;
+  width:2.7rem;
   background-color:transparent;
   color:#043361!important;
   border-radius:100%;
   text-align:center;
-  font-size:1.15rem;
-  line-height:2.5rem;
-  margin-right:1rem}
+  font-size:1.35rem;
+  line-height:2.7rem;
+  margin-right:0.4rem}
 
 @media (prefers-color-scheme: dark) { .social-icons a {color: #3eb7f0 !important; }}
 
@@ -204,7 +204,7 @@ body.dark-mode a:hover small {
   background-color:#000}
 
 email {
-    font-size: 14px;
+    font-size: 16px;
     font-family: "Ubuntu Mono";
 }
 
@@ -369,6 +369,20 @@ h1 {
   font-size:28px;
 }
 
+/* Left panel (header) typography - slightly larger */
+header h1 {
+  font-size: 32px;
+}
+header position {
+  font-size: 1.2rem !important;
+}
+header autocolor {
+  font-size: 1.05rem;
+}
+header email {
+  font-size: 17px !important;
+}
+
 a {
   color:#1148bc;
   text-decoration:none;
@@ -516,7 +530,7 @@ header {
   
   section {
     width: 65%;
-    padding-left: 10px;
+    padding-left: 32px;
   }
 }
 
@@ -610,7 +624,7 @@ section {
   float:right;
   padding-top:4.0em;
   padding-bottom:50px;
-  padding-left: 40px;
+  padding-left: 56px;
   padding-right: 20px;
 }
 
