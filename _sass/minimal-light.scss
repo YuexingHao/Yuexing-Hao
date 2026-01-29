@@ -509,8 +509,8 @@ img {
 @media screen and (min-width: 801px) {
   /* Left panel: fixed sidebar, scales with window */
   header {
-    width: 22%;
-    max-width: 280px;
+    width: 20%;
+    max-width: 260px;
     min-width: 140px;
     float: left;
     position: fixed;
@@ -522,23 +522,23 @@ img {
 
   @media screen and (max-width: 1200px) {
     header {
-      width: 25%;
-      max-width: 260px;
+      width: 23%;
+      max-width: 240px;
       min-width: 130px;
     }
   }
 
   @media screen and (max-width: 900px) {
     header {
-      width: 28%;
-      max-width: 220px;
+      width: 26%;
+      max-width: 200px;
       min-width: 120px;
     }
   }
 
   /* Section: right panel width and gap (never overlap left panel) */
   section {
-    width: 73%;
+    width: 75%;
     float: right;
     padding-top: 4.0em;
     padding-bottom: 50px;
@@ -549,14 +549,14 @@ img {
 
   @media screen and (max-width: 1200px) {
     section {
-      width: 68%;
+      width: 70%;
       padding-left: 40px;
     }
   }
 
   @media screen and (max-width: 900px) {
     section {
-      width: 62%;
+      width: 64%;
       padding-left: 32px;
     }
   }
@@ -568,8 +568,8 @@ img {
   div.wrapper {
     width: 100% !important;
     max-width: 100% !important;
-    padding-left: 15px !important;
-    padding-right: 15px !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
     box-sizing: border-box;
   }
   
@@ -589,12 +589,17 @@ img {
   
   section {
     padding-top: 20px;
-    padding-left: 20px !important;
-    padding-right: 20px !important;
+    padding-left: 14px !important;
+    padding-right: 14px !important;
     width: 100% !important;
     max-width: 100% !important;
     margin-left: 0;
     margin-right: 0;
+  }
+
+  /* Publications: hide author list on mobile (compact like Press section) */
+  .publications ol.bibliography li .author {
+    display: none !important;
   }
 }
 
