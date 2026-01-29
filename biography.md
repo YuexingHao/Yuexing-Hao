@@ -51,19 +51,22 @@ permalink: /biography/
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
+  background: #ffffff;
+  color: #000000;
+  border: 2px solid #000000;
   padding: 12px 24px;
   border-radius: 8px;
   text-decoration: none;
   font-weight: 500;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
   transition: all 0.3s ease;
 }
 
 .download-photo-btn:hover {
+  background: #000000;
+  color: #ffffff;
+  border-color: #000000;
   transform: translateY(-2px);
-  box-shadow: 0 6px 12px rgba(0,0,0,0.25);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -73,6 +76,17 @@ permalink: /biography/
   
   .bio-container ul {
     color: #d1d5db;
+  }
+  
+  .download-photo-btn {
+    background: #1a1a1a;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+  }
+  .download-photo-btn:hover {
+    background: #ffffff;
+    color: #000000;
+    border-color: #ffffff;
   }
 }
 
@@ -101,6 +115,17 @@ permalink: /biography/
   .video-container {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
   }
+}
+
+body.dark-mode .download-photo-btn {
+  background: #1a1a1a;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+}
+body.dark-mode .download-photo-btn:hover {
+  background: #ffffff;
+  color: #000000;
+  border-color: #ffffff;
 }
 
 @media (max-width: 768px) {
