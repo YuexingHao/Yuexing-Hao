@@ -20,7 +20,7 @@ main:
     image: ./assets/img/TrustGen.png
     category: LLM Reverse Engineering
     
-  - title: "On the trustworthiness of generative foundation models: Guideline, assessment, and perspective"
+  - title: "ProbeLLM: Automating Principled Diagnosis of LLM Failures"
     authors: Yue Huang, Zhengzhe Jiang, Yuchen Ma, Yu Jiang, Xiangqi Wang, Yujun Zhou, <strong>Yuexing Hao</strong>, Kehan Guo, Pin-Yu Chen, Marzyeh Ghassemi, Stefan Feuerriegel, Xiangliang Zhang
     conference_short: Preprint
     conference: Under Review
