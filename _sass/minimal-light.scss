@@ -529,8 +529,8 @@ header {
   }
   
   section {
-    width: 65%;
-    padding-left: 32px;
+    width: 64%;
+    padding-left: 48px;
   }
 }
 
@@ -624,20 +624,22 @@ section {
   float:right;
   padding-top:4.0em;
   padding-bottom:50px;
-  padding-left: 56px;
+  padding-left: 72px;
   padding-right: 20px;
 }
 
-/* Responsive section */
+/* Responsive section - keep clear gap from left panel */
 @media screen and (max-width: 1200px) {
   section {
-    width: 72%;
+    width: 70%;
+    padding-left: 64px;
   }
 }
 
 @media screen and (max-width: 900px) {
   section {
-    width: 68%;
+    width: 64%;
+    padding-left: 48px;
   }
 }
 
