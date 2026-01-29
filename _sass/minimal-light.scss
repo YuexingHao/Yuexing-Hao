@@ -504,56 +504,97 @@ img {
   max-width:100%;
 }
 
-/* Left panel scales with window; only a small min so it can shrink */
-header {
-  width: 22%;
-  max-width: 280px;
-  min-width: 140px;
-  float: left;
-  position: fixed;
-  -webkit-font-smoothing: subpixel-antialiased;
-  padding-top: 4.0em;
-  text-align: center;
-  box-sizing: border-box;
-}
-
-/* Responsive header - let it shrink with viewport */
-@media screen and (max-width: 1200px) {
+/* ========== DESKTOP / LARGE SCREEN ONLY (min-width: 801px) ========== */
+/* Changes here do not affect mobile (max-width: 800px) */
+@media screen and (min-width: 801px) {
+  /* Left panel: fixed sidebar, scales with window */
   header {
-    width: 25%;
-    max-width: 260px;
-    min-width: 130px;
+    width: 22%;
+    max-width: 280px;
+    min-width: 140px;
+    float: left;
+    position: fixed;
+    -webkit-font-smoothing: subpixel-antialiased;
+    padding-top: 4.0em;
+    text-align: center;
+    box-sizing: border-box;
+  }
+
+  @media screen and (max-width: 1200px) {
+    header {
+      width: 25%;
+      max-width: 260px;
+      min-width: 130px;
+    }
+  }
+
+  @media screen and (max-width: 900px) {
+    header {
+      width: 28%;
+      max-width: 220px;
+      min-width: 120px;
+    }
+  }
+
+  /* Section: right panel width and gap (never overlap left panel) */
+  section {
+    width: 73%;
+    float: right;
+    padding-top: 4.0em;
+    padding-bottom: 50px;
+    padding-left: 44px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+
+  @media screen and (max-width: 1200px) {
+    section {
+      width: 68%;
+      padding-left: 40px;
+    }
+  }
+
+  @media screen and (max-width: 900px) {
+    section {
+      width: 62%;
+      padding-left: 32px;
+    }
   }
 }
 
-@media screen and (max-width: 900px) {
-  header {
-    width: 28%;
-    max-width: 220px;
-    min-width: 120px;
+/* ========== MOBILE ONLY (max-width: 800px) ========== */
+/* Stacked layout: full-width wrapper, header, then section. Changes here do not affect desktop. */
+@media screen and (max-width: 800px) {
+  div.wrapper {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    box-sizing: border-box;
   }
   
-  section {
-    width: 62%;
-    padding-left: 40px;
-  }
-}
-
-@media screen and (max-width: 800px) {
   header, section, footer {
-    float: none;
+    float: none !important;
     position: static;
-    width: auto;
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box;
   }
   
   header {
     padding-top: 0;
     text-align: center;
+    margin: 0 auto;
   }
   
   section {
     padding-top: 20px;
-    padding-left: 0;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 
@@ -622,32 +663,6 @@ header ul a strong {
   font-size:14px;
   display:block;
   color:#222;
-}
-
-/* Section width = 100% - header% - gap%; never overlap left panel */
-section {
-  width: 73%;
-  float: right;
-  padding-top: 4.0em;
-  padding-bottom: 50px;
-  padding-left: 56px;
-  padding-right: 20px;
-  box-sizing: border-box;
-}
-
-/* Responsive section */
-@media screen and (max-width: 1200px) {
-  section {
-    width: 68%;
-    padding-left: 52px;
-  }
-}
-
-@media screen and (max-width: 900px) {
-  section {
-    width: 62%;
-    padding-left: 40px;
-  }
 }
 
 small {
