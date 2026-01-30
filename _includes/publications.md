@@ -2,21 +2,44 @@
 
 <h2 style="margin: 2px 0px -15px;">Publications</h2>
 
-<div class="pub-filter-buttons" style="margin: 25px 0 30px 0; text-align: center;">
-  <button class="filter-btn active" data-filter="first-author">First-Author Papers</button>
-  <button class="filter-btn" data-filter="all">All Papers</button>
-  <button class="filter-btn" data-filter="HCI">Human-Computer Interaction</button>
-  <button class="filter-btn" data-filter="AI for Health">AI for Health</button>
-  <button class="filter-btn" data-filter="LLM Reverse Engineering">LLM Reverse Engineering</button>
+<div class="pub-filter-buttons-wrap" style="margin: 25px 0 30px 0;">
+  <div class="pub-filter-buttons">
+    <button class="filter-btn active" data-filter="first-author">First-Author Papers</button>
+    <button class="filter-btn" data-filter="all">All Papers</button>
+    <button class="filter-btn" data-filter="HCI">Human-Computer Interaction</button>
+    <button class="filter-btn" data-filter="AI for Health">AI for Health</button>
+    <button class="filter-btn" data-filter="LLM Reverse Engineering">LLM Reverse Engineering</button>
+  </div>
 </div>
 
 <style>
+.pub-filter-buttons-wrap {
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  overflow: hidden;
+}
+
 .pub-filter-buttons {
   display: flex;
   flex-wrap: nowrap;
   gap: 10px;
   justify-content: center;
   overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  max-width: 100%;
+  min-width: 0;
+  padding-bottom: 4px;
+}
+
+.pub-filter-buttons::-webkit-scrollbar {
+  height: 6px;
+}
+
+.pub-filter-buttons::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 3px;
 }
 
 .filter-btn {
@@ -69,7 +92,11 @@
 
 @media (max-width: 768px) {
   .pub-filter-buttons {
+    justify-content: flex-start;
     gap: 8px;
+    padding-left: 0;
+    padding-right: 16px;
+    scroll-padding-left: 0;
   }
   
   .filter-btn {
@@ -272,6 +299,12 @@
 document.addEventListener('DOMContentLoaded', function() {
   const filterBtns = document.querySelectorAll('.filter-btn');
   const publications = document.querySelectorAll('.publication-item');
+  const filterStrip = document.querySelector('.pub-filter-buttons');
+  
+  // Always start scrolled to the first button (mobile)
+  if (filterStrip) {
+    filterStrip.scrollLeft = 0;
+  }
   
   // Apply first-author filter by default on page load
   publications.forEach(pub => {
