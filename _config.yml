@@ -39,6 +39,10 @@ enable_last_update: true
 # You can use this option to choose between Serif or Sans Serif fonts.
 font: "Sans Serif"  # Modern OpenAI-style sans-serif
 
+# HaoChat (optional): if the chat API is on a different domain (e.g. Vercel serverless), set its base URL.
+# Example: haochat_api_url: https://your-api.vercel.app
+# Leave commented when the site and /api/chat are on the same origin (e.g. full deploy on Vercel).
+
 # Google Analytics ID
 # Please remove this if you don't use Google Analytics
 google_analytics: UA-111540567-4
