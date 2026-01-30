@@ -3,15 +3,15 @@ main:
     url: /haochat/
     right: true
 
-  - title: "Home"
-    url: /
-
-  - title: "Publications"
-    url: /#publications
+  - title: "Blog"
+    url: /blog.html
+    right: true
 
   - title: "Press"
     url: /press/
 
-  - title: "Blog"
-    url: /blog.html
-    right: true
+  - title: "Publications"
+    url: /#publications
+
+  - title: "Home"
+    url: /
