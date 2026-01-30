@@ -20,6 +20,9 @@ My [old personal website](https://1135100136.wixsite.com/yuexinghao/blog) has so
 #research-interests-list li {
   margin-bottom: 18px;
 }
+.wrapper section h2:not(:first-of-type) {
+  margin-top: 1.6em;
+}
 </style>
 
 <!-- ## Research Interests 
