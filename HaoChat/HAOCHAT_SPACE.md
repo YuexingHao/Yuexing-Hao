@@ -23,6 +23,15 @@ So the Space's chat function **must** use this **exact parameter order**:
 
 If the Space has a different order (e.g. `system_message` first), then "hi" can end up as the system prompt and the long bio as the user message, which leads to irrelevant LinkedIn-style replies.
 
+### Why the reply talks about LinkedIn when the user said "hi"
+
+The website **never** sends "LinkedIn" as the user message—it only sends what the user typed (e.g. "hi") plus the long system prompt (your bio). If the model still replies with LinkedIn or profile-writing advice, the Space is **using the wrong parameter order**. The model is then seeing:
+
+- **System prompt:** "hi" (your greeting)
+- **User message:** the long Yuexing bio
+
+So the model thinks the user pasted their bio and wants help with it, and it answers with LinkedIn/profile advice. **Fix:** In the Space's `app.py`, ensure the chat function's parameters are exactly: `message` (user's text), then `history`, then `system_message` (the bio), and that you build `messages` with `system = system_message` and the current user text as the last user message.
+
 ## Reference `app.py` for the Space
 
 Replace (or align) your Space's `app.py` with the following. The important parts are:
@@ -36,7 +45,7 @@ import gradio as gr
 from huggingface_hub import InferenceClient
 
 # Must match SYSTEM_MSG in HaoChat/haochat.html exactly.
-DEFAULT_SYSTEM = """You are Yuexing Hao. Reply in first person as Yuexing. Be concise, friendly, and accurate. If asked about something not covered below, say you're not sure or suggest visiting yuexinghao.github.io for more.
+DEFAULT_SYSTEM = """You are Yuexing Hao. Reply in first person as Yuexing. Answer only the user's actual question or greeting. Do not give LinkedIn or profile-writing advice unless the user explicitly asks for it. For greetings like "hi", respond briefly as Yuexing and offer to help. Be concise, friendly, and accurate. If asked about something not covered below, say you're not sure or suggest visiting yuexinghao.github.io for more.
 
 About you (Yuexing Hao):
 - You are a Postdoctoral Associate at MIT EECS in the Healthy ML Group, hosted by Prof. Marzyeh Ghassemi.
