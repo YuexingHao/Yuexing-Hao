@@ -222,12 +222,26 @@ body.dark-mode .haochat-typing { color: #fff; }
   }
 
   function setMessageContent(assistantDiv, text) {
-    assistantDiv.querySelector('.label').nextSibling.remove();
+    var label = assistantDiv.querySelector('.label');
+    if (label.nextSibling) label.nextSibling.remove();
     var content = document.createElement('div');
     content.style.whiteSpace = 'pre-wrap';
     content.style.wordBreak = 'break-word';
-    content.textContent = text;
-    assistantDiv.querySelector('.label').after(content);
+    content.textContent = text || '';
+    label.after(content);
+    messagesEl.scrollTop = messagesEl.scrollHeight;
+  }
+
+  function updateStreamingContent(assistantDiv, text) {
+    var label = assistantDiv.querySelector('.label');
+    var content = label.nextElementSibling;
+    if (!content) {
+      content = document.createElement('div');
+      content.style.whiteSpace = 'pre-wrap';
+      content.style.wordBreak = 'break-word';
+      label.after(content);
+    }
+    content.textContent = text || '';
     messagesEl.scrollTop = messagesEl.scrollHeight;
   }
 
@@ -283,6 +297,14 @@ body.dark-mode .haochat-typing { color: #fff; }
     return history;
   }
 
+  function extractReplyFromData(data) {
+    if (!data || !Array.isArray(data) || data.length === 0) return '';
+    var first = data[0];
+    if (typeof first === 'string') return first;
+    if (first && first.content) return String(first.content);
+    return '';
+  }
+
   function callSpaceWithFetch(text, systemMessage, history, assistantDiv) {
     var base = spaceBaseUrl();
     if (!base) return Promise.reject(new Error('Invalid haochat_space_id'));
@@ -300,28 +322,36 @@ body.dark-mode .haochat-typing { color: #fff; }
       .then(function(json) {
         var eventId = json && json.event_id;
         if (!eventId) throw new Error('No event_id from Space');
-        return fetch(base + apiPath + '/' + eventId, { headers: { Accept: 'text/event-stream' } }).then(function(res) {
-          if (!res.ok) throw new Error('Space result failed');
-          return res.text();
-        }).then(function(sseText) {
-          var lastData = null;
-          var lines = sseText.split('\n');
-          for (var i = 0; i < lines.length; i++) {
-            if (lines[i].indexOf('event:') === 0 && lines[i].toLowerCase().indexOf('complete') >= 0 && i + 1 < lines.length) {
-              var next = lines[i + 1];
-              if (next.indexOf('data:') === 0) {
+        return fetch(base + apiPath + '/' + eventId, { headers: { Accept: 'text/event-stream' } });
+      })
+      .then(function(res) {
+        if (!res.ok) throw new Error('Space result failed');
+        if (!res.body) return Promise.reject(new Error('Stream not supported'));
+        var reader = res.body.getReader();
+        var decoder = new TextDecoder();
+        var buffer = '';
+        var lastReply = '';
+        function readChunk() {
+          return reader.read().then(function(result) {
+            if (result.done) return lastReply;
+            buffer += decoder.decode(result.value, { stream: true });
+            var lines = buffer.split('\n');
+            buffer = lines.pop() || '';
+            for (var i = 0; i < lines.length; i++) {
+              if (lines[i].indexOf('data:') === 0) {
                 try {
-                  lastData = JSON.parse(next.slice(5).trim());
+                  var data = JSON.parse(lines[i].slice(5).trim());
+                  if (data && Array.isArray(data)) {
+                    lastReply = extractReplyFromData(data);
+                    updateStreamingContent(assistantDiv, lastReply);
+                  }
                 } catch (_) {}
               }
             }
-            if (lines[i].indexOf('data:') === 0 && lastData === null) {
-              try { lastData = JSON.parse(lines[i].slice(5).trim()); } catch (_) {}
-            }
-          }
-          if (lastData && Array.isArray(lastData) && lastData.length > 0) return (typeof lastData[0] === 'string' ? lastData[0] : (lastData[0] && lastData[0].content) || '').toString();
-          return '';
-        });
+            return readChunk();
+          });
+        }
+        return readChunk();
       });
   }
 
@@ -341,14 +371,15 @@ body.dark-mode .haochat-typing { color: #fff; }
 
         function useFetchFallback() {
           return callSpaceWithFetch(text, SYSTEM_MSG, history, assistantDiv).then(function(reply) {
-            setMessageContent(assistantDiv, reply || 'No response.');
+            if (reply) updateStreamingContent(assistantDiv, reply);
+            else updateStreamingContent(assistantDiv, 'No response.');
           });
         }
 
+        var chatPayload = { message: text, history: history, system_message: SYSTEM_MSG, max_tokens: 512, temperature: 0.7, top_p: 0.95 };
+
         var promise = gradioApp
-          ? Promise.resolve(gradioApp).then(function(app) {
-              return app.predict('/chat', { message: text, history: history, system_message: SYSTEM_MSG, max_tokens: 512, temperature: 0.7, top_p: 0.95 });
-            })
+          ? Promise.resolve(gradioApp)
           : loadGradioClient()
               .then(function(Client) {
                 if (!Client || typeof Client.connect !== 'function') throw new Error('client failed');
@@ -361,17 +392,37 @@ body.dark-mode .haochat-typing { color: #fff; }
               })
               .then(function(app) {
                 gradioApp = app;
-                return app.predict('/chat', { message: text, history: history, system_message: SYSTEM_MSG, max_tokens: 512, temperature: 0.7, top_p: 0.95 });
+                return app;
               })
               .catch(function(err) {
                 return useFetchFallback();
               });
 
         promise
+          .then(function(appOrUndefined) {
+            if (!appOrUndefined) return undefined;
+            if (typeof appOrUndefined.submit !== 'function') {
+              if (typeof appOrUndefined.predict === 'function') {
+                return appOrUndefined.predict('/chat', chatPayload);
+              }
+              return undefined;
+            }
+            var sub = appOrUndefined.submit('/chat', chatPayload);
+            return new Promise(function(resolve, reject) {
+              (function consume() {
+                sub.next().then(function(iter) {
+                  if (iter.done) { resolve(iter.value && iter.value.data ? getReplyFromResult(iter.value.data) : undefined); return; }
+                  var msg = iter.value;
+                  if (msg && msg.type === 'data' && msg.data !== undefined) updateStreamingContent(assistantDiv, getReplyFromResult(msg.data));
+                  consume();
+                }).catch(reject);
+              })();
+            });
+          })
           .then(function(result) {
             if (result !== undefined) {
               var reply = getReplyFromResult(result);
-              setMessageContent(assistantDiv, reply || 'No response.');
+              if (reply) updateStreamingContent(assistantDiv, reply);
             }
           })
           .catch(function(err) {
