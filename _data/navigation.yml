@@ -1,4 +1,8 @@
 main:
+  - title: "HaoChat"
+    url: /haochat/
+    right: true
+
   - title: "Home"
     url: /
 
@@ -10,8 +14,4 @@ main:
 
   - title: "Blog"
     url: /blog.html
-    right: true
-
-  - title: "HaoChat"
-    url: /haochat/
     right: true

@@ -6,7 +6,13 @@ permalink: /haochat/
 
 <div class="haochat-page">
   <h1 style="margin: 20px 0 8px;">HaoChat</h1>
-  <p class="haochat-intro">Ask me anything about Yuexing Hao. Powered by Qwen 14B on Hugging Face.</p>
+  {% assign haochat_space = site.haochat_space_id | default: "YuexingHao/HaoChat" | strip %}
+  {% if haochat_space contains "http" %}
+    {% assign haochat_space_url = haochat_space %}
+  {% else %}
+    {% assign haochat_space_url = haochat_space | prepend: "https://huggingface.co/spaces/" %}
+  {% endif %}
+  <p class="haochat-intro">Ask me anything about Yuexing Hao. Powered by your <a href="{{ haochat_space_url }}" target="_blank" rel="noopener">HaoChat Space</a> on Hugging Face.</p>
 
   <div id="haochat-messages" class="haochat-messages"></div>
 
@@ -31,6 +37,8 @@ permalink: /haochat/
   margin: 0 0 24px;
   font-size: 15px;
 }
+.haochat-intro a { color: #000; text-decoration: underline; }
+body.dark-mode .haochat-intro a { color: #fff; }
 .haochat-messages {
   min-height: 200px;
   margin-bottom: 20px;
@@ -159,12 +167,23 @@ body.dark-mode .haochat-typing { color: #fff; }
 
 <script>
 (function() {
-  var API_BASE = '{{ site.haochat_api_url | default: "" }}' || '';
-  var API_URL = API_BASE ? (API_BASE.replace(/\/$/, '') + '/api/chat') : '/api/chat';
+  var SPACE_ID = '{{ site.haochat_space_id | default: "" }}'.trim();
+  var USE_SPACE = SPACE_ID.length > 0;
+  var GRADIO_CDN = 'https://cdn.jsdelivr.net/npm/@gradio/client@1.4.2/dist/index.min.js';
 
   var messagesEl = document.getElementById('haochat-messages');
   var inputEl = document.getElementById('haochat-input');
   var sendBtn = document.getElementById('haochat-send');
+  var gradioApp = null;
+  var ClientPromise = null;
+
+  function loadGradioClient() {
+    if (ClientPromise) return ClientPromise;
+    ClientPromise = (typeof Client !== 'undefined' && Client && Client.connect)
+      ? Promise.resolve({ Client: Client })
+      : import(GRADIO_CDN).catch(function() { return import('https://cdn.jsdelivr.net/npm/@gradio/client/dist/index.min.js'); });
+    return ClientPromise;
+  }
 
   function addMessage(role, text, isTyping) {
     var div = document.createElement('div');
@@ -182,29 +201,22 @@ body.dark-mode .haochat-typing { color: #fff; }
     return div.innerHTML;
   }
 
-  function setTypingContent(div, text) {
-    var inner = div.querySelector('.haochat-typing') || div;
-    if (inner.classList && inner.classList.contains('haochat-typing')) {
-      inner.textContent = text;
-    } else {
-      var wrap = div.querySelector('.label');
-      if (wrap && wrap.nextSibling) wrap.nextSibling.textContent = text;
-      else div.appendChild(document.createTextNode(text));
-    }
+  function setMessageContent(assistantDiv, text) {
+    assistantDiv.querySelector('.label').nextSibling.remove();
+    var content = document.createElement('div');
+    content.style.whiteSpace = 'pre-wrap';
+    content.style.wordBreak = 'break-word';
+    content.textContent = text;
+    assistantDiv.querySelector('.label').after(content);
     messagesEl.scrollTop = messagesEl.scrollHeight;
   }
 
-  function finishMessage(div, text) {
-    var label = div.querySelector('.label');
-    if (label && label.nextSibling) {
-      label.nextSibling.remove();
-    }
+  function showError(assistantDiv, msg) {
+    assistantDiv.querySelector('.label').nextSibling.remove();
     var content = document.createElement('div');
-    content.textContent = text;
-    content.style.whiteSpace = 'pre-wrap';
-    content.style.wordBreak = 'break-word';
-    if (label) label.after(content); else div.appendChild(content);
-    div.classList.remove('haochat-typing');
+    content.style.color = 'inherit';
+    content.textContent = msg;
+    assistantDiv.querySelector('.label').after(content);
     messagesEl.scrollTop = messagesEl.scrollHeight;
   }
 
@@ -216,15 +228,71 @@ body.dark-mode .haochat-typing { color: #fff; }
     }
   });
 
+  function getReplyFromResult(result) {
+    if (typeof result === 'string') return result;
+    if (result && Array.isArray(result) && result.length > 0) {
+      var last = result[result.length - 1];
+      if (typeof last === 'string') return last;
+      if (last && typeof last === 'object' && Array.isArray(last)) return (last[1] || last[0] || '').toString();
+      return last.toString();
+    }
+    if (result && result.data && Array.isArray(result.data)) return (result.data[0] || '').toString();
+    if (result && result.output != null) return String(result.output);
+    return '';
+  }
+
   function send() {
     var text = (inputEl.value || '').trim();
     if (!text) return;
     inputEl.value = '';
     addMessage('user', text);
     sendBtn.disabled = true;
-
     var assistantDiv = addMessage('assistant', 'Thinking...', true);
 
+    if (USE_SPACE) {
+      (function runSpace() {
+        var connectPromise = gradioApp
+          ? Promise.resolve(gradioApp)
+          : loadGradioClient().then(function(m) {
+              var Client = m.Client || m.default && m.default.Client ? m.default.Client : m.default;
+              return Client.connect(SPACE_ID, {
+                status_callback: function(status) {
+                  if (status && status.status === 'building') setMessageContent(assistantDiv, 'Space is building...');
+                  else if (status && status.status === 'sleeping') setMessageContent(assistantDiv, 'Waking up the Space...');
+                }
+              });
+            });
+
+        var systemMessage = 'You are a helpful assistant that answers questions about Yuexing Hao (pronunciation: "You-Sing"). Use only the information below. If asked about something not covered, say you don\'t know. Keep answers concise and friendly. About Yuexing Hao: Postdoctoral Associate at MIT EECS in the Healthy ML Group, hosted by Prof. Marzyeh Ghassemi. Ph.D. from Cornell University (2022-25); IvyPlus Exchange Scholar at MIT (2024-25). Internships: Google Research (2025), Scale AI (2025), Mayo Clinic (2024). Education: B.A. in Computer Science from Rutgers University (2017-20), M.S. from Tufts University (2020-22). Based in Boston, MA. Enjoys outdoor activities: ice hockey, squash, water skiing. Founded Hug Medical (AI for medication management) in 2022. Research: LLM agents, RLHF, AI alignment; publications at Nature Digital Medicine, CHI, AAAI, Bioinformatics, etc.';
+
+        connectPromise
+          .then(function(app) {
+            gradioApp = app;
+            return app.predict('/chat', {
+              message: text,
+              system_message: systemMessage,
+              max_tokens: 512,
+              temperature: 0.7,
+              top_p: 0.95
+            });
+          })
+          .then(function(result) {
+            var reply = getReplyFromResult(result);
+            setMessageContent(assistantDiv, reply || 'No response.');
+          })
+          .catch(function(err) {
+            var msg = err.message || 'Could not reach the HaoChat Space. Check that the Space is running and haochat_space_id in _config.yml is correct.';
+            showError(assistantDiv, msg);
+          })
+          .then(function() {
+            sendBtn.disabled = false;
+          });
+      })();
+      return;
+    }
+
+    var API_BASE = '{{ site.haochat_api_url | default: "" }}' || '';
+    var API_URL = API_BASE ? (API_BASE.replace(/\/$/, '') + '/api/chat') : '/api/chat';
     fetch(API_URL, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
@@ -236,8 +304,8 @@ body.dark-mode .haochat-typing { color: #fff; }
           try { data = JSON.parse(raw); } catch (_) {}
           if (!res.ok) {
             var msg = data.reply || data.error;
-            if (res.status === 404) msg = msg || 'API not found (404). Deploy this repo to Vercel so /api/chat runs, or set haochat_api_url in _config.yml to your Vercel API URL.';
-            else if (res.status === 500) msg = msg || 'Server error (500). In Vercel, add HF_TOKEN under Settings → Environment Variables and redeploy.';
+            if (res.status === 404) msg = msg || 'API not found (404). Set haochat_space_id in _config.yml to use your Hugging Face Space.';
+            else if (res.status === 500) msg = msg || 'Server error (500).';
             else msg = msg || 'Server returned ' + res.status + '.';
             throw new Error(msg);
           }
@@ -245,22 +313,10 @@ body.dark-mode .haochat-typing { color: #fff; }
         });
       })
       .then(function(data) {
-        assistantDiv.querySelector('.label').nextSibling.remove();
-        var content = document.createElement('div');
-        content.style.whiteSpace = 'pre-wrap';
-        content.style.wordBreak = 'break-word';
-        content.textContent = data.reply || data.error || 'No response.';
-        assistantDiv.querySelector('.label').after(content);
-        messagesEl.scrollTop = messagesEl.scrollHeight;
+        setMessageContent(assistantDiv, data.reply || data.error || 'No response.');
       })
       .catch(function(err) {
-        var msg = err.message || 'Sorry, the chat service is unavailable. Deploy the API to Vercel and add HF_TOKEN (see README).';
-        assistantDiv.querySelector('.label').nextSibling.remove();
-        var content = document.createElement('div');
-        content.style.color = 'inherit';
-        content.textContent = msg;
-        assistantDiv.querySelector('.label').after(content);
-        messagesEl.scrollTop = messagesEl.scrollHeight;
+        showError(assistantDiv, err.message || 'Chat unavailable. Set haochat_space_id in _config.yml to your Space (e.g. YuexingHao/HaoChat).');
       })
       .then(function() {
         sendBtn.disabled = false;
