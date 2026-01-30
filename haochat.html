@@ -188,19 +188,20 @@ body.dark-mode .haochat-typing { color: #fff; }
 
   function loadGradioClient() {
     if (ClientPromise) return ClientPromise;
-    ClientPromise = import('https://esm.sh/@gradio/client@1.4.2')
-      .then(function(m) {
+    var urls = [
+      'https://esm.sh/@gradio/client@1.4.2',
+      'https://cdn.jsdelivr.net/npm/@gradio/client@1.4.2/+esm',
+      'https://cdn.jsdelivr.net/npm/@gradio/client@1.4.2/dist/index.min.js'
+    ];
+    function tryNext(i) {
+      if (i >= urls.length) return Promise.reject(new Error('Gradio client could not be loaded. Try the Space directly: https://huggingface.co/spaces/' + SPACE_ID));
+      return import(urls[i]).then(function(m) {
         var C = getClientFromModule(m);
         if (C) return C;
-        throw new Error('no Client');
-      })
-      .catch(function() {
-        return import('https://cdn.jsdelivr.net/npm/@gradio/client@1.4.2/+esm').then(function(m) {
-          var C = getClientFromModule(m);
-          if (C) return C;
-          throw new Error('Gradio client could not be loaded. Try again or use the Space directly.');
-        });
-      });
+        return tryNext(i + 1);
+      }, function() { return tryNext(i + 1); });
+    }
+    ClientPromise = tryNext(0);
     return ClientPromise;
   }
 
