@@ -1,33 +1,17 @@
 main:
-    
-  - title: "HaoChat"
-    url: /haochat/
-    right: true
-    
-  - title: "Blog"
-    url: /blog.html
-    right: true
-    
-  - title: "Bio"
-    url: /biography/
-    right: true
-    
-  - title: "Talks"
-    url: /#talks
-    right: true 
-    
-  - title: "Press"
-    url: /press/
-    
-  - title: "News"
-    url: /#news
-    
-  - title: "Publications"
-    url: /#publications
-    
-  - title: "Awards"
-    url: /#awards
-
   - title: "Home"
     url: /
 
+  - title: "Publications"
+    url: /#publications
+
+  - title: "Press"
+    url: /press/
+
+  - title: "Blog"
+    url: /blog.html
+    right: true
+
+  - title: "HaoChat"
+    url: /haochat/
+    right: true
