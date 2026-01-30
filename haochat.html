@@ -272,7 +272,8 @@ body.dark-mode .haochat-typing { color: #fff; }
     var base = spaceBaseUrl();
     if (!base) return Promise.reject(new Error('Invalid haochat_space_id'));
     var payload = { data: [text, [], systemMessage, 512, 0.7, 0.95] };
-    return fetch(base + '/call/chat', {
+    var apiPath = '/gradio_api/call/chat';
+    return fetch(base + apiPath, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(payload)
@@ -284,7 +285,7 @@ body.dark-mode .haochat-typing { color: #fff; }
       .then(function(json) {
         var eventId = json && json.event_id;
         if (!eventId) throw new Error('No event_id from Space');
-        return fetch(base + '/call/chat/' + eventId, { headers: { Accept: 'text/event-stream' } }).then(function(res) {
+        return fetch(base + apiPath + '/' + eventId, { headers: { Accept: 'text/event-stream' } }).then(function(res) {
           if (!res.ok) throw new Error('Space result failed');
           return res.text();
         }).then(function(sseText) {
