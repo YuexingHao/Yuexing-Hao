@@ -12,7 +12,7 @@ permalink: /haochat/
   {% else %}
     {% assign haochat_space_url = haochat_space | prepend: "https://huggingface.co/spaces/" %}
   {% endif %}
-  <p class="haochat-intro">Ask me anything about Yuexing Hao. Powered by your <a href="{{ haochat_space_url }}" target="_blank" rel="noopener">HaoChat Space</a> on Hugging Face.</p>
+  <p class="haochat-intro">Ask me anything about Yuexing Hao. Powered by <a href="{{ haochat_space_url }}" target="_blank" rel="noopener">HaoChat Space</a> on Hugging Face.</p>
 
   <div id="haochat-messages" class="haochat-messages"></div>
 
@@ -268,10 +268,25 @@ body.dark-mode .haochat-typing { color: #fff; }
     return '';
   }
 
-  function callSpaceWithFetch(text, systemMessage, assistantDiv) {
+  function getConversationHistory() {
+    var history = [];
+    var msgs = messagesEl.querySelectorAll('.haochat-msg');
+    for (var i = 0; i < msgs.length; i++) {
+      var msg = msgs[i];
+      var role = msg.classList.contains('user') ? 'user' : (msg.classList.contains('assistant') ? 'assistant' : null);
+      if (!role) continue;
+      var label = msg.querySelector('.label');
+      var contentEl = label ? label.nextElementSibling : msg;
+      var text = (contentEl && contentEl.textContent) ? contentEl.textContent.trim() : '';
+      if (text && text !== 'Thinking...') history.push({ role: role, content: text });
+    }
+    return history;
+  }
+
+  function callSpaceWithFetch(text, systemMessage, history, assistantDiv) {
     var base = spaceBaseUrl();
     if (!base) return Promise.reject(new Error('Invalid haochat_space_id'));
-    var payload = { data: [text, [], systemMessage, 512, 0.7, 0.95] };
+    var payload = { data: [text, history || [], systemMessage, 512, 0.7, 0.95] };
     var apiPath = '/gradio_api/call/chat';
     return fetch(base + apiPath, {
       method: 'POST',
@@ -310,27 +325,29 @@ body.dark-mode .haochat-typing { color: #fff; }
       });
   }
 
-  var SYSTEM_MSG = 'You are a helpful assistant that answers questions about Yuexing Hao (pronunciation: "You-Sing"). Use only the information below. If asked about something not covered, say you don\'t know. Keep answers concise and friendly. About Yuexing Hao: Postdoctoral Associate at MIT EECS in the Healthy ML Group, hosted by Prof. Marzyeh Ghassemi. Ph.D. from Cornell University (2022-25); IvyPlus Exchange Scholar at MIT (2024-25). Internships: Google Research (2025), Scale AI (2025), Mayo Clinic (2024). Education: B.A. in Computer Science from Rutgers University (2017-20), M.S. from Tufts University (2020-22). Based in Boston, MA. Enjoys outdoor activities: ice hockey, squash, water skiing. Founded Hug Medical (AI for medication management) in 2022. Research: LLM agents, RLHF, AI alignment; publications at Nature Digital Medicine, CHI, AAAI, Bioinformatics, etc.';
+  var SYSTEM_MSG = 'You are Yuexing Hao. Reply in first person as Yuexing. Be concise, friendly, and accurate. If asked about something not covered below, say you\'re not sure or suggest visiting yuexinghao.github.io for more.\n\nAbout you (Yuexing Hao):\n- You are a Postdoctoral Associate at MIT EECS in the Healthy ML Group, hosted by Prof. Marzyeh Ghassemi.\n- You received your Ph.D. from Cornell University (2022–25) and were an IvyPlus Exchange Scholar at MIT (2024–25).\n- Internships: Google Research (2025), Scale AI (2025), Mayo Clinic (2024).\n- Education: B.A. in Computer Science from Rutgers University (2017–20), M.S. from Tufts University (2020–22).\n- You are based in Boston, MA. In your spare time you enjoy ice hockey, squash, and water skiing.\n- Your name means "happy walking is good"; pronunciation is "You-Sing."\n- You founded Hug Medical (AI for medication management) in 2022 (hugmed.ai).\n\nResearch focus: LLM agents, RLHF, AI alignment; AI for healthcare and human–computer interaction.\n\nSelected publications (first-authored): Nature Digital Medicine (MedEduChat, systematic review on LLMs in cancer), CHI (wayfinding/health conversations, patient-centered shared decision-making, in-basket/LLM comparison), CSCW, AAAI (veterinary precision health), Bioinformatics, IntelliSys; preprints on MedPAIR, MedGUIDE, MedPerturb, GPU equity, RtE. Venues: CHI, NPJ Digital Medicine, CSCW, AAAI, MCP Digital Health.\n\nSelected awards/grants: PCCW Frank H.T. Rhodes Leadership & Mission Grant, APF K. Anders Ericsson Dissertation Research Grant, Life Science Technology Innovation Fellowship, ACM SIGCHI Gary Marsden Travel Award, NCWIT Collegiate Award, IEEE ComSoc Student Competition, ICM, Tufts Graduate Student Research Competition, and others (see yuexinghao.github.io).\n\nService: FAccT registration committee, CSCW/CHI associate chair.\n\nLinks: Google Scholar, GitHub (YuexingHao), LinkedIn, Twitter; CV and full site at yuexinghao.github.io.';
 
   function send() {
     var text = (inputEl.value || '').trim();
     if (!text) return;
     inputEl.value = '';
+    var history = getConversationHistory();
     addMessage('user', text);
     sendBtn.disabled = true;
     var assistantDiv = addMessage('assistant', 'Thinking...', true);
 
     if (USE_SPACE) {
       (function runSpace() {
+
         function useFetchFallback() {
-          return callSpaceWithFetch(text, SYSTEM_MSG, assistantDiv).then(function(reply) {
+          return callSpaceWithFetch(text, SYSTEM_MSG, history, assistantDiv).then(function(reply) {
             setMessageContent(assistantDiv, reply || 'No response.');
           });
         }
 
         var promise = gradioApp
           ? Promise.resolve(gradioApp).then(function(app) {
-              return app.predict('/chat', { message: text, system_message: SYSTEM_MSG, max_tokens: 512, temperature: 0.7, top_p: 0.95 });
+              return app.predict('/chat', { message: text, history: history, system_message: SYSTEM_MSG, max_tokens: 512, temperature: 0.7, top_p: 0.95 });
             })
           : loadGradioClient()
               .then(function(Client) {
@@ -344,7 +361,7 @@ body.dark-mode .haochat-typing { color: #fff; }
               })
               .then(function(app) {
                 gradioApp = app;
-                return app.predict('/chat', { message: text, system_message: SYSTEM_MSG, max_tokens: 512, temperature: 0.7, top_p: 0.95 });
+                return app.predict('/chat', { message: text, history: history, system_message: SYSTEM_MSG, max_tokens: 512, temperature: 0.7, top_p: 0.95 });
               })
               .catch(function(err) {
                 return useFetchFallback();
