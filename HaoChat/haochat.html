@@ -5,7 +5,7 @@ permalink: /haochat/
 ---
 
 <div class="haochat-page">
-  <h1 style="margin: 20px 0 8px;">HaoChat</h1>
+  <h1 class="haochat-title">HaoChat</h1>
   {% assign haochat_space = site.haochat_space_id | default: "YuexingHao/HaoChat" | strip %}
   {% if haochat_space contains "http" %}
     {% assign haochat_space_url = haochat_space %}
@@ -34,6 +34,13 @@ permalink: /haochat/
   max-width: 720px;
   margin: 0 auto;
   padding: 20px 0 60px;
+}
+.haochat-title {
+  margin: 20px 0 8px;
+  color: #000;
+}
+body.dark-mode .haochat-title {
+  color: #fff;
 }
 .haochat-intro {
   color: #000;
