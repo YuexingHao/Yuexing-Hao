@@ -1,0 +1,112 @@
+# HaoChat Hugging Face Space Setup
+
+Your website's HaoChat page connects to the Space **YuexingHao/HaoChat**. If replies are off-topic (e.g. LinkedIn profile text when you say "hi"), the Space's **parameter order** or **system prompt** is likely wrong.
+
+## API contract (website → Space)
+
+The site sends one of:
+
+1. **Gradio client** (named): `{ message, history, system_message, max_tokens, temperature, top_p }`
+2. **Fetch fallback** (positional): `data: [message, history, system_message, max_tokens, temperature, top_p]`
+
+So the Space's chat function **must** use this **exact parameter order**:
+
+1. `message` (str) – current user message  
+2. `history` – list of `[user_msg, assistant_msg]` pairs or `[{role, content}, ...]`  
+3. `system_message` (str) – system prompt (your site sends the Yuexing bio)  
+4. `max_tokens` (int)  
+5. `temperature` (float)  
+6. `top_p` (float)  
+7. (optional) `hf_token` for Inference API
+
+If the Space has a different order (e.g. `system_message` first), then "hi" can end up as the system prompt and the long bio as the user message, which leads to irrelevant LinkedIn-style replies.
+
+## Reference `app.py` for the Space
+
+Replace (or align) your Space's `app.py` with the following. The important parts are:
+
+- **Parameter order**: `message`, then `history`, then `system_message`, then tokens/temperature/top_p, then token.
+- **System prompt**: Use the **incoming** `system_message` from the client (or the default below), not a LinkedIn template.
+- **History**: Support both `[[user, assistant], ...]` and `[{role, content}, ...]`.
+
+```python
+import gradio as gr
+from huggingface_hub import InferenceClient
+
+DEFAULT_SYSTEM = """You are Yuexing Hao. Reply in first person as Yuexing. Be concise, friendly, and accurate.
+If asked about something not covered, say you're not sure or suggest visiting yuexinghao.github.io for more.
+
+About you (Yuexing Hao):
+- Postdoctoral Associate at MIT EECS (Healthy ML Group, Prof. Marzyeh Ghassemi).
+- Ph.D. Cornell (2022–25), IvyPlus Exchange Scholar at MIT (2024–25).
+- Internships: Google Research (2025), Scale AI (2025), Mayo Clinic (2024).
+- Education: B.A. CS Rutgers (2017–20), M.S. Tufts (2020–22).
+- Boston, MA. Enjoy ice hockey, squash, water skiing.
+- Name means "happy walking is good"; pronunciation "You-Sing."
+- Founded Hug Medical (hugmed.ai). Research: LLM agents, RLHF, AI for healthcare/HCI.
+- Publications: Nature Digital Medicine, CHI, CSCW, AAAI, etc. See yuexinghao.github.io."""
+
+
+def respond(message, history, system_message, max_tokens, temperature, top_p, hf_token: gr.OAuthToken):
+    if not message or not hf_token.token:
+        yield "Please enter a message and connect your Hugging Face account."
+        return
+
+    client = InferenceClient(token=hf_token.token, model="Qwen/Qwen2.5-14B-Instruct")
+    system = (system_message or "").strip() or DEFAULT_SYSTEM
+    messages = [{"role": "system", "content": system}]
+
+    # Build history: support [user, assistant] pairs or [{role, content}]
+    for h in history or []:
+        if isinstance(h, (list, tuple)) and len(h) >= 2:
+            messages.append({"role": "user", "content": str(h[0])})
+            if h[1]:
+                messages.append({"role": "assistant", "content": str(h[1])})
+        elif isinstance(h, dict) and "role" in h and "content" in h:
+            messages.append({"role": h["role"], "content": str(h["content"])})
+
+    messages.append({"role": "user", "content": message})
+
+    response = ""
+    for chunk in client.chat_completion(
+        messages,
+        max_tokens=max_tokens,
+        stream=True,
+        temperature=temperature,
+        top_p=top_p,
+    ):
+        if chunk.choices and getattr(chunk.choices[0].delta, "content", None):
+            response += chunk.choices[0].delta.content
+        yield response
+
+
+with gr.Blocks() as demo:
+    gr.Markdown("# HaoChat – Ask Yuexing Hao")
+    chatbot = gr.ChatInterface(
+        respond,
+        type="messages",
+        additional_inputs=[
+            gr.Textbox(label="System message", value=DEFAULT_SYSTEM, lines=4),
+            gr.Slider(64, 1024, value=512, step=64, label="Max tokens"),
+            gr.Slider(0, 2, value=0.7, step=0.05, label="Temperature"),
+            gr.Slider(0, 1, value=0.95, step=0.05, label="Top p"),
+            gr.OAuthToken(),
+        ],
+    )
+
+demo.launch()
+```
+
+**Important:** If your Space uses `gr.ChatInterface`, the **order of `additional_inputs`** must match the order above: system message, max_tokens, temperature, top_p, OAuth token. And the **first two arguments** of `respond` must be `message` and `history` (Gradio passes those from the chat UI). So the full signature is:
+
+`respond(message, history, system_message, max_tokens, temperature, top_p, hf_token)`.
+
+## Checklist
+
+1. In the Space repo, open `app.py` and ensure:
+   - The chat function's parameters are in this order: **message, history, system_message, max_tokens, temperature, top_p** (and token if used).
+   - There is **no** LinkedIn or "profile update" system prompt; use the Yuexing default above or the one sent by the website.
+2. Commit and push; wait for the Space to rebuild.
+3. On your site, send "hi" again; you should get a short, first-person reply from Yuexing, not LinkedIn text.
+
+If you already have a different UI (e.g. custom inputs), keep the same **parameter order** when you call the inference client and when you expose the endpoint as `/chat`.

@@ -297,6 +297,17 @@ body.dark-mode .haochat-typing { color: #fff; }
     return history;
   }
 
+  /** Convert [{role, content}, ...] to [[user, assistant], ...] for Gradio Space compatibility. */
+  function historyToGradioPairs(history) {
+    var pairs = [];
+    for (var i = 0; i < history.length; i++) {
+      var h = history[i];
+      if (h.role === 'user') pairs.push([h.content, '']);
+      else if (h.role === 'assistant' && pairs.length) pairs[pairs.length - 1][1] = h.content;
+    }
+    return pairs;
+  }
+
   function extractReplyFromData(data) {
     if (!data || !Array.isArray(data) || data.length === 0) return '';
     var first = data[0];
@@ -308,7 +319,8 @@ body.dark-mode .haochat-typing { color: #fff; }
   function callSpaceWithFetch(text, systemMessage, history, assistantDiv) {
     var base = spaceBaseUrl();
     if (!base) return Promise.reject(new Error('Invalid haochat_space_id'));
-    var payload = { data: [text, history || [], systemMessage, 512, 0.7, 0.95] };
+    var historyPairs = historyToGradioPairs(history || []);
+    var payload = { data: [text, historyPairs, systemMessage, 512, 0.7, 0.95] };
     var apiPath = '/gradio_api/call/chat';
     return fetch(base + apiPath, {
       method: 'POST',
@@ -376,7 +388,8 @@ body.dark-mode .haochat-typing { color: #fff; }
           });
         }
 
-        var chatPayload = { message: text, history: history, system_message: SYSTEM_MSG, max_tokens: 512, temperature: 0.7, top_p: 0.95 };
+        var historyPairs = historyToGradioPairs(history);
+        var chatPayload = { message: text, history: historyPairs, system_message: SYSTEM_MSG, max_tokens: 512, temperature: 0.7, top_p: 0.95 };
 
         var promise = gradioApp
           ? Promise.resolve(gradioApp)
