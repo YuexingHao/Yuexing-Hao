@@ -38,7 +38,10 @@ export default async function handler(req, res) {
   const token = process.env.HF_TOKEN;
   if (!token) {
     res.setHeader('Access-Control-Allow-Origin', '*');
-    return res.status(500).json({ error: 'HaoChat API is not configured (missing HF_TOKEN).' });
+    return res.status(200).json({
+      reply: 'HaoChat API is not configured: HF_TOKEN is missing. Add it in Vercel → Project → Settings → Environment Variables, then redeploy.',
+      error: 'Missing HF_TOKEN',
+    });
   }
 
   let body;
@@ -78,12 +81,20 @@ export default async function handler(req, res) {
 
     if (!response.ok) {
       const errText = await response.text();
-      console.error('HF API error', response.status, errText);
+      let reply = 'The model request failed. ';
+      try {
+        const errJson = JSON.parse(errText);
+        if (errJson.error) reply += errJson.error;
+        else if (errJson.message) reply += errJson.message;
+      } catch (_) {
+        if (response.status === 503) reply += 'Model is still loading on Hugging Face. Wait a minute and try again.';
+        else if (response.status === 401) reply += 'Invalid Hugging Face token. Check HF_TOKEN in your environment.';
+        else if (response.status === 429) reply += 'Rate limit exceeded. Try again in a moment.';
+        else if (errText) reply += errText.slice(0, 200);
+      }
+      console.error('HF API error', response.status, reply);
       res.setHeader('Access-Control-Allow-Origin', '*');
-      return res.status(response.status).json({
-        error: 'Model request failed',
-        reply: 'Sorry, the model is unavailable right now. Please try again later.',
-      });
+      return res.status(200).json({ reply, error: reply });
     }
 
     const data = await response.json();
@@ -101,9 +112,9 @@ export default async function handler(req, res) {
   } catch (err) {
     console.error('HaoChat API error', err);
     res.setHeader('Access-Control-Allow-Origin', '*');
-    return res.status(500).json({
-      error: 'Request failed',
-      reply: 'Something went wrong. Please try again.',
+    return res.status(200).json({
+      reply: 'Request failed: ' + (err.message || 'Please try again.'),
+      error: err.message || 'Request failed',
     });
   }
 }

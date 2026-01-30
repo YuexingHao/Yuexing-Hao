@@ -27,7 +27,7 @@ permalink: /haochat/
   padding: 20px 0 60px;
 }
 .haochat-intro {
-  color: #555;
+  color: #000;
   margin: 0 0 24px;
   font-size: 15px;
 }
@@ -35,13 +35,13 @@ permalink: /haochat/
   min-height: 200px;
   margin-bottom: 20px;
   padding: 16px;
-  background: #f8f9fa;
-  border: 1px solid #e9ecef;
+  background: #fff;
+  border: 1px solid #000;
   border-radius: 12px;
 }
 body.dark-mode .haochat-messages {
-  background: #1e1e1e;
-  border-color: #333;
+  background: #000;
+  border-color: #fff;
 }
 .haochat-msg {
   margin-bottom: 16px;
@@ -52,22 +52,24 @@ body.dark-mode .haochat-messages {
   word-break: break-word;
 }
 .haochat-msg.user {
-  background: #e7f0ff;
+  background: #fff;
+  border: 1px solid #000;
   margin-left: 0;
   margin-right: 24px;
 }
 body.dark-mode .haochat-msg.user {
-  background: #2a3a4a;
+  background: #000;
+  border-color: #fff;
 }
 .haochat-msg.assistant {
   background: #fff;
-  border: 1px solid #e0e0e0;
+  border: 1px solid #000;
   margin-left: 24px;
   margin-right: 0;
 }
 body.dark-mode .haochat-msg.assistant {
-  background: #2d2d2d;
-  border-color: #444;
+  background: #000;
+  border-color: #fff;
 }
 .haochat-msg .label {
   font-size: 11px;
@@ -75,10 +77,10 @@ body.dark-mode .haochat-msg.assistant {
   text-transform: uppercase;
   letter-spacing: 0.05em;
   margin-bottom: 6px;
-  color: #666;
+  color: #000;
 }
 body.dark-mode .haochat-msg .label {
-  color: #999;
+  color: #fff;
 }
 .haochat-input-wrap {
   display: flex;
@@ -91,52 +93,68 @@ body.dark-mode .haochat-msg .label {
   padding: 12px 14px;
   font-size: 15px;
   font-family: inherit;
-  border: 1px solid #ccc;
+  border: 1px solid #000;
   border-radius: 10px;
   resize: none;
   min-height: 48px;
   max-height: 120px;
+  background: #fff;
+  color: #000;
 }
 .haochat-input:focus {
   outline: none;
-  border-color: #0066cc;
-  box-shadow: 0 0 0 2px rgba(0,102,204,0.2);
+  border-color: #000;
+  box-shadow: 0 0 0 2px #000;
 }
 body.dark-mode .haochat-input {
-  background: #2d2d2d;
-  border-color: #555;
-  color: #e5e5e5;
+  background: #000;
+  border-color: #fff;
+  color: #fff;
+}
+body.dark-mode .haochat-input:focus {
+  border-color: #fff;
+  box-shadow: 0 0 0 2px #fff;
 }
 .haochat-send {
   padding: 12px 20px;
   font-size: 15px;
   font-weight: 500;
   color: #fff;
-  background: #0066cc;
-  border: none;
+  background: #000;
+  border: 1px solid #000;
   border-radius: 10px;
   cursor: pointer;
   white-space: nowrap;
 }
 .haochat-send:hover {
-  background: #0052a3;
+  background: #fff;
+  color: #000;
 }
 .haochat-send:disabled {
   opacity: 0.6;
   cursor: not-allowed;
 }
+body.dark-mode .haochat-send {
+  color: #000;
+  background: #fff;
+  border-color: #fff;
+}
+body.dark-mode .haochat-send:hover {
+  background: #000;
+  color: #fff;
+}
 .haochat-send .fa { margin-right: 6px; }
 .haochat-disclaimer {
   font-size: 12px;
-  color: #888;
+  color: #000;
   margin: 0;
 }
-body.dark-mode .haochat-disclaimer { color: #777; }
+body.dark-mode .haochat-disclaimer { color: #fff; }
 .haochat-typing {
-  color: #666;
+  color: #000;
   font-style: italic;
 }
-body.dark-mode .haochat-typing { color: #999; }
+body.dark-mode .haochat-typing { color: #fff; }
 </style>
 
 <script>
@@ -213,8 +231,18 @@ body.dark-mode .haochat-typing { color: #999; }
       body: JSON.stringify({ message: text })
     })
       .then(function(res) {
-        if (!res.ok) throw new Error('API error: ' + res.status);
-        return res.json();
+        return res.text().then(function(raw) {
+          var data = {};
+          try { data = JSON.parse(raw); } catch (_) {}
+          if (!res.ok) {
+            var msg = data.reply || data.error;
+            if (res.status === 404) msg = msg || 'API not found (404). Deploy this repo to Vercel so /api/chat runs, or set haochat_api_url in _config.yml to your Vercel API URL.';
+            else if (res.status === 500) msg = msg || 'Server error (500). In Vercel, add HF_TOKEN under Settings → Environment Variables and redeploy.';
+            else msg = msg || 'Server returned ' + res.status + '.';
+            throw new Error(msg);
+          }
+          return data;
+        });
       })
       .then(function(data) {
         assistantDiv.querySelector('.label').nextSibling.remove();
@@ -226,11 +254,10 @@ body.dark-mode .haochat-typing { color: #999; }
         messagesEl.scrollTop = messagesEl.scrollHeight;
       })
       .catch(function(err) {
-        var msg = 'Sorry, the chat service is unavailable. If you self-host, set up the API proxy (see README) and add your Hugging Face token.';
-        if (err.message && err.message.indexOf('API error') === 0) msg = 'Server error. Check that the API proxy is running and HF token is set.';
+        var msg = err.message || 'Sorry, the chat service is unavailable. Deploy the API to Vercel and add HF_TOKEN (see README).';
         assistantDiv.querySelector('.label').nextSibling.remove();
         var content = document.createElement('div');
-        content.style.color = '#c00';
+        content.style.color = 'inherit';
         content.textContent = msg;
         assistantDiv.querySelector('.label').after(content);
         messagesEl.scrollTop = messagesEl.scrollHeight;
