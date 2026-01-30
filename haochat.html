@@ -169,7 +169,6 @@ body.dark-mode .haochat-typing { color: #fff; }
 (function() {
   var SPACE_ID = '{{ site.haochat_space_id | default: "" }}'.trim();
   var USE_SPACE = SPACE_ID.length > 0;
-  var GRADIO_CDN = 'https://cdn.jsdelivr.net/npm/@gradio/client@1.4.2/dist/index.min.js';
 
   var messagesEl = document.getElementById('haochat-messages');
   var inputEl = document.getElementById('haochat-input');
@@ -177,11 +176,31 @@ body.dark-mode .haochat-typing { color: #fff; }
   var gradioApp = null;
   var ClientPromise = null;
 
+  function getClientFromModule(m) {
+    if (!m) return null;
+    if (m.Client && typeof m.Client.connect === 'function') return m.Client;
+    if (m.default) {
+      if (m.default.Client && typeof m.default.Client.connect === 'function') return m.default.Client;
+      if (typeof m.default.connect === 'function') return m.default;
+    }
+    return null;
+  }
+
   function loadGradioClient() {
     if (ClientPromise) return ClientPromise;
-    ClientPromise = (typeof Client !== 'undefined' && Client && Client.connect)
-      ? Promise.resolve({ Client: Client })
-      : import(GRADIO_CDN).catch(function() { return import('https://cdn.jsdelivr.net/npm/@gradio/client/dist/index.min.js'); });
+    ClientPromise = import('https://esm.sh/@gradio/client@1.4.2')
+      .then(function(m) {
+        var C = getClientFromModule(m);
+        if (C) return C;
+        throw new Error('no Client');
+      })
+      .catch(function() {
+        return import('https://cdn.jsdelivr.net/npm/@gradio/client@1.4.2/+esm').then(function(m) {
+          var C = getClientFromModule(m);
+          if (C) return C;
+          throw new Error('Gradio client could not be loaded. Try again or use the Space directly.');
+        });
+      });
     return ClientPromise;
   }
 
@@ -253,8 +272,8 @@ body.dark-mode .haochat-typing { color: #fff; }
       (function runSpace() {
         var connectPromise = gradioApp
           ? Promise.resolve(gradioApp)
-          : loadGradioClient().then(function(m) {
-              var Client = m.Client || m.default && m.default.Client ? m.default.Client : m.default;
+          : loadGradioClient().then(function(Client) {
+              if (!Client || typeof Client.connect !== 'function') throw new Error('Gradio Client.connect not available');
               return Client.connect(SPACE_ID, {
                 status_callback: function(status) {
                   if (status && status.status === 'building') setMessageContent(assistantDiv, 'Space is building...');
