@@ -108,14 +108,23 @@
     }
     
     .topnav a.icon {
-        display: block;
-        padding: 10px 16px;
-        font-size: 24px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 36px;
+        height: 36px;
+        min-height: 36px;
+        padding: 0;
+        font-size: 18px;
+        line-height: 1;
         position: absolute;
-        right: 10px;
-        top: 13px;
+        right: 20px;
+        top: 11px;
         color: #1a1a1a;
         z-index: 1000;
+        border: 2px solid #1a1a1a;
+        border-radius: 50%;
+        box-sizing: border-box;
     }
     
     .topnav a.normal, .topnav a.right {
@@ -124,12 +133,14 @@
     
     .topnav.responsive #myLinks {
         display: block;
+        text-align: center;
+        padding: 14px 60px 14px 60px;
     }
     
     .topnav.responsive a.normal {
         display: block;
         float: none;
-        text-align: left;
+        text-align: center;
         padding: 12px 20px;
     }
 }
@@ -146,11 +157,14 @@
     }
     
     .topnav a.icon {
-        display: block !important;
+        display: flex !important;
         margin-right: 5%;
-        right: 5px;
-        top: 13px;
-        font-size: 24px;
+        right: 10px;
+        top: 11px;
+        width: 36px;
+        height: 36px;
+        min-height: 36px;
+        font-size: 18px;
         visibility: visible !important;
     }
 }
@@ -162,10 +176,11 @@
     }
     
     .topnav a.icon {
-        right: 5px;
-        top: 13px;
-        padding: 8px 12px;
-        font-size: 22px;
+        right: 10px;
+        top: 11px;
+        width: 36px;
+        height: 36px;
+        font-size: 18px;
     }
     
     .topnav.responsive a.normal {
@@ -197,6 +212,7 @@
     
     .topnav a.icon {
         color: #e5e5e5;
+        border-color: #e5e5e5;
     }
     
     .topnav #myLinks {
@@ -231,6 +247,7 @@ body.dark-mode .topnav a.normal:hover {
 
 body.dark-mode .topnav a.icon {
     color: #e5e5e5;
+    border-color: #e5e5e5;
 }
 
 body.dark-mode .topnav #myLinks {
