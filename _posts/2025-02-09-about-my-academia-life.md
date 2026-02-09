@@ -20,15 +20,21 @@ Then, I started my master's during Covid. I think online classes are great. I tr
 
 Reflecting back, my undergrad and master's time were not really good. Comparing to many people who started their research and published a lot, I "wasted" my time. I spent most of the time learning and studying. But I think starting research early is not really helpful, as the whole mindset becomes about publishing. But that's not the whole point of research. Research is about exploring curiosity, doing something fun and impactful, and finding novel solutions. It's supposed to fail a lot. Research means wasting time on replicating other people's failures, reading other people's fancy papers, and even deep-thinking. (I am not defending why I am not productive; I am defending that when I am not writing papers and looking productive, I am still doing research)
 
-## Why Ph.D.?
+<!-- ## Why Ph.D.?
+
 
 I have 2 versions of answers, usually. Good version is "I want to do research"; bad version is "I can't find a job after graduating from bachelor / master."
 
-But here, let's focus on the good version. Is it necessary to do Ph.D.? -> No. 
+But here, let's focus on the good version. First of all, I think research is fun. I enjoyed doing applied research. But research is not for everyone, some people are in a hard-to-publish domain, some people are bad in execution (so they kept on missing deadlines and timely results), some people are suffered from the endless workloads and low pay.  -->
+
+
+<!-- Is it necessary to do Ph.D. in AI now? -> Not necessary. Is it too late to do Ph.D. now?  I had many friends who did Ph.D. because they received IOI/IMO/Olympic math (usually nobody care); because they were from prestigious undergrad (that's your 18-year-old achievement, but you are 20+ now so show us something more interesting?); because the society considers Ph.D. as highest level of degree (sure...)  -->
+
+## OK Time During Ph.D.
 
 After starting my Ph.D., my life became different. I started to know how to write an HCI paper and learned more about the publishing mechanisms. Just judging from the research question, I could tell how good a project would turn out. I also started to know what kind of mentorship I needed. Before my Ph.D., I didn't even know what kind of assistance I needed to write a paper.
 
-I am super fortunate that I got a lot of support during my Ph.D. There were many things that I didn't receive support for and later on looking back, I felt extremely grateful that I failed. But I tried 120% before I admitted I failed. At that time I felt I was a loser.
+I am super fortunate that I received a lot of support during my Ph.D. There were many things that I didn't receive support for and later on looking back, I felt extremely grateful that I failed. But I tried 120% before I admitted I failed. At that time I felt I was a loser.
 
 Rejections are hard to navigate, especially in the beginning. I usually feel dealing with rejections needs a kind of mindset: no matter if it's success or failure, in the end, it's hallucination. You are still who you are. Be persistent and eventually you will get to where you want.
 
