@@ -5,7 +5,7 @@ date: 2025-01-29
 author: Yuexing Hao
 tags: [Academia]
 description: "About why I am doing PhD"
-featured_image: /Yuexing-Hao/assets/img/your-image.jpg
+featured_image: /Yuexing-Hao/assets/posts/2025-02-09-about-my-academia-life/featured.jpg
 ---
 
 ## Tough Time Before Ph.D.
