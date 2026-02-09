@@ -5,7 +5,7 @@ main:
     conference_short: CHI
     conference: 2026 CHI Conference on Human Factors in Computing Systems <strong>(CHI)</strong>, 2026.
     pdf: https://storage.googleapis.com/research-media/wayfinding-ai.pdf
-    image: ./assets/img/SankeyDiagram.png
+    image: ./assets/img/publications/SankeyDiagram.png
     news: https://research.google/blog/towards-better-health-conversations-research-insights-on-a-wayfinding-ai-agent-based-on-gemini/
     notes: "* equal contributions"
     category: HCI
@@ -16,7 +16,7 @@ main:
     conference: Nature Digital Medicine (2025)
     pdf: https://www.nature.com/articles/s41746-025-02166-0
     news: https://newsnetwork.mayoclinic.org/discussion/new-mayo-clinic-study-advances-personalized-prostate-cancer-education-with-an-ehr-integrated-ai-agent/
-    image: ./assets/img/MedEduChat.gif
+    image: ./assets/img/publications/MedEduChat.gif
     category: AI for Health
     
   - title: "Large Language Model Integrations in Cancer Decision-making: A Systematic Review and Meta-analysis"
@@ -25,7 +25,7 @@ main:
     conference: Nature Digital Medicine (2025)
     pdf: https://www.nature.com/articles/s41746-025-01824-7
     news: https://human.cornell.edu/news-profiles/review-large-language-models-cancer-decision-making-limitations-improvement
-    image: ./assets/img/Review_NPJ.jpg
+    image: ./assets/img/publications/Review_NPJ.jpg
     category: AI for Health
     
   - title: "MedPAIR: Measuring Physicians and AI Relevance Alignment in Medical Question Answering"
@@ -34,7 +34,7 @@ main:
     conference: Under Review
     pdf: https://arxiv.org/abs/2505.24040
     page: https://medpair.csail.mit.edu/
-    image: ./assets/img/MedPAIR_Logo.png
+    image: ./assets/img/publications/MedPAIR_Logo.png
     category: LLM Reverse Engineering
     
   - title: "The Role of Computing Resources in Publishing Foundation Model Research"
@@ -42,7 +42,7 @@ main:
     conference_short: Preprint
     conference: Under Review
     pdf: https://arxiv.org/abs/2510.13621
-    image: ./assets/img/CALC.png
+    image: ./assets/img/publications/CALC.png
     page: http://mit-calc.csail.mit.edu/
     notes: "* equal contributions"
     category: HCI
@@ -52,7 +52,7 @@ main:
     conference_short: Preprint
     conference: Under Review
     pdf: https://arxiv.org/abs/XX
-    image: ./assets/img/RtE.gif
+    image: ./assets/img/publications/RtE.gif
     category: HCI
 
   - title: "Retrospective Comparative Analysis of Prostate Cancer In-Basket Messages: Responses from Closed-Domain LLM vs. Clinical Teams"
@@ -60,7 +60,7 @@ main:
     conference_short: MCP
     conference: Mayo Clinic Proceedings Digital Health 2025
     pdf: https://www.sciencedirect.com/science/article/pii/S2949761225000057
-    image: ./assets/img/Radar_Chart.png
+    image: ./assets/img/publications/Radar_Chart.png
     category: AI for Health
 
   - title: "Advancing Patient-Centered Shared Decision-Making with AI Systems for Older Adult Cancer Patients"
@@ -70,7 +70,7 @@ main:
     pdf: ./assets/files/CHI 24'.pdf
     videos: https://www.youtube.com/watch?v=IfUcoMexZNU&ab_channel=YuexingHao
     news: https://news.cornell.edu/stories/2024/05/ai-may-improve-doctor-patient-interactions-older-adults-cancer
-    image: ./assets/img/Design Diamond Pic.png
+    image: ./assets/img/publications/Design Diamond Pic.png
     category: HCI
 
   - title: "Dynamic Strategies and Opponent Hands Estimation for Reinforcement Learning in Gin Rummy Game"
@@ -78,5 +78,5 @@ main:
     conference_short: IntelliSys
     conference: Intelligent Systems and Applications <strong>(IntelliSys)</strong>, 2021.
     pdf: https://link.springer.com/chapter/10.1007/978-3-030-82193-7_36
-    image: ./assets/img/Intelli Presentation.jpg
+    image: ./assets/img/publications/Intelli Presentation.jpg
     category: LLM Reverse Engineering

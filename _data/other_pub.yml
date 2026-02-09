@@ -7,7 +7,7 @@ main:
     pdf: https://dl.acm.org/doi/10.1145/3544548.3581393
     news: https://news.cornell.edu/stories/2023/04/ai-tool-gains-doctors-trust-giving-advice-colleague
     page: https://yuexinghao.github.io/BLR_demo_site/main_page.html
-    image: ./assets/img/Post_Design.jpg
+    image: ./assets/img/publications/Post_Design.jpg
     notes: "* equal contributions"
     category: HCI
     
@@ -17,7 +17,7 @@ main:
     conference: International Conference on Learning Representations 2026
     pdf: https://arxiv.org/abs/2502.14296
     page: https://trustgen.github.io/
-    image: ./assets/img/TrustGen.png
+    image: ./assets/img/publications/TrustGen.png
     category: LLM Reverse Engineering
     
   - title: "ProbeLLM: Automating Principled Diagnosis of LLM Failures"
@@ -25,7 +25,7 @@ main:
     conference_short: Preprint
     conference: Under Review
     pdf: https://arxiv.org/abs/XXX
-    image: ./assets/img/ProbeLLM.png
+    image: ./assets/img/publications/ProbeLLM.png
     category: LLM Reverse Engineering
     
   - title: "Codeside Manner: Evaluating Gender Differences in GPT-4 for Medical Applications"
@@ -33,7 +33,7 @@ main:
     conference_short: Preprint
     conference: Under Review
     pdf: https://dl.acm.org/doi/XXX
-    image: ./assets/img/AIES.png
+    image: ./assets/img/publications/AIES.png
     category: LLM Reverse Engineering
     
   - title: "MedGUIDE: Benchmarking Clinical Decision-Making in Large Language Models"
@@ -42,7 +42,7 @@ main:
     conference: Under Review
     pdf: https://arxiv.org/abs/2505.11613
     page: https://huggingface.co/datasets/MedGUIDE/MedGUIDE-MCQA-8K
-    image: ./assets/img/MedGuide.png
+    image: ./assets/img/publications/MedGuide.png
     category: LLM Reverse Engineering
     
   - title: "The MedPerturb Dataset: What Non-Content Perturbations Reveal About Human and Clinical LLM Decision Making"
@@ -52,7 +52,7 @@ main:
     pdf: https://arxiv.org/abs/2506.17163
     news: https://quantumzeitgeist.com/medical-llms-show-bias-with-varied-clinical-input-study-reveals/
     page: https://medperturb.csail.mit.edu/
-    image: ./assets/img/MedPerturb.png
+    image: ./assets/img/publications/MedPerturb.png
     category: LLM Reverse Engineering
 
   - title: "RadOnc-GPT: An Autonomous LLM Agent for Real-Time Patient Outcomes Labeling at Scale"
@@ -60,7 +60,7 @@ main:
     conference_short: Preprint
     conference: Under Review
     pdf: https://www.arxiv.org/abs/2509.25540
-    image: ./assets/img/RadOnc-GPT.jpeg
+    image: ./assets/img/publications/RadOnc-GPT.jpeg
     category: AI for Health
     
 

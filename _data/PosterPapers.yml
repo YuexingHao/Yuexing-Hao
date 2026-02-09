@@ -6,7 +6,7 @@ main:
     conference: Conference on Human Factors in Computing Systems <strong>(CHI)</strong> Student Research Competition, 2025.
     pdf: https://doi.org/10.1145/3706599.3719286
     news: https://news.cornell.edu/stories/2025/05/students-win-summer-awards-work-startups
-    image: ./assets/img/HUG YH.jpg
+    image: ./assets/img/publications/HUG YH.jpg
     category: AI for Health
     
   - title: "AI-Based Teat Shape and Skin Condition Prediction for Dairy Management"
@@ -16,7 +16,7 @@ main:
     pdf: https://arxiv.org/abs/2412.17142
     page: https://yuexinghao.github.io/Agriverse/home.html
     notes: "* equal contributions"
-    image: ./assets/img/IAAI 25.png
+    image: ./assets/img/publications/IAAI 25.png
     category: HCI
     
   - title: "Outcome First or Overview First? Optimizing Patient-Oriented Framework for Evidence-Based Healthcare Treatment Selections with XAI Tools"
@@ -25,7 +25,7 @@ main:
     conference: Companion of the Computer-Supported Cooperative Work and Social Computing <strong>(CSCW)</strong>, 2024.
     pdf: https://doi.org/10.1145/3678884.3681859
     notes: Poster Presentation
-    image: ./assets/img/LLM_Limit_Presentation_YH.jpg
+    image: ./assets/img/publications/LLM_Limit_Presentation_YH.jpg
     category: HCI
     
   - title: "The i-SDM Framework: Developing AI-based Tools in Shared Decision-Making for Cancer Treatment with Clinical Professionals"
@@ -34,7 +34,7 @@ main:
     conference: Companion of the Computer-Supported Cooperative Work and Social Computing <strong>(CSCW)</strong>, 2024.
     pdf: https://dl.acm.org/doi/10.1145/3678884.3681841
     notes: Poster Presentation
-    image: ./assets/img/EQUi-SDM Structure.jpg
+    image: ./assets/img/publications/EQUi-SDM Structure.jpg
     category: HCI
     
   - title: "Digital Twin-Driven Teat Localization and Shape Identification for Dairy Cow"
@@ -44,7 +44,7 @@ main:
     pdf: https://ojs.aaai.org/index.php/AAAI/article/view/30450
     page: https://yuexinghao.github.io/Agriverse/home.html
     notes: "* equal contributions"
-    image: ./assets/img/AAAI 24.png
+    image: ./assets/img/publications/AAAI 24.png
     category: HCI
     
   - title: "An Exploratory Study of Shared Decision-Making (SDM) for Older Adult Patients with Chronic Diseases"
@@ -54,6 +54,6 @@ main:
     pdf: http://camps.aptaracorp.com/ACM_PMS/PMS/ACM/CSCW23COMPANION/71/3b518e72-1b50-11ee-b37c-16bb50361d1f/OUT/cscw23companion-71.html
     news: https://medium.com/p/b12fc79c5b7
     notes: In-Person Oral Presentation
-    image: ./assets/img/table final.png
+    image: ./assets/img/publications/table final.png
     category: HCI
 
