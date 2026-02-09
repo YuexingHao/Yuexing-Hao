@@ -20,16 +20,6 @@ Then, I started my master's during Covid. I think online classes are great. I tr
 
 Reflecting back, my undergrad and master's time were not really good. Comparing to many people who started their research and published a lot, I "wasted" my time. I spent most of the time learning and studying. But I think starting research early is not really helpful, as the whole mindset becomes about publishing. But that's not the whole point of research. Research is about exploring curiosity, doing something fun and impactful, and finding novel solutions. It's supposed to fail a lot. Research means wasting time on replicating other people's failures, reading other people's fancy papers, and even deep-thinking. (I am not defending why I am not productive; I am defending that when I am not writing papers and looking productive, I am still doing research)
 
-<!-- ## Why Ph.D.?
-
-
-I have 2 versions of answers, usually. Good version is "I want to do research"; bad version is "I can't find a job after graduating from bachelor / master."
-
-But here, let's focus on the good version. First of all, I think research is fun. I enjoyed doing applied research. But research is not for everyone, some people are in a hard-to-publish domain, some people are bad in execution (so they kept on missing deadlines and timely results), some people are suffered from the endless workloads and low pay.  -->
-
-
-<!-- Is it necessary to do Ph.D. in AI now? -> Not necessary. Is it too late to do Ph.D. now?  I had many friends who did Ph.D. because they received IOI/IMO/Olympic math (usually nobody care); because they were from prestigious undergrad (that's your 18-year-old achievement, but you are 20+ now so show us something more interesting?); because the society considers Ph.D. as highest level of degree (sure...)  -->
-
 ## OK Time During Ph.D.
 
 After starting my Ph.D., my life became different. I started to know how to write an HCI paper and learned more about the publishing mechanisms. Just judging from the research question, I could tell how good a project would turn out. I also started to know what kind of mentorship I needed. Before my Ph.D., I didn't even know what kind of assistance I needed to write a paper.
@@ -38,16 +28,28 @@ I am super fortunate that I received a lot of support during my Ph.D. There were
 
 Rejections are hard to navigate, especially in the beginning. I usually feel dealing with rejections needs a kind of mindset: no matter if it's success or failure, in the end, it's hallucination. You are still who you are. Be persistent and eventually you will get to where you want.
 
+
+## Is Ph.D. Necessary?
+
+I have 2 versions of answers, as always. The good version is "It's necessary because I want to do research"; the bad version is "I can't find a job after graduating from my bachelor's/master's."
+
+But here, let's focus on the good version. First of all, I think research is fun. I enjoy doing applied research. But research is not for everyone. Some people are in hard-to-publish domains, some people are bad at execution (so they keep missing deadlines and timely results), some people suffer from the endless workloads and low pay. I have observed successful and unsuccessful Ph.D.s, happy and sad Ph.D.s, funding-rich and funding-poor Ph.D.s, and healthy and unhealthy Ph.D.s; from my observation, a Ph.D. needs to be good at communications, good at grant writing, good at conducting research, good at public conversations to translate your hard-core research into an easily understandable version, good at recovering from failures and rejections, and good at obeying people but still using extra time to do innovative work. As a Ph.D., people always love to ask if you have extra time, do you want to do this and that. Be okay with it. 
+
+Is it necessary to do a Ph.D. in AI now? -> I still think it's valuable. It is easier to do AI research as a Ph.D., as research takes time to learn. It's not an easy task. If I just graduated from college and did several years in the industry, I don't know whether I would have time to learn and adapt to the challenges, as working while studying is super stressful and hard.
+
 C. P. CAVAFY wrote a poem called "Ithaka" and there is one favorite line:
 
 <div style="text-align: center">
 
-> "Hope your road is a long one... Keep Ithaka always in your mind.
+"Hope your road is a long one... 
+Keep Ithaka always in your mind.
 Arriving there is what you’re destined for.
 But don’t hurry the journey at all.
-> Better if it lasts for years,
+Better if it lasts for years,
 so you’re old by the time you reach the island,
 wealthy with all you’ve gained on the way,
-> not expecting Ithaka to make you rich."
+not expecting Ithaka to make you rich."
 
 </div>
+
+Thanks for reading.
