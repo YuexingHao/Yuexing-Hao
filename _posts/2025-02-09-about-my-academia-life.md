@@ -8,11 +8,15 @@ description: "About why I am doing PhD"
 featured_image: /Yuexing-Hao/assets/posts/2025-02-09-about-my-academia-life/featured.jpg
 ---
 
-I received many inquiries about my academia life. I think it might be great to share some details behind my resume. What happen before PhD? Why PhD and why not PhD? How's my PhD? Is it easy? I want to write down some thoughts...
+I received many inquiries about my academic life. I think it might be great to share some details behind my resume. What happened before my PhD? Why PhD and why not PhD? How's my PhD? Is it easy? I want to write down some thoughts...
 
 ## Tough Time Before Ph.D.
 
-I started my undergrad in the US in 2017. Initially in my college application, my mom suggested biomedical statistics as my major. After I started my first semester, I truly believed Computer Science was the future. The first Computer Science class was super fun, playing around with Scratch. I enjoyed the class and later on in my senior year I became a head TA and part-time lecturer. That's the starting point of my academic "career".
+I was never considered a "good" student. I was always considered a "unique" student. Though I don't feel I am unique at all, I know I have limited talents in answering multiple choice questions. I used to force to be a piano prodigy or national-level swimmer. But later on I was not competent but gladly at least I learned how to play piano and swim. 
+
+From the parent-teacher meetings, my parents were told that I was "too talkative", "too active", "too innovative", "had too many questions." My parents usually felt sad hearing this (Honestly speaking, I think it's mixed but leans towards positive). Later on, they gave up going to the parent-teacher meetings as they already knew what the teachers would say. Then I transitioned to an international school, and it was more like a home school style where I usually spent time having fun alone. I became like an independent artist, spending time mainly on films, drawings, and music. I recorded my first album from 2016-18. It probably sleeps somewhere on my shelf.
+
+In 2017, I started my undergrad in the US. Initially in my college application, my mom suggested biomedical statistics as my major. After I started my first semester, I truly believed Computer Science was the future. The first Computer Science class was super fun, playing around with Scratch. I enjoyed the class and later on in my senior year I became a head TA and part-time lecturer. That's the starting point of my academic "career".
 
 I still remember in my second year, I failed Calculus II (getting a D). If I retook it again and still got below C, then I would be out of the Computer Science major. That was summer 2019, extremely hot in New Jersey. I felt super anxious and was afraid of being forced to drop out of the major. Fortunately, in the following Fall semester, I passed.
 
