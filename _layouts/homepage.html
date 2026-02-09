@@ -111,6 +111,8 @@
         <a class="image avatar"><img src="{{ site.avatar }}" alt="avatar" /></a>
         {% endif %}
 
+        <a href="{{ '/biography/' | relative_url }}" class="bio-button">Biography</a>
+
         <h1>{{ site.title }}</h1>
 
         {% if site.position %}
@@ -184,6 +186,23 @@
         
       </footer>
     </div>
+    <style>
+      .bio-button {
+        display: inline-block;
+        margin-top: 12px;
+        padding: 8px 16px;
+        background: #333;
+        color: #fff !important;
+        text-decoration: none;
+        border-radius: 6px;
+        font-size: 0.95rem;
+        transition: opacity 0.2s;
+      }
+      .bio-button:hover { opacity: 0.85; }
+      @media (prefers-color-scheme: dark) {
+        .bio-button { background: #555; color: #fff !important; }
+      }
+    </style>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
     {% if site.google_analytics %}
     <script>
