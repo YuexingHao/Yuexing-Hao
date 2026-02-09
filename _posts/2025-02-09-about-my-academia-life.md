@@ -1,12 +1,14 @@
 ---
 layout: blog-post
 title: "About my Academia Life"
-date: 2025-01-29
+date: 2025-02-09
 author: Yuexing Hao
 tags: [Academia]
 description: "About why I am doing PhD"
 featured_image: /Yuexing-Hao/assets/posts/2025-02-09-about-my-academia-life/featured.jpg
 ---
+
+I received many inquiries about my academia life. I think it might be great to share some details behind my resume. What happen before PhD? Why PhD and why not PhD? How's my PhD? Is it easy? I want to write down some thoughts...
 
 ## Tough Time Before Ph.D.
 
@@ -24,10 +26,13 @@ Reflecting back, my undergrad and master's time were not really good. Comparing 
 
 After starting my Ph.D., my life became different. I started to know how to write an HCI paper and learned more about the publishing mechanisms. Just judging from the research question, I could tell how good a project would turn out. I also started to know what kind of mentorship I needed. Before my Ph.D., I didn't even know what kind of assistance I needed to write a paper.
 
-I am super fortunate that I received a lot of support during my Ph.D. There were many things that I didn't receive support for and later on looking back, I felt extremely grateful that I failed. But I tried 120% before I admitted I failed. At that time I felt I was a loser.
+I am super fortunate that I received a lot of support during my Ph.D. There were many things that I didn't receive support for and later on looking back, I felt extremely grateful that I failed. But I tried 120% before I admitted I failed. At that time I felt I was a loser. I switched advisor, I tried to switch major but failed, I suffered from no GPUs, I encountered no research funding situation... These failures were invaluable and taught me to learn quickly and avoid these situations in the future.
 
-Rejections are hard to navigate, especially in the beginning. I usually feel dealing with rejections needs a kind of mindset: no matter if it's success or failure, in the end, it's hallucination. You are still who you are. Be persistent and eventually you will get to where you want.
+After starting my Ph.D., my life became different. I started to know how to write an HCI paper and learned more about the publishing mechanisms. Just judging from the research question, I could tell how good a project would turn out. I also started to know what kind of mentorship I needed. Before my Ph.D., I didn't even know what kind of assistance I needed to write a paper.
 
+I am super fortunate that I received a lot of support during my Ph.D. There were many things that I didn't receive support for and later on looking back, I felt extremely grateful that I failed. But I tried 120% before I admitted I failed. At that time I felt I was a loser. I switched advisors, I tried to switch majors but failed, I suffered from no GPUs, I encountered a no research funding situation... These failures were invaluable and taught me to learn quickly and avoid these situations in the future.
+
+In the third year of my Ph.D., I was only eligible for TA funding, which required me to TA 2 classes. It became very hard for me to do research and collaborate with clinics and industry partners. I had only 12 days to apply for the IvyPlus Exchange Ph.D. scholarship and contact the host institutions' professors to host me. I remember that morning I burst out in tears because I felt hopeless and helpless. But later on, Prof. Marzyeh Ghassemi hosted me and provided me funding for my research. Currently, the funding situation is hard and only trying and bold movements may at least make a difference. I think it's because the previous failures taught me how to recover quickly and not think change is a bad idea. It means something new, something even better, or something that must happen in destiny. 
 
 ## Is Ph.D. Necessary?
 
@@ -36,6 +41,8 @@ I have 2 versions of answers, as always. The good version is "It's necessary bec
 But here, let's focus on the good version. First of all, I think research is fun. I enjoy doing applied research. But research is not for everyone. Some people are in hard-to-publish domains, some people are bad at execution (so they keep missing deadlines and timely results), some people suffer from the endless workloads and low pay. I have observed successful and unsuccessful Ph.D.s, happy and sad Ph.D.s, funding-rich and funding-poor Ph.D.s, and healthy and unhealthy Ph.D.s; from my observation, a Ph.D. needs to be good at communications, good at grant writing, good at conducting research, good at public conversations to translate your hard-core research into an easily understandable version, good at recovering from failures and rejections, and good at obeying people but still using extra time to do innovative work. As a Ph.D., people always love to ask if you have extra time, do you want to do this and that. Be okay with it. 
 
 Is it necessary to do a Ph.D. in AI now? -> I still think it's valuable. It is easier to do AI research as a Ph.D., as research takes time to learn. It's not an easy task. If I just graduated from college and did several years in the industry, I don't know whether I would have time to learn and adapt to the challenges, as working while studying is super stressful and hard.
+
+Rejections are hard to navigate, especially in the beginning. I usually feel dealing with rejections needs a kind of mindset: no matter if it's success or failure, in the end, it's hallucination. You are still who you are. Be persistent and eventually you will get to where you want.
 
 C. P. CAVAFY wrote a poem called "Ithaka" and there is one favorite line:
 
