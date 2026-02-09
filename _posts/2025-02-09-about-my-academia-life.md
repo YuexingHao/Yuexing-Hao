@@ -35,6 +35,7 @@ I am super fortunate that I received a lot of support during my Ph.D. There were
 In the third year of my Ph.D., I was only eligible for TA funding, which required me to TA 2 classes per semester. It became very hard for me to do research and collaborate with clinics and industry partners. Oh my! Fortunately I got to know a IvyPlus Exchange Ph.D. scholarship but I had only 12 days to apply for it, including contacting the host institutions' professors to host me. I remember that morning I burst out in tears because I felt hopeless and helpless. But later on, Prof. Marzyeh Ghassemi hosted me and provided me funding for my research. Currently, the funding situation is hard and only trying and bold movements may at least make a difference. I think it's because the previous failures taught me how to recover quickly and not think change is a bad idea. It means something new, something even better, or something that must happen in destiny. 
 
 I am very execution-focused. If I decide to do it, then it will be now. I always tell myself, if you decide to do it, then the best time is now, and the best way to do it is all-in. You shouldn't wait and see, because usually afterward the result is giving up. You shouldn't put in partial energy and be ready to leave; the best strategy is all-in and trust the vision. When I have this kind of commitment, nothing really fails. Failure is not an option, because I will never give up until I win. I think a PhD may need a high requirement on execution; you have to go experiment, go try your hypothesis, go test your methods, go admit it doesn't work but tomorrow I will be at the office at 9 am and start experimenting again. But the dark side of being highly execution-focused is I have no patience for waiting. I used to work with someone who told me next week I could ping again to check the results and never got a response anymore. If it's not tomorrow then I am going to do it myself.
+
 ## Is Ph.D. Necessary?
 
 I have 2 versions of answers, as always. The good version is "It's necessary because I want to do research"; the bad version is "I can't find a job after graduating from my bachelor's/master's."
@@ -45,17 +46,17 @@ Is it necessary to do a Ph.D. in AI now? -> I still think it's valuable. It is e
 
 Rejections are hard to navigate, especially in the beginning. I usually feel dealing with rejections needs a kind of mindset: no matter if it's success or failure, in the end, it's hallucination. You are still who you are. Be persistent and eventually you will get to where you want.
 
-C. P. CAVAFY wrote a poem called "Ithaka" and there is one favorite line:
+C. P. CAVAFY wrote a poem called "Ithaka" and there is one favorite line (this is one of the reasons why I decided to go to Cornell):
 
-<div style="text-align: center">
+<div style="background: #f6f6f6; border-left: 4px solid #888; border-radius: 6px; padding: 1.25rem 1.5rem; margin: 1.5rem 0; font-style: italic; color: #333; max-width: 32em;">
 
-"Hope your road is a long one... 
-Keep Ithaka always in your mind.
-Arriving there is what you’re destined for.
-But don’t hurry the journey at all.
-Better if it lasts for years,
-so you’re old by the time you reach the island,
-wealthy with all you’ve gained on the way,
+"Hope your road is a long one...<br> 
+Keep Ithaka always in your mind.<br>
+Arriving there is what you’re destined for.<br>
+But don’t hurry the journey at all.<br>
+Better if it lasts for years,<br>
+so you’re old by the time you reach the island,<br>
+wealthy with all you’ve gained on the way,<br>
 not expecting Ithaka to make you rich."
 
 </div>
