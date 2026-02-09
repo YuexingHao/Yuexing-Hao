@@ -3,11 +3,12 @@ layout: blog-post
 title: "About my Academia Life"
 date: 2025-01-29
 author: Yuexing Hao
-tags: [AI Research, Healthcare, Academia]
-description: "Brief description of your post for SEO"
+tags: [Academia]
+description: "About why I am doing PhD"
 featured_image: /Yuexing-Hao/assets/img/your-image.jpg
-published: false
 ---
+
+## Tough Time Before Ph.D.
 
 I started my undergrad in the US in 2017. Initially in my college application, my mom suggested biomedical statistics as my major. After I started my first semester, I truly believed Computer Science was the future. The first Computer Science class was super fun, playing around with Scratch. I enjoyed the class and later on in my senior year I became a head TA and part-time lecturer. That's the starting point of my academic "career".
 
@@ -18,6 +19,12 @@ At the end of my sophomore year, I had a friend randomly come to my dorm to have
 Then, I started my master's during Covid. I think online classes are great. I tried my best to do research and write a paper, but I didn't know how to start. I wasn't sure about my research interests and career plan. Many times, I felt hopeless. I also applied to several big tech companies to do internships but none of them succeeded.
 
 Reflecting back, my undergrad and master's time were not really good. Comparing to many people who started their research and published a lot, I "wasted" my time. I spent most of the time learning and studying. But I think starting research early is not really helpful, as the whole mindset becomes about publishing. But that's not the whole point of research. Research is about exploring curiosity, doing something fun and impactful, and finding novel solutions. It's supposed to fail a lot. Research means wasting time on replicating other people's failures, reading other people's fancy papers, and even deep-thinking. (I am not defending why I am not productive; I am defending that when I am not writing papers and looking productive, I am still doing research)
+
+## Why Ph.D.?
+
+I have 2 versions of answers, usually. Good version is "I want to do research"; bad version is "I can't find a job after graduating from bachelor / master."
+
+But here, let's focus on the good version. Is it necessary to do Ph.D.? -> No. 
 
 After starting my Ph.D., my life became different. I started to know how to write an HCI paper and learned more about the publishing mechanisms. Just judging from the research question, I could tell how good a project would turn out. I also started to know what kind of mentorship I needed. Before my Ph.D., I didn't even know what kind of assistance I needed to write a paper.
 
