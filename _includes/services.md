@@ -37,7 +37,7 @@
     </ul>
   </div>
 
-  <div style="flex: 1; min-width: 500px;">
+  <div style="flex: 1; min-width: 350px;">
     <h2 style="margin:20px 10px 0;">Visitor Statistics</h2>
     <div style="margin: 20px 10px;">
       <a href="https://mapmyvisitors.com/web/1c25c" title="Visit tracker">
