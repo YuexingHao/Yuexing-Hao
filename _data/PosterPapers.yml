@@ -10,7 +10,7 @@ main:
     category: AI for Health
     
   - title: "AI-Based Teat Shape and Skin Condition Prediction for Dairy Management"
-    authors: "<strong>Yuexing Hao*</strong>, <a href='https://www.linkedin.com/in/tcyuan22' target='_blank'>Tiancheng Yuan</a> *, Yuting Yang *, <a href='https://www.linkedin.com/in/aarushi-gupta-779a26185' target='_blank'>Aarushi Gupta</a>, <a href='https://www.linkedin.com/in/matthias-wieland-cornell/' target='_blank'>Dr. Matthias Wieland</a>, <a href='https://www.cs.cornell.edu/home/birman/' target='_blank'>Dr. Ken Birman</a>, <a href='https://www.vet.cornell.edu/research/faculty/parminder-basran' target='_blank'>Dr. Parminder S. Basran</a>."
+    authors: "<strong>Yuexing Hao*</strong>, <a href='https://www.linkedin.com/in/tcyuan22' target='_blank'>Tiancheng Yuan</a> *, <a href='https://scholar.google.com/citations?user=Am6iPaoAAAAJ' target='_blank'>Yuting Yang</a> *, <a href='https://www.linkedin.com/in/aarushi-gupta-779a26185' target='_blank'>Aarushi Gupta</a>, <a href='https://www.linkedin.com/in/matthias-wieland-cornell/' target='_blank'>Dr. Matthias Wieland</a>, <a href='https://www.cs.cornell.edu/home/birman/' target='_blank'>Dr. Ken Birman</a>, <a href='https://www.vet.cornell.edu/research/faculty/parminder-basran' target='_blank'>Dr. Parminder S. Basran</a>."
     conference_short: AAAI
     conference: The 3rd Deployable AI Workshop at AAAI-2025 <strong>(DAI)</strong>, 2025.
     pdf: https://arxiv.org/abs/2412.17142
@@ -38,7 +38,7 @@ main:
     category: HCI
     
   - title: "Digital Twin-Driven Teat Localization and Shape Identification for Dairy Cow"
-    authors: "<a href='https://www.linkedin.com/in/aarushi-gupta-779a26185' target='_blank'>Aarushi Gupta</a> *, <strong>Yuexing Hao*</strong>, Yuting Yang *, <a href='https://www.linkedin.com/in/tcyuan22' target='_blank'>Tiancheng Yuan</a> *, <a href='https://www.linkedin.com/in/matthias-wieland-cornell/' target='_blank'>Dr. Matthias Wieland</a>, <a href='https://www.vet.cornell.edu/research/faculty/parminder-basran' target='_blank'>Dr. Parminder S. Basran</a>, <a href='https://www.cs.cornell.edu/home/birman/' target='_blank'>Dr. Ken Birman</a>."
+    authors: "<a href='https://www.linkedin.com/in/aarushi-gupta-779a26185' target='_blank'>Aarushi Gupta</a> *, <strong>Yuexing Hao*</strong>, <a href='https://scholar.google.com/citations?user=Am6iPaoAAAAJ' target='_blank'>Yuting Yang</a> *, <a href='https://www.linkedin.com/in/tcyuan22' target='_blank'>Tiancheng Yuan</a> *, <a href='https://www.linkedin.com/in/matthias-wieland-cornell/' target='_blank'>Dr. Matthias Wieland</a>, <a href='https://www.vet.cornell.edu/research/faculty/parminder-basran' target='_blank'>Dr. Parminder S. Basran</a>, <a href='https://www.cs.cornell.edu/home/birman/' target='_blank'>Dr. Ken Birman</a>."
     conference_short: AAAI
     conference: The 38th AAAI Conference on Artificial Intelligence <strong>(AAAI)</strong>, 2024.
     pdf: https://ojs.aaai.org/index.php/AAAI/article/view/30450
