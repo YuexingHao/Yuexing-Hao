@@ -1,7 +1,7 @@
 main:
 
   - title: Harnessing Biomedical Literature to Calibrate Clinicians’ Trust in AI Decision Support Systems
-    authors: Dr. Qian Yang, <strong>Yuexing Hao*</strong>, Kexin Quan*, Stephen Yang*, Yiran Zhao*, Dr. Volodymyr Kuleshov, Dr. Fei Wang. 
+    authors: "<a href='https://www.cs.cornell.edu/~qianyang/' target='_blank'>Dr. Qian Yang</a>, <strong>Yuexing Hao*</strong>, Kexin Quan*, Stephen Yang*, Yiran Zhao*, <a href='https://kuleshov-group.github.io/' target='_blank'>Dr. Volodymyr Kuleshov</a>, <a href='https://wcm-computing.cornell.edu/people/fei-wang/' target='_blank'>Dr. Fei Wang</a>."
     conference_short: CHI
     conference: 2023 CHI Conference on Human Factors in Computing Systems <strong>(CHI)</strong>, 2023.
     pdf: https://dl.acm.org/doi/10.1145/3544548.3581393
@@ -12,7 +12,7 @@ main:
     category: HCI
     
   - title: "On the trustworthiness of generative foundation models: Guideline, assessment, and perspective"
-    authors: Yue Huang, Chujie Gao, Siyuan Wu, Haoran Wang, Xiangqi Wang, Yujun Zhou, ... <strong>Yuexing Hao</strong>, ... Bo Li, Dawn Song, Xiangliang Zhang.
+    authors: "<a href='https://p1xu.github.io/' target='_blank'>Yue Huang</a>, Chujie Gao, Siyuan Wu, Haoran Wang, Xiangqi Wang, Yujun Zhou, ... <strong>Yuexing Hao</strong>, ... <a href='https://aisecure.github.io/' target='_blank'>Bo Li</a>, <a href='https://dawnsong.io/' target='_blank'>Dawn Song</a>, <a href='https://engineering.nd.edu/faculty/xiangliang-zhang/' target='_blank'>Xiangliang Zhang</a>."
     conference_short: ICLR
     conference: International Conference on Learning Representations 2026
     pdf: https://arxiv.org/abs/2502.14296
@@ -21,7 +21,7 @@ main:
     category: LLM Reverse Engineering
     
   - title: "ProbeLLM: Automating Principled Diagnosis of LLM Failures"
-    authors: Yue Huang, Zhengzhe Jiang, Yuchen Ma, Yu Jiang, Xiangqi Wang, Yujun Zhou, <strong>Yuexing Hao</strong>, Kehan Guo, Pin-Yu Chen, Marzyeh Ghassemi, Stefan Feuerriegel, Xiangliang Zhang
+    authors: "<a href='https://p1xu.github.io/' target='_blank'>Yue Huang</a>, Zhengzhe Jiang, Yuchen Ma, Yu Jiang, Xiangqi Wang, Yujun Zhou, <strong>Yuexing Hao</strong>, Kehan Guo, <a href='https://sites.google.com/site/pinyuchen/' target='_blank'>Pin-Yu Chen</a>, <a href='https://healthyml.org/marzyeh/' target='_blank'>Marzyeh Ghassemi</a>, <a href='https://www.professoren.tum.de/feuerriegel-stefan' target='_blank'>Stefan Feuerriegel</a>, <a href='https://engineering.nd.edu/faculty/xiangliang-zhang/' target='_blank'>Xiangliang Zhang</a>"
     conference_short: Preprint
     conference: Under Review
     pdf: https://arxiv.org/abs/XXX
@@ -29,7 +29,7 @@ main:
     category: LLM Reverse Engineering
     
   - title: "Codeside Manner: Evaluating Gender Differences in GPT-4 for Medical Applications"
-    authors: Eileen Pan, Abinitha Gourabathina, Walter Gerych, <strong>Yuexing Hao</strong>, Dr. Marzyeh Ghassemi 
+    authors: "Eileen Pan, Abinitha Gourabathina, <a href='https://www.linkedin.com/in/walter-gerych/' target='_blank'>Walter Gerych</a>, <strong>Yuexing Hao</strong>, <a href='https://healthyml.org/marzyeh/' target='_blank'>Dr. Marzyeh Ghassemi</a>"
     conference_short: Preprint
     conference: Under Review
     pdf: https://dl.acm.org/doi/XXX
@@ -37,7 +37,7 @@ main:
     category: LLM Reverse Engineering
     
   - title: "MedGUIDE: Benchmarking Clinical Decision-Making in Large Language Models"
-    authors: Xiaomin Li, Mingye Gao, <strong>Yuexing Hao</strong>, Taoran Li, Guangya Wan, Zihan Wang, Yijun Wang.
+    authors: "Xiaomin Li, Mingye Gao, <strong>Yuexing Hao</strong>, Taoran Li, Guangya Wan, Zihan Wang, Yijun Wang."
     conference_short: Preprint
     conference: Under Review
     pdf: https://arxiv.org/abs/2505.11613
@@ -46,7 +46,7 @@ main:
     category: LLM Reverse Engineering
     
   - title: "The MedPerturb Dataset: What Non-Content Perturbations Reveal About Human and Clinical LLM Decision Making"
-    authors: Abinitha Gourabathina, <strong>Yuexing Hao</strong>, Walter Gerych, Dr. Marzyeh Ghassemi.
+    authors: "Abinitha Gourabathina, <strong>Yuexing Hao</strong>, <a href='https://www.linkedin.com/in/walter-gerych/' target='_blank'>Walter Gerych</a>, <a href='https://healthyml.org/marzyeh/' target='_blank'>Dr. Marzyeh Ghassemi</a>."
     conference_short: Preprint
     conference: Under Review
     pdf: https://arxiv.org/abs/2506.17163
@@ -56,7 +56,7 @@ main:
     category: LLM Reverse Engineering
 
   - title: "RadOnc-GPT: An Autonomous LLM Agent for Real-Time Patient Outcomes Labeling at Scale"
-    authors: Jason Holmes, <strong>Yuexing Hao</strong>, Mariana Borras-Osorio, Federico Mastroleo, Santiago Romero Brufau, Valentina Carducci, Katie M Van Abel, David M Routman, Andrew Y. K. Foong, Liv M Muller, Satomi Shiraishi, Daniel K Ebner, Daniel J Ma, Sameer R Keole, Samir H Patel, Mirek Fatyga, Martin Bues, Brad J Stish, Yolanda I Garces, Michelle A Neben Wittich, Robert L Foote, Sujay A Vora, Nadia N Laack, Mark R Waddle, Wei Liu
+    authors: "<a href='https://www.mayoclinic.org/biographies/holmes-jason-m-d/bio-20489827' target='_blank'>Jason Holmes</a>, <strong>Yuexing Hao</strong>, Mariana Borras-Osorio, Federico Mastroleo, Santiago Romero Brufau, Valentina Carducci, Katie M Van Abel, David M Routman, Andrew Y. K. Foong, Liv M Muller, Satomi Shiraishi, Daniel K Ebner, Daniel J Ma, Sameer R Keole, Samir H Patel, Mirek Fatyga, Martin Bues, Brad J Stish, Yolanda I Garces, Michelle A Neben Wittich, Robert L Foote, Sujay A Vora, Nadia N Laack, <a href='https://www.mayoclinic.org/biographies/waddle-mark-r-m-d/bio-20490083' target='_blank'>Mark R Waddle</a>, <a href='https://www.mayo.edu/research/faculty/liu-wei-ph-d/bio-20543741' target='_blank'>Wei Liu</a>"
     conference_short: Preprint
     conference: Under Review
     pdf: https://www.arxiv.org/abs/2509.25540
