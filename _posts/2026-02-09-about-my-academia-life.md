@@ -1,11 +1,11 @@
 ---
 layout: blog-post
 title: "About my Academia Life"
-date: 2025-02-09
+date: 2026-02-09
 author: Yuexing Hao
 tags: [Academia]
 description: "About why I am doing PhD"
-featured_image: /Yuexing-Hao/assets/posts/2025-02-09-about-my-academia-life/featured.jpg
+featured_image: /Yuexing-Hao/assets/posts/2026-02-09-about-my-academia-life/featured.jpg
 ---
 
 I received many inquiries about my academic life. I think it might be great to share some details behind my resume. What happened before my PhD? Why PhD and why not PhD? How's my PhD? Is it easy? I want to write down some thoughts...

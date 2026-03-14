@@ -1,11 +1,11 @@
 ---
 layout: blog-post
 title: "I Graduated from Ph.D.!"
-date: 2025-01-28
+date: 2026-01-28
 author: Yuexing Hao
 tags: [Welcome, Personal, AI Research]
 description: "Introduction to my new blog where I'll share insights about AI (35%), research (35%), and life (30%)."
-featured_image: /Yuexing-Hao/assets/posts/2025-01-28-welcome-to-my-blog/PhD_Publications.jpg
+featured_image: /Yuexing-Hao/assets/posts/2026-01-28-welcome-to-my-blog/PhD_Publications.jpg
 ---
 
 Welcome to 13-day-old Dr. Hao's blog! I'm excited to start sharing my thoughts and experiences in AI research, healthcare technology, and beyond. All my blogs are written without AI so bear with me on grammar errors. 
@@ -17,9 +17,9 @@ In this blog, I'll be writing about my random thoughts in **AI Research**; my pr
 Reflecting my Ph.D., I am very grateful for my committee members and my amazing family. They shape who I am.
 
 <div style="display: flex; gap: 20px; margin: 30px 0; justify-content: center; flex-wrap: wrap;">
-  <img src="/Yuexing-Hao/assets/posts/2025-01-28-welcome-to-my-blog/PhD_Commitee.jpg" alt="Commitee" style="width: 30%; min-width: 250px; height: auto; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-  <img src="/Yuexing-Hao/assets/posts/2025-01-28-welcome-to-my-blog/PhD_Publications.jpg" alt="Research" style="width: 30%; min-width: 250px; height: auto; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-  <img src="/Yuexing-Hao/assets/posts/2025-01-28-welcome-to-my-blog/PhD_Family.jpg" alt="HUG Medical" style="width: 30%; min-width: 250px; height: auto; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+  <img src="/Yuexing-Hao/assets/posts/2026-01-28-welcome-to-my-blog/PhD_Commitee.jpg" alt="Commitee" style="width: 30%; min-width: 250px; height: auto; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+  <img src="/Yuexing-Hao/assets/posts/2026-01-28-welcome-to-my-blog/PhD_Publications.jpg" alt="Research" style="width: 30%; min-width: 250px; height: auto; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+  <img src="/Yuexing-Hao/assets/posts/2026-01-28-welcome-to-my-blog/PhD_Family.jpg" alt="HUG Medical" style="width: 30%; min-width: 250px; height: auto; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
 </div>
 
 ## My Research Journey
@@ -35,9 +35,9 @@ Cornell is my top choice and dream school, and I am super fortunate to get in. A
 I will share more about my research journey. But last but not the least,my research would be impossible without my amazing academia siblings, friends, collaborators (proofs attached below). 
 
 <div style="display: flex; gap: 20px; margin: 30px 0; justify-content: center; flex-wrap: wrap;">
-  <img src="/Yuexing-Hao/assets/posts/2025-01-28-welcome-to-my-blog/PhD_Friend1.jpg" alt="Yuexing Hao and her academia siblings and friends (1)" style="width: 30%; min-width: 250px; height: auto; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-  <img src="/Yuexing-Hao/assets/posts/2025-01-28-welcome-to-my-blog/PhD_Friend2.jpg" alt="Yuexing Hao and her academia siblings and friends (2)" style="width: 30%; min-width: 250px; height: auto; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-  <img src="/Yuexing-Hao/assets/posts/2025-01-28-welcome-to-my-blog/PhD_Friend3.jpg" alt="Yuexing Hao and her academia siblings and friends (3)" style="width: 30%; min-width: 250px; height: auto; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+  <img src="/Yuexing-Hao/assets/posts/2026-01-28-welcome-to-my-blog/PhD_Friend1.jpg" alt="Yuexing Hao and her academia siblings and friends (1)" style="width: 30%; min-width: 250px; height: auto; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+  <img src="/Yuexing-Hao/assets/posts/2026-01-28-welcome-to-my-blog/PhD_Friend2.jpg" alt="Yuexing Hao and her academia siblings and friends (2)" style="width: 30%; min-width: 250px; height: auto; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+  <img src="/Yuexing-Hao/assets/posts/2026-01-28-welcome-to-my-blog/PhD_Friend3.jpg" alt="Yuexing Hao and her academia siblings and friends (3)" style="width: 30%; min-width: 250px; height: auto; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
 </div>
 
 I also went to many beautiful places within US, China, and globally: Costa Rica, Germany (twice!), Canada (twice!), Mexico, and Barbados. Most travels happened because of conferences. 
