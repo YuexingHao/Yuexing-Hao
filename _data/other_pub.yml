@@ -37,7 +37,7 @@ main:
     category: LLM Reverse Engineering
     
   - title: "MedGUIDE: Benchmarking Clinical Decision-Making in Large Language Models"
-    authors: "<a href='https://xiaomin-li.github.io/publications/' target='_blank'>Xiaomin Li</a>, Mingye Gao, <strong>Yuexing Hao</strong>, Taoran Li, Guangya Wan, Zihan Wang, Yijun Wang."
+    authors: "<a href='https://scholar.google.com/citations?user=aV8Lu4MAAAAJ' target='_blank'>Xiaomin Li</a>, Mingye Gao, <strong>Yuexing Hao</strong>, Taoran Li, Guangya Wan, Zihan Wang, Yijun Wang."
     conference_short: Preprint
     conference: Under Review
     pdf: https://arxiv.org/abs/2505.11613
