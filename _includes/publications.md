@@ -352,86 +352,11 @@ document.addEventListener('DOMContentLoaded', function() {
 </script>
 
 <style>
-#author-preview-card {
-  display: none;
-  position: fixed;
-  z-index: 9999;
-  background: #fff;
-  border: 1px solid #e5e7eb;
-  border-radius: 10px;
-  box-shadow: 0 8px 30px rgba(0,0,0,0.15);
-  width: 320px;
-  overflow: hidden;
-  pointer-events: none;
+.author a {
+  color: inherit;
+  text-decoration: none;
 }
-#author-preview-card iframe {
-  width: 960px;
-  height: 280px;
-  border: none;
-  transform: scale(0.333);
-  transform-origin: top left;
-  pointer-events: none;
-}
-#author-preview-card .preview-footer {
-  padding: 8px 12px;
-  font-size: 12px;
-  color: #6b7280;
-  border-top: 1px solid #f3f4f6;
-  background: #fafafa;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-body.dark-mode #author-preview-card {
-  background: #1f2937;
-  border-color: #374151;
-}
-body.dark-mode #author-preview-card .preview-footer {
-  background: #111827;
-  border-top-color: #374151;
-  color: #9ca3af;
+.author a:hover {
+  text-decoration: underline;
 }
 </style>
-
-<div id="author-preview-card">
-  <div id="author-preview-frame-wrap" style="width:320px;height:93px;overflow:hidden;position:relative;">
-    <img id="author-preview-img" src="" alt="preview" style="width:320px;height:200px;object-fit:cover;object-position:top;" />
-  </div>
-  <div class="preview-footer" id="author-preview-label"></div>
-</div>
-
-<script>
-(function() {
-  var card = document.getElementById('author-preview-card');
-  var img  = document.getElementById('author-preview-img');
-  var label = document.getElementById('author-preview-label');
-  var currentHref = null;
-
-  document.querySelectorAll('.author a[href]').forEach(function(a) {
-    a.addEventListener('mouseenter', function(e) {
-      var href = a.getAttribute('href');
-      if (currentHref === href) return;
-      currentHref = href;
-      img.src = 'https://image.thum.io/get/width/640/crop/400/' + href;
-      label.textContent = a.textContent.trim() + ' — ' + href.replace(/^https?:\/\//, '');
-      card.style.display = 'block';
-      positionCard(e);
-    });
-    a.addEventListener('mousemove', positionCard);
-    a.addEventListener('mouseleave', function() {
-      card.style.display = 'none';
-      currentHref = null;
-    });
-  });
-
-  function positionCard(e) {
-    var margin = 16;
-    var x = e.clientX + margin;
-    var y = e.clientY + margin;
-    if (x + 320 > window.innerWidth)  x = e.clientX - 320 - margin;
-    if (y + 160 > window.innerHeight) y = e.clientY - 160 - margin;
-    card.style.left = x + 'px';
-    card.style.top  = y + 'px';
-  }
-})();
-</script>
