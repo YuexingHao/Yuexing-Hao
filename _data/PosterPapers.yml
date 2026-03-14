@@ -10,7 +10,7 @@ main:
     category: AI for Health
     
   - title: "AI-Based Teat Shape and Skin Condition Prediction for Dairy Management"
-    authors: "<strong>Yuexing Hao*</strong>, Tiancheng Yuan *, Yuting Yang *, Aarushi Gupta, <a href='https://www.linkedin.com/in/matthias-wieland-cornell/' target='_blank'>Dr. Matthias Wieland</a>, <a href='https://www.cs.cornell.edu/home/birman/' target='_blank'>Dr. Ken Birman</a>, <a href='https://www.vet.cornell.edu/research/faculty/parminder-basran' target='_blank'>Dr. Parminder S. Basran</a>."
+    authors: "<strong>Yuexing Hao*</strong>, <a href='https://www.linkedin.com/in/tcyuan22' target='_blank'>Tiancheng Yuan</a> *, Yuting Yang *, <a href='https://www.linkedin.com/in/aarushi-gupta-779a26185' target='_blank'>Aarushi Gupta</a>, <a href='https://www.linkedin.com/in/matthias-wieland-cornell/' target='_blank'>Dr. Matthias Wieland</a>, <a href='https://www.cs.cornell.edu/home/birman/' target='_blank'>Dr. Ken Birman</a>, <a href='https://www.vet.cornell.edu/research/faculty/parminder-basran' target='_blank'>Dr. Parminder S. Basran</a>."
     conference_short: AAAI
     conference: The 3rd Deployable AI Workshop at AAAI-2025 <strong>(DAI)</strong>, 2025.
     pdf: https://arxiv.org/abs/2412.17142
@@ -29,7 +29,7 @@ main:
     category: HCI
     
   - title: "The i-SDM Framework: Developing AI-based Tools in Shared Decision-Making for Cancer Treatment with Clinical Professionals"
-    authors: "<strong>Yuexing Hao</strong>, <a href='https://www.human.cornell.edu/people/cel4' target='_blank'>Dr. Corinna Loeckenhoff</a>, Dr. Harry Lee, Dr. Jessica Zwerling, <a href='https://www.salehkalantari.com/' target='_blank'>Dr. Saleh Kalantari</a>."
+    authors: "<strong>Yuexing Hao</strong>, <a href='https://www.human.cornell.edu/people/cel4' target='_blank'>Dr. Corinna Loeckenhoff</a>, <a href='https://weillcornell.org/henryjlee' target='_blank'>Dr. Harry Lee</a>, <a href='https://doctors.montefioreeinstein.org/providers/1053496364/jessica-l-zwerling' target='_blank'>Dr. Jessica Zwerling</a>, <a href='https://www.salehkalantari.com/' target='_blank'>Dr. Saleh Kalantari</a>."
     conference_short: CSCW
     conference: Companion of the Computer-Supported Cooperative Work and Social Computing <strong>(CSCW)</strong>, 2024.
     pdf: https://dl.acm.org/doi/10.1145/3678884.3681841
@@ -38,7 +38,7 @@ main:
     category: HCI
     
   - title: "Digital Twin-Driven Teat Localization and Shape Identification for Dairy Cow"
-    authors: "Aarushi Gupta *, <strong>Yuexing Hao*</strong>, Yuting Yang *, Tiancheng Yuan *, <a href='https://www.linkedin.com/in/matthias-wieland-cornell/' target='_blank'>Dr. Matthias Wieland</a>, <a href='https://www.vet.cornell.edu/research/faculty/parminder-basran' target='_blank'>Dr. Parminder S. Basran</a>, <a href='https://www.cs.cornell.edu/home/birman/' target='_blank'>Dr. Ken Birman</a>."
+    authors: "<a href='https://www.linkedin.com/in/aarushi-gupta-779a26185' target='_blank'>Aarushi Gupta</a> *, <strong>Yuexing Hao*</strong>, Yuting Yang *, <a href='https://www.linkedin.com/in/tcyuan22' target='_blank'>Tiancheng Yuan</a> *, <a href='https://www.linkedin.com/in/matthias-wieland-cornell/' target='_blank'>Dr. Matthias Wieland</a>, <a href='https://www.vet.cornell.edu/research/faculty/parminder-basran' target='_blank'>Dr. Parminder S. Basran</a>, <a href='https://www.cs.cornell.edu/home/birman/' target='_blank'>Dr. Ken Birman</a>."
     conference_short: AAAI
     conference: The 38th AAAI Conference on Artificial Intelligence <strong>(AAAI)</strong>, 2024.
     pdf: https://ojs.aaai.org/index.php/AAAI/article/view/30450
@@ -48,7 +48,7 @@ main:
     category: HCI
     
   - title: "An Exploratory Study of Shared Decision-Making (SDM) for Older Adult Patients with Chronic Diseases"
-    authors: "<strong>Yuexing Hao</strong>, Zeyu Liu, <a href='https://weill.cornell.edu/faculty/monika-m-safford' target='_blank'>Dr. Monika Safford</a>, <a href='https://www.linkedin.com/in/rulla-tamimi-4a3ab34/' target='_blank'>Dr. Rulla Tamimi</a>, <a href='https://www.salehkalantari.com/' target='_blank'>Dr. Saleh Kalantari</a>."
+    authors: "<strong>Yuexing Hao</strong>, <a href='https://cornell.academia.edu/ZeyuLiu' target='_blank'>Zeyu Liu</a>, <a href='https://weill.cornell.edu/faculty/monika-m-safford' target='_blank'>Dr. Monika Safford</a>, <a href='https://www.linkedin.com/in/rulla-tamimi-4a3ab34/' target='_blank'>Dr. Rulla Tamimi</a>, <a href='https://www.salehkalantari.com/' target='_blank'>Dr. Saleh Kalantari</a>."
     conference_short: CSCW
     conference: 26th ACM Conference On Computer-Supported Cooperative Work And Social Computing <strong>(CSCW)</strong>, 2023.
     pdf: http://camps.aptaracorp.com/ACM_PMS/PMS/ACM/CSCW23COMPANION/71/3b518e72-1b50-11ee-b37c-16bb50361d1f/OUT/cscw23companion-71.html
