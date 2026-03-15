@@ -12,32 +12,40 @@ I founded a (semi-successful) AI for medication management company ([Hug Medical
 
 My [old personal website](https://1135100136.wixsite.com/yuexinghao/blog) has some interesting posts. Stop using it from Aug 2022.
 
-Presently, I am based in beautiful Boston, MA. In my spare time, I love to do many outdoor activities, such as ice hockey, squash, and water skiing. My name means "happy walking is good", and the pronunciation is "You-Sing." I am a tea officinado and drink <span class="tea-hover">pre-rain dragon well tea<img src="./assets/img/Tea_w_Hao.JPG" alt="Pre-rain dragon well tea" /></span> everyday.
+Presently, I am based in beautiful Boston, MA. In my spare time, I love to do many outdoor activities, such as ice hockey, squash, and water skiing. My name means "happy walking is good", and the pronunciation is "You-Sing." I am a tea officinado and drink <span id="tea-hover-text" style="border-bottom: 1px dashed #888; cursor: default;">pre-rain dragon well tea</span> everyday.
 
 <span style="color:red;"></span>
 
+<div id="tea-preview" style="display:none; position:fixed; z-index:9999; pointer-events:none;">
+  <img src="./assets/img/Tea_w_Hao.JPG" alt="Pre-rain dragon well tea" style="height:260px; width:auto; border-radius:8px; box-shadow:0 4px 20px rgba(0,0,0,0.25);" />
+</div>
+
+<script>
+(function() {
+  var trigger = document.getElementById('tea-hover-text');
+  var preview = document.getElementById('tea-preview');
+  if (!trigger || !preview) return;
+  trigger.addEventListener('mouseenter', function(e) {
+    preview.style.display = 'block';
+    positionPreview(e);
+  });
+  trigger.addEventListener('mousemove', positionPreview);
+  trigger.addEventListener('mouseleave', function() {
+    preview.style.display = 'none';
+  });
+  function positionPreview(e) {
+    var margin = 14;
+    var x = e.clientX + margin;
+    var y = e.clientY - 270;
+    if (x + 180 > window.innerWidth) x = e.clientX - 180 - margin;
+    if (y < 0) y = e.clientY + margin;
+    preview.style.left = x + 'px';
+    preview.style.top  = y + 'px';
+  }
+})();
+</script>
+
 <style>
-.tea-hover {
-  position: relative;
-  cursor: default;
-  border-bottom: 1px dashed #888;
-}
-.tea-hover img {
-  display: none;
-  position: absolute;
-  bottom: calc(100% + 8px);
-  left: 50%;
-  transform: translateX(-50%);
-  width: auto;
-  height: 260px;
-  border-radius: 8px;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.25);
-  z-index: 999;
-  pointer-events: none;
-}
-.tea-hover:hover img {
-  display: block;
-}
 #research-interests-list li {
   margin-bottom: 18px;
 }
