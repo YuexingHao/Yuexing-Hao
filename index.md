@@ -8,7 +8,7 @@ I am a Postdoctoral Associate at MIT EECS [Healthy ML Group](https://healthyml.o
 
 I recently received my Ph.D. from [Cornell University](https://gradschool.cornell.edu/spotlights/student-spotlight-yuexing-hao/) (2022-25) and was an IvyPlus Exchange Scholar at [MIT](https://www.linkedin.com/posts/aihealthmit_mit-postdoc-yuexing-hao-on-how-an-ai-agent-activity-7418000548697673729-FUIp/) (2024-25). I interned at [Google Research](https://research.google/blog/towards-better-health-conversations-research-insights-on-a-wayfinding-ai-agent-based-on-gemini/) (2025), Scale AI (2025), and [Mayo Clinic](https://newsnetwork.mayoclinic.org/discussion/new-mayo-clinic-study-advances-personalized-prostate-cancer-education-with-an-ehr-integrated-ai-agent/) (2024). I hold Computer Science degrees from [Rutgers University](https://math.sas.rutgers.edu/news-events/news/honors-awards-distinction/1588-rutgers-undergraduate-receives-meritorious-performance-award-in-modeling-contest) (B.A., 2017-20) and [Tufts University](https://yuexinghao.github.io/Yuexing-Hao/assets/files/awards/Hao-Yuexing-GSRC-Letter.pdf) (M.S., 2020-22).
 
-Presently, I am based in beautiful Boston, MA. In my spare time, I love to do many outdoor activities, such as ice hockey, squash, and water skiing. My name means "happy walking is good", and the pronunciation is "You-Sing."
+Presently, I am based in beautiful Boston, MA. In my spare time, I love to do many outdoor activities, such as ice hockey, squash, and water skiing. My name means "happy walking is good", and the pronunciation is "You-Sing." I drink <span class="tea-hover">pre-rain dragon well tea<img src="{{ '/assets/img/Tea_w_Hao.JPG' | relative_url }}" alt="Pre-rain dragon well tea" /></span> everyday.
 
 I founded a (semi-successful) AI for medication management company ([Hug Medical](https://hugmed.ai/)) in 2022. 
 
@@ -17,6 +17,26 @@ My [old personal website](https://1135100136.wixsite.com/yuexinghao/blog) has so
 <span style="color:red;"></span>
 
 <style>
+.tea-hover {
+  position: relative;
+  cursor: default;
+  border-bottom: 1px dashed #888;
+}
+.tea-hover img {
+  display: none;
+  position: absolute;
+  bottom: calc(100% + 8px);
+  left: 50%;
+  transform: translateX(-50%);
+  width: 220px;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.25);
+  z-index: 999;
+  pointer-events: none;
+}
+.tea-hover:hover img {
+  display: block;
+}
 #research-interests-list li {
   margin-bottom: 18px;
 }
