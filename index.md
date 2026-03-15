@@ -28,7 +28,8 @@ Presently, I am based in beautiful Boston, MA. In my spare time, I love to do ma
   bottom: calc(100% + 8px);
   left: 50%;
   transform: translateX(-50%);
-  width: 220px;
+  width: auto;
+  height: 260px;
   border-radius: 8px;
   box-shadow: 0 4px 20px rgba(0,0,0,0.25);
   z-index: 999;
