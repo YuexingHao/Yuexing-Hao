@@ -12,7 +12,7 @@ I founded a (semi-successful) AI for medication management company ([Hug Medical
 
 My [old personal website](https://1135100136.wixsite.com/yuexinghao/blog) has some interesting posts. Stop using it from Aug 2022.
 
-Presently, I am based in beautiful Boston, MA. In my spare time, I love to do many outdoor activities, such as ice hockey, squash, and water skiing. My name means "happy walking is good", and the pronunciation is "You-Sing." I am a tea officinado and drink <span id="tea-hover-text" style="border-bottom: 1px dashed #888; cursor: default;">pre-rain dragon well tea</span> everyday.
+Presently, I am based in beautiful Boston, MA. In my spare time, I love to do many outdoor activities, such as ice hockey, squash, and water skiing. My name means "happy walking is good", and the pronunciation is "You-Sing." I am a tea aficionado and drink <span id="tea-hover-text" style="border-bottom: 1px dashed #888; cursor: default;">pre-rain dragon well tea</span> everyday.
 
 <span style="color:red;"></span>
 
