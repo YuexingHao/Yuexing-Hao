@@ -1,7 +1,7 @@
 ---
 layout: blog-post
 title: "My Childhood Dream"
-date: 2026-03-14
+date: 2026-02-09
 author: Yuexing Hao
 tags: [Personal]
 description: "A reflection on my childhood dreams and how they shaped who I am today"
