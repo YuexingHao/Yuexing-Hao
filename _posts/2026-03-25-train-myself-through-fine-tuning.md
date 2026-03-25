@@ -5,7 +5,7 @@ date: 2026-03-25
 author: Yuexing Hao
 tags: [Personal]
 description: "Train Myself through Fine-Tuning"
-featured_image: /Yuexing-Hao/assets/posts/2026-03-25-myself-fine-tuning/featured.jpg
+featured_image: /Yuexing-Hao/assets/posts/2026-03-25-myself-fine-tuning/Animations.gif
 published: true
 ---
 
@@ -32,8 +32,16 @@ I also hope I can learn from this process more objectively, like a model, so my 
 
 Quantify the failures through loss function is also a good way to measure improvements. I can see my loss function decreases per iteration, after batches of interviews (consider each interview as a labeler grading my performance). Sometimes loss is huge, for example after an interview, I finally spend time to look at trie structure and think more about how importance sampling's roll out work. Sometimes loss is small, for example I complete the coding question but the interviewer asks me to optimize my time complexity and I don't know how to deal with that. But generally the loss curve is promising. Though I failed in many interviews, 3 months ago and 3 months later the result is still the same, but the model's capability is improving significantly.
 
-I think having an objective reward model is important. I’ve become less emotionally affected by reviewer comments on my papers—not only because I’ve graduated and papers feel less central than before, but also because I can often agree with the comments without letting them define the paper’s value. I care-less about what others think in the moment, and care-more about what I want the work to become. Viewing negative reward signals objectively helps me learn faster.
+I think having an objective reward model is important. I’ve become less emotionally affected by reviewer comments on my papers—not only because I’ve graduated and papers feel less central than before, but also because I can often agree with the comments without letting them define the paper’s value. I care-LESS about what others think in the moment, and care-MORE about what I want the work to become. Viewing negative reward signals objectively helps me learn faster.
+
+As a human, I’m also good at overthinking (interpreting a calm interviewer as someone who dislikes me) and hallucinating (thinking I’m about to get the job because someone says “we’re looking forward to having you on our team”). I’m trying to focus more on task completion and less on factors outside my control.
 
 Well, hope you accept my arguments that training human as fine-tuning is actually feasible and also a good way to improve and learn. Many reinforcement learning algorithms were developed through decades of work by brilliant researchers and engineers. In a smaller, more personal way, I think the same logic translates to human improvement: early batches are rough, performance is low, and progress is slow. But after enough iterations (enough failures, enough low scores) the curve can start trending upward. It’s not luck. It’s training: gradually aligning yourself toward success. And early on, the path (the reward model) is unknown. No ones knows what to prioritize or what to deprioritize, because the real problem is interdisciplinary and complex.
 
-As a human, I’m also good at overthinking (interpreting a calm interviewer as someone who dislikes me) and hallucinating (thinking I’m about to get the job because someone says “we’re looking forward to having you on our team”). I’m trying to focus more on task completion and less on factors outside my control.
+Thanks for your reading. 
+
+YH. (The pen is gifted from my amazing collaborator [Dr. Hyewon Jeong](https://sites.google.com/view/hyewon-jeong/) for my dissertation)
+
+<div style="display: flex; gap: 20px; margin: 30px 0; justify-content: center; flex-wrap: wrap;">
+  <img src="/Yuexing-Hao/assets/posts/2026-03-25-myself-fine-tuning/featured.jpg" alt="Dr. Hao on Pen" style="width: 20%; min-width: 180px; height: auto; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+</div>
