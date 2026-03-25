@@ -13,7 +13,7 @@ These past months have been consumed by interview preparation, a process that is
 
 ## Reframing Rejection as Training Signal
 
-As an interviewee, rejection feels discouraging. But as a model, I find negative rewards exciting because they are rare and valuable. Rather than avoiding these signals, I actively learn from them. For instance, I have historically avoided depth-first search and dynamic programming problems, but these interview failures revealed critical knowledge gaps that I could not ignore. 
+As an interviewee, rejection feels sucks. Especially thinking about I cannot interview again for this amazing company after the first simple coding round, it is very discouraging. But as a model, I find negative rewards exciting because they are rare and valuable. Rather than avoiding these signals, I actively learn from them. For instance, I have historically avoided depth-first search and dynamic programming problems, but these interview failures revealed critical knowledge gaps that I could not ignore. 
 
 I still remember the awkward moments when my mind went blank. Sometimes I didn’t know how to respond to terms I’d never heard before and didn’t want to look stupid. When I got too nervous, I even struggled to understand the question, and I felt like a monkey performing in front of an audience. The interviewer’s silence could be especially painful. As my friend joked, interviews can feel like torture or humiliation, and I agree.
 
