@@ -1,7 +1,7 @@
 main:
 
   - title: "A Survey of Foundation Model-Based Robots in Patient and Elderly Care"
-    authors: "<a href='https://www.calvinzqiu.com/' target='_blank'>Zhiwen Qiu</a> *, <a href='https://www.mayoclinic.org/biographies/liu-wei-ph-d/bio-20055721' target='_blank'>Wei Liu</a>, <a href='https://hither1.github.io/' target='_blank'>Huangyuan Su</a>, <strong>Yuexing Hao *</strong>"
+    authors: "<a href='https://www.calvinzqiu.com/' target='_blank'>Zhiwen Qiu</a>, <a href='https://www.mayoclinic.org/biographies/liu-wei-ph-d/bio-20055721' target='_blank'>Wei Liu</a>, <a href='https://hither1.github.io/' target='_blank'>Huangyuan Su</a>, <strong>Yuexing Hao</strong>"
     conference_short: HRI
     conference: 21st ACM/IEEE International Conference on Human-Robot Interaction <strong>(HRI)</strong> Robots for Care Workshop, 2026.
     pdf: https://healthrobotsworkshop.github.io/assets/pdf/papers/3_Qiu_paper.pdf
