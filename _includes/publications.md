@@ -6,10 +6,9 @@
   <div class="pub-filter-buttons">
     <button class="filter-btn active" data-filter="first-author">First-Author Papers</button>
     <button class="filter-btn" data-filter="last-author">Last-Author Papers</button>
-    <button class="filter-btn" data-filter="all">All Papers</button>
-    <button class="filter-btn" data-filter="HCI">Human-Computer Interaction</button>
-    <button class="filter-btn" data-filter="AI for Health">AI for Health</button>
-    <button class="filter-btn" data-filter="LLM Reverse Engineering">LLM Reverse Engineering</button>
+    <button class="filter-btn" data-filter="HCI">Human AI Interaction</button>
+    <button class="filter-btn" data-filter="AI for Health">Health AI</button>
+    <button class="filter-btn" data-filter="LLM Reverse Engineering">LLM Reasoning</button>
   </div>
 </div>
 
@@ -138,11 +137,11 @@
     <div class="links">
       {% if link.category %}
         {% if link.category == "HCI" %}
-          <span class="category-badge" style="color: #6b7280; padding: 3px 10px 3px 4px; border-radius: 4px; font-size: 11px; font-weight: 500; margin-right: 8px; display: inline-flex; align-items: center; gap: 6px; background-color: #fafafa; border: 1px solid #e5e7eb;"><span style="width: 8px; height: 8px; border-radius: 50%; background-color: #0066cc; display: inline-block;"></span>HCI</span>
+          <span class="category-badge" style="color: #6b7280; padding: 3px 10px 3px 4px; border-radius: 4px; font-size: 11px; font-weight: 500; margin-right: 8px; display: inline-flex; align-items: center; gap: 6px; background-color: #fafafa; border: 1px solid #e5e7eb;"><span style="width: 8px; height: 8px; border-radius: 50%; background-color: #0066cc; display: inline-block;"></span>Human AI Interaction</span>
         {% elsif link.category == "AI for Health" %}
-          <span class="category-badge" style="color: #6b7280; padding: 3px 10px 3px 4px; border-radius: 4px; font-size: 11px; font-weight: 500; margin-right: 8px; display: inline-flex; align-items: center; gap: 6px; background-color: #fafafa; border: 1px solid #e5e7eb;"><span style="width: 8px; height: 8px; border-radius: 50%; background-color: #22c55e; display: inline-block;"></span>AI for Health</span>
+          <span class="category-badge" style="color: #6b7280; padding: 3px 10px 3px 4px; border-radius: 4px; font-size: 11px; font-weight: 500; margin-right: 8px; display: inline-flex; align-items: center; gap: 6px; background-color: #fafafa; border: 1px solid #e5e7eb;"><span style="width: 8px; height: 8px; border-radius: 50%; background-color: #22c55e; display: inline-block;"></span>Health AI</span>
         {% elsif link.category == "LLM Reverse Engineering" %}
-          <span class="category-badge" style="color: #6b7280; padding: 3px 10px 3px 4px; border-radius: 4px; font-size: 11px; font-weight: 500; margin-right: 8px; display: inline-flex; align-items: center; gap: 6px; background-color: #fafafa; border: 1px solid #e5e7eb;"><span style="width: 8px; height: 8px; border-radius: 50%; background-color: #a855f7; display: inline-block;"></span>LLM Reverse Engineering</span>
+          <span class="category-badge" style="color: #6b7280; padding: 3px 10px 3px 4px; border-radius: 4px; font-size: 11px; font-weight: 500; margin-right: 8px; display: inline-flex; align-items: center; gap: 6px; background-color: #fafafa; border: 1px solid #e5e7eb;"><span style="width: 8px; height: 8px; border-radius: 50%; background-color: #a855f7; display: inline-block;"></span>LLM Reasoning</span>
         {% endif %}
       {% endif %}
       {% if link.pdf %} 
@@ -196,11 +195,11 @@
     <div class="links">
       {% if link.category %}
         {% if link.category == "HCI" %}
-          <span class="category-badge" style="color: #6b7280; padding: 3px 10px 3px 4px; border-radius: 4px; font-size: 11px; font-weight: 500; margin-right: 8px; display: inline-flex; align-items: center; gap: 6px; background-color: #fafafa; border: 1px solid #e5e7eb;"><span style="width: 8px; height: 8px; border-radius: 50%; background-color: #0066cc; display: inline-block;"></span>HCI</span>
+          <span class="category-badge" style="color: #6b7280; padding: 3px 10px 3px 4px; border-radius: 4px; font-size: 11px; font-weight: 500; margin-right: 8px; display: inline-flex; align-items: center; gap: 6px; background-color: #fafafa; border: 1px solid #e5e7eb;"><span style="width: 8px; height: 8px; border-radius: 50%; background-color: #0066cc; display: inline-block;"></span>Human AI Interaction</span>
         {% elsif link.category == "AI for Health" %}
-          <span class="category-badge" style="color: #6b7280; padding: 3px 10px 3px 4px; border-radius: 4px; font-size: 11px; font-weight: 500; margin-right: 8px; display: inline-flex; align-items: center; gap: 6px; background-color: #fafafa; border: 1px solid #e5e7eb;"><span style="width: 8px; height: 8px; border-radius: 50%; background-color: #22c55e; display: inline-block;"></span>AI for Health</span>
+          <span class="category-badge" style="color: #6b7280; padding: 3px 10px 3px 4px; border-radius: 4px; font-size: 11px; font-weight: 500; margin-right: 8px; display: inline-flex; align-items: center; gap: 6px; background-color: #fafafa; border: 1px solid #e5e7eb;"><span style="width: 8px; height: 8px; border-radius: 50%; background-color: #22c55e; display: inline-block;"></span>Health AI</span>
         {% elsif link.category == "LLM Reverse Engineering" %}
-          <span class="category-badge" style="color: #6b7280; padding: 3px 10px 3px 4px; border-radius: 4px; font-size: 11px; font-weight: 500; margin-right: 8px; display: inline-flex; align-items: center; gap: 6px; background-color: #fafafa; border: 1px solid #e5e7eb;"><span style="width: 8px; height: 8px; border-radius: 50%; background-color: #a855f7; display: inline-block;"></span>LLM Reverse Engineering</span>
+          <span class="category-badge" style="color: #6b7280; padding: 3px 10px 3px 4px; border-radius: 4px; font-size: 11px; font-weight: 500; margin-right: 8px; display: inline-flex; align-items: center; gap: 6px; background-color: #fafafa; border: 1px solid #e5e7eb;"><span style="width: 8px; height: 8px; border-radius: 50%; background-color: #a855f7; display: inline-block;"></span>LLM Reasoning</span>
         {% endif %}
       {% endif %}
       {% if link.pdf %} 
@@ -254,11 +253,11 @@
     <div class="links">
       {% if link.category %}
         {% if link.category == "HCI" %}
-          <span class="category-badge" style="color: #6b7280; padding: 3px 10px 3px 4px; border-radius: 4px; font-size: 11px; font-weight: 500; margin-right: 8px; display: inline-flex; align-items: center; gap: 6px; background-color: #fafafa; border: 1px solid #e5e7eb;"><span style="width: 8px; height: 8px; border-radius: 50%; background-color: #0066cc; display: inline-block;"></span>HCI</span>
+          <span class="category-badge" style="color: #6b7280; padding: 3px 10px 3px 4px; border-radius: 4px; font-size: 11px; font-weight: 500; margin-right: 8px; display: inline-flex; align-items: center; gap: 6px; background-color: #fafafa; border: 1px solid #e5e7eb;"><span style="width: 8px; height: 8px; border-radius: 50%; background-color: #0066cc; display: inline-block;"></span>Human AI Interaction</span>
         {% elsif link.category == "AI for Health" %}
-          <span class="category-badge" style="color: #6b7280; padding: 3px 10px 3px 4px; border-radius: 4px; font-size: 11px; font-weight: 500; margin-right: 8px; display: inline-flex; align-items: center; gap: 6px; background-color: #fafafa; border: 1px solid #e5e7eb;"><span style="width: 8px; height: 8px; border-radius: 50%; background-color: #22c55e; display: inline-block;"></span>AI for Health</span>
+          <span class="category-badge" style="color: #6b7280; padding: 3px 10px 3px 4px; border-radius: 4px; font-size: 11px; font-weight: 500; margin-right: 8px; display: inline-flex; align-items: center; gap: 6px; background-color: #fafafa; border: 1px solid #e5e7eb;"><span style="width: 8px; height: 8px; border-radius: 50%; background-color: #22c55e; display: inline-block;"></span>Health AI</span>
         {% elsif link.category == "LLM Reverse Engineering" %}
-          <span class="category-badge" style="color: #6b7280; padding: 3px 10px 3px 4px; border-radius: 4px; font-size: 11px; font-weight: 500; margin-right: 8px; display: inline-flex; align-items: center; gap: 6px; background-color: #fafafa; border: 1px solid #e5e7eb;"><span style="width: 8px; height: 8px; border-radius: 50%; background-color: #a855f7; display: inline-block;"></span>LLM Reverse Engineering</span>
+          <span class="category-badge" style="color: #6b7280; padding: 3px 10px 3px 4px; border-radius: 4px; font-size: 11px; font-weight: 500; margin-right: 8px; display: inline-flex; align-items: center; gap: 6px; background-color: #fafafa; border: 1px solid #e5e7eb;"><span style="width: 8px; height: 8px; border-radius: 50%; background-color: #a855f7; display: inline-block;"></span>LLM Reasoning</span>
         {% endif %}
       {% endif %}
       {% if link.pdf %} 
@@ -400,9 +399,6 @@ document.addEventListener('DOMContentLoaded', function() {
           } else {
             pub.classList.add('hidden');
           }
-        } else if (filter === 'all') {
-          // Show all publications
-          pub.classList.remove('hidden');
         } else {
           // Show by category
           if (category === filter) {
