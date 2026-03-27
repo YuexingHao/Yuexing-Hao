@@ -5,21 +5,17 @@
  */
 (function () {
   var VISITED = [
-    'US',
-    'CN',
-    'GB',
-    'FR',
-    'DE',
-    'JP',
-    'KR',
-    'CA',
-    'AU',
-    'SG',
-    'CH',
-    'NL',
-    'IT',
-    'ES',
-    'AT'
+    "US",
+    "CN",
+    "GB",
+    "DE",
+    "JP",
+    "CA",
+    "AU",
+    "ID",
+    "MX",
+    "BB",
+    "IS"
   ];
 
   function isDarkTheme() {
