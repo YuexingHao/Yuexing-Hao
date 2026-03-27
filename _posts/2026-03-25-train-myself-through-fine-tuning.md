@@ -19,7 +19,7 @@ As an interviewee, rejection feels sucks. Especially thinking about I cannot int
   <p style="flex: 1 1 280px; margin: 0; line-height: 1.65;">
     I still remember the awkward moments when my mind went blank. Sometimes I didn’t know how to respond to terms I’d never heard before and didn’t want to look stupid. When I got too nervous, I even struggled to understand the question, and I felt like a monkey performing in front of an audience. The interviewer’s silence could be especially painful. As my friend joked, interviews can feel like torture or humiliation, and I agree.
   </p>
-  <img src="/Yuexing-Hao/assets/posts/2026-03-25-myself-fine-tuning/Monkey_Acting_Zoo.gif" alt="Dr. Hao on Pen" style="flex: 0 0 auto; width: 200px; max-width: 42%; min-width: 140px; height: auto; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+  <img src="/Yuexing-Hao/assets/posts/2026-03-25-myself-fine-tuning/Monkey_Acting_Zoo.gif" alt="Monkey Performing Awkward in front of Audience in a Zoo" style="flex: 0 0 auto; width: 200px; max-width: 42%; min-width: 140px; height: auto; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
 </div>
 
 Still, these rejections are useful training signals, and early in a career they don’t matter that much. I often think about what my grandma said: out of 10 things, 8 or 9 won’t be satisfying. The solution is to do 20, 50, 100, or 1000, and then the disappointing outcomes matter less. That mindset helped me a lot during my Ph.D.
