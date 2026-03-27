@@ -142,7 +142,123 @@ body.dark-mode .download-photo-btn:hover {
     font-size: 0.9rem;
   }
 }
+
+/* Countries visited map */
+.visited-map-wrap {
+  margin: 28px 0 8px;
+  max-width: 100%;
+}
+
+.visited-map-card {
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid #e5e7eb;
+  background: linear-gradient(165deg, #fafbfc 0%, #f0f4f8 45%, #e8eef4 100%);
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.9) inset,
+    0 12px 40px rgba(15, 23, 42, 0.08);
+}
+
+.visited-map-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  border-radius: 16px;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.35);
+  z-index: 1;
+}
+
+#visited-map {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  height: 380px;
+  min-height: 260px;
+}
+
+.visited-map-legend {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 14px;
+  font-size: 0.85rem;
+  color: #6b7280;
+}
+
+.visited-map-legend span.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #0d9488, #0f766e);
+  box-shadow: 0 0 0 2px rgba(13, 148, 136, 0.25);
+}
+
+@media (prefers-color-scheme: dark) {
+  .visited-map-card {
+    border-color: #374151;
+    background: linear-gradient(165deg, #1f2937 0%, #111827 55%, #0f172a 100%);
+    box-shadow:
+      0 1px 0 rgba(255, 255, 255, 0.06) inset,
+      0 12px 40px rgba(0, 0, 0, 0.45);
+  }
+  .visited-map-legend {
+    color: #9ca3af;
+  }
+}
+
+body.dark-mode .visited-map-card {
+  border-color: #374151;
+  background: linear-gradient(165deg, #1f2937 0%, #111827 55%, #0f172a 100%);
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.06) inset,
+    0 12px 40px rgba(0, 0, 0, 0.45);
+}
+body.dark-mode .visited-map-legend {
+  color: #9ca3af;
+}
+
+@media (max-width: 768px) {
+  #visited-map {
+    height: 280px;
+  }
+}
+
+.visited-map-note {
+  font-size: 0.95rem;
+  color: #6b7280;
+  max-width: 700px;
+  margin-bottom: 18px;
+}
+
+.visited-map-note code {
+  font-size: 0.85em;
+  background: #f3f4f6;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+@media (prefers-color-scheme: dark) {
+  .visited-map-note {
+    color: #9ca3af;
+  }
+  .visited-map-note code {
+    background: #374151;
+    color: #e5e7eb;
+  }
+}
+
+body.dark-mode .visited-map-note {
+  color: #9ca3af;
+}
+body.dark-mode .visited-map-note code {
+  background: #374151;
+  color: #e5e7eb;
+}
 </style>
+
+<link rel="stylesheet" href="https://unpkg.com/jsvectormap@1.5.3/dist/css/jsvectormap.min.css" />
 
 <div class="bio-container">
   <h2>Biography</h2>
@@ -164,6 +280,15 @@ body.dark-mode .download-photo-btn:hover {
     <iframe src="https://www.youtube.com/embed/x2dWQr95vak" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
   </div>
 
+  <h2 id="countries-visited">Countries I have visited</h2>
+  <p class="visited-map-note">Interactive map — scroll to zoom, drag to pan. Edit the country list in <code>assets/js/biography-visited-map.js</code> (ISO 3166-1 alpha-2 codes, e.g. <code>US</code>, <code>CN</code>).</p>
+  <div class="visited-map-wrap" aria-label="Map of countries visited">
+    <div class="visited-map-card">
+      <div id="visited-map"></div>
+    </div>
+    <div class="visited-map-legend"><span class="dot" aria-hidden="true"></span><span>Visited</span></div>
+  </div>
+
   <h2>Brief Research Overview</h2>
   <p>In today's healthcare system, patients often feel disconnected from clinical professionals and their care journey. They receive a "one-size-fits-all" plan and are left out of the decision-making process, which can lead to a less satisfying experience. My research focuses on applying advanced AI technologies, including large language models, machine learning, and Internet of Things (IoT) devices, to address challenges in healthcare, particularly in patient-centered healthcare delivery. I aim to enhance the accuracy and efficiency of healthcare systems by using these "objective approaches" to navigate the "subjective" aspects of medical practice, such as clinician notes and patient preferences found in electronic health records. A key aspect of my work is improving the transparency of AI-based healthcare applications, making them more understandable and trustworthy for both clinicians and patients, by addressing critical issues such as building trust in AI systems and ensuring these technologies effectively meet the needs of patients and healthcare providers. Additionally, I emphasize the importance of personalizing healthcare by considering each patient's unique circumstances, including their preferences and socio-economic conditions. This research applies AI across various areas, from specific diseases like cancer to broader healthcare contexts, with the goal of improving both the delivery and experience of healthcare. My work contributes to the development of AI tools that not only enhance clinical decision-making but also foster better human-AI interaction, ultimately leading to improved healthcare outcomes.</p>
 
@@ -176,3 +301,7 @@ body.dark-mode .download-photo-btn:hover {
     </div>
   </div>
 </div>
+
+<script src="https://unpkg.com/jsvectormap@1.5.3/dist/js/jsvectormap.min.js"></script>
+<script src="https://unpkg.com/jsvectormap@1.5.3/dist/maps/world.js"></script>
+<script src="{{ '/assets/js/biography-visited-map.js' | relative_url }}"></script>
