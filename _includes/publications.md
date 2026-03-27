@@ -5,6 +5,7 @@
 <div class="pub-filter-buttons-wrap" style="margin: 25px 0 30px 0;">
   <div class="pub-filter-buttons">
     <button class="filter-btn active" data-filter="first-author">First-Author Papers</button>
+    <button class="filter-btn" data-filter="last-author">Last-Author Papers</button>
     <button class="filter-btn" data-filter="all">All Papers</button>
     <button class="filter-btn" data-filter="HCI">Human-Computer Interaction</button>
     <button class="filter-btn" data-filter="AI for Health">AI for Health</button>
@@ -158,6 +159,64 @@
       {% endif %}
       {% if link.page %} 
       <a href="{{ link.page }}" class="btn btn-sm z-depth-0" role="button" target="_blank" title="Project Page"><i class="fas fa-globe"></i></a>
+      {% endif %}
+      {% if link.bibtex %} 
+      <a href="{{ link.bibtex }}" class="btn btn-sm z-depth-0" role="button" target="_blank" title="BibTeX"><i class="fas fa-quote-left"></i></a>
+      {% endif %}
+      {% if link.notes %} 
+      <strong> <i style="color:#e74d3c">{{ link.notes }}</i></strong>
+      {% endif %}
+      {% if link.others %} 
+      {{ link.others }}
+      {% endif %}
+    </div>
+  </div>
+</div>
+</li>
+
+{% endfor %}
+
+{% for link in site.data.last_author_pub.main %}
+
+<li class="publication-item" data-category="{{ link.category }}" data-source="last_author_pub">
+<div class="pub-row">
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    {% if link.image %} 
+    <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" style="width=100;height=40%">
+    {% endif %}
+    {% if link.conference_short %} 
+    <abbr class="badge">{{ link.conference_short }}</abbr>
+    {% endif %}
+  </div>
+  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+      <div class="title"><a href="{{ link.pdf }}">{{ link.title }}</a></div>
+      <div class="author">{{ link.authors }}</div>
+      <div class="periodical"><em>{{ link.conference }}</em>
+      </div>
+    <div class="links">
+      {% if link.category %}
+        {% if link.category == "HCI" %}
+          <span class="category-badge" style="color: #6b7280; padding: 3px 10px 3px 4px; border-radius: 4px; font-size: 11px; font-weight: 500; margin-right: 8px; display: inline-flex; align-items: center; gap: 6px; background-color: #fafafa; border: 1px solid #e5e7eb;"><span style="width: 8px; height: 8px; border-radius: 50%; background-color: #0066cc; display: inline-block;"></span>HCI</span>
+        {% elsif link.category == "AI for Health" %}
+          <span class="category-badge" style="color: #6b7280; padding: 3px 10px 3px 4px; border-radius: 4px; font-size: 11px; font-weight: 500; margin-right: 8px; display: inline-flex; align-items: center; gap: 6px; background-color: #fafafa; border: 1px solid #e5e7eb;"><span style="width: 8px; height: 8px; border-radius: 50%; background-color: #22c55e; display: inline-block;"></span>AI for Health</span>
+        {% elsif link.category == "LLM Reverse Engineering" %}
+          <span class="category-badge" style="color: #6b7280; padding: 3px 10px 3px 4px; border-radius: 4px; font-size: 11px; font-weight: 500; margin-right: 8px; display: inline-flex; align-items: center; gap: 6px; background-color: #fafafa; border: 1px solid #e5e7eb;"><span style="width: 8px; height: 8px; border-radius: 50%; background-color: #a855f7; display: inline-block;"></span>LLM Reverse Engineering</span>
+        {% endif %}
+      {% endif %}
+      {% if link.pdf %} 
+      <a href="{{ link.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank" title="PDF"><i class="fas fa-file-pdf"></i></a>
+      {% endif %}
+      {% if link.code %} 
+      <a href="{{ link.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank" title="Code"><i class="fas fa-code"></i></a>
+      {% endif %}
+      {% if link.news %} 
+      <a href="{{ link.news }}" class="btn btn-sm z-depth-0" role="button" target="_blank" title="News"><i class="fas fa-newspaper"></i></a>
+      {% endif %}
+      {% if link.page %} 
+      <a href="{{ link.page }}" class="btn btn-sm z-depth-0" role="button" target="_blank" title="Project Page"><i class="fas fa-globe"></i></a>
+      {% endif %}
+      {% if link.data %} 
+      <a href="{{ link.data }}" class="btn btn-sm z-depth-0" role="button" target="_blank" title="Dataset"><i class="fas fa-database"></i></a>
       {% endif %}
       {% if link.bibtex %} 
       <a href="{{ link.bibtex }}" class="btn btn-sm z-depth-0" role="button" target="_blank" title="BibTeX"><i class="fas fa-quote-left"></i></a>
@@ -330,6 +389,13 @@ document.addEventListener('DOMContentLoaded', function() {
         if (filter === 'first-author') {
           // Show only publications from publications.yml
           if (source === 'publications') {
+            pub.classList.remove('hidden');
+          } else {
+            pub.classList.add('hidden');
+          }
+        } else if (filter === 'last-author') {
+          // Show only publications from last_author_pub.yml
+          if (source === 'last_author_pub') {
             pub.classList.remove('hidden');
           } else {
             pub.classList.add('hidden');
