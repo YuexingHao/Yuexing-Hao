@@ -23,8 +23,8 @@ main:
   - title: "ProbeLLM: Automating Principled Diagnosis of LLM Failures"
     authors: "<a href='https://p1xu.github.io/' target='_blank'>Yue Huang</a>, Zhengzhe Jiang, <a href='https://www.som.lmu.de/ai/en/institute/contact-page/yuchen-ma-df26be0b.html' target='_blank'>Yuchen Ma</a>, Yu Jiang, <a href='https://xiangqiwang77.github.io/mainpage/' target='_blank'>Xiangqi Wang</a>, <a href='https://yujunzhou.github.io/' target='_blank'>Yujun Zhou</a>, <strong>Yuexing Hao</strong>, <a href='https://kehanguo2.github.io/KehanGuo/' target='_blank'>Kehan Guo</a>, <a href='https://sites.google.com/site/pinyuchen/' target='_blank'>Pin-Yu Chen</a>, <a href='https://healthyml.org/marzyeh/' target='_blank'>Marzyeh Ghassemi</a>, <a href='https://www.professoren.tum.de/feuerriegel-stefan' target='_blank'>Stefan Feuerriegel</a>, <a href='https://engineering.nd.edu/faculty/xiangliang-zhang/' target='_blank'>Xiangliang Zhang</a>"
     conference_short: Preprint
-    conference: Under Review
-    pdf: https://arxiv.org/abs/XXX
+    conference: ICML
+    pdf: https://arxiv.org/abs/2602.12966
     image: ./assets/img/publications/ProbeLLM.png
     category: LLM Reverse Engineering
     
