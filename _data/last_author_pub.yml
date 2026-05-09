@@ -7,4 +7,11 @@ main:
     pdf: https://healthrobotsworkshop.github.io/assets/pdf/papers/3_Qiu_paper.pdf
     image: ./assets/img/publications/HRI.jpg
     category: HCI
-    
+
+  - title: "Chain of Risk: Safety Failures in Large Reasoning Models and Mitigation via Adaptive Multi-Principle Steering"
+    authors: "Xiaomin Li, Jianheng Hou, Zheyuan Deng, Zhiwei Zhang, Taoran Li, Binghang Lu, Bing Hu, Yunhan Zhao, <strong>Yuexing Hao</strong>"
+    conference_short: Neurips 2026
+    conference: "<strong>Under Review </strong>"
+    pdf: https://arxiv.org/abs/2605.05678
+    image: ./assets/img/publications/LRM_Safety.png
+    category: LLM Reverse Engineering
