@@ -1,5 +1,13 @@
 main:
 
+  - title: "Automating SKILL.md Generation for Computer-Using Agents via Interaction Trajectory Mining"
+    authors: "<strong>Yuexing Hao</strong>, <a href='https://www.linkedin.com/in/xiaomin-li-68392a186/' target='_blank'>Xiaomin Li</a>"
+    conference_short: Preprint
+    conference: Under Review
+    pdf: https://arxiv.org/abs/2606.20363
+    image: ./assets/img/publications/InteraSkill_Study_Design.png
+    category: AI for Code
+
   - title: "Towards Better Health Conversations: The Benefits of Context-seeking"
     authors: "<a href='https://research.google/people/rorysayres/' target='_blank'>Rory Sayres</a> *, <strong>Yuexing Hao *</strong>, <a href='https://www.linkedin.com/in/abbi-ward-59854438' target='_blank'>Abbi Ward</a>, Amy Wang, <a href='https://scholar.google.com/citations?user=tFnSdqEAAAAJ' target='_blank'>Beverly Freeman</a>, Serena Zhan, <a href='https://scholar.google.com/citations?user=ScPCEy0AAAAJ' target='_blank'>Diego Ardila</a>, Jimmy Li, <a href='https://www.linkedin.com/in/ichinglee' target='_blank'>I-Ching Lee</a>, <a href='https://research.google/people/anna/' target='_blank'>Anna Iurchenko</a>, Siyi Kou, <a href='https://research.google/people/kartikeyabadola/' target='_blank'>Kartikeya Badola</a>, Jimmy Hu, <a href='https://scholar.google.com/citations?user=AolnyY8AAAAJ' target='_blank'>Bhawesh Kumar</a>, Keith Johnson, Supriya Vijay, <a href='https://research.google/people/107140/' target='_blank'>Justin Krogue</a>, <a href='https://research.google/people/avinatan-hassidim/' target='_blank'>Avinatan Hassidim</a>, <a href='https://research.google/people/yossi-matias/' target='_blank'>Yossi Matias</a>, <a href='https://research.google/people/dale-webster/' target='_blank'>Dale R. Webster</a>, <a href='https://www.linkedin.com/in/sunnyvirmani1' target='_blank'>Sunny Virmani</a>, <a href='https://research.google/people/yun-liu/' target='_blank'>Yun Liu</a>, <a href='https://research.google/people/106550/' target='_blank'>Quang Duong</a>, and <a href='https://mikeschaekermann.github.io/' target='_blank'>Mike Schaekermann</a>"
     conference_short: CHI
