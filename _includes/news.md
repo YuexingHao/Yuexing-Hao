@@ -7,15 +7,20 @@
 <h2 id="news" style="margin: 20px 0px 10px;">News</h2>
 
 <ul id="news-list">
+<li><strong>[July. 2026]</strong> We received $200,000 continued funding from <a href="https://mad.mit.edu/projects/improving-human-ai-system-sustainability-in-health-via-aligned-relevance-and-evaluation">HPI-MIT Designing for Sustainability Research Program</a> for our proposal "From Generation to Verification: Clinician De-Skilling and Up-skilling in AI-Augmented Healthcare".</li>
+<li><strong>[July. 2026]</strong> I am excited to join <a href="https://events.ycombinator.com/startup-school-2026">YC Startup School</a> in July 25-26 in SF.</li>
+<li><strong>[May. 2026]</strong> I am excited to organize <a href="https://daih2026.github.io/">COLM 2026 workshop</a> DAIH: LLM/VLM Deployment Opportunities and Risks in Healthcare in Oct 9th in SF.</li>
 <li><strong>[June 2026]</strong> We are excited to receive 2026 CSAIL Agentic AI Hackathon $25000 and 2026 Snorkel AI Open Benchmarks Grant for our research!</li>
 <li><strong>[April 2026]</strong> We are honored to receive <a href="https://indigoaward.com/winners/12077"> Indigo Design Award </a> <a href="https://yuexinghao.github.io/Yuexing-Hao/assets/files/awards/Indigo_Gold_26.pdf">Gold Winner in Apps for Digital Design </a>, <a href="https://yuexinghao.github.io/Yuexing-Hao/assets/files/awards/Indigo_Silver_26.pdf">Silver Winner in UX, Interface & Navigation for Digital Design </a>, and Silver Winner in Digital Tools and Utilities for Digital Design with my amazing RA Mengye Zhu.</li>
 <li><strong>[Nov 2025]</strong> I am excited to receive $12,500 funding from MIT Sandbox Innovation Fund ($7,500), <a href="https://yuexinghao.github.io/Yuexing-Hao/assets/files/awards/Quiri%20Grad%20Award%20Letter-Hao.pdf">Cornell CCSS QuIRI Small Grant</a> ($2,000), and <a href="https://yuexinghao.github.io/Yuexing-Hao/assets/files/awards/Racial_Graduate_Award.pdf">Cornell RJEF Graduate Student Research Grant</a> ($3,000).</li>
+
+  <summary>Show More</summary>
+  
 <li><strong>[July. 2025]</strong> I will talk about my new paper <a href="https://medpair.csail.mit.edu/">MedPAIR</a> at Google Research (Jul 1st, 2025), <a href="https://verily.com/">Alphabet Verily Health</a> (Jul 2nd, 2025), and <a href="https://rdi.berkeley.edu/agentx/">Berkeley Agentic AI Summit</a> (Aug 2nd, 2025) (<a href="https://yuexinghao.github.io/Yuexing-Hao/assets/files/talks/MedPAIR%20Presentation.pdf">Slide</a>).</li>
+
 <li><strong>[July. 2025]</strong> We received $199,000 continued funding from <a href="https://mad.mit.edu/projects/improving-human-ai-system-sustainability-in-health-via-aligned-relevance-and-evaluation">HPI-MIT Designing for Sustainability Research Program</a> (PI: Prof. Ariel Stern and Prof. Marzyeh) for our proposal "Improving Human–AI System Sustainability in Health Via Aligned Relevance and Evaluation".</li>
 <li><strong>[May. 2025]</strong> My thesis has been honored with an $11,000 grant from the 2025-26 President’s Council of Cornell Women (PCCW) Frank H.T. Rhodes Leadership Grant and Mission Grant and $2,000 from WG-USA Small Grant Initiative.</li>
 <details>
-  
-  <summary>Show More</summary>
 
 <li><strong>[May. 2025]</strong> My thesis is awarded a $1,000 seed grant from the <a href="https://yuexinghao.github.io/Yuexing-Hao/assets/files/awards/CSI_Grant_1k.pdf">2025-26 Cornell University Center for the Study of Inequality Graduate Student Research Competition</a>.</li>
 <li><strong>[Mar. 2025]</strong> I will speak at MIT <a href="https://ai4society.mit.edu/">AI For Society</a> seminar on (March 4th) [<a href="https://yuexinghao.github.io/Yuexing-Hao/assets/files/talks/Ai4Society_Talk_Mar_25.pdf">slide</a>], HPI-MIT <a href="https://design.mit.edu/events/spring-2025-hpi-mit-workshop?preview=1">Designing for Sustainability Workshop </a> (March 25th), and <a href="https://sites.harvard.edu/sitn/">Science in the News - Harvard University </a> (April 8th).</li>
