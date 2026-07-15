@@ -59,12 +59,26 @@
     transform: scale(0.97);
 }
 
-/* Adjust the logo and align it to the left (if used) */
-.topnav img {
-    margin-bottom: -8pt;
-    margin-top: -8pt;
-    margin-left: 2%;
-    height: 32px;
+/* Site logo */
+.topnav a.site-logo {
+    position: absolute;
+    top: 7px;
+    left: 68px;
+    display: block;
+    width: 38px;
+    height: 38px;
+    border: 0;
+    border-radius: 6px;
+    overflow: hidden;
+    z-index: 1001;
+}
+
+.topnav a.site-logo img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    object-fit: cover;
 }
 
 /* Dark mode toggle button */
