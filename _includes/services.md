@@ -41,9 +41,7 @@
   <div style="flex: 1; min-width: 350px;">
     <h2 style="margin:20px 10px 0;">Visitor Statistics</h2>
     <div style="margin: 20px 10px;">
-      <a href="https://mapmyvisitors.com/web/1c25c" title="Visit tracker">
-        <img src="https://mapmyvisitors.com/map.png?d=nekqMp-kTnsA5OtVy5KQX9m4ijX_if6zYQR_xKMBOOw&cl=ffffff" alt="Visitor Map" style="max-width: 100%; height: auto;" />
-      </a>
+      <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=XFhXtHTPhWckv9lN2nC03y-VmYQ5PiKPBALTJmj9TLU&cl=ffffff&w=a"></script>
     </div>
   </div>
 </div>
