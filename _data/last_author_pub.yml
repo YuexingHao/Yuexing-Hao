@@ -1,7 +1,7 @@
 main:
 
   - title: "CurveShift: Is Agent Progress Scalar? Separating Level from Shape"
-    authors: "Hanwen Xing, Pengyun Wang, BingXu Meng, <a href='https://kumail.me/' target='_blank'>Kumail Alhamoud</a>, Xiang Li, Jicheng Wang, Xin Yu, Xinyang Han, <a href='https://scholar.google.com/citations?user=aV8Lu4MAAAAJ' target='_blank'>Xiaomin Li</a>, <a href='https://www.robots.ox.ac.uk/~tvg/' target='_blank'>Philip Torr</a>, <strong>Yuexing Hao</strong>"
+    authors: "<a href='https://harvenstar.github.io/' target='_blank'>Hanwen Xing</a>, <a href='https://codas.uchicago.edu/people/pengyun-wang-2/' target='_blank'>Pengyun Wang</a>, <a href='https://physics.illinois.edu/people/directory/profile/bingxum2' target='_blank'>BingXu Meng</a>, <a href='https://kumailalhamoud.netlify.app/' target='_blank'>Kumail Alhamoud</a>, <a href='https://kevinx.li/' target='_blank'>Xiang Li</a>, <a href='https://github.com/JeremyJC67' target='_blank'>Jicheng Wang</a>, <a href='https://lucasxinyu.github.io/' target='_blank'>Xin Yu</a>, <a href='https://scholar.google.com/citations?user=HjmxmJoAAAAJ' target='_blank'>Xinyang Han</a>, <a href='https://scholar.google.com/citations?user=aV8Lu4MAAAAJ' target='_blank'>Xiaomin Li</a>, <a href='https://www.robots.ox.ac.uk/~tvg/' target='_blank'>Philip Torr</a>, <strong>Yuexing Hao</strong>"
     conference_short: arXiv
     conference: "arXiv preprint, 2026."
     pdf: https://arxiv.org/abs/2608.00355
@@ -18,9 +18,9 @@ main:
     category: HCI
 
   - title: "Chain of Risk: Safety Failures in Large Reasoning Models and Mitigation via Adaptive Multi-Principle Steering"
-    authors: "Xiaomin Li, Jianheng Hou, Zheyuan Deng, Zhiwei Zhang, Taoran Li, Binghang Lu, Bing Hu, Yunhan Zhao, <strong>Yuexing Hao</strong>"
-    conference_short: Neurips 2026
-    conference: "<strong>Under Review </strong>"
+    authors: "<a href='https://scholar.google.com/citations?user=aV8Lu4MAAAAJ' target='_blank'>Xiaomin Li</a>, <a href='https://jianhenghou.github.io/' target='_blank'>Jianheng Hou</a>, Zheyuan Deng, <a href='https://zzwjames.github.io/zhiweizhang.github.io/' target='_blank'>Zhiwei Zhang</a>, <a href='https://taoranl2.github.io/' target='_blank'>Taoran Li</a>, <a href='https://scholar.google.com/citations?user=EFPK9yoAAAAJ' target='_blank'>Binghang Lu</a>, Bing Hu, <a href='https://yunhan-zhao.github.io/' target='_blank'>Yunhan Zhao</a>, <strong>Yuexing Hao</strong>"
+    conference_short: arXiv
+    conference: "arXiv preprint, 2026."
     pdf: https://arxiv.org/abs/2605.05678
     image: ./assets/img/publications/LRM_Safety.png
     category: LLM Reverse Engineering
