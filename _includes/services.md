@@ -10,10 +10,11 @@
 <h2  id="services" style="margin:20px 10px 0;">Conference Reviews</h2>
 
 <ul id="reviews-list" style="margin:20px 0 5px;">
-  <li><a href="https://dl.acm.org/conference/chi"><autocolor>ACM Conference on Human Factors in Computing Systems (CHI) Area Chair. </autocolor></a></li>
+  <li><a href="https://dl.acm.org/conference/chi"><autocolor>ACM Conference on Human Factors in Computing Systems (CHI) Area Chair 24-26, Student Competition Co-Chair 2026. </autocolor></a></li>
   <li><a href="https://dl.acm.org/conference/cscw"><autocolor>ACM Conference On Computer-Supported Cooperative Work And Social Computing (CSCW) Paper Associate Chair. </autocolor></a></li>
   <li><a href="https://facctconference.org/"><autocolor>ACM Conference on Fairness, Accountability, and Transparency (FAccT) Program Committee. </autocolor></a></li>
-  <li>I also reviewed for journals such as Nature Digital Medicine, Transactions on Machine Learning Research (TMLR), IEEE Transactions on Medical Imaging, Cancer Letters, Scientific Reports, ACM Transactions on Computing for Healthcare, and International Journal of Human-Computer Interaction.</li>
+  <li><autocolor><b>Conference Reviewer:</b> NeurIPS, ICML, ICLR, and AAAI. </autocolor></li>
+  <li><autocolor><b>Journal Reviewer:</b> Nature Digital Medicine, Transactions on Machine Learning Research (TMLR), IEEE Transactions on Medical Imaging, Cancer Letters, Scientific Reports, ACM Transactions on Computing for Healthcare, and International Journal of Human-Computer Interaction. </autocolor></li>
 </ul>
 
 
