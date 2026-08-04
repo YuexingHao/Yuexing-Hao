@@ -1,5 +1,14 @@
 main:
 
+  - title: "CurveShift: Is Agent Progress Scalar? Separating Level from Shape"
+    authors: "Hanwen Xing, Pengyun Wang, BingXu Meng, <a href='https://kumail.me/' target='_blank'>Kumail Alhamoud</a>, Xiang Li, Jicheng Wang, Xin Yu, Xinyang Han, <a href='https://scholar.google.com/citations?user=aV8Lu4MAAAAJ' target='_blank'>Xiaomin Li</a>, <a href='https://www.robots.ox.ac.uk/~tvg/' target='_blank'>Philip Torr</a>, <strong>Yuexing Hao</strong>"
+    conference_short: arXiv
+    conference: "arXiv preprint, 2026."
+    pdf: https://arxiv.org/abs/2608.00355
+    code: https://github.com/harvenstar/CurveShift
+    image: ./assets/img/publications/CurveShift_main.png
+    category: LLM Reverse Engineering
+
   - title: "A Survey of Foundation Model-Based Robots in Patient and Elderly Care"
     authors: "<a href='https://www.calvinzqiu.com/' target='_blank'>Zhiwen Qiu</a>, <a href='https://www.mayoclinic.org/biographies/liu-wei-ph-d/bio-20055721' target='_blank'>Wei Liu</a>, <a href='https://hither1.github.io/' target='_blank'>Huangyuan Su</a>, <strong>Yuexing Hao</strong>"
     conference_short: HRI
