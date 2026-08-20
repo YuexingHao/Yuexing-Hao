@@ -98,6 +98,20 @@ permalink: /press/
       font-size: 72px;
       color: rgba(255, 255, 255, 0.9);
     }
+
+    /* Wide logo images: show on white, uncropped */
+    .press-card-image.logo-card {
+      background: #ffffff;
+      border: 1px solid #000000;
+    }
+
+    .press-card-image.logo-card img {
+      object-fit: contain;
+      padding: 28px;
+      box-sizing: border-box;
+      background: #ffffff;
+      border: none;
+    }
     
     /* When image is set, hide the icon */
     .press-card-image img {
@@ -297,7 +311,29 @@ permalink: /press/
   </div>
 
   <div class="press-grid">
-    
+
+    <!-- MatrAIx global press coverage -->
+    <div class="press-card">
+      <div class="press-card-image logo-card">
+        <a href="https://startupfortune.com/harvard-and-mit-built-an-ai-model-of-83-billion-people-to-test-products-on/" target="_blank">
+          <img src="/Yuexing-Hao/assets/img/press/MatrAIx-logo-PureText-black-nobackground.png" alt="MatrAIx">
+        </a>
+      </div>
+      <div class="press-card-content">
+        <h3 class="press-card-title"><a href="https://startupfortune.com/harvard-and-mit-built-an-ai-model-of-83-billion-people-to-test-products-on/" target="_blank" style="color: inherit; text-decoration: none;">Harvard and MIT built an AI model of 8.3 billion people to test products on</a></h3>
+        <div class="press-card-meta">
+          <span class="press-card-category">AI Simulation</span>
+          <span class="press-card-date">Aug 2026</span>
+        </div>
+        <div class="press-outlets">
+          <span class="press-outlets-label">Published at:</span>
+          <a href="https://startupfortune.com/harvard-and-mit-built-an-ai-model-of-83-billion-people-to-test-products-on/" target="_blank">Startup Fortune</a><span class="outlet-separator">·</span>
+          <a href="https://www.forbes.com.tr/saglik/hastaya-dokunmadan-once-8-3-milyar-kez-denemek-sagligin-yeni-test-dunyasi-matraix" target="_blank">Forbes Türkiye</a><span class="outlet-separator">·</span>
+          <a href="https://www.nzz.ch/nzz-am-sonntag/report-und-debatte/die-ki-vermessung-der-menschheit-unsere-acht-milliarden-doppelgaenger-ld.10019342" target="_blank">NZZ am Sonntag</a>
+        </div>
+      </div>
+    </div>
+
     <!-- Mayo Clinic AI Agent -->
     <div class="press-card">
       <div class="press-card-image healthcare">
