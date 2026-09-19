@@ -417,7 +417,7 @@
         <a href="{{ '/blog/' | relative_url }}">← Back to Blog</a>
       </nav>
       
-      <header class="article-header">
+      <div class="article-header">
         <h1 class="article-title">{{ page.title }}</h1>
         
         <div class="article-meta">
@@ -435,7 +435,7 @@
           {% endfor %}
         </div>
         {% endif %}
-      </header>
+      </div>
 
       <div class="article-content" style="clear: both;">
         {{ content }}
