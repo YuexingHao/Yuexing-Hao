@@ -5,7 +5,7 @@ date: 2026-09-17
 author: Yuexing Hao
 tags: [Startup, Personal, MatrAIx]
 description: "Why and how we want to start MatrAIx now."
-featured_image: /Yuexing-Hao/assets/posts/2026-09-17-biggest-bet-starting-a-company/MatrAIx-logo-PureText-black-nobackground.png
+featured_image: /Yuexing-Hao/assets/posts/2026-09-17-biggest-bet-starting-a-company/MatrAIx-logo-card.png
 # published: false   
 ---
 

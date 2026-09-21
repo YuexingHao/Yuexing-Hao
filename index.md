@@ -6,15 +6,20 @@ layout: homepage
 
 I am co-Founder and COO at [MatrAIx](https://matraix.ai/), building simulation-based evaluation infrastructure for AI models and digital products.
 
-Previously, I was a Researcher at Microsoft and Postdoctoral Researcher at MIT EECS [Healthy ML Group](https://healthyml.org/people/).
+Previously, I was a Researcher at Microsoft and Postdoctoral Researcher at MIT EECS [Healthy ML Group](https://healthyml.org/people/). I received my Ph.D. from [Cornell University](https://gradschool.cornell.edu/spotlights/student-spotlight-yuexing-hao/) (2022-25) and was an IvyPlus Exchange Scholar at [MIT](https://www.linkedin.com/posts/aihealthmit_mit-postdoc-yuexing-hao-on-how-an-ai-agent-activity-7418000548697673729-FUIp/) (2024-25). I interned at [Google Research](https://research.google/blog/towards-better-health-conversations-research-insights-on-a-wayfinding-ai-agent-based-on-gemini/) (2025), Scale AI (2025), and [Mayo Clinic](https://newsnetwork.mayoclinic.org/discussion/new-mayo-clinic-study-advances-personalized-prostate-cancer-education-with-an-ehr-integrated-ai-agent/) (2024). I hold Computer Science degrees from [Rutgers University](https://math.sas.rutgers.edu/news-events/news/honors-awards-distinction/1588-rutgers-undergraduate-receives-meritorious-performance-award-in-modeling-contest) (B.A., 2017-20) and [Tufts University](https://yuexinghao.github.io/Yuexing-Hao/assets/files/awards/Hao-Yuexing-GSRC-Letter.pdf) (M.S., 2020-22).
 
-I received my Ph.D. from [Cornell University](https://gradschool.cornell.edu/spotlights/student-spotlight-yuexing-hao/) (2022-25) and was an IvyPlus Exchange Scholar at [MIT](https://www.linkedin.com/posts/aihealthmit_mit-postdoc-yuexing-hao-on-how-an-ai-agent-activity-7418000548697673729-FUIp/) (2024-25). I interned at [Google Research](https://research.google/blog/towards-better-health-conversations-research-insights-on-a-wayfinding-ai-agent-based-on-gemini/) (2025), Scale AI (2025), and [Mayo Clinic](https://newsnetwork.mayoclinic.org/discussion/new-mayo-clinic-study-advances-personalized-prostate-cancer-education-with-an-ehr-integrated-ai-agent/) (2024). I hold Computer Science degrees from [Rutgers University](https://math.sas.rutgers.edu/news-events/news/honors-awards-distinction/1588-rutgers-undergraduate-receives-meritorious-performance-award-in-modeling-contest) (B.A., 2017-20) and [Tufts University](https://yuexinghao.github.io/Yuexing-Hao/assets/files/awards/Hao-Yuexing-GSRC-Letter.pdf) (M.S., 2020-22).
-
-I founded a (semi-successful) AI for medication management company ([Hug Medical](https://hugmed.ai/)) in 2022.
-
-My [old personal website](https://1135100136.wixsite.com/yuexinghao/blog) has some interesting posts. Stop using it from Aug 2022.
-
-Presently, I am based in beautiful Mountain View, CA. In my spare time, I love to do many outdoor activities, such as ice hockey, squash, and water skiing. My name means "happy walking is good", and the pronunciation is "You-Sing." I am a tea aficionado and drink <span id="tea-hover-text" style="border-bottom: 1px dashed #888; cursor: default;">pre-rain dragon well tea</span> everyday.
+<details class="learn-more" id="learn-more">
+  <summary class="learn-more-toggle">
+    <span class="learn-more-label learn-more-closed">Learn more about me? 👀</span>
+    <span class="learn-more-label learn-more-open">Okay, that's enough about me 🙈</span>
+    <span class="learn-more-chevron" aria-hidden="true">▾</span>
+  </summary>
+  <div class="learn-more-body">
+    <p>I founded a (semi-successful) AI for medication management company (<a href="https://hugmed.ai/">Hug Medical</a>) in 2022.</p>
+    <p>My <a href="https://1135100136.wixsite.com/yuexinghao/blog">old personal website</a> has some interesting posts. Stop using it from Aug 2022.</p>
+    <p>Presently, I am based in beautiful Mountain View, CA. In my spare time, I love to do many outdoor activities, such as ice hockey, squash, and water skiing. My name means "happy walking is good", and the pronunciation is "You-Sing." I am a tea aficionado and drink <span id="tea-hover-text" style="border-bottom: 1px dashed #888; cursor: default;">pre-rain dragon well tea</span> everyday.</p>
+  </div>
+</details>
 
 <span style="color:red;"></span>
 
@@ -53,6 +58,108 @@ Presently, I am based in beautiful Mountain View, CA. In my spare time, I love t
 }
 .wrapper section h2:not(:first-of-type) {
   margin-top: 1.6em;
+}
+
+/* "Learn more about me?" fold */
+.learn-more {
+  margin: 6px 0 20px;
+}
+.learn-more-toggle {
+  list-style: none;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 14px;
+  border: 1px solid #1148bc;
+  border-radius: 999px;
+  color: #1148bc;
+  font-size: 15px;
+  line-height: 1.4;
+  user-select: none;
+  transition: background 0.2s ease, color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+.learn-more-toggle::-webkit-details-marker {
+  display: none;
+}
+.learn-more-toggle::marker {
+  content: "";
+}
+.learn-more-toggle:hover {
+  background: #1148bc;
+  color: #ffffff;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(17, 72, 188, 0.18);
+}
+.learn-more-toggle:active {
+  transform: translateY(0);
+}
+.learn-more-toggle:focus-visible {
+  outline: 2px solid #1148bc;
+  outline-offset: 3px;
+}
+.learn-more-open {
+  display: none;
+}
+.learn-more[open] .learn-more-closed {
+  display: none;
+}
+.learn-more[open] .learn-more-open {
+  display: inline;
+}
+.learn-more-chevron {
+  display: inline-block;
+  font-size: 13px;
+  transition: transform 0.25s ease;
+}
+.learn-more[open] .learn-more-chevron {
+  transform: rotate(180deg);
+}
+.learn-more-body {
+  margin-top: 14px;
+  animation: learn-more-fade 0.3s ease;
+}
+.learn-more-body p:last-child {
+  margin-bottom: 0;
+}
+@keyframes learn-more-fade {
+  from { opacity: 0; transform: translateY(-4px); }
+  to   { opacity: 1; transform: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .learn-more-toggle,
+  .learn-more-chevron {
+    transition: none;
+  }
+  .learn-more-body {
+    animation: none;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  .learn-more-toggle {
+    border-color: rgb(62, 183, 240);
+    color: rgb(62, 183, 240);
+  }
+  .learn-more-toggle:hover {
+    background: rgb(62, 183, 240);
+    color: #111111;
+    box-shadow: 0 4px 12px rgba(62, 183, 240, 0.25);
+  }
+  .learn-more-toggle:focus-visible {
+    outline-color: rgb(62, 183, 240);
+  }
+}
+body.dark-mode .learn-more-toggle {
+  border-color: rgb(62, 183, 240);
+  color: rgb(62, 183, 240);
+}
+body.dark-mode .learn-more-toggle:hover {
+  background: rgb(62, 183, 240);
+  color: #111111;
+  box-shadow: 0 4px 12px rgba(62, 183, 240, 0.25);
+}
+body.dark-mode .learn-more-toggle:focus-visible {
+  outline-color: rgb(62, 183, 240);
 }
 </style>
 

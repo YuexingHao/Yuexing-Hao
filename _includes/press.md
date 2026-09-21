@@ -57,6 +57,18 @@
   opacity: 0.85;
 }
 
+/* Wide logo images: show on white, uncropped */
+.press-mini-thumb.logo-card {
+  background: #ffffff;
+}
+
+.press-mini-thumb.logo-card img {
+  object-fit: contain;
+  padding: 10px;
+  box-sizing: border-box;
+  background: #ffffff;
+}
+
 .press-mini-meta {
   min-width: 0;
 }
@@ -124,6 +136,9 @@
   .press-mini-thumb img {
     border-color: #e5e5e5;
   }
+  .press-mini-thumb.logo-card {
+    background: #ffffff;
+  }
 }
 
 /* Manual dark mode toggle support */
@@ -141,6 +156,9 @@ body.dark-mode .press-mini-outlets a {
 body.dark-mode .press-mini-thumb img {
   border-color: #e5e5e5;
 }
+body.dark-mode .press-mini-thumb.logo-card {
+  background: #ffffff;
+}
 </style>
 
 <div class="press-mini" id="press">
@@ -151,6 +169,33 @@ body.dark-mode .press-mini-thumb img {
 
   <div class="press-mini-grid">
     <!-- 1 -->
+    <div class="press-mini-card">
+      <div class="press-mini-thumb logo-card">
+        <a href="https://startupfortune.com/harvard-and-mit-built-an-ai-model-of-83-billion-people-to-test-products-on/" target="_blank" rel="noopener">
+          <img src="{{ '/assets/img/press/MatrAIx-logo-PureText-black-nobackground.png' | relative_url }}" alt="MatrAIx">
+        </a>
+      </div>
+      <div class="press-mini-meta">
+        <div class="press-mini-date">Aug 2026</div>
+        <p class="press-mini-title">
+          <a href="https://startupfortune.com/harvard-and-mit-built-an-ai-model-of-83-billion-people-to-test-products-on/" target="_blank" rel="noopener">
+            Harvard and MIT built an AI model of 8.3 billion people to test products on
+          </a>
+        </p>
+        <div class="press-mini-outlets">
+          Published at:
+          <a href="https://startupfortune.com/harvard-and-mit-built-an-ai-model-of-83-billion-people-to-test-products-on/" target="_blank" rel="noopener">Startup Fortune</a>
+          · <a href="https://www.forbes.com.tr/saglik/hastaya-dokunmadan-once-8-3-milyar-kez-denemek-sagligin-yeni-test-dunyasi-matraix" target="_blank" rel="noopener">Forbes Türkiye</a>
+          · <a href="https://www.nzz.ch/nzz-am-sonntag/report-und-debatte/die-ki-vermessung-der-menschheit-unsere-acht-milliarden-doppelgaenger-ld.10019342" target="_blank" rel="noopener">NZZ am Sonntag</a>
+          · <a href="https://www.forbes.com/sites/lanceeliot/2026/08/26/using-eight-billion-ai-personas-for-psychology-research-has-its-ups-and-downs/" target="_blank" rel="noopener">Forbes</a>
+          · <a href="https://www.techtimes.co.uk/harvard-mit-matraix-simulating-global-human-behavior-1808459" target="_blank" rel="noopener">Tech Times UK</a>
+          · <a href="https://blog.aiunfiltered.dev/p/from-synthetic-users-to-simulated" target="_blank" rel="noopener">AI Unfiltered</a>
+          · <a href="https://www.europeanscientist.com/en/features/the-superpower-will-simulate-the-world/" target="_blank" rel="noopener">European Scientist</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- 2 -->
     <div class="press-mini-card">
       <div class="press-mini-thumb">
         <a href="https://newsnetwork.mayoclinic.org/discussion/new-mayo-clinic-study-advances-personalized-prostate-cancer-education-with-an-ehr-integrated-ai-agent/" target="_blank" rel="noopener">
@@ -172,7 +217,7 @@ body.dark-mode .press-mini-thumb img {
       </div>
     </div>
 
-    <!-- 2 -->
+    <!-- 3 -->
     <div class="press-mini-card">
       <div class="press-mini-thumb">
         <a href="https://research.google/blog/towards-better-health-conversations-research-insights-on-a-wayfinding-ai-agent-based-on-gemini/" target="_blank" rel="noopener">
@@ -194,7 +239,7 @@ body.dark-mode .press-mini-thumb img {
       </div>
     </div>
 
-    <!-- 3 -->
+    <!-- 4 -->
     <div class="press-mini-card">
       <div class="press-mini-thumb">
         <a href="https://www.human.cornell.edu/news/imported/2025/08/review-large-language-models-cancer-care-reveals-limitations-room-improvement" target="_blank" rel="noopener">
@@ -215,26 +260,5 @@ body.dark-mode .press-mini-thumb img {
       </div>
     </div>
 
-    <!-- 4 -->
-    <div class="press-mini-card">
-      <div class="press-mini-thumb">
-        <a href="https://news.mit.edu/2025/llms-factor-unrelated-information-when-recommending-medical-treatments-0623" target="_blank" rel="noopener">
-          <img src="{{ '/assets/img/press/MIT_News.png' | relative_url }}" alt="MIT News">
-        </a>
-      </div>
-      <div class="press-mini-meta">
-        <div class="press-mini-date">Aug 2025</div>
-        <p class="press-mini-title">
-          <a href="https://news.mit.edu/2025/llms-factor-unrelated-information-when-recommending-medical-treatments-0623" target="_blank" rel="noopener">
-            LLMs factor unrelated information when recommending medical treatments
-          </a>
-        </p>
-        <div class="press-mini-outlets">
-          Published at:
-          <a href="https://news.mit.edu/2025/llms-factor-unrelated-information-when-recommending-medical-treatments-0623" target="_blank" rel="noopener">MIT News</a>
-          · <a href="https://quantumzeitgeist.com/medical-llms-show-bias-with-varied-clinical-input-study-reveals/" target="_blank" rel="noopener">Quantum Zeitgeist</a>
-        </div>
-      </div>
-    </div>
   </div>
 </div>
