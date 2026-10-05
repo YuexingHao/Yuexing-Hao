@@ -59,6 +59,7 @@ main:
     authors: "<a href='https://abinithago.github.io/' target='_blank'>Abinitha Gourabathina</a>, <a href='https://haoran.ca/' target='_blank'>Haoran Zhang</a>, <strong>Yuexing Hao</strong>, <a href='https://www.linkedin.com/in/walter-gerych/' target='_blank'>Walter Gerych</a>, <a href='https://healthyml.org/marzyeh/' target='_blank'>Dr. Marzyeh Ghassemi</a>."
     conference_short: EMNLP
     conference: "Findings of the Association for Computational Linguistics: EMNLP 2026"
+    pdf: https://arxiv.org/abs/2609.38600
     image: ./assets/img/publications/EMNLP_Finding.png
     category: LLM Reverse Engineering
 
