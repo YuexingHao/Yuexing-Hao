@@ -43,7 +43,7 @@
 }
 </style>
 
-<h2 style="margin: 20px 0px 10px;" id="awards">Selected Awards<a href="/Yuexing-Hao/all-awards/" class="awards-btn"><i class="fas fa-trophy"></i> Show All Awards (~$430k)</a></h2> 
+<h2 style="margin: 20px 0px 10px;" id="awards">Selected Awards<a href="/Yuexing-Hao/all-awards/" class="awards-btn"><i class="fas fa-trophy"></i> Show All Awards (over $1.1M)</a></h2> 
 
 <ul id="awards-list">
   <li>2026 MIT <a href="https://www.sloan-hbc.mit.edu/ship-home-2026">Sloan Healthcare Innovations Prize (SHIP)</a> Semi-finalist</li>
