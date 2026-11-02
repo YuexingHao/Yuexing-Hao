@@ -1,5 +1,29 @@
 main:
 
+  - title: "PersonaScienceBench: Evaluating Scientific Agents with Diverse Simulated Researchers"
+    authors: "Siyang Wu, Weizhi Zhang, Chen Yang, Esther Xu Fei, Jorin Overwiening, Xu Pan, Jing Tang, Yixuan He, ... Yijun Wang, <a href='https://scholar.google.com/citations?user=aV8Lu4MAAAAJ' target='_blank'>Xiaomin Li</a>, <strong>Yuexing Hao</strong>."
+    conference_short: Preprint
+    conference: arXiv preprint, 2026.
+    pdf: https://arxiv.org/abs/2610.32106
+    image: ./assets/img/publications/PersonaScienceBench.png
+    category: LLM Reverse Engineering
+
+  - title: "PersonaCUABench: Benchmarking Computer-Use Agents Serving Diverse Personas"
+    authors: "Haoming Li, Defu Cao, Xu Hu, Yingtao Luo, Yiyang Wang, Xianghe Xu, Jiashu He, Wanting Jiang, ... Yijun Wang, <strong>Yuexing Hao</strong>, <a href='https://scholar.google.com/citations?user=aV8Lu4MAAAAJ' target='_blank'>Xiaomin Li</a>."
+    conference_short: Preprint
+    conference: arXiv preprint, 2026.
+    pdf: https://arxiv.org/abs/2610.22990
+    image: ./assets/img/publications/PersonaCUABench.png
+    category: LLM Reverse Engineering
+
+  - title: "AgentPersonaBench: Benchmarking Persona-Driven User Simulation"
+    authors: "Jintao Huang, Yifan Wang, Hongyu Shen, Yi Daniel Lu, Shirley Huang, Minsik Oh, Yewen Wang, Muhammad Ahmed Mohsin, ... Yijun Wang, <a href='https://scholar.google.com/citations?user=aV8Lu4MAAAAJ' target='_blank'>Xiaomin Li</a>, <strong>Yuexing Hao</strong>."
+    conference_short: Preprint
+    conference: arXiv preprint, 2026.
+    pdf: https://arxiv.org/abs/2610.04379
+    image: ./assets/img/publications/AgentPersonaBench.png
+    category: LLM Reverse Engineering
+
   - title: "CurveShift: Is Agent Progress Scalar? Separating Level from Shape"
     authors: "<a href='https://harvenstar.github.io/' target='_blank'>Hanwen Xing</a>, <a href='https://codas.uchicago.edu/people/pengyun-wang-2/' target='_blank'>Pengyun Wang</a>, <a href='https://physics.illinois.edu/people/directory/profile/bingxum2' target='_blank'>BingXu Meng</a>, <a href='https://kumailalhamoud.netlify.app/' target='_blank'>Kumail Alhamoud</a>, <a href='https://kevinx.li/' target='_blank'>Xiang Li</a>, <a href='https://github.com/JeremyJC67' target='_blank'>Jicheng Wang</a>, <a href='https://lucasxinyu.github.io/' target='_blank'>Xin Yu</a>, <a href='https://scholar.google.com/citations?user=HjmxmJoAAAAJ' target='_blank'>Xinyang Han</a>, <a href='https://scholar.google.com/citations?user=aV8Lu4MAAAAJ' target='_blank'>Xiaomin Li</a>, <a href='https://www.robots.ox.ac.uk/~tvg/' target='_blank'>Philip Torr</a>, <strong>Yuexing Hao</strong>"
     conference_short: arXiv
