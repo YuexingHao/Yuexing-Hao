@@ -55,10 +55,10 @@ main:
     notes: "* equal contributions"
     category: HCI
     
-  - title: "Research through Evaluation (RtE): Iteratively Developing Evaluations for Large Language Model-Generated Outputs in Healthcare"
+  - title: "Research through Evaluation for Large Language Models in Patient-Clinician Communications"
     authors: "<strong>Yuexing Hao</strong>, <a href='https://www.mayoclinic.org/biographies/holmes-jason-m-d/bio-20489827' target='_blank'>Dr. Jason Holmes</a>, <a href='https://www.linkedin.com/in/jared-hobson-656b063a' target='_blank'>Dr. Jared Hobson</a>, Dr. Alexandra Bennett, Dr. Elizabeth McKone, <a href='https://www.mayoclinic.org/biographies/ebner-daniel-k-m-d-m-p-h/bio-20586709' target='_blank'>Dr. Daniel K. Ebner</a>, <a href='https://www.mayoclinic.org/biographies/routman-david-m-m-d/bio-20489084' target='_blank'>Dr. David M. Routman</a>, <a href='https://www.mayoclinic.org/biographies/shiraishi-satomi-ph-d/bio-20433890' target='_blank'>Dr. Satomi Shiraishi</a>, <a href='https://www.mayo.edu/research/faculty/patel-samir-h-m-d/bio-20588749' target='_blank'>Dr. Samir H. Patel</a>, <a href='https://www.mayoclinic.org/biographies/yu-nathan-y-m-d/bio-20491015' target='_blank'>Dr. Nathan Y. Yu</a>, <a href='https://www.mayoclinic.org/biographies/hallemeier-chris-l-m-d/bio-20055696' target='_blank'>Dr. Chris Hallemeier</a>, Brooke E. Ball, <a href='https://www.salehkalantari.com/' target='_blank'>Dr. Saleh Kalantari</a>, <a href='https://healthyml.org/marzyeh/' target='_blank'>Dr. Marzyeh Ghassemi</a>, <a href='https://www.mayoclinic.org/biographies/waddle-mark-r-m-d/bio-20490083' target='_blank'>Dr. Mark Waddle</a>, <a href='https://www.mayo.edu/research/faculty/liu-wei-ph-d/bio-20543741' target='_blank'>Dr. Wei Liu</a>."
-    conference_short: Preprint
-    conference: Under Review
+    conference_short: Sci Rep
+    conference: Scientific Reports (2026)
     pdf: https://arxiv.org/abs/XX
     image: ./assets/img/publications/RtE.gif
     category: HCI

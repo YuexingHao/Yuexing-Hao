@@ -1,5 +1,21 @@
 main:
 
+  - title: "Probe What-If Worlds Before You Ship: Persona Simulation for Real-World Decision Making"
+    authors: "Julie Zhu, Jianheng Hou, Zhixu Silvia Tao, Shi Bo, Yilan Fan, Yixuan He, Zhiyuan Hu, Shirley Huang, ... Yijun Wang, <strong>Yuexing Hao</strong>, <a href='https://scholar.google.com/citations?user=aV8Lu4MAAAAJ' target='_blank'>Xiaomin Li</a>."
+    conference_short: Preprint
+    conference: arXiv preprint, 2026.
+    pdf: https://arxiv.org/abs/2611.14700
+    image: ./assets/img/publications/PersonaSimulation.png
+    category: LLM Reverse Engineering
+
+  - title: "PersonaCodeBench: Evaluating Coding Agents in Persona-driven Human-Interactive Sessions"
+    authors: "Haixin Wang, Jianheng Hou, Hongyu Shen, Wenzhe Fan, Wei-Chieh Huang, Qianyu Zhu, Weichen Li, Taoran Li, ... Yijun Wang, <strong>Yuexing Hao</strong>, <a href='https://scholar.google.com/citations?user=aV8Lu4MAAAAJ' target='_blank'>Xiaomin Li</a>."
+    conference_short: Preprint
+    conference: arXiv preprint, 2026.
+    pdf: https://arxiv.org/abs/2611.05739
+    image: ./assets/img/publications/PersonaCodeBench.jpg
+    category: LLM Reverse Engineering
+
   - title: "PersonaScienceBench: Evaluating Scientific Agents with Diverse Simulated Researchers"
     authors: "Siyang Wu, Weizhi Zhang, Chen Yang, Esther Xu Fei, Jorin Overwiening, Xu Pan, Jing Tang, Yixuan He, ... Yijun Wang, <a href='https://scholar.google.com/citations?user=aV8Lu4MAAAAJ' target='_blank'>Xiaomin Li</a>, <strong>Yuexing Hao</strong>."
     conference_short: Preprint
